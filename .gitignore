@@ -1,4 +1,6 @@
 main
+test
+test.cpp
 
 # Compiled Object files
 *.slo

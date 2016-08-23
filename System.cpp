@@ -41,20 +41,17 @@ void System::simulate(int simulate_num) {
 
 double System::run() {
 	this->init();
-	while (!event_queue.empty()) {
-		if (current_event->type == 0) {
-			printf("arrive\n");
-			prescArrive();
-		} else if (current_event->type == 1) {
-			printf("transfer\n");
-			prescTransfer();
-		} else if (current_event->type == 2) {
-			printf("leave\n");
-			prescLeave();
-		}
+	do {
 		*current_event = event_queue.top();
 		event_queue.pop();
-	}
+		if (current_event->type == 0) {
+			prescArrive();
+		} else if (current_event->type == 1) {
+			prescTransfer();
+		} else if (current_event->type == 2) {
+			prescLeave();
+		}
+	} while (!event_queue.empty());
 	this->end();
 	return 1.0;
 }
@@ -117,7 +114,7 @@ int System::getIdleTech(int from) {
 }
 
 void System::prescArrive() {
-	double intertime = 10.0;
+	double intertime = 2.0;
 	int time = current_event->occur_time + intertime;
 
 	Event next_arrive_event(time);
@@ -170,19 +167,19 @@ void System::prescTransfer() {
 		next->pop();
 		double event_time = 0;
 		bool isLeaving = false;
-		if (current_event->from >= typIndexBegin() && current_event->from < pacIndexBegin()) {
+		if (idleIndex >= typIndexBegin() && idleIndex < pacIndexBegin()) {
 			direct.typ_start = current_event->occur_time;
 			direct.typ_end = current_event->occur_time + direct.typ_duration;
 			event_time = direct.typ_end;
-		} else if (current_event->from >= pacIndexBegin() && current_event->from < cheIndexBegin()) {
+		} else if (idleIndex >= pacIndexBegin() && idleIndex < cheIndexBegin()) {
 			direct.pac_start = current_event->occur_time;
 			direct.pac_end = current_event->occur_time + direct.pac_duration;
 			event_time = direct.pac_end;
-		} else if (current_event->from >= cheIndexBegin() && current_event->from < payIndexBegin()) {
+		} else if (idleIndex >= cheIndexBegin() && idleIndex < payIndexBegin()) {
 			direct.che_dispense_start = current_event->occur_time;
 			direct.che_dispense_end = current_event->occur_time + direct.che_dispense_duration;
 			event_time = direct.che_dispense_end;
-		} else if (current_event->from >= payIndexBegin() && current_event->from < endIndex()) {
+		} else if (idleIndex >= payIndexBegin() && idleIndex < endIndex()) {
 			direct.pay_start = current_event->occur_time;
 			direct.pay_end = current_event->occur_time + direct.pay_duration;
 			event_time = direct.pay_end;
@@ -232,7 +229,7 @@ void System::prescTransfer() {
 
 void System::prescLeave() {
 	std::shared_ptr<Prescription> out = std::make_shared<Prescription>(techs[current_event->from].getPrescription());
-	printf("No. %d presc: %f -> %f\n", out->id, out->arrive_time, out->pay_end);
+	printf("No. %d presc: %f -> %f. Total: %f\n", out->id, out->arrive_time, out->pay_end, out->pay_end - out->arrive_time);
 
 	if (pay_queue.size()) {
 		Prescription presc = pay_queue.front();
