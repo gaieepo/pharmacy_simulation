@@ -1,6 +1,8 @@
 #ifndef Prescription_h
 #define Prescription_h
 
+#include "Random.h"
+
 struct Prescription {
 	int id;
 

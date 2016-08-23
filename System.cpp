@@ -3,6 +3,7 @@
 #include <memory>
 #include "System.h"
 #include "Event.h"
+#include "Random.h"
 
 bool operator<(const Event &lhs, const Event &rhs) {
 	return rhs.occur_time < lhs.occur_time;

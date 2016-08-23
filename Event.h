@@ -1,6 +1,8 @@
 #ifndef Event_h
 #define Event_h
 
+#include "Random.h"
+
 // type: 0(arrive), 1(transfer), 2(leave)
 // from: 0-8 from which tech
 
