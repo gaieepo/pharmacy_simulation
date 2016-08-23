@@ -9,7 +9,7 @@ int main() {
 	int pac_num = 3;
 	int che_num = 3;
 	int pay_num = 1;
-	int simulate_num = 1;
+	int simulate_num = 2;
 
 	System system(
 		total_service_minutes,

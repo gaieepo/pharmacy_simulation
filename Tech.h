@@ -2,6 +2,7 @@
 #define Tech_h
 
 #include "Prescription.h"
+#include <memory>
 
 enum Status {
 	SERVICE,
@@ -30,8 +31,8 @@ public:
 		status = IDLE;
 	}
 
-	inline Prescription* getPrescription() {
-		return &prescription;
+	inline Prescription getPrescription() {
+		return prescription;
 	}
 private:
 	Prescription prescription;

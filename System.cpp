@@ -1,5 +1,6 @@
 #include <queue>
 #include <cstdio>
+#include <memory>
 #include "System.h"
 #include "Event.h"
 
@@ -26,6 +27,7 @@ System::System(
 
 System::~System() {
 	delete [] techs;
+	delete current_event;
 }
 
 void System::simulate(int simulate_num) {
@@ -145,47 +147,48 @@ void System::prescArrive() {
 }
 
 void System::prescTransfer() {
-	Prescription* old_presc;
-	old_presc = techs[current_event->from].getPrescription();
-	std::queue<Prescription> &curr = reg_queue;
-	std::queue<Prescription> &next = typ_queue;
-	if (current_event->from >= typIndexBegin() && current_event->from < pacIndexBegin()) {
-		curr = typ_queue;
-		next = pac_queue;
+	std::shared_ptr<Prescription> old_presc = std::make_shared<Prescription>(techs[current_event->from].getPrescription());
+
+	if (current_event->from >= 0 && current_event->from < typIndexBegin()) {
+		curr = &reg_queue;
+		next = &typ_queue;
+	} else if (current_event->from >= typIndexBegin() && current_event->from < pacIndexBegin()) {
+		curr = &typ_queue;
+		next = &pac_queue;
 	} else if (current_event->from >= pacIndexBegin() && current_event->from < cheIndexBegin()) {
-		curr = pac_queue;
-		next = che_queue;
+		curr = &pac_queue;
+		next = &che_queue;
 	} else if (current_event->from >= cheIndexBegin() && current_event->from < payIndexBegin()) {
-		curr = che_queue;
-		next = pay_queue;
+		curr = &che_queue;
+		next = &pay_queue;
 	}
-	next.push(*old_presc);
+	next->push(*old_presc);
 
 	int idleIndex = getIdleTech(current_event->from);
 	if (idleIndex >= 0) {
-		*old_presc = next.front();
-		next.pop();
-		double event_time;
+		Prescription& direct = next->front();
+		next->pop();
+		double event_time = 0;
 		bool isLeaving = false;
 		if (current_event->from >= typIndexBegin() && current_event->from < pacIndexBegin()) {
-			old_presc->typ_start = current_event->occur_time;
-			old_presc->typ_end = current_event->occur_time + old_presc->typ_duration;
-			event_time = old_presc->typ_end;
+			direct.typ_start = current_event->occur_time;
+			direct.typ_end = current_event->occur_time + direct.typ_duration;
+			event_time = direct.typ_end;
 		} else if (current_event->from >= pacIndexBegin() && current_event->from < cheIndexBegin()) {
-			old_presc->pac_start = current_event->occur_time;
-			old_presc->pac_end = current_event->occur_time + old_presc->pac_duration;
-			event_time = old_presc->pac_end;
+			direct.pac_start = current_event->occur_time;
+			direct.pac_end = current_event->occur_time + direct.pac_duration;
+			event_time = direct.pac_end;
 		} else if (current_event->from >= cheIndexBegin() && current_event->from < payIndexBegin()) {
-			old_presc->che_dispense_start = current_event->occur_time;
-			old_presc->che_dispense_end = current_event->occur_time + old_presc->che_dispense_duration;
-			event_time = old_presc->che_dispense_end;
+			direct.che_dispense_start = current_event->occur_time;
+			direct.che_dispense_end = current_event->occur_time + direct.che_dispense_duration;
+			event_time = direct.che_dispense_end;
 		} else if (current_event->from >= payIndexBegin() && current_event->from < endIndex()) {
-			old_presc->pay_start = current_event->occur_time;
-			old_presc->pay_end = current_event->occur_time + old_presc->pay_duration;
-			event_time = old_presc->pay_end;
+			direct.pay_start = current_event->occur_time;
+			direct.pay_end = current_event->occur_time + direct.pay_duration;
+			event_time = direct.pay_end;
 			isLeaving = true;
 		}
-		techs[idleIndex].serve(*old_presc);
+		techs[idleIndex].serve(direct);
 		techs[idleIndex].setBusy();
 
 		if (isLeaving) {
@@ -197,28 +200,28 @@ void System::prescTransfer() {
 		}
 	}
 
-	if (curr.size()) {
-		*old_presc = curr.front();
-		curr.pop();
+	if (curr->size()) {
+		Prescription& follow = curr->front();
+		curr->pop();
 		double event_time;
 		if (current_event->from >= 0 && current_event->from < typIndexBegin()) {
-			old_presc->reg_start = current_event->occur_time;
-			old_presc->reg_end = current_event->occur_time + old_presc->reg_duration;
-			event_time = old_presc->reg_end;
+			follow.reg_start = current_event->occur_time;
+			follow.reg_end = current_event->occur_time + follow.reg_duration;
+			event_time = follow.reg_end;
 		} else if (current_event->from >= typIndexBegin() && current_event->from < pacIndexBegin()) {
-			old_presc->typ_start = current_event->occur_time;
-			old_presc->typ_end = current_event->occur_time + old_presc->typ_duration;
-			event_time = old_presc->typ_end;
+			follow.typ_start = current_event->occur_time;
+			follow.typ_end = current_event->occur_time + follow.typ_duration;
+			event_time = follow.typ_end;
 		} else if (current_event->from >= pacIndexBegin() && current_event->from < cheIndexBegin()) {
-			old_presc->pac_start = current_event->occur_time;
-			old_presc->pac_end = current_event->occur_time + old_presc->pac_duration;
-			event_time = old_presc->pac_end;
+			follow.pac_start = current_event->occur_time;
+			follow.pac_end = current_event->occur_time + follow.pac_duration;
+			event_time = follow.pac_end;
 		} else if (current_event->from >= cheIndexBegin() && current_event->from < payIndexBegin()) {
-			old_presc->che_dispense_start = current_event->occur_time;
-			old_presc->che_dispense_end = current_event->occur_time + old_presc->che_dispense_duration;
-			event_time = old_presc->che_dispense_end;
+			follow.che_dispense_start = current_event->occur_time;
+			follow.che_dispense_end = current_event->occur_time + follow.che_dispense_duration;
+			event_time = follow.che_dispense_end;
 		}
-		techs[current_event->from].serve(*old_presc);
+		techs[current_event->from].serve(follow);
 
 		Event new_transfer_event(event_time, 1, current_event->from);
 		event_queue.push(new_transfer_event);
@@ -228,9 +231,8 @@ void System::prescTransfer() {
 }
 
 void System::prescLeave() {
-	Prescription* out = techs[current_event->from].getPrescription();
+	std::shared_ptr<Prescription> out = std::make_shared<Prescription>(techs[current_event->from].getPrescription());
 	printf("No. %d presc: %f -> %f\n", out->id, out->arrive_time, out->pay_end);
-	delete out;
 
 	if (pay_queue.size()) {
 		Prescription presc = pay_queue.front();

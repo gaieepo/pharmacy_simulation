@@ -71,7 +71,7 @@ private:
 	int che_num;
 	int pay_num;
 
-	Tech* techs;
+	Tech* techs = nullptr;
 
 	std::queue<Prescription> reg_queue;
 	std::queue<Prescription> typ_queue;
@@ -81,7 +81,9 @@ private:
 
 	std::priority_queue<Event> event_queue;
 
-	Event* current_event;
+	Event* current_event = nullptr;
+	std::queue<Prescription> *curr = nullptr;
+	std::queue<Prescription> *next = nullptr;
 
 	double result;
 
