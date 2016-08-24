@@ -8,15 +8,17 @@
 
 class System {
 public:
-	System(
-		int total_service_minutes,
-		int reg_num,
-		int typ_num,
-		int pac_num,
-		int che_num,
-		int pay_num);
+	System(int total_service_minutes, int tech_num);
 	~System();
 	void simulate(int simulate_num);
+
+	inline void setTechAllocation(int reg, int typ, int pac, int che, int pay) {
+		this->reg_num = reg;
+		this->typ_num = typ;
+		this->pac_num = pac;
+		this->che_num = che;
+		this->pay_num = pay;
+	}
 
 	inline int typIndexBegin() {
 		return reg_num;
@@ -51,7 +53,17 @@ public:
 	inline int getId() {
 		return idCount++;
 	}
+
+	inline void resetId() {
+		idCount = 0;
+	}
+
+	inline double getAvgStayMinutes() {
+		return avg_stay_minutes;
+	}
 private:
+	double getRandomInterval(double time);
+
 	double run();
 	void init();
 	void end();
@@ -64,12 +76,13 @@ private:
 	void prescLeave();
 
 	int total_service_minutes;
+	int tech_num;
 
-	int reg_num;
-	int typ_num;
-	int pac_num;
-	int che_num;
-	int pay_num;
+	int reg_num = 1;
+	int typ_num = 1;
+	int pac_num = 1;
+	int che_num = 1;
+	int pay_num = 1;
 
 	Tech* techs = nullptr;
 
@@ -85,7 +98,9 @@ private:
 	std::queue<Prescription> *curr = nullptr;
 	std::queue<Prescription> *next = nullptr;
 
-	double result;
+	int total_prescription_num = 0;
+	double total_stay_minutes = 0;
+	double avg_stay_minutes = 0;
 
 	int idCount = 0;
 };

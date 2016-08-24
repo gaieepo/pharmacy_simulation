@@ -9,21 +9,9 @@ bool operator<(const Event &lhs, const Event &rhs) {
 	return rhs.occur_time < lhs.occur_time;
 }
 
-System::System(
-	int total_service_minutes,
-	int reg_num,
-	int typ_num,
-	int pac_num,
-	int che_num,
-	int pay_num):
-	total_service_minutes(total_service_minutes),
-	reg_num(reg_num),
-	typ_num(typ_num),
-	pac_num(pac_num),
-	che_num(che_num),
-	pay_num(pay_num) {
-		int total_tech_num = endIndex();
-		this->techs = new Tech[total_tech_num];
+System::System(int total_service_minutes, int tech_num):
+	total_service_minutes(total_service_minutes), tech_num(tech_num) {
+		this->techs = new Tech[tech_num];
 	}
 
 System::~System() {
@@ -35,9 +23,60 @@ void System::simulate(int simulate_num) {
 	double sum = 0;
 	for (int i = 0; i != simulate_num; ++i) {
 		sum += run();
-		printf("%f\n", sum);
+		resetId();
 	}
-	result = sum;
+	avg_stay_minutes = sum / simulate_num;
+}
+
+double System::getRandomInterval(double time) {
+	double ret = 0;
+	if (time >= 0 && time < 60) {
+		ret = Random::getRandom(GAMMA, 0.2805, 155.51) / 60;
+		while (ret < 0.2) {
+			ret = Random::getRandom(GAMMA, 0.2805, 155.51) / 60;
+		}
+	} else if (time >= 60 && time < 120) {
+		ret = Random::getRandom(GAMMA, 3.0586, 48.759) / 60;
+		while (ret < 0.2) {
+			ret = Random::getRandom(GAMMA, 3.0586, 48.759) / 60;
+		}
+	} else if (time >= 120 && time < 180) {
+		ret = Random::getRandom(GAMMA, 2.5944, 49.449) / 60;
+		while (ret < 0.2) {
+			ret = Random::getRandom(GAMMA, 2.5944, 49.449) / 60;
+		}
+	} else if (time >= 180 && time < 240) {
+		ret = Random::getRandom(GAMMA, 1.5278, 81.371) / 60;
+		while (ret < 0.2) {
+			ret = Random::getRandom(GAMMA, 1.5278, 81.371) / 60;
+		}
+	} else if (time >= 240 && time < 300) {
+		ret = Random::getRandom(GAMMA, 3.7316, 50.061) / 60;
+		while (ret < 0.2) {
+			ret = Random::getRandom(GAMMA, 3.7316, 50.061) / 60;
+		}
+	} else if (time >= 300 && time < 360) {
+		ret = Random::getRandom(GAMMA, 3.8592, 41.977) / 60;
+		while (ret < 0.2) {
+			ret = Random::getRandom(GAMMA, 3.8592, 41.977) / 60;
+		}
+	} else if (time >= 360 && time < 420) {
+		ret = Random::getRandom(GAMMA, 6.4695, 27.935) / 60;
+		while (ret < 0.2) {
+			ret = Random::getRandom(GAMMA, 6.4695, 27.935) / 60;
+		}
+	} else if (time >= 420 && time < 480) {
+		ret = Random::getRandom(GAMMA, 3.5193, 44.574) / 60;
+		while (ret < 0.2) {
+			ret = Random::getRandom(GAMMA, 3.5193, 44.574) / 60;
+		}
+	} else {
+		ret = Random::getRandom(GAMMA, 4.0986, 44.776) / 60;
+		while (ret < 0.2) {
+			ret = Random::getRandom(GAMMA, 4.0986, 44.776) / 60;
+		}
+	}
+	return ret;
 }
 
 double System::run() {
@@ -54,7 +93,7 @@ double System::run() {
 		}
 	} while (!event_queue.empty());
 	this->end();
-	return 1.0;
+	return total_stay_minutes / total_prescription_num;
 }
 
 void System::init() {
@@ -115,8 +154,9 @@ int System::getIdleTech(int from) {
 }
 
 void System::prescArrive() {
-	double intertime = 2.0;
-	int time = current_event->occur_time + intertime;
+	total_prescription_num++;
+	double intertime = getRandomInterval(current_event->occur_time);
+	double time = current_event->occur_time + intertime;
 
 	Event next_arrive_event(time);
 
@@ -230,7 +270,8 @@ void System::prescTransfer() {
 
 void System::prescLeave() {
 	std::shared_ptr<Prescription> out = std::make_shared<Prescription>(techs[current_event->from].getPrescription());
-	printf("No. %d presc: %f -> %f. Total: %f\n", out->id, out->arrive_time, out->pay_end, out->pay_end - out->arrive_time);
+	total_stay_minutes += out->pay_end - out->arrive_time;
+	// printf("No. %d presc: %f -> %f. Total: %f\n", out->id, out->arrive_time, out->pay_end, out->pay_end - out->arrive_time);
 
 	if (pay_queue.size()) {
 		Prescription presc = pay_queue.front();
