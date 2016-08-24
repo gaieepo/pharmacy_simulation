@@ -271,7 +271,7 @@ void System::prescTransfer() {
 void System::prescLeave() {
 	std::shared_ptr<Prescription> out = std::make_shared<Prescription>(techs[current_event->from].getPrescription());
 	total_stay_minutes += out->pay_end - out->arrive_time;
-	// printf("No. %d presc: %f -> %f. Total: %f\n", out->id, out->arrive_time, out->pay_end, out->pay_end - out->arrive_time);
+	printf("No. %d presc: %f -> %f. Total: %f\n", out->id, out->arrive_time, out->pay_end, out->pay_end - out->arrive_time);
 
 	if (pay_queue.size()) {
 		Prescription presc = pay_queue.front();

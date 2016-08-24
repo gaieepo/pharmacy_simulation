@@ -17,7 +17,7 @@ struct Prescription {
 	double typ_end;
 
 	double pac_start;
-	double pac_duration = Random::getRandom(EXPONENTIAL, 3);
+	double pac_duration = 3 + Random::getRandom(EXPONENTIAL, 2);
 	double pac_end;
 
 	double che_dispense_start;
