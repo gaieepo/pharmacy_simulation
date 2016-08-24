@@ -164,7 +164,7 @@ void System::prescTransfer() {
 
 	int idleIndex = getIdleTech(current_event->from);
 	if (idleIndex >= 0) {
-		Prescription& direct = next->front();
+		Prescription direct(next->front());
 		next->pop();
 		double event_time = 0;
 		bool isLeaving = false;
@@ -199,7 +199,7 @@ void System::prescTransfer() {
 	}
 
 	if (curr->size()) {
-		Prescription& follow = curr->front();
+		Prescription follow(curr->front());
 		curr->pop();
 		double event_time;
 		if (current_event->from >= 0 && current_event->from < typIndexBegin()) {
