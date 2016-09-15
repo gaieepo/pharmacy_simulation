@@ -12,6 +12,7 @@ enum RandomType {
 	LOGNORMAL,
 	GAMMA,
 	WEIBULL,
+	NORMAL,
 };
 
 static std::default_random_engine eng(std::random_device{}());
@@ -38,6 +39,8 @@ public:
 			case WEIBULL:
 				return weibull(parameter1, parameter2);
 				break;
+			case NORMAL:
+				return normal(parameter1, parameter2);
 			default:
 				return 0;
 				break;
@@ -72,6 +75,11 @@ public:
 	static double weibull(double a, double b) {
 		std::weibull_distribution<double> w(a, b);
 		return w(eng);
+	}
+
+	static double normal(double m, double s) {
+		std::normal_distribution<double> n(m, s);
+		return n(eng);
 	}
 };
 

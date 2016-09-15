@@ -12,6 +12,8 @@ bool operator<(const Event &lhs, const Event &rhs) {
 System::System(int total_service_minutes, int tech_num):
 	total_service_minutes(total_service_minutes), tech_num(tech_num) {
 		this->techs = new Tech[tech_num];
+		for (int i = 0; i != tech_num; ++i)
+			techs[i].setIndex(i);
 	}
 
 System::~System() {
@@ -30,53 +32,20 @@ void System::simulate(int simulate_num) {
 
 double System::getRandomInterval(double time) {
 	double ret = 0;
-	if (time >= 0 && time < 60) {
-		ret = Random::getRandom(GAMMA, 0.2805, 155.51) / 60;
-		while (ret < 0.2) {
-			ret = Random::getRandom(GAMMA, 0.2805, 155.51) / 60;
-		}
-	} else if (time >= 60 && time < 120) {
-		ret = Random::getRandom(GAMMA, 3.0586, 48.759) / 60;
-		while (ret < 0.2) {
-			ret = Random::getRandom(GAMMA, 3.0586, 48.759) / 60;
-		}
-	} else if (time >= 120 && time < 180) {
-		ret = Random::getRandom(GAMMA, 2.5944, 49.449) / 60;
-		while (ret < 0.2) {
-			ret = Random::getRandom(GAMMA, 2.5944, 49.449) / 60;
-		}
-	} else if (time >= 180 && time < 240) {
-		ret = Random::getRandom(GAMMA, 1.5278, 81.371) / 60;
-		while (ret < 0.2) {
-			ret = Random::getRandom(GAMMA, 1.5278, 81.371) / 60;
-		}
-	} else if (time >= 240 && time < 300) {
-		ret = Random::getRandom(GAMMA, 3.7316, 50.061) / 60;
-		while (ret < 0.2) {
-			ret = Random::getRandom(GAMMA, 3.7316, 50.061) / 60;
-		}
-	} else if (time >= 300 && time < 360) {
-		ret = Random::getRandom(GAMMA, 3.8592, 41.977) / 60;
-		while (ret < 0.2) {
-			ret = Random::getRandom(GAMMA, 3.8592, 41.977) / 60;
-		}
-	} else if (time >= 360 && time < 420) {
-		ret = Random::getRandom(GAMMA, 6.4695, 27.935) / 60;
-		while (ret < 0.2) {
-			ret = Random::getRandom(GAMMA, 6.4695, 27.935) / 60;
-		}
-	} else if (time >= 420 && time < 480) {
-		ret = Random::getRandom(GAMMA, 3.5193, 44.574) / 60;
-		while (ret < 0.2) {
-			ret = Random::getRandom(GAMMA, 3.5193, 44.574) / 60;
-		}
-	} else {
-		ret = Random::getRandom(GAMMA, 4.0986, 44.776) / 60;
-		while (ret < 0.2) {
-			ret = Random::getRandom(GAMMA, 4.0986, 44.776) / 60;
-		}
-	}
+	do {
+		ret = Random::getRandom(WEIBULL, 1.71, 121.37) / 60;
+	} while (ret < 0.5);
 	return ret;
+}
+
+PrescType getRandomPrescType() {
+	double r = Random::getRandom(UNIFORM, 1);
+	if (r < 0.5)
+		return LONGRX;
+	else if (r < 0.9)
+		return SHORTRX;
+	else
+		return ALERT;
 }
 
 double System::run() {
@@ -84,6 +53,7 @@ double System::run() {
 	do {
 		*current_event = event_queue.top();
 		event_queue.pop();
+		latest_event_time = current_event->occur_time;
 		if (current_event->type == 0) {
 			prescArrive();
 		} else if (current_event->type == 1) {
@@ -93,6 +63,11 @@ double System::run() {
 		}
 	} while (!event_queue.empty());
 	this->end();
+
+	// calculate utility rate
+	for (int i = 0; i != tech_num; ++i)
+		printf("%f %f\n", techs[i].getBusyMinutes(), techs[i].getUtilityRate(latest_event_time));
+
 	return total_stay_minutes / total_prescription_num;
 }
 
@@ -103,20 +78,22 @@ void System::init() {
 
 void System::end() {
 	for (int i = 0; i != endIndex(); ++i) {
-		techs[i].setIdle();
+		if (i == 0)
+		techs[i].setIdle(current_event->occur_time);
 	}
 
 	clearQueue(reg_queue);
-	clearQueue(typ_queue);
 	clearQueue(pac_queue);
 	clearQueue(che_queue);
 	clearQueue(pay_queue);
+
+	clearQueue(spe_queue);
 
 	clearQueue(event_queue);
 }
 
 int System::getIdleTech() {
-	for (int i = 0; i != typIndexBegin(); ++i) {
+	for (int i = 0; i != pacIndexBegin(); ++i) {
 		if (techs[i].isIdle()) {
 			return i;
 		}
@@ -125,13 +102,7 @@ int System::getIdleTech() {
 }
 
 int System::getIdleTech(int from) {
-	if (from >= 0 && from < typIndexBegin()) {
-		for (int i = typIndexBegin(); i != pacIndexBegin(); ++i) {
-			if (techs[i].isIdle()) {
-				return i;
-			}
-		}
-	} else if (from >= typIndexBegin() && from < pacIndexBegin()) {
+	if (from >= 0 && from < pacIndexBegin()) {
 		for (int i = pacIndexBegin(); i != cheIndexBegin(); ++i) {
 			if (techs[i].isIdle()) {
 				return i;
@@ -164,7 +135,7 @@ void System::prescArrive() {
 		event_queue.push(next_arrive_event);
 	}
 
-	Prescription* presc = new Prescription(current_event->occur_time);
+	Prescription* presc = new Prescription(current_event->occur_time, getRandomPrescType());
 	presc->id = getId();
 	reg_queue.push(*presc);
 
@@ -172,12 +143,12 @@ void System::prescArrive() {
 	if (idleIndex >= 0) {
 		*presc = reg_queue.front();
 		reg_queue.pop();
-		presc->reg_start = current_event->occur_time;
-		presc->reg_end = current_event->occur_time + presc->reg_duration;
+		presc->reg_typ_start = current_event->occur_time;
+		presc->reg_typ_end = current_event->occur_time + presc->reg_typ_duration;
 		techs[idleIndex].serve(*presc);
-		techs[idleIndex].setBusy();
+		techs[idleIndex].setBusy(current_event->occur_time);
 
-		Event transfer_event(presc->reg_end, 1, idleIndex);
+		Event transfer_event(presc->reg_typ_end, 1, idleIndex);
 		event_queue.push(transfer_event);
 	}
 
@@ -187,11 +158,8 @@ void System::prescArrive() {
 void System::prescTransfer() {
 	std::shared_ptr<Prescription> old_presc = std::make_shared<Prescription>(techs[current_event->from].getPrescription());
 
-	if (current_event->from >= 0 && current_event->from < typIndexBegin()) {
+	if (current_event->from >= 0 && current_event->from < pacIndexBegin()) {
 		curr = &reg_queue;
-		next = &typ_queue;
-	} else if (current_event->from >= typIndexBegin() && current_event->from < pacIndexBegin()) {
-		curr = &typ_queue;
 		next = &pac_queue;
 	} else if (current_event->from >= pacIndexBegin() && current_event->from < cheIndexBegin()) {
 		curr = &pac_queue;
@@ -208,18 +176,14 @@ void System::prescTransfer() {
 		next->pop();
 		double event_time = 0;
 		bool isLeaving = false;
-		if (idleIndex >= typIndexBegin() && idleIndex < pacIndexBegin()) {
-			direct.typ_start = current_event->occur_time;
-			direct.typ_end = current_event->occur_time + direct.typ_duration;
-			event_time = direct.typ_end;
-		} else if (idleIndex >= pacIndexBegin() && idleIndex < cheIndexBegin()) {
+		if (idleIndex >= pacIndexBegin() && idleIndex < cheIndexBegin()) {
 			direct.pac_start = current_event->occur_time;
 			direct.pac_end = current_event->occur_time + direct.pac_duration;
 			event_time = direct.pac_end;
 		} else if (idleIndex >= cheIndexBegin() && idleIndex < payIndexBegin()) {
-			direct.che_dispense_start = current_event->occur_time;
-			direct.che_dispense_end = current_event->occur_time + direct.che_dispense_duration;
-			event_time = direct.che_dispense_end;
+			direct.che_dis_start = current_event->occur_time;
+			direct.che_dis_end = current_event->occur_time + direct.che_dis_duration;
+			event_time = direct.che_dis_end;
 		} else if (idleIndex >= payIndexBegin() && idleIndex < endIndex()) {
 			direct.pay_start = current_event->occur_time;
 			direct.pay_end = current_event->occur_time + direct.pay_duration;
@@ -227,7 +191,7 @@ void System::prescTransfer() {
 			isLeaving = true;
 		}
 		techs[idleIndex].serve(direct);
-		techs[idleIndex].setBusy();
+		techs[idleIndex].setBusy(current_event->occur_time);
 
 		if (isLeaving) {
 			Event leave_event(event_time, 2, idleIndex);
@@ -242,36 +206,42 @@ void System::prescTransfer() {
 		Prescription follow(curr->front());
 		curr->pop();
 		double event_time;
-		if (current_event->from >= 0 && current_event->from < typIndexBegin()) {
-			follow.reg_start = current_event->occur_time;
-			follow.reg_end = current_event->occur_time + follow.reg_duration;
-			event_time = follow.reg_end;
-		} else if (current_event->from >= typIndexBegin() && current_event->from < pacIndexBegin()) {
-			follow.typ_start = current_event->occur_time;
-			follow.typ_end = current_event->occur_time + follow.typ_duration;
-			event_time = follow.typ_end;
+		if (current_event->from >= 0 && current_event->from < pacIndexBegin()) {
+			follow.reg_typ_start = current_event->occur_time;
+			follow.reg_typ_end = current_event->occur_time + follow.reg_typ_duration;
+			event_time = follow.reg_typ_end;
 		} else if (current_event->from >= pacIndexBegin() && current_event->from < cheIndexBegin()) {
 			follow.pac_start = current_event->occur_time;
 			follow.pac_end = current_event->occur_time + follow.pac_duration;
 			event_time = follow.pac_end;
 		} else if (current_event->from >= cheIndexBegin() && current_event->from < payIndexBegin()) {
-			follow.che_dispense_start = current_event->occur_time;
-			follow.che_dispense_end = current_event->occur_time + follow.che_dispense_duration;
-			event_time = follow.che_dispense_end;
+			follow.che_dis_start = current_event->occur_time;
+			follow.che_dis_end = current_event->occur_time + follow.che_dis_duration;
+			event_time = follow.che_dis_end;
 		}
 		techs[current_event->from].serve(follow);
 
 		Event new_transfer_event(event_time, 1, current_event->from);
 		event_queue.push(new_transfer_event);
 	} else {
-		techs[current_event->from].setIdle();
+		techs[current_event->from].setIdle(current_event->occur_time);
 	}
 }
 
 void System::prescLeave() {
 	std::shared_ptr<Prescription> out = std::make_shared<Prescription>(techs[current_event->from].getPrescription());
 	total_stay_minutes += out->pay_end - out->arrive_time;
-	printf("No. %d presc: %f -> %f. Total: %f\n", out->id, out->arrive_time, out->pay_end, out->pay_end - out->arrive_time);
+	
+	// printf("No. %d presc type %d: %f(arrive) %d(reg) %d(pac) %d(che) %d(pay) %f(pay_end) Total: %d\n", 
+	// 	out->id, 
+	// 	(out->pType == LONGRX ? 1 : (out->pType == SHORTRX ? 2 : 3)),
+	// 	out->arrive_time, 
+	// 	(int) out->reg_typ_duration,
+	// 	(int) out->pac_duration,
+	// 	(int) out->che_dis_duration,
+	// 	(int) out->pay_duration,
+	// 	out->pay_end,
+	// 	(int) (out->pay_end - out->arrive_time));
 
 	if (pay_queue.size()) {
 		Prescription presc = pay_queue.front();
@@ -283,6 +253,6 @@ void System::prescLeave() {
 		Event temp_event(presc.pay_end, 2, current_event->from);
 		event_queue.push(temp_event);
 	} else {
-		techs[current_event->from].setIdle();
+		techs[current_event->from].setIdle(current_event->occur_time);
 	}
 }

@@ -3,40 +3,90 @@
 
 #include "Random.h"
 
+enum PrescType {
+	LONGRX,
+	SHORTRX,
+	ALERT,
+};
+
 struct Prescription {
 	int id;
 
+	PrescType pType;
+
 	double arrive_time;
 
-	double reg_start;
-	double reg_duration = 0;
-	double reg_end;
-
-	double typ_start;
-	double typ_duration = Random::getRandom(UNIFORM, 2);
-	double typ_end;
+	double reg_typ_start;
+	double reg_typ_duration = 0;
+	double reg_typ_end;
 
 	double pac_start;
-	double pac_duration = 3 + Random::getRandom(EXPONENTIAL, 2);
+	double pac_duration = 0;
 	double pac_end;
 
-	double che_dispense_start;
-	double che_dispense_duration = 0;
-	double che_dispense_end;
+	double che_dis_start;
+	double che_dis_duration = 0;
+	double che_dis_end;
 
 	double pay_start;
-	double pay_duration = Random::getRandom(EXPONENTIAL, 0.01415) / 60;
+	double pay_duration = 0;
 	double pay_end;
 
-	Prescription(double arrive_time = 0): arrive_time(arrive_time) {
-		reg_duration = Random::getRandom(LOGNORMAL, 3.9317, 0.84839) / 60;
-		while (reg_duration > 3) {
-			reg_duration = Random::getRandom(LOGNORMAL, 3.9317, 0.84839) / 60;
-		}
+	Prescription(double arrive_time = 0, PrescType type = LONGRX): arrive_time(arrive_time), pType(type) {
+		if (pType == LONGRX) {
+			do {
+				reg_typ_duration = Random::getRandom(LOGNORMAL, 4.75, 0.45) / 60;
+			} while (reg_typ_duration < 1.5);
 
-		che_dispense_duration = (Random::getRandom(WEIBULL, 1.4423, 199.37) + Random::getRandom(LOGNORMAL, 4.7477, 0.80556)) / 60;
-		while (che_dispense_duration > 3) {
-			che_dispense_duration = (Random::getRandom(WEIBULL, 1.4423, 199.37) + Random::getRandom(LOGNORMAL, 4.7477, 0.80556)) / 60;
+			do {
+				pac_duration = Random::getRandom(WEIBULL, 1.30, 318.35) / 60;
+			} while (pac_duration < 4);
+
+			do {
+				double che_duration = Random::getRandom(LOGNORMAL, 4.91, 0.63) / 60;
+				double dis_duration = Random::getRandom(WEIBULL, 1.60, 207.15) / 60;
+				che_dis_duration = che_duration + dis_duration;
+			} while (che_dis_duration < 4);
+
+			do {
+				pay_duration = Random::getRandom(LOGNORMAL, 4.29, 0.39) / 60;
+			} while (pay_duration < 0.5);
+		} else if (pType == SHORTRX) {
+			do {
+				reg_typ_duration = Random::getRandom(LOGNORMAL, 4.75, 0.45) / 60;
+			} while (reg_typ_duration < 1);
+
+			do {
+				pac_duration = Random::getRandom(WEIBULL, 1.81, 108.29) / 60;
+			} while (pac_duration < 1);
+
+			do {
+				double che_duration = Random::getRandom(LOGNORMAL, 4.78, 0.70) / 60;
+				double dis_duration = Random::getRandom(WEIBULL, 1.56, 116.38) / 60;
+				che_dis_duration = che_duration + dis_duration;
+			} while (che_dis_duration < 2);
+
+			do {
+				pay_duration = Random::getRandom(LOGNORMAL, 4.29, 0.39) / 60;
+			} while (pay_duration < 0.5);
+		} else {
+			do {
+				reg_typ_duration = Random::getRandom(LOGNORMAL, 4.75, 0.45) / 60;
+			} while (reg_typ_duration < 1);
+
+			do {
+				pac_duration = Random::getRandom(WEIBULL, 1.81, 108.29) / 60;
+			} while (pac_duration < 1);
+
+			do {
+				double che_duration = Random::getRandom(NORMAL, 188.33, 143.99) / 60;
+				double dis_duration = Random::getRandom(GAMMA, 1.72, 61.33) / 60;
+				che_dis_duration = che_duration + dis_duration;
+			} while (che_dis_duration < 3);
+
+			do {
+				pay_duration = Random::getRandom(LOGNORMAL, 4.29, 0.39) / 60;
+			} while (pay_duration < 0.5);
 		}
 	}
 };

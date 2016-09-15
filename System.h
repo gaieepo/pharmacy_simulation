@@ -12,32 +12,32 @@ public:
 	~System();
 	void simulate(int simulate_num);
 
-	inline void setTechAllocation(int reg, int typ, int pac, int che, int pay) {
+	inline void setTechAllocation(int reg, int pac, int flx, int che, int pay) {
 		this->reg_num = reg;
-		this->typ_num = typ;
 		this->pac_num = pac;
+		this->flx_num = flx;
 		this->che_num = che;
 		this->pay_num = pay;
 	}
 
-	inline int typIndexBegin() {
+	inline int pacIndexBegin() {
 		return reg_num;
 	}
 
-	inline int pacIndexBegin() {
-		return reg_num + typ_num;
+	inline int cheIndexBegin() {
+		return reg_num + pac_num;
 	}
 
-	inline int cheIndexBegin() {
-		return reg_num + typ_num + pac_num;
+	inline int flxIndexEnd() {
+		return reg_num + pac_num + flx_num;
 	}
 
 	inline int payIndexBegin() {
-		return reg_num + typ_num + pac_num + che_num;
+		return reg_num + pac_num + flx_num + che_num;
 	}
 
 	inline int endIndex() {
-		return reg_num + typ_num + pac_num + che_num + pay_num;
+		return reg_num + pac_num + flx_num + che_num + pay_num;
 	}
 
 	void clearQueue(std::queue<Prescription> &q) {
@@ -79,18 +79,19 @@ private:
 	int tech_num;
 
 	int reg_num = 1;
-	int typ_num = 1;
 	int pac_num = 1;
+	int flx_num = 1;
 	int che_num = 1;
 	int pay_num = 1;
 
 	Tech* techs = nullptr;
 
 	std::queue<Prescription> reg_queue;
-	std::queue<Prescription> typ_queue;
 	std::queue<Prescription> pac_queue;
 	std::queue<Prescription> che_queue;
 	std::queue<Prescription> pay_queue;
+
+	std::queue<Prescription> spe_queue;
 
 	std::priority_queue<Event> event_queue;
 
@@ -101,6 +102,7 @@ private:
 	int total_prescription_num = 0;
 	double total_stay_minutes = 0;
 	double avg_stay_minutes = 0;
+	double latest_event_time = 0;
 
 	int idCount = 0;
 };
