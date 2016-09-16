@@ -3,7 +3,6 @@
 
 #include "Prescription.h"
 #include <memory>
-#include <cstdio>
 
 enum Status {
 	SERVICE,
@@ -51,12 +50,34 @@ public:
 		return prescription;
 	}
 
-	inline double getUtilityRate(double latest_event_time) {
-		return total_busy_minutes / latest_event_time;
+	inline void calUtilityRate(double latest_event_time) {
+		utility_rate = total_busy_minutes / latest_event_time;
+	}
+
+	inline void accumulateUtilityRate() {
+		total_utility_rate += utility_rate;
 	}
 
 	inline double getBusyMinutes() {
 		return total_busy_minutes;
+	}
+
+	inline void resetBusyMinutes() {
+		total_busy_minutes = 0;
+	}
+
+	inline void resetUtilityRate() {
+		utility_rate = 0;
+		total_utility_rate = 0;
+		avg_utility_rate = 0;
+	}
+
+	inline void calAvgUtilityRate(int simulate_num) {
+		avg_utility_rate = total_utility_rate / simulate_num;
+	}
+
+	inline double getAvgUtilityRate() {
+		return avg_utility_rate;
 	}
 private:
 	Prescription prescription;
@@ -65,6 +86,10 @@ private:
 
 	double busy_time = 0;
 	double total_busy_minutes = 0;
+
+	double utility_rate = 0;
+	double total_utility_rate = 0;
+	double avg_utility_rate = 0;
 };
 
 #endif

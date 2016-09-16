@@ -63,6 +63,7 @@ public:
 	}
 private:
 	double getRandomInterval(double time);
+	PrescType getRandomPrescType();
 
 	double run();
 	void init();

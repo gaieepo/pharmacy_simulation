@@ -27,7 +27,15 @@ void System::simulate(int simulate_num) {
 		sum += run();
 		resetId();
 	}
+
 	avg_stay_minutes = sum / simulate_num;
+
+	for (int i = 0; i != endIndex(); ++i) {
+		techs[i].calAvgUtilityRate(simulate_num);
+		printf("%f ", techs[i].getAvgUtilityRate());
+		techs[i].resetUtilityRate();
+	}
+	printf("\n");
 }
 
 double System::getRandomInterval(double time) {
@@ -38,7 +46,7 @@ double System::getRandomInterval(double time) {
 	return ret;
 }
 
-PrescType getRandomPrescType() {
+PrescType System::getRandomPrescType() {
 	double r = Random::getRandom(UNIFORM, 1);
 	if (r < 0.5)
 		return LONGRX;
@@ -64,10 +72,6 @@ double System::run() {
 	} while (!event_queue.empty());
 	this->end();
 
-	// calculate utility rate
-	for (int i = 0; i != tech_num; ++i)
-		printf("%f %f\n", techs[i].getBusyMinutes(), techs[i].getUtilityRate(latest_event_time));
-
 	return total_stay_minutes / total_prescription_num;
 }
 
@@ -78,8 +82,10 @@ void System::init() {
 
 void System::end() {
 	for (int i = 0; i != endIndex(); ++i) {
-		if (i == 0)
 		techs[i].setIdle(current_event->occur_time);
+		techs[i].calUtilityRate(latest_event_time);
+		techs[i].accumulateUtilityRate();
+		techs[i].resetBusyMinutes();
 	}
 
 	clearQueue(reg_queue);

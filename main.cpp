@@ -30,8 +30,8 @@ void optimization(int tech_num, int simulate_num, double total_service_minutes) 
 			}
 		}
 	}
-	std::cout << "Min avg stay minutes: " << min << std::endl;
-	std::cout << "--------------------------" << std::endl;
+	// std::cout << "Min avg stay minutes: " << min << std::endl;
+	// std::cout << "--------------------------" << std::endl;
 	for (auto v : combinations) {
 		for (int i: v) {
 			std::cout << i << " ";
@@ -50,8 +50,8 @@ int main() {
 	double total_service_minutes = 540;
 	
 	int tech_num = 11;
-	int simulate_num = 1;
+	int simulate_num = 10;
 
-	test(tech_num, 1, 2, 4, 3, 1, simulate_num, total_service_minutes);
-	// optimization(tech_num, simulate_num, total_service_minutes);
+	// test(tech_num, 2, 3, 2, 3, 1, simulate_num, total_service_minutes);
+	optimization(tech_num, simulate_num, total_service_minutes);
 }
