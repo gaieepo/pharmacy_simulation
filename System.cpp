@@ -93,9 +93,15 @@ void System::resetAvgQueueMinutes() {
 }
 
 void System::simulate(int simulate_num) {
+	total_prescription_num = 0;
+	avg_stay_minutes = 0;
 	double sum = 0;
 	for (int i = 0; i != simulate_num; ++i) {
 		sum += run();
+		// printf("%d/%d\n", boundary_case, total_prescription_num);
+		total_stay_minutes = 0;
+		total_prescription_num = 0;
+		boundary_case = 0;
 		resetId();
 	}
 
@@ -396,22 +402,26 @@ void System::prescLeave() {
 	che_queue_minutes += out->getCheWait();
 	pay_queue_minutes += out->getPayWait();
 	total_stay_minutes += out->pay_end - out->arrive_time;
+
+	if ((out->pay_end - out->arrive_time) > 20)
+		boundary_case++;
+
 	
-	printf("No. %d presc type %d: %.2f(arrive) %.2f(reg) %.2f(pac) %.2f(che) %.2f(pay) %.2f(pay_end) Total: %.2f\n", 
-		out->id, 
-		(out->pType == LONGRX ? 1 : (out->pType == SHORTRX ? 2 : 3)),
-		out->arrive_time, 
-		out->reg_typ_duration,
-		out->pac_duration,
-		out->che_dis_duration,
-		out->pay_duration,
-		out->pay_end,
-		(out->pay_end - out->arrive_time));
-	printf("%.2f(reg wait) %.2f(pac wait) %.2f(che wait) %.2f(pay wait)\n", 
-		out->getRegWait(),
-		out->getPacWait(),
-		out->getCheWait(),
-		out->getPayWait());
+	// printf("No. %d presc type %d: %.2f(arrive) %.2f(reg) %.2f(pac) %.2f(che) %.2f(pay) %.2f(pay_end) Total: %.2f\n", 
+	// 	out->id, 
+	// 	(out->pType == LONGRX ? 1 : (out->pType == SHORTRX ? 2 : 3)),
+	// 	out->arrive_time, 
+	// 	out->reg_typ_duration,
+	// 	out->pac_duration,
+	// 	out->che_dis_duration,
+	// 	out->pay_duration,
+	// 	out->pay_end,
+	// 	(out->pay_end - out->arrive_time));
+	// printf("%.2f(reg wait) %.2f(pac wait) %.2f(che wait) %.2f(pay wait)\n", 
+	// 	out->getRegWait(),
+	// 	out->getPacWait(),
+	// 	out->getCheWait(),
+	// 	out->getPayWait());
 
 	if (pay_queue.size()) {
 		Prescription presc = pay_queue.front();

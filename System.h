@@ -132,6 +132,8 @@ private:
 	std::queue<Prescription> *next = nullptr;
 
 	int total_prescription_num = 0;
+	int boundary_case = 0;
+
 	double total_stay_minutes = 0;
 	double avg_stay_minutes = 0;
 	double latest_event_time = 0;
