@@ -32,7 +32,8 @@ public:
 
 	inline void setIdle(double time) {
 		if (status == SERVICE) {
-			total_busy_minutes += time - busy_time;
+			current_busy_minutes = time - busy_time;
+			total_busy_minutes += current_busy_minutes;
 			busy_time = 0;
 		}
 		status = IDLE;
@@ -58,8 +59,16 @@ public:
 		total_utility_rate += utility_rate;
 	}
 
+	inline double getCurrentBusyMinutes() {
+		return current_busy_minutes;
+	}
+
 	inline double getBusyMinutes() {
 		return total_busy_minutes;
+	}
+
+	inline void resetCurrentBusyMinutes() {
+		current_busy_minutes = 0;
 	}
 
 	inline void resetBusyMinutes() {
@@ -79,12 +88,26 @@ public:
 	inline double getAvgUtilityRate() {
 		return avg_utility_rate;
 	}
+
+	inline void doShift() {
+		shift = true;
+	}
+
+	inline void undoShift() {
+		shift = false;
+	}
+
+	inline bool isShift() {
+		return shift;
+	}
 private:
 	Prescription prescription;
 	Status status;
 	int index;
+	bool shift = false;
 
 	double busy_time = 0;
+	double current_busy_minutes = 0;
 	double total_busy_minutes = 0;
 
 	double utility_rate = 0;

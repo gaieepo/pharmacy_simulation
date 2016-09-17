@@ -65,6 +65,18 @@ private:
 	double getRandomInterval(double time);
 	PrescType getRandomPrescType();
 
+	void accumulateAllUtilityRate();
+	void resetBusyMinutes();
+	void resetUtilityRate();
+	void calAvgUtilityRate(int simulate_num);
+	void resetAvgUtilityRate();
+
+	void accumulateQueueMinutes();
+	void calAvgQueueMinutes(int simulate_num);
+	void resetQueueMinutes();
+	void resetTotalAvgQueueMinutes();
+	void resetAvgQueueMinutes();
+
 	double run();
 	void init();
 	void end();
@@ -72,9 +84,14 @@ private:
 	int getIdleTech();
 	int getIdleTech(int from);
 
+	void determineCurrAndNext(int from);
+	void accumulateBusyMinutes(int from, double time, bool shift);
+
 	void prescArrive();
 	void prescTransfer();
 	void prescLeave();
+	void prescRedo();
+	void prescShift();
 
 	int total_service_minutes;
 	int tech_num;
@@ -85,14 +102,28 @@ private:
 	int che_num = 1;
 	int pay_num = 1;
 
+	double reg_busy_minutes = 0;
+	double pac_busy_minutes = 0;
+	double shift_busy_minutes = 0;
+	double che_busy_minutes = 0;
+	double pay_busy_minutes = 0;
+
+	double total_reg_utility_rate = 0;
+	double total_pac_utility_rate = 0;
+	double total_che_utility_rate = 0;
+	double total_pay_utility_rate = 0;
+
+	double avg_reg_utility_rate = 0;
+	double avg_pac_utility_rate = 0;
+	double avg_che_utility_rate = 0;
+	double avg_pay_utility_rate = 0;	
+
 	Tech* techs = nullptr;
 
 	std::queue<Prescription> reg_queue;
 	std::queue<Prescription> pac_queue;
 	std::queue<Prescription> che_queue;
 	std::queue<Prescription> pay_queue;
-
-	std::queue<Prescription> spe_queue;
 
 	std::priority_queue<Event> event_queue;
 
@@ -104,6 +135,21 @@ private:
 	double total_stay_minutes = 0;
 	double avg_stay_minutes = 0;
 	double latest_event_time = 0;
+
+	double reg_queue_minutes = 0;
+	double pac_queue_minutes = 0;
+	double che_queue_minutes = 0;
+	double pay_queue_minutes = 0;
+
+	double total_avg_reg_queue_minutes = 0;
+	double total_avg_pac_queue_minutes = 0;
+	double total_avg_che_queue_minutes = 0;
+	double total_avg_pay_queue_minutes = 0;
+
+	double avg_reg_queue_minutes = 0;
+	double avg_pac_queue_minutes = 0;
+	double avg_che_queue_minutes = 0;
+	double avg_pay_queue_minutes = 0;
 
 	int idCount = 0;
 };

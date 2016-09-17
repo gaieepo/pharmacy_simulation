@@ -3,7 +3,7 @@
 
 #include "Random.h"
 
-// type: 0(arrive), 1(transfer), 2(leave)
+// type: 0(arrive), 1(transfer), 2(leave), 3(redo), 4(shift)
 // from: 0-8 from which tech
 
 struct Event {

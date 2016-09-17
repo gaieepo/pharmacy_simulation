@@ -10,28 +10,27 @@ void optimization(int tech_num, int simulate_num, double total_service_minutes) 
 	for (int reg  = 1; reg != 3; ++reg) {
 		for (int pay = 1; pay != 3; ++pay) {
 			for (int flx = 0; flx != 5; ++flx) {
-				for (int che = 1; che != 5; ++che) {
-					int pac = tech_num - reg - pay - flx - che;
-					if (pac > 0) {
-						system.setTechAllocation(reg, pac, flx, che, pay);
-						system.simulate(simulate_num);
-						if (system.getAvgStayMinutes() < min) {
-							min = system.getAvgStayMinutes();
-							combinations.clear();
-							std::vector<int> temp{reg, pac, flx, che, pay};
-							combinations.push_back(temp);
-						} else if (system.getAvgStayMinutes() == min) {
-							std::vector<int> temp{reg, pac, flx, che, pay};
-							combinations.push_back(temp);
-						}
-						std::cout << "Tried :" << reg << " " << pac << " " << flx << " " << che << " " << pay << " Use: " << system.getAvgStayMinutes() << std::endl;
+				int che = 4 - flx;
+				int pac = tech_num - reg - pay - flx - che;
+				if (pac > 0) {
+					system.setTechAllocation(reg, pac, flx, che, pay);
+					system.simulate(simulate_num);
+					if (system.getAvgStayMinutes() < min) {
+						min = system.getAvgStayMinutes();
+						combinations.clear();
+						std::vector<int> temp{reg, pac, flx, che, pay};
+						combinations.push_back(temp);
+					} else if (system.getAvgStayMinutes() == min) {
+						std::vector<int> temp{reg, pac, flx, che, pay};
+						combinations.push_back(temp);
 					}
+					std::cout << "Tried :" << reg << " " << pac << " " << flx << " " << che << " " << pay << " Use: " << system.getAvgStayMinutes() << std::endl;
 				}
 			}
 		}
 	}
-	// std::cout << "Min avg stay minutes: " << min << std::endl;
-	// std::cout << "--------------------------" << std::endl;
+	std::cout << "Min avg stay minutes: " << min << std::endl;
+	std::cout << "--------------------------" << std::endl;
 	for (auto v : combinations) {
 		for (int i: v) {
 			std::cout << i << " ";
@@ -47,11 +46,11 @@ void test(int tech_num, int reg, int pac, int flx, int che, int pay, int simulat
 }
 
 int main() {
-	double total_service_minutes = 540;
+	double total_service_minutes = 60 * 3; // 43200
 	
 	int tech_num = 11;
-	int simulate_num = 10;
+	int simulate_num = 1;
 
-	// test(tech_num, 2, 3, 2, 3, 1, simulate_num, total_service_minutes);
+	// test(tech_num, 2, 3, 4, 0, 2, simulate_num, total_service_minutes);
 	optimization(tech_num, simulate_num, total_service_minutes);
 }
