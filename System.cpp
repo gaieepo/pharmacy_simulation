@@ -9,11 +9,15 @@ bool operator<(const Event &lhs, const Event &rhs) {
 	return rhs.occur_time < lhs.occur_time;
 }
 
-System::System(int total_service_minutes, int tech_num):
+System::System(int total_service_minutes, int tech_num, double schedule[][2]):
 	total_service_minutes(total_service_minutes), tech_num(tech_num) {
 		this->techs = new Tech[tech_num];
-		for (int i = 0; i != tech_num; ++i)
+		for (int i = 0; i != tech_num; ++i) {
 			techs[i].setIndex(i);
+			techs[i].setBreakBegin(schedule[i][0] * 60);
+			techs[i].setBreakEnd(schedule[i][1] * 60);
+			// printf("Set tech[%d] break begin %.2f emd %.2f\n", i, schedule[i][0], schedule[i][1]);
+		}
 	}
 
 System::~System() {
@@ -109,26 +113,26 @@ void System::simulate(int simulate_num) {
 
 	for (int i = 0; i != endIndex(); ++i) {
 		techs[i].calAvgUtilityRate(simulate_num);
-		printf("%f ", techs[i].getAvgUtilityRate());
+		// printf("%f ", techs[i].getAvgUtilityRate());
 		techs[i].resetUtilityRate();
 	}
-	printf("\n");
+	// printf("\n");
 
 	calAvgUtilityRate(simulate_num);
-	printf("Reg:%f Pac:%f Che:%f Pay:%f\n",
-		avg_reg_utility_rate,
-		avg_pac_utility_rate,
-		avg_che_utility_rate,
-		avg_pay_utility_rate);
+	// printf("Reg:%f Pac:%f Che:%f Pay:%f\n",
+	// 	avg_reg_utility_rate,
+	// 	avg_pac_utility_rate,
+	// 	avg_che_utility_rate,
+	// 	avg_pay_utility_rate);
 	resetAvgUtilityRate();
 	resetUtilityRate();
 
 	calAvgQueueMinutes(simulate_num);
-	printf("RegW:%.2f PacW:%.2f CheW:%.2f PayW:%.2f\n", 
-		avg_reg_queue_minutes,
-		avg_pac_queue_minutes,
-		avg_che_queue_minutes,
-		avg_pay_queue_minutes);
+	// printf("RegW:%.2f PacW:%.2f CheW:%.2f PayW:%.2f\n", 
+	// 	avg_reg_queue_minutes,
+	// 	avg_pac_queue_minutes,
+	// 	avg_che_queue_minutes,
+	// 	avg_pay_queue_minutes);
 	resetTotalAvgQueueMinutes();
 	resetAvgQueueMinutes();
 }
@@ -202,39 +206,39 @@ void System::end() {
 	clearQueue(event_queue);
 }
 
-int System::getIdleTech() {
+int System::getIdleTech(double time) {
 	for (int i = 0; i != pacIndexBegin(); ++i) {
-		if (techs[i].isIdle()) {
+		if (techs[i].isIdle() && !techs[i].isBreak(time)) {
 			return i;
 		}
 	}
 	return -1;
 }
 
-int System::getIdleTech(int from) {
+int System::getIdleTech(int from, double time) {
 	if (from >= 0 && from < pacIndexBegin()) {
 		if (che_queue.size()) {
 			for (int i = pacIndexBegin(); i != cheIndexBegin(); ++i) {
-				if (techs[i].isIdle()) {
+				if (techs[i].isIdle() && !techs[i].isBreak(time)) {
 					return i;
 				}
 			}
 		} else {
 			for (int i = pacIndexBegin(); i != flxIndexEnd(); ++i) {
-				if (techs[i].isIdle()) {
+				if (techs[i].isIdle() && !techs[i].isBreak(time)) {
 					return i;
 				}
 			}
 		}
 	} else if (from >= pacIndexBegin() && from < cheIndexBegin()) {
 		for (int i = cheIndexBegin(); i != payIndexBegin(); ++i) {
-			if (techs[i].isIdle()) {
+			if (techs[i].isIdle() && !techs[i].isBreak(time)) {
 				return i;
 			}
 		}
 	} else if (from >= cheIndexBegin() && from < payIndexBegin()) {
 		for (int i = payIndexBegin(); i != endIndex(); ++i) {
-			if (techs[i].isIdle()) {
+			if (techs[i].isIdle() && !techs[i].isBreak(time)) {
 				return i;
 			}
 		}
@@ -286,7 +290,7 @@ void System::prescArrive() {
 	presc->id = getId();
 	reg_queue.push(*presc);
 
-	int idleIndex = getIdleTech();
+	int idleIndex = getIdleTech(current_event->occur_time);
 	if (idleIndex >= 0) {
 		*presc = reg_queue.front();
 		reg_queue.pop();
@@ -309,7 +313,7 @@ void System::prescTransfer() {
 
 	next->push(*old_presc);
 
-	int idleIndex = getIdleTech(current_event->from);
+	int idleIndex = getIdleTech(current_event->from, current_event->occur_time);
 	if (idleIndex >= 0) {
 		Prescription direct(next->front());
 		next->pop();
@@ -503,7 +507,7 @@ void System::prescShift() {
 	next->push(*old_presc);
 
 
-	int idleIndex = getIdleTech(cheIndexBegin() - 1);
+	int idleIndex = getIdleTech(cheIndexBegin() - 1, current_event->occur_time);
 	if (idleIndex >= 0) {
 		Prescription direct(next->front());
 		next->pop();

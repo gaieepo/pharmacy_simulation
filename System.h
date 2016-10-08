@@ -8,7 +8,7 @@
 
 class System {
 public:
-	System(int total_service_minutes, int tech_num);
+	System(int total_service_minutes, int tech_num, double schedule[][2]);
 	~System();
 	void simulate(int simulate_num);
 
@@ -81,8 +81,8 @@ private:
 	void init();
 	void end();
 
-	int getIdleTech();
-	int getIdleTech(int from);
+	int getIdleTech(double time);
+	int getIdleTech(int from, double time);
 
 	void determineCurrAndNext(int from);
 	void accumulateBusyMinutes(int from, double time, bool shift);

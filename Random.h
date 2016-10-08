@@ -22,7 +22,7 @@ public:
 	static double getRandom(RandomType type, double parameter1, double parameter2 = 0) {
 		switch (type) {
 			case UNIFORM:
-				return uniform(parameter1);
+				return uniform(parameter1, parameter2);
 				break;
 			case EXPONENTIAL:
 				return exponential(parameter1);
@@ -47,9 +47,14 @@ public:
 		}
 	}
 
-	static double uniform(double max = 1) {
-		std::uniform_real_distribution<double> u(0, max);
-		return u(eng);
+	static double uniform(double min, double max) {
+		if (max == 0) {
+			std::uniform_real_distribution<double> u(0, min);
+			return u(eng);
+		} else {
+			std::uniform_real_distribution<double> u(min, max);
+			return u(eng);
+		}
 	}
 
 	static double exponential(double lambda) {

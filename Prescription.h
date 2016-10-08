@@ -50,10 +50,14 @@ struct Prescription {
 	}
 
 	Prescription(double arrive_time = 0, PrescType type = LONGRX): arrive_time(arrive_time), pType(type) {
+		double medisave = (Random::getRandom(UNIFORM, 100) < 2) ? 10 : 0;
+		double clarify = (Random::getRandom(UNIFORM, 100) < 2) ? Random::getRandom(UNIFORM, 10, 15) : 0;
+
 		if (pType == LONGRX) {
 			do {
 				reg_typ_duration = Random::getRandom(LOGNORMAL, 4.75, 0.45) / 60;
 			} while (reg_typ_duration < 1);
+			reg_typ_duration += medisave;
 
 			do {
 				pac_duration = Random::getRandom(WEIBULL, 1.30, 318.35) / 60;
@@ -72,6 +76,7 @@ struct Prescription {
 			do {
 				reg_typ_duration = Random::getRandom(LOGNORMAL, 4.75, 0.45) / 60;
 			} while (reg_typ_duration < 1);
+			reg_typ_duration += medisave;
 
 			do {
 				pac_duration = Random::getRandom(WEIBULL, 1.81, 108.29) / 60;
@@ -90,6 +95,7 @@ struct Prescription {
 			do {
 				reg_typ_duration = Random::getRandom(LOGNORMAL, 4.75, 0.45) / 60;
 			} while (reg_typ_duration < 1);
+			reg_typ_duration += medisave;
 
 			do {
 				pac_duration = Random::getRandom(WEIBULL, 1.81, 108.29) / 60;

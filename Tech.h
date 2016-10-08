@@ -47,6 +47,18 @@ public:
 		return index;
 	}
 
+	inline void setBreakBegin(double time) {
+		break_begin = time;
+	}
+
+	inline void setBreakEnd(double time) {
+		break_end = time;
+	}
+
+	inline bool isBreak(double time) {
+		return time >= break_begin && time <= break_end;
+	}
+
 	inline Prescription getPrescription() {
 		return prescription;
 	}
@@ -102,9 +114,14 @@ public:
 	}
 private:
 	Prescription prescription;
+	
 	Status status;
+
 	int index;
 	bool shift = false;
+
+	double break_begin = -1;
+	double break_end = -1;
 
 	double busy_time = 0;
 	double current_busy_minutes = 0;
