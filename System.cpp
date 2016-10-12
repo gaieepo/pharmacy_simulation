@@ -9,20 +9,38 @@ bool operator<(const Event &lhs, const Event &rhs) {
 	return rhs.occur_time < lhs.occur_time;
 }
 
-System::System(int total_service_minutes, int tech_num, double schedule[][2]):
+System::System(int total_service_minutes, int tech_num):
 	total_service_minutes(total_service_minutes), tech_num(tech_num) {
 		this->techs = new Tech[tech_num];
 		for (int i = 0; i != tech_num; ++i) {
 			techs[i].setIndex(i);
-			techs[i].setBreakBegin(schedule[i][0] * 60);
-			techs[i].setBreakEnd(schedule[i][1] * 60);
-			// printf("Set tech[%d] break begin %.2f emd %.2f\n", i, schedule[i][0], schedule[i][1]);
 		}
 	}
 
 System::~System() {
 	delete [] techs;
 	delete current_event;
+}
+
+void System::setSchedule(double schedule[][2]) {
+	for (int i = 0; i != tech_num; ++i) {
+		techs[i].setBreakBegin(schedule[i][0] * 60);
+		techs[i].setBreakEnd(schedule[i][1] * 60);
+	}
+}
+
+void System::reschedule(int new_reg, int new_pac, int new_flx, int new_che, int new_pay, double time) {
+	int alloc[5] = {new_reg, new_pac, new_flx, new_che, new_pay};
+	// Event new_schedule(time, 5, 0, alloc);
+	// event_queue.push(new_schedule);
+}
+
+void System::setTechAllocation(int reg, int pac, int flx, int che, int pay) {
+	this->reg_num = reg;
+	this->pac_num = pac;
+	this->flx_num = flx;
+	this->che_num = che;
+	this->pay_num = pay;
 }
 
 void System::accumulateAllUtilityRate() {
@@ -139,9 +157,43 @@ void System::simulate(int simulate_num) {
 
 double System::getRandomInterval(double time) {
 	double ret = 0;
-	do {
-		ret = Random::getRandom(WEIBULL, 1.71, 121.37) / 60;
-	} while (ret < 0.5);
+	if (time >= 0 && time < 60) {
+		do {
+			ret = Random::getRandom(GAMMA, 0.2805, 155.51) / 60;
+		} while (ret < 0.5);
+	} else if (time >= 60 && time < 120) {
+		do {
+			ret = Random::getRandom(GAMMA, 3.0586, 48.759) / 60;
+		} while (ret < 0.5);
+	} else if (time >= 120 && time < 180) {
+		do {
+			ret = Random::getRandom(GAMMA, 2.5944, 49.449) / 60;
+		} while (ret < 0.5);
+	} else if (time >= 180 && time < 240) {
+		do {
+			ret = Random::getRandom(GAMMA, 1.5278, 81.371) / 60;
+		} while (ret < 0.5);
+	} else if (time >= 240 && time < 300) {
+		do {
+			ret = Random::getRandom(GAMMA, 3.7316, 50.061) / 60;
+		} while (ret < 0.5);
+	} else if (time >= 300 && time < 360) {
+		do {
+			ret = Random::getRandom(GAMMA, 3.8592, 41.977) / 60;
+		} while (ret < 0.5);
+	} else if (time >= 360 && time < 420) {
+		do {
+			ret = Random::getRandom(GAMMA, 6.4695, 27.935) / 60;
+		} while (ret < 0.5);
+	} else if (time >= 420 && time < 480) {
+		do {
+			ret = Random::getRandom(GAMMA, 3.5193, 44.574) / 60;
+		} while (ret < 0.5);
+	} else {
+		do {
+			ret = Random::getRandom(GAMMA, 4.0986, 44.776) / 60;
+		} while (ret < 0.5);
+	}
 	return ret;
 }
 
@@ -171,6 +223,10 @@ double System::run() {
 			prescRedo();
 		} else if (current_event->type == 4) {
 			prescShift();
+		} else if (current_event->type == 5) {
+			changeSchedule();
+		} else if (current_event->type == 6) {
+			break;
 		}
 	} while (!event_queue.empty());
 	this->end();
@@ -181,6 +237,9 @@ double System::run() {
 void System::init() {
 	current_event = new Event;
 	event_queue.push(*current_event);
+
+	// Event shutdown_event(120, 6);
+	// event_queue.push(shutdown_event);
 }
 
 void System::end() {
@@ -298,6 +357,7 @@ void System::prescArrive() {
 		presc->reg_typ_end = current_event->occur_time + presc->reg_typ_duration;
 		techs[idleIndex].serve(*presc);
 		techs[idleIndex].setBusy(current_event->occur_time);
+		techs[idleIndex].setNextFinishTime(presc->reg_typ_end);
 
 		Event transfer_event(presc->reg_typ_end, 1, idleIndex);
 		event_queue.push(transfer_event);
@@ -348,6 +408,8 @@ void System::prescTransfer() {
 		}
 		techs[idleIndex].serve(direct);
 		techs[idleIndex].setBusy(current_event->occur_time);
+		techs[idleIndex].setNextFinishTime(event_time);
+
 
 		if (isLeaving) {
 			Event leave_event(event_time, 2, idleIndex);
@@ -384,6 +446,7 @@ void System::prescTransfer() {
 			isRedo = (Random::getRandom(UNIFORM, 100) < 2 && !follow.redoed) ? true : false;
 		}
 		techs[current_event->from].serve(follow);
+		techs[current_event->from].setNextFinishTime(event_time);
 
 		if (isRedo) {
 			Event new_redo_event(event_time, 3, current_event->from);
@@ -394,6 +457,7 @@ void System::prescTransfer() {
 		}
 	} else {
 		techs[current_event->from].setIdle(current_event->occur_time);
+		techs[current_event->from].setNextFinishTime(0);
 		accumulateBusyMinutes(current_event->from, techs[current_event->from].getCurrentBusyMinutes(), false);
 	}
 }
@@ -433,11 +497,13 @@ void System::prescLeave() {
 		presc.pay_start = current_event->occur_time;
 		presc.pay_end = current_event->occur_time + presc.pay_duration;
 		techs[current_event->from].serve(presc);
+		techs[current_event->from].setNextFinishTime(presc.pay_end);
 
 		Event temp_event(presc.pay_end, 2, current_event->from);
 		event_queue.push(temp_event);
 	} else {
 		techs[current_event->from].setIdle(current_event->occur_time);
+		techs[current_event->from].setNextFinishTime(0);
 		accumulateBusyMinutes(current_event->from, techs[current_event->from].getCurrentBusyMinutes(), false);
 	}
 }
@@ -467,6 +533,7 @@ void System::prescRedo() {
 
 		techs[idleIndex].serve(direct);
 		techs[idleIndex].setBusy(current_event->occur_time);
+		techs[idleIndex].setNextFinishTime(event_time);
 
 		Event transfer_event(event_time, 1, idleIndex);
 		event_queue.push(transfer_event);
@@ -485,6 +552,7 @@ void System::prescRedo() {
 		isRedo = (Random::getRandom(UNIFORM, 100) < 2 && !follow.redoed) ? true : false;
 
 		techs[current_event->from].serve(follow);
+		techs[current_event->from].setNextFinishTime(event_time);
 
 		if (isRedo) {
 			Event new_redo_event(event_time, 3, current_event->from);
@@ -495,6 +563,7 @@ void System::prescRedo() {
 		}
 	} else {
 		techs[current_event->from].setIdle(current_event->occur_time);
+		techs[current_event->from].setNextFinishTime(0);
 		accumulateBusyMinutes(current_event->from, techs[current_event->from].getCurrentBusyMinutes(), false);
 	}
 }
@@ -523,6 +592,7 @@ void System::prescShift() {
 			
 		techs[idleIndex].serve(direct);
 		techs[idleIndex].setBusy(current_event->occur_time);
+		techs[idleIndex].setNextFinishTime(event_time);
 
 		if (isRedo) {
 			Event redo_event(event_time, 3, idleIndex);
@@ -545,11 +615,26 @@ void System::prescShift() {
 		event_time = follow.che_dis_end;
 
 		techs[current_event->from].serve(follow);
+		techs[current_event->from].setNextFinishTime(event_time);
 
 		Event new_transfer_event(event_time, 1, current_event->from);
 		event_queue.push(new_transfer_event);
 	} else {
 		techs[current_event->from].setIdle(current_event->occur_time);
+		techs[current_event->from].setNextFinishTime(0);
 		accumulateBusyMinutes(current_event->from, techs[current_event->from].getCurrentBusyMinutes(), true);
+	}
+}
+
+void System::changeSchedule() {
+	if (current_event->tech_alloc) {
+		rescheduled = true;
+		this->reg_alloc = current_event->tech_alloc[0];
+		this->pac_alloc = current_event->tech_alloc[1];
+		this->flx_alloc = current_event->tech_alloc[2];
+		this->che_alloc = current_event->tech_alloc[3];
+		this->pay_alloc = current_event->tech_alloc[4];
+	} else {
+		printf("Error during reschedule!!!");
 	}
 }

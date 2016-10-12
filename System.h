@@ -8,17 +8,11 @@
 
 class System {
 public:
-	System(int total_service_minutes, int tech_num, double schedule[][2]);
+	System(int total_service_minutes, int tech_num);
 	~System();
 	void simulate(int simulate_num);
 
-	inline void setTechAllocation(int reg, int pac, int flx, int che, int pay) {
-		this->reg_num = reg;
-		this->pac_num = pac;
-		this->flx_num = flx;
-		this->che_num = che;
-		this->pay_num = pay;
-	}
+	void setTechAllocation(int reg, int pac, int flx, int che, int pay);
 
 	inline int pacIndexBegin() {
 		return reg_num;
@@ -39,6 +33,10 @@ public:
 	inline int endIndex() {
 		return reg_num + pac_num + flx_num + che_num + pay_num;
 	}
+
+	void setSchedule(double schedule[][2]);
+
+	void reschedule(int reg, int pac, int flx, int che, int pay, double time);
 
 	void clearQueue(std::queue<Prescription> &q) {
 		std::queue<Prescription> empty;
@@ -92,6 +90,7 @@ private:
 	void prescLeave();
 	void prescRedo();
 	void prescShift();
+	void changeSchedule();
 
 	int total_service_minutes;
 	int tech_num;
@@ -101,6 +100,12 @@ private:
 	int flx_num = 1;
 	int che_num = 1;
 	int pay_num = 1;
+
+	int reg_alloc = 0;
+	int pac_alloc = 0;
+	int flx_alloc = 0;
+	int che_alloc = 0;
+	int pay_alloc = 0;
 
 	double reg_busy_minutes = 0;
 	double pac_busy_minutes = 0;
@@ -118,6 +123,7 @@ private:
 	double avg_che_utility_rate = 0;
 	double avg_pay_utility_rate = 0;	
 
+	bool rescheduled = false;
 	Tech* techs = nullptr;
 
 	std::queue<Prescription> reg_queue;

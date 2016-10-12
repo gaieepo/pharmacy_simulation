@@ -47,8 +47,16 @@ public:
 		return index;
 	}
 
+	inline double getBreakBegin() {
+		return break_begin;
+	}
+
 	inline void setBreakBegin(double time) {
 		break_begin = time;
+	}
+
+	inline double getBreakEnd() {
+		return break_end;
 	}
 
 	inline void setBreakEnd(double time) {
@@ -112,6 +120,14 @@ public:
 	inline bool isShift() {
 		return shift;
 	}
+
+	inline void setNextFinishTime(double time) {
+		next_finish_time = time;
+	}
+
+	inline double getNextFinishTime() {
+		return next_finish_time;
+	}
 private:
 	Prescription prescription;
 	
@@ -119,6 +135,8 @@ private:
 
 	int index;
 	bool shift = false;
+
+	double next_finish_time = 0;
 
 	double break_begin = -1;
 	double break_end = -1;
