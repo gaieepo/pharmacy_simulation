@@ -5,6 +5,7 @@
 #include "Event.h"
 #include "Tech.h"
 #include <queue>
+#include <vector>
 
 class System {
 public:
@@ -13,30 +14,8 @@ public:
 	void simulate(int simulate_num);
 
 	void setTechAllocation(int reg, int pac, int flx, int che, int pay);
-
-	inline int pacIndexBegin() {
-		return reg_num;
-	}
-
-	inline int cheIndexBegin() {
-		return reg_num + pac_num;
-	}
-
-	inline int flxIndexEnd() {
-		return reg_num + pac_num + flx_num;
-	}
-
-	inline int payIndexBegin() {
-		return reg_num + pac_num + flx_num + che_num;
-	}
-
-	inline int endIndex() {
-		return reg_num + pac_num + flx_num + che_num + pay_num;
-	}
-
-	void setSchedule(double schedule[][2]);
-
-	void reschedule(int reg, int pac, int flx, int che, int pay, double time);
+	void setReschedule(int reg, int pac, int flx, int che, int pay, double time);
+	void clearReschedule();
 
 	void clearQueue(std::queue<Prescription> &q) {
 		std::queue<Prescription> empty;
@@ -80,10 +59,11 @@ private:
 	void end();
 
 	int getIdleTech(double time);
-	int getIdleTech(int from, double time);
+	int getIdleTech(Location from, double time);
 
 	void determineCurrAndNext(int from);
-	void accumulateBusyMinutes(int from, double time, bool shift);
+	Location determineCurrentLocation(int from);
+	void accumulateBusyMinutes(Location from, double time, bool shift);
 
 	void prescArrive();
 	void prescTransfer();
@@ -92,20 +72,23 @@ private:
 	void prescShift();
 	void changeSchedule();
 
+	bool display_helper = false;
+	bool rescheduled = false;
 	int total_service_minutes;
 	int tech_num;
 
-	int reg_num = 1;
-	int pac_num = 1;
-	int flx_num = 1;
-	int che_num = 1;
-	int pay_num = 1;
+	int reg_num = 0;
+	int pac_num = 0;
+	int flx_num = 0;
+	int che_num = 0;
+	int pay_num = 0;
 
-	int reg_alloc = 0;
-	int pac_alloc = 0;
-	int flx_alloc = 0;
-	int che_alloc = 0;
-	int pay_alloc = 0;
+	std::vector<double> reschedule_time;
+	std::vector<int> reg_alloc;
+	std::vector<int> pac_alloc;
+	std::vector<int> flx_alloc;
+	std::vector<int> che_alloc;
+	std::vector<int> pay_alloc;
 
 	double reg_busy_minutes = 0;
 	double pac_busy_minutes = 0;
@@ -123,7 +106,6 @@ private:
 	double avg_che_utility_rate = 0;
 	double avg_pay_utility_rate = 0;	
 
-	bool rescheduled = false;
 	Tech* techs = nullptr;
 
 	std::queue<Prescription> reg_queue;

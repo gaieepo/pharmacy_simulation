@@ -10,21 +10,17 @@ struct Event {
 	double occur_time;
 	int type;
 	int from;
-	int tech_alloc[5];
+	int schedule_index;
 
 	Event(
 		double occur_time = 0, 
 		int type = 0,
 		int from = 0,
-		int alloc[5] = nullptr): 
+		int schedule_index = 0): 
 	occur_time(occur_time), 
 	type(type),
-	from(from) {
-		if (alloc) {
-			for (int i = 0; i < 5; ++i)
-				tech_alloc[i] = alloc[i];
-		}
-	}
+	from(from),
+	schedule_index(schedule_index) {}
 
 	friend bool operator<(const Event &, const Event &);
 };

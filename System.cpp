@@ -1,6 +1,9 @@
 #include <queue>
 #include <cstdio>
 #include <memory>
+#include <iostream>
+#include <string>
+#include <vector>
 #include "System.h"
 #include "Event.h"
 #include "Random.h"
@@ -22,25 +25,41 @@ System::~System() {
 	delete current_event;
 }
 
-void System::setSchedule(double schedule[][2]) {
-	for (int i = 0; i != tech_num; ++i) {
-		techs[i].setBreakBegin(schedule[i][0] * 60);
-		techs[i].setBreakEnd(schedule[i][1] * 60);
-	}
-}
-
-void System::reschedule(int new_reg, int new_pac, int new_flx, int new_che, int new_pay, double time) {
-	int alloc[5] = {new_reg, new_pac, new_flx, new_che, new_pay};
-	// Event new_schedule(time, 5, 0, alloc);
-	// event_queue.push(new_schedule);
-}
-
 void System::setTechAllocation(int reg, int pac, int flx, int che, int pay) {
-	this->reg_num = reg;
-	this->pac_num = pac;
-	this->flx_num = flx;
-	this->che_num = che;
-	this->pay_num = pay;
+	reg_num = reg;
+	pac_num = pac;
+	flx_num = flx;
+	che_num = che;
+	pay_num = pay;
+
+	for (int i = 0; i < reg; ++i)
+		techs[i].loc = REG;
+	for (int i = reg; i < reg + pac; ++i)
+		techs[i].loc = PAC;
+	for (int i = reg + pac; i < reg + pac + flx; ++i)
+		techs[i].loc = FLX;
+	for (int i = reg + pac + flx; i < reg + pac + flx + che; ++i)
+		techs[i].loc = CHE;
+	for (int i = reg + pac + flx + che; i < reg + pac + flx + che + pay; ++i)
+		techs[i].loc = PAY;
+}
+
+void System::setReschedule(int reg, int pac, int flx, int che, int pay, double time) {
+	this->reschedule_time.push_back(time);
+	this->reg_alloc.push_back(reg);
+	this->pac_alloc.push_back(pac);
+	this->flx_alloc.push_back(flx);
+	this->che_alloc.push_back(che);
+	this->pay_alloc.push_back(pay);
+}
+
+void System::clearReschedule() {
+	this->reschedule_time.clear();
+	this->reg_alloc.clear();
+	this->pac_alloc.clear();
+	this->flx_alloc.clear();
+	this->che_alloc.clear();
+	this->pay_alloc.clear();
 }
 
 void System::accumulateAllUtilityRate() {
@@ -119,6 +138,10 @@ void System::simulate(int simulate_num) {
 	avg_stay_minutes = 0;
 	double sum = 0;
 	for (int i = 0; i != simulate_num; ++i) {
+		if (i == 0)
+			display_helper = true;
+		else
+			display_helper = false;
 		sum += run();
 		// printf("%d/%d\n", boundary_case, total_prescription_num);
 		total_stay_minutes = 0;
@@ -129,7 +152,7 @@ void System::simulate(int simulate_num) {
 
 	avg_stay_minutes = sum / simulate_num;
 
-	for (int i = 0; i != endIndex(); ++i) {
+	for (int i = 0; i < tech_num; ++i) {
 		techs[i].calAvgUtilityRate(simulate_num);
 		// printf("%f ", techs[i].getAvgUtilityRate());
 		techs[i].resetUtilityRate();
@@ -137,11 +160,11 @@ void System::simulate(int simulate_num) {
 	// printf("\n");
 
 	calAvgUtilityRate(simulate_num);
-	// printf("Reg:%f Pac:%f Che:%f Pay:%f\n",
-	// 	avg_reg_utility_rate,
-	// 	avg_pac_utility_rate,
-	// 	avg_che_utility_rate,
-	// 	avg_pay_utility_rate);
+	printf("Reg:%f Pac:%f Che:%f Pay:%f\n",
+		avg_reg_utility_rate,
+		avg_pac_utility_rate,
+		avg_che_utility_rate,
+		avg_pay_utility_rate);
 	resetAvgUtilityRate();
 	resetUtilityRate();
 
@@ -159,39 +182,39 @@ double System::getRandomInterval(double time) {
 	double ret = 0;
 	if (time >= 0 && time < 60) {
 		do {
-			ret = Random::getRandom(GAMMA, 0.2805, 155.51) / 60;
+			ret = Random::getRandom(EXPONENTIAL, 0.0086961) / 60;
 		} while (ret < 0.5);
 	} else if (time >= 60 && time < 120) {
 		do {
-			ret = Random::getRandom(GAMMA, 3.0586, 48.759) / 60;
+			ret = Random::getRandom(EXPONENTIAL, 0.0124773) / 60;
 		} while (ret < 0.5);
 	} else if (time >= 120 && time < 180) {
 		do {
-			ret = Random::getRandom(GAMMA, 2.5944, 49.449) / 60;
+			ret = Random::getRandom(EXPONENTIAL, 0.0132653) / 60;
 		} while (ret < 0.5);
 	} else if (time >= 180 && time < 240) {
 		do {
-			ret = Random::getRandom(GAMMA, 1.5278, 81.371) / 60;
+			ret = Random::getRandom(EXPONENTIAL, 0.0125397) / 60;
 		} while (ret < 0.5);
 	} else if (time >= 240 && time < 300) {
 		do {
-			ret = Random::getRandom(GAMMA, 3.7316, 50.061) / 60;
+			ret = Random::getRandom(EXPONENTIAL, 0.0077324) / 60;
 		} while (ret < 0.5);
 	} else if (time >= 300 && time < 360) {
 		do {
-			ret = Random::getRandom(GAMMA, 3.8592, 41.977) / 60;
+			ret = Random::getRandom(EXPONENTIAL, 0.0073753) / 60;
 		} while (ret < 0.5);
 	} else if (time >= 360 && time < 420) {
 		do {
-			ret = Random::getRandom(GAMMA, 6.4695, 27.935) / 60;
+			ret = Random::getRandom(EXPONENTIAL, 0.0120862) / 60;
 		} while (ret < 0.5);
 	} else if (time >= 420 && time < 480) {
 		do {
-			ret = Random::getRandom(GAMMA, 3.5193, 44.574) / 60;
+			ret = Random::getRandom(EXPONENTIAL, 0.0116213) / 60;
 		} while (ret < 0.5);
 	} else {
 		do {
-			ret = Random::getRandom(GAMMA, 4.0986, 44.776) / 60;
+			ret = Random::getRandom(EXPONENTIAL, 0.0078118) / 60;
 		} while (ret < 0.5);
 	}
 	return ret;
@@ -226,6 +249,8 @@ double System::run() {
 		} else if (current_event->type == 5) {
 			changeSchedule();
 		} else if (current_event->type == 6) {
+			curr = nullptr;
+			next = nullptr;
 			break;
 		}
 	} while (!event_queue.empty());
@@ -238,12 +263,17 @@ void System::init() {
 	current_event = new Event;
 	event_queue.push(*current_event);
 
-	// Event shutdown_event(120, 6);
-	// event_queue.push(shutdown_event);
+	for (int i = 0; i < reschedule_time.size(); ++i) {
+		Event reschedule_event(reschedule_time[i], 5, 0, i);
+		event_queue.push(reschedule_event);
+	}
+
+	Event shutdown_event(600, 6);
+	event_queue.push(shutdown_event);
 }
 
 void System::end() {
-	for (int i = 0; i != endIndex(); ++i) {
+	for (int i = 0; i != tech_num; ++i) {
 		techs[i].setIdle(current_event->occur_time);
 		techs[i].calUtilityRate(latest_event_time);
 		techs[i].accumulateUtilityRate();
@@ -266,69 +296,126 @@ void System::end() {
 }
 
 int System::getIdleTech(double time) {
-	for (int i = 0; i != pacIndexBegin(); ++i) {
-		if (techs[i].isIdle() && !techs[i].isBreak(time)) {
+	for (int i = 0; i != tech_num; ++i) {
+		if (techs[i].isIdle() && techs[i].loc == REG) {
 			return i;
 		}
 	}
 	return -1;
 }
 
-int System::getIdleTech(int from, double time) {
-	if (from >= 0 && from < pacIndexBegin()) {
+int System::getIdleTech(Location from, double time) {
+	if (from == REG) {
 		if (che_queue.size()) {
-			for (int i = pacIndexBegin(); i != cheIndexBegin(); ++i) {
-				if (techs[i].isIdle() && !techs[i].isBreak(time)) {
+			for (int i = 0; i < tech_num; ++i) {
+				if (techs[i].loc == PAC && techs[i].isIdle())
 					return i;
-				}
 			}
 		} else {
-			for (int i = pacIndexBegin(); i != flxIndexEnd(); ++i) {
-				if (techs[i].isIdle() && !techs[i].isBreak(time)) {
+			for (int i = 0; i < tech_num; ++i) {
+				if ((techs[i].loc == PAC || techs[i].loc == FLX) && techs[i].isIdle())
 					return i;
-				}
 			}
 		}
-	} else if (from >= pacIndexBegin() && from < cheIndexBegin()) {
-		for (int i = cheIndexBegin(); i != payIndexBegin(); ++i) {
-			if (techs[i].isIdle() && !techs[i].isBreak(time)) {
+	} else if (from == PAC) {
+		for (int i = 0; i < tech_num; ++i) {
+			if ((techs[i].loc == FLX || techs[i].loc == CHE) && techs[i].isIdle())
 				return i;
-			}
 		}
-	} else if (from >= cheIndexBegin() && from < payIndexBegin()) {
-		for (int i = payIndexBegin(); i != endIndex(); ++i) {
-			if (techs[i].isIdle() && !techs[i].isBreak(time)) {
+	} else if (from == FLX || from == CHE) {
+		for (int i = 0; i < tech_num; ++i) {
+			if (techs[i].loc == PAY && techs[i].isIdle())
 				return i;
-			}
 		}
 	}
 	return -1;
 }
 
 void System::determineCurrAndNext(int from) {
-	if (from >= 0 && from < pacIndexBegin()) {
+	if (techs[from].loc == REG) {
 		curr = &reg_queue;
 		next = &pac_queue;
-	} else if (from >= pacIndexBegin() && from < cheIndexBegin()) {
+	} else if (techs[from].loc == PAC) {
 		curr = &pac_queue;
 		next = &che_queue;
-	} else if (from >= cheIndexBegin() && from < payIndexBegin()) {
+	} else if (techs[from].loc == CHE || techs[from].loc == FLX) {
 		curr = &che_queue;
 		next = &pay_queue;
 	}
 }
 
-void System::accumulateBusyMinutes(int from, double minutes, bool shift) {
+Location System::determineCurrentLocation(int from) {
+	if (rescheduled && !techs[from].rescheduled) {
+		if (techs[from].reloc == REG)
+			curr = &reg_queue;
+		else if (techs[from].reloc == PAC)
+			curr = &pac_queue;
+		else if (techs[from].reloc == FLX || techs[from].reloc == CHE)
+			curr = &che_queue;
+		else if (techs[from].reloc == PAY)
+			curr = &pay_queue;
+		else if (techs[from].reloc == BRK)
+			curr = nullptr;
+
+		techs[from].loc = techs[from].reloc;
+		techs[from].rescheduled = true;
+
+		// for (int i = 0; i < tech_num; ++i) {
+		// 	std::string loc = "";
+		// 	if (techs[i].loc == REG)
+		// 		loc = "REG";
+		// 	else if (techs[i].loc == PAC)
+		// 		loc = "PAC";
+		// 	else if (techs[i].loc == FLX)
+		// 		loc = "FLX";
+		// 	else if (techs[i].loc == CHE)
+		// 		loc = "CHE";
+		// 	else if (techs[i].loc == PAY)
+		// 		loc = "PAY";
+		// 	else if (techs[i].loc == BRK)
+		// 		loc = "BRK";
+		// 	std::string reloc = "";
+		// 	if (techs[i].reloc == REG)
+		// 		reloc = "REG";
+		// 	else if (techs[i].reloc == PAC)
+		// 		reloc = "PAC";
+		// 	else if (techs[i].reloc == FLX)
+		// 		reloc = "FLX";
+		// 	else if (techs[i].reloc == CHE)
+		// 		reloc = "CHE";
+		// 	else if (techs[i].reloc == PAY)
+		// 		reloc = "PAY";
+		// 	else if (techs[i].reloc == BRK)
+		// 		reloc = "BRK";
+		// 	std::cout << "tech " << i << ": loc-" << loc << " reloc-" << reloc << " rescheduled-" << techs[i].rescheduled << std::endl;
+		// }
+		// std::cout << "---------------------" << std::endl;
+
+		bool all_scheduled = true;
+		for (int i = 0; i < tech_num; ++i) {
+			if (!techs[i].rescheduled)
+				all_scheduled = false;
+		}
+		if (all_scheduled) {
+			rescheduled = false;
+			for (int i = 0; i < tech_num; ++i)
+				techs[i].rescheduled = false;
+		}
+	}
+	return techs[from].loc;
+}
+
+void System::accumulateBusyMinutes(Location from, double minutes, bool shift) {
 	if (shift) {
 		shift_busy_minutes += minutes;
 	} else {
-		if (from >= 0 && from < pacIndexBegin()) {
+		if (from == REG) {
 			reg_busy_minutes += minutes;
-		} else if (from >= pacIndexBegin() && from < cheIndexBegin()) {
+		} else if (from == PAC) {
 			pac_busy_minutes += minutes;
-		} else if (from >= cheIndexBegin() && from < payIndexBegin()) {
+		} else if (from == CHE) {
 			che_busy_minutes += minutes;
-		} else if (from >= payIndexBegin() && from < endIndex()) {
+		} else if (from == PAY) {
 			pay_busy_minutes += minutes;
 		}
 	}
@@ -343,6 +430,11 @@ void System::prescArrive() {
 
 	if (time < total_service_minutes) {
 		event_queue.push(next_arrive_event);
+	} else {
+		// std::cout << "Queue remain: reg-" << reg_queue.size() << " "
+		// 							"pac-" << pac_queue.size() << " "
+		// 							"che-" << che_queue.size() << " "
+		// 							"pay-" << pay_queue.size() << std::endl;
 	}
 
 	Prescription* presc = new Prescription(current_event->occur_time, getRandomPrescType());
@@ -373,7 +465,7 @@ void System::prescTransfer() {
 
 	next->push(*old_presc);
 
-	int idleIndex = getIdleTech(current_event->from, current_event->occur_time);
+	int idleIndex = getIdleTech(techs[current_event->from].loc, current_event->occur_time);
 	if (idleIndex >= 0) {
 		Prescription direct(next->front());
 		next->pop();
@@ -381,11 +473,12 @@ void System::prescTransfer() {
 		bool isLeaving = false;
 		bool isRedo = false;
 		bool isShift = false;
-		if (idleIndex >= pacIndexBegin() && idleIndex < cheIndexBegin()) {
+		Location location = techs[idleIndex].loc;
+		if (location == PAC) {
 			direct.pac_start = current_event->occur_time;
 			direct.pac_end = current_event->occur_time + direct.pac_duration;
 			event_time = direct.pac_end;
-		} else if (idleIndex >= cheIndexBegin() && idleIndex < payIndexBegin()) {
+		} else if (location == FLX || location == CHE) {
 			if (!direct.redoed)
 				direct.che_dis_start = current_event->occur_time;
 			direct.che_dis_end = current_event->occur_time + direct.che_dis_duration;
@@ -393,14 +486,14 @@ void System::prescTransfer() {
 			event_time = direct.che_dis_end;
 			isRedo = (Random::getRandom(UNIFORM, 100) < 2 && !direct.redoed) ? true : false;
 
-			if (idleIndex >= cheIndexBegin() && idleIndex < flxIndexEnd() && current_event->from < pacIndexBegin()) {
+			if (location == FLX && techs[current_event->from].loc == REG) {
 				direct.pac_start = current_event->occur_time;
 				direct.pac_end = current_event->occur_time + direct.pac_duration;
 				event_time = direct.pac_end;
 				techs[idleIndex].doShift();
 				isShift = true;
 			}
-		} else if (idleIndex >= payIndexBegin() && idleIndex < endIndex()) {
+		} else if (location == PAY) {
 			direct.pay_start = current_event->occur_time;
 			direct.pay_end = current_event->occur_time + direct.pay_duration;
 			event_time = direct.pay_end;
@@ -426,20 +519,43 @@ void System::prescTransfer() {
 		}
 	}
 
-	if (curr->size()) {
+	Location curr_loc = determineCurrentLocation(current_event->from);
+	if (curr_loc == PAY) {
+		if (pay_queue.size()) {
+			Prescription presc = pay_queue.front();
+			pay_queue.pop();
+			presc.pay_start = current_event->occur_time;
+			presc.pay_end = current_event->occur_time + presc.pay_duration;
+			techs[current_event->from].serve(presc);
+			techs[current_event->from].setNextFinishTime(presc.pay_end);
+
+			Event temp_event(presc.pay_end, 2, current_event->from);
+			event_queue.push(temp_event);
+		} else {
+			techs[current_event->from].setIdle(current_event->occur_time);
+			techs[current_event->from].setNextFinishTime(0);
+			accumulateBusyMinutes(techs[current_event->from].loc, techs[current_event->from].getCurrentBusyMinutes(), false);
+		}
+		curr = nullptr;
+		next = nullptr;
+		return;
+	}                                                                                                              
+
+	if (curr && curr->size() && techs[current_event->from].loc != BRK) {
 		Prescription follow(curr->front());
 		curr->pop();
 		double event_time;
 		bool isRedo = false;
-		if (current_event->from >= 0 && current_event->from < pacIndexBegin()) {
+		Location location = techs[current_event->from].loc;
+		if (location == REG) {
 			follow.reg_typ_start = current_event->occur_time;
 			follow.reg_typ_end = current_event->occur_time + follow.reg_typ_duration;
 			event_time = follow.reg_typ_end;
-		} else if (current_event->from >= pacIndexBegin() && current_event->from < cheIndexBegin()) {
+		} else if (location == PAC) {
 			follow.pac_start = current_event->occur_time;
 			follow.pac_end = current_event->occur_time + follow.pac_duration;
 			event_time = follow.pac_end;
-		} else if (current_event->from >= cheIndexBegin() && current_event->from < payIndexBegin()) {
+		} else if (location == FLX || location == CHE) {
 			follow.che_dis_start = current_event->occur_time;
 			follow.che_dis_end = current_event->occur_time + follow.che_dis_duration;
 			event_time = follow.che_dis_end;
@@ -458,8 +574,10 @@ void System::prescTransfer() {
 	} else {
 		techs[current_event->from].setIdle(current_event->occur_time);
 		techs[current_event->from].setNextFinishTime(0);
-		accumulateBusyMinutes(current_event->from, techs[current_event->from].getCurrentBusyMinutes(), false);
+		accumulateBusyMinutes(techs[current_event->from].loc, techs[current_event->from].getCurrentBusyMinutes(), false);
 	}
+	curr = nullptr;
+	next = nullptr;
 }
 
 void System::prescLeave() {
@@ -491,7 +609,49 @@ void System::prescLeave() {
 	// 	out->getCheWait(),
 	// 	out->getPayWait());
 
-	if (pay_queue.size()) {
+	Location curr_loc = determineCurrentLocation(current_event->from);
+	if (curr_loc != PAY) {
+		if (curr && curr->size() && techs[current_event->from].loc != BRK) {
+			Prescription follow(curr->front());
+			curr->pop();
+			double event_time;
+			bool isRedo = false;
+			Location location = techs[current_event->from].loc;
+			if (location == REG) {
+				follow.reg_typ_start = current_event->occur_time;
+				follow.reg_typ_end = current_event->occur_time + follow.reg_typ_duration;
+				event_time = follow.reg_typ_end;
+			} else if (location == PAC) {
+				follow.pac_start = current_event->occur_time;
+				follow.pac_end = current_event->occur_time + follow.pac_duration;
+				event_time = follow.pac_end;
+			} else if (location == FLX || location == CHE) {
+				follow.che_dis_start = current_event->occur_time;
+				follow.che_dis_end = current_event->occur_time + follow.che_dis_duration;
+				event_time = follow.che_dis_end;
+				isRedo = (Random::getRandom(UNIFORM, 100) < 2 && !follow.redoed) ? true : false;
+			}
+			techs[current_event->from].serve(follow);
+			techs[current_event->from].setNextFinishTime(event_time);
+
+			if (isRedo) {
+				Event new_redo_event(event_time, 3, current_event->from);
+				event_queue.push(new_redo_event);
+			} else {
+				Event new_transfer_event(event_time, 1, current_event->from);
+				event_queue.push(new_transfer_event);
+			}
+		} else {
+			techs[current_event->from].setIdle(current_event->occur_time);
+			techs[current_event->from].setNextFinishTime(0);
+			accumulateBusyMinutes(techs[current_event->from].loc, techs[current_event->from].getCurrentBusyMinutes(), false);
+		}
+		curr = nullptr;
+		next = nullptr;
+		return;
+	}
+
+	if (pay_queue.size() && techs[current_event->from].loc != BRK) {
 		Prescription presc = pay_queue.front();
 		pay_queue.pop();
 		presc.pay_start = current_event->occur_time;
@@ -504,8 +664,10 @@ void System::prescLeave() {
 	} else {
 		techs[current_event->from].setIdle(current_event->occur_time);
 		techs[current_event->from].setNextFinishTime(0);
-		accumulateBusyMinutes(current_event->from, techs[current_event->from].getCurrentBusyMinutes(), false);
+		accumulateBusyMinutes(techs[current_event->from].loc, techs[current_event->from].getCurrentBusyMinutes(), false);
 	}
+	curr = nullptr;
+	next = nullptr;
 }
 
 void System::prescRedo() {
@@ -518,8 +680,8 @@ void System::prescRedo() {
 	next->push(*old_presc);
 
 	int idleIndex = -1;
-	for (int i = pacIndexBegin(); i != cheIndexBegin(); ++i) {
-		if (techs[i].isIdle()) {
+	for (int i = 0; i != tech_num; ++i) {
+		if (techs[i].isIdle() && techs[i].loc == PAC) {
 			idleIndex = i;
 		}
 	}
@@ -539,7 +701,57 @@ void System::prescRedo() {
 		event_queue.push(transfer_event);
 	}
 
-	if (curr->size()) {
+	Location curr_loc = determineCurrentLocation(current_event->from);
+	if (curr_loc == PAY) {
+		if (pay_queue.size() && techs[current_event->from].loc != BRK) {
+			Prescription presc = pay_queue.front();
+			pay_queue.pop();
+			presc.pay_start = current_event->occur_time;
+			presc.pay_end = current_event->occur_time + presc.pay_duration;
+			techs[current_event->from].serve(presc);
+			techs[current_event->from].setNextFinishTime(presc.pay_end);
+
+			Event temp_event(presc.pay_end, 2, current_event->from);
+			event_queue.push(temp_event);
+		} else {
+			techs[current_event->from].setIdle(current_event->occur_time);
+			techs[current_event->from].setNextFinishTime(0);
+			accumulateBusyMinutes(techs[current_event->from].loc, techs[current_event->from].getCurrentBusyMinutes(), false);
+		}
+		curr = nullptr;
+		next = nullptr;
+		return;
+	} else if (curr_loc != CHE && curr_loc != FLX) {
+		if (curr && curr->size() && techs[current_event->from].loc != BRK) {
+			Prescription follow(curr->front());
+			curr->pop();
+			double event_time;
+			Location location = techs[current_event->from].loc;
+			if (location == REG) {
+				follow.reg_typ_start = current_event->occur_time;
+				follow.reg_typ_end = current_event->occur_time + follow.reg_typ_duration;
+				event_time = follow.reg_typ_end;
+			} else if (location == PAC) {
+				follow.pac_start = current_event->occur_time;
+				follow.pac_end = current_event->occur_time + follow.pac_duration;
+				event_time = follow.pac_end;
+			}
+			techs[current_event->from].serve(follow);
+			techs[current_event->from].setNextFinishTime(event_time);
+
+			Event new_transfer_event(event_time, 1, current_event->from);
+			event_queue.push(new_transfer_event);
+		} else {
+			techs[current_event->from].setIdle(current_event->occur_time);
+			techs[current_event->from].setNextFinishTime(0);
+			accumulateBusyMinutes(techs[current_event->from].loc, techs[current_event->from].getCurrentBusyMinutes(), false);
+		}
+		curr = nullptr;
+		next = nullptr;
+		return;
+	}
+
+	if (curr->size() && techs[current_event->from].loc != BRK) {
 		Prescription follow(curr->front());
 		curr->pop();
 		double event_time;
@@ -564,8 +776,10 @@ void System::prescRedo() {
 	} else {
 		techs[current_event->from].setIdle(current_event->occur_time);
 		techs[current_event->from].setNextFinishTime(0);
-		accumulateBusyMinutes(current_event->from, techs[current_event->from].getCurrentBusyMinutes(), false);
+		accumulateBusyMinutes(techs[current_event->from].loc, techs[current_event->from].getCurrentBusyMinutes(), false);
 	}
+	curr = nullptr;
+	next = nullptr;
 }
 
 void System::prescShift() {
@@ -576,7 +790,7 @@ void System::prescShift() {
 	next->push(*old_presc);
 
 
-	int idleIndex = getIdleTech(cheIndexBegin() - 1, current_event->occur_time);
+	int idleIndex = getIdleTech(PAC, current_event->occur_time);
 	if (idleIndex >= 0) {
 		Prescription direct(next->front());
 		next->pop();
@@ -605,7 +819,68 @@ void System::prescShift() {
 
 	techs[current_event->from].undoShift();
 
-	if (next->size()) {
+	Location curr_loc = determineCurrentLocation(current_event->from);
+	if (curr_loc == PAY) {
+		if (pay_queue.size() && techs[current_event->from].loc != BRK) {
+			Prescription presc = pay_queue.front();
+			pay_queue.pop();
+			presc.pay_start = current_event->occur_time;
+			presc.pay_end = current_event->occur_time + presc.pay_duration;
+			techs[current_event->from].serve(presc);
+			techs[current_event->from].setNextFinishTime(presc.pay_end);
+
+			Event temp_event(presc.pay_end, 2, current_event->from);
+			event_queue.push(temp_event);
+		} else {
+			techs[current_event->from].setIdle(current_event->occur_time);
+			techs[current_event->from].setNextFinishTime(0);
+			accumulateBusyMinutes(techs[current_event->from].loc, techs[current_event->from].getCurrentBusyMinutes(), false);
+		}
+		curr = nullptr;
+		next = nullptr;
+		return;
+	} else if (curr_loc != CHE && curr_loc != FLX) {
+		if (curr && curr->size() && techs[current_event->from].loc != BRK) {
+			Prescription follow(curr->front());
+			curr->pop();
+			double event_time;
+			bool isRedo = false;
+			Location location = techs[current_event->from].loc;
+			if (location == REG) {
+				follow.reg_typ_start = current_event->occur_time;
+				follow.reg_typ_end = current_event->occur_time + follow.reg_typ_duration;
+				event_time = follow.reg_typ_end;
+			} else if (location == PAC) {
+				follow.pac_start = current_event->occur_time;
+				follow.pac_end = current_event->occur_time + follow.pac_duration;
+				event_time = follow.pac_end;
+			} else if (location == FLX || location == CHE) {
+				follow.che_dis_start = current_event->occur_time;
+				follow.che_dis_end = current_event->occur_time + follow.che_dis_duration;
+				event_time = follow.che_dis_end;
+				isRedo = (Random::getRandom(UNIFORM, 100) < 2 && !follow.redoed) ? true : false;
+			}
+			techs[current_event->from].serve(follow);
+			techs[current_event->from].setNextFinishTime(event_time);
+
+			if (isRedo) {
+				Event new_redo_event(event_time, 3, current_event->from);
+				event_queue.push(new_redo_event);
+			} else {
+				Event new_transfer_event(event_time, 1, current_event->from);
+				event_queue.push(new_transfer_event);
+			}
+		} else {
+			techs[current_event->from].setIdle(current_event->occur_time);
+			techs[current_event->from].setNextFinishTime(0);
+			accumulateBusyMinutes(techs[current_event->from].loc, techs[current_event->from].getCurrentBusyMinutes(), false);
+		}
+		curr = nullptr;
+		next = nullptr;
+		return;
+	}
+
+	if (next->size() && techs[current_event->from].loc != BRK) {
 		Prescription follow(next->front());
 		next->pop();
 		double event_time;
@@ -622,19 +897,98 @@ void System::prescShift() {
 	} else {
 		techs[current_event->from].setIdle(current_event->occur_time);
 		techs[current_event->from].setNextFinishTime(0);
-		accumulateBusyMinutes(current_event->from, techs[current_event->from].getCurrentBusyMinutes(), true);
+		accumulateBusyMinutes(techs[current_event->from].loc, techs[current_event->from].getCurrentBusyMinutes(), true);
 	}
+	curr = nullptr;
+	next = nullptr;
 }
 
 void System::changeSchedule() {
-	if (current_event->tech_alloc) {
-		rescheduled = true;
-		this->reg_alloc = current_event->tech_alloc[0];
-		this->pac_alloc = current_event->tech_alloc[1];
-		this->flx_alloc = current_event->tech_alloc[2];
-		this->che_alloc = current_event->tech_alloc[3];
-		this->pay_alloc = current_event->tech_alloc[4];
-	} else {
-		printf("Error during reschedule!!!");
+	int idx = current_event->schedule_index;
+	rescheduled = true;
+	int re_tech_num = reg_alloc[idx] + pac_alloc[idx] + flx_alloc[idx] + che_alloc[idx] + pay_alloc[idx];
+
+	for (int i = 0; i < reg_alloc[idx]; ++i)
+		techs[i].reloc = REG;
+	for (int i = reg_alloc[idx]; i < reg_alloc[idx] + pac_alloc[idx]; ++i)
+		techs[i].reloc = PAC;
+	for (int i = reg_alloc[idx] + pac_alloc[idx]; i < reg_alloc[idx] + pac_alloc[idx] + flx_alloc[idx]; ++i)
+		techs[i].reloc = FLX;
+	for (int i = reg_alloc[idx] + pac_alloc[idx] + flx_alloc[idx]; i < reg_alloc[idx] + pac_alloc[idx] + flx_alloc[idx] + che_alloc[idx]; ++i)
+		techs[i].reloc = CHE;
+	for (int i = reg_alloc[idx] + pac_alloc[idx] + flx_alloc[idx] + che_alloc[idx]; i < re_tech_num; ++i)
+		techs[i].reloc = PAY;
+	for (int i = re_tech_num; i < tech_num; ++i) {
+		techs[i].reloc = BRK;
 	}
+
+	// if (display_helper) {
+	// 	for (int i = 0; i < tech_num; ++i) {
+	// 		std::string loc = "";
+	// 		if (techs[i].loc == REG)
+	// 			loc = "REG";
+	// 		else if (techs[i].loc == PAC)
+	// 			loc = "PAC";
+	// 		else if (techs[i].loc == FLX)
+	// 			loc = "FLX";
+	// 		else if (techs[i].loc == CHE)
+	// 			loc = "CHE";
+	// 		else if (techs[i].loc == PAY)
+	// 			loc = "PAY";
+	// 		else if (techs[i].loc == BRK)
+	// 			loc = "BRK";
+	// 		std::string reloc = "";
+	// 		if (techs[i].reloc == REG)
+	// 			reloc = "REG";
+	// 		else if (techs[i].reloc == PAC)
+	// 			reloc = "PAC";
+	// 		else if (techs[i].reloc == FLX)
+	// 			reloc = "FLX";
+	// 		else if (techs[i].reloc == CHE)
+	// 			reloc = "CHE";
+	// 		else if (techs[i].reloc == PAY)
+	// 			reloc = "PAY";
+	// 		else if (techs[i].reloc == BRK)
+	// 			reloc = "BRK";
+	// 		std::cout << "tech " << i << ": loc-" << loc << " reloc-" << reloc << " rescheduled-" << techs[i].rescheduled << std::endl;
+	// 	}
+	// 	std::cout << "===========" << std::endl;
+	// }
+
+	for (int i = 0; i < tech_num; ++i) {
+		if (techs[i].isIdle()) {
+			techs[i].loc = techs[i].reloc;
+			techs[i].rescheduled = true;
+		}
+	}
+
+	// for (int i = 0; i < tech_num; ++i) {
+	// 	std::string loc = "";
+	// 	if (techs[i].loc == REG)
+	// 		loc = "REG";
+	// 	else if (techs[i].loc == PAC)
+	// 		loc = "PAC";
+	// 	else if (techs[i].loc == FLX)
+	// 		loc = "FLX";
+	// 	else if (techs[i].loc == CHE)
+	// 		loc = "CHE";
+	// 	else if (techs[i].loc == PAY)
+	// 		loc = "PAY";
+	// 	else if (techs[i].loc == BRK)
+	// 		loc = "BRK";
+	// 	std::string reloc = "";
+	// 	if (techs[i].reloc == REG)
+	// 		reloc = "REG";
+	// 	else if (techs[i].reloc == PAC)
+	// 		reloc = "PAC";
+	// 	else if (techs[i].reloc == FLX)
+	// 		reloc = "FLX";
+	// 	else if (techs[i].reloc == CHE)
+	// 		reloc = "CHE";
+	// 	else if (techs[i].reloc == PAY)
+	// 		reloc = "PAY";
+	// 	else if (techs[i].reloc == BRK)
+	// 		reloc = "BRK";
+	// 	std::cout << "tech " << i << ": loc-" << loc << " reloc-" << reloc << " rescheduled-" << techs[i].rescheduled << std::endl;
+	// }
 }

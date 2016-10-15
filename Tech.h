@@ -4,6 +4,15 @@
 #include "Prescription.h"
 #include <memory>
 
+enum Location {
+	REG,
+	PAC,
+	FLX,
+	CHE,
+	PAY,
+	BRK,
+};
+
 enum Status {
 	SERVICE,
 	IDLE,
@@ -11,6 +20,10 @@ enum Status {
 
 class Tech {
 public:
+	Location loc;
+	Location reloc;
+	bool rescheduled = false;
+
 	inline Tech() {
 		status = IDLE;
 	}
@@ -45,26 +58,6 @@ public:
 
 	inline int getIndex() {
 		return index;
-	}
-
-	inline double getBreakBegin() {
-		return break_begin;
-	}
-
-	inline void setBreakBegin(double time) {
-		break_begin = time;
-	}
-
-	inline double getBreakEnd() {
-		return break_end;
-	}
-
-	inline void setBreakEnd(double time) {
-		break_end = time;
-	}
-
-	inline bool isBreak(double time) {
-		return time >= break_begin && time <= break_end;
 	}
 
 	inline Prescription getPrescription() {
@@ -137,9 +130,6 @@ private:
 	bool shift = false;
 
 	double next_finish_time = 0;
-
-	double break_begin = -1;
-	double break_end = -1;
 
 	double busy_time = 0;
 	double current_busy_minutes = 0;
