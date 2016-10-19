@@ -160,11 +160,11 @@ void System::simulate(int simulate_num) {
 	// printf("\n");
 
 	calAvgUtilityRate(simulate_num);
-	printf("Reg:%f Pac:%f Che:%f Pay:%f\n",
-		avg_reg_utility_rate,
-		avg_pac_utility_rate,
-		avg_che_utility_rate,
-		avg_pay_utility_rate);
+	// printf("Reg:%f Pac:%f Che:%f Pay:%f\n",
+	// 	avg_reg_utility_rate,
+	// 	avg_pac_utility_rate,
+	// 	avg_che_utility_rate,
+	// 	avg_pay_utility_rate);
 	resetAvgUtilityRate();
 	resetUtilityRate();
 
