@@ -1,0 +1,3372 @@
+No.0: REG 0.000 - 4.409 - 4.409
+tech 0 busy at 0.000 for 0 when 0
+No.1: REG 1.759 - 3.122 - 1.363
+tech 1 busy at 1.759 for 1 when 0
+No.1: PAC 3.122 - 7.747 - 4.625 in transfer from 1 to 2
+tech 2 busy at 3.122 for 1 when 0
+tech 1 idle at 3.122 when 0
+No.0: PAC 4.409 - 6.404 - 1.995 in transfer from 0 to 3
+tech 3 busy at 4.409 for 0 when 0
+tech 0 idle at 4.409 when 0
+No.0: CHE 6.404 - 11.257 - 4.853 in transfer from 3 to 6
+tech 6 busy at 6.404 for 0 when 0
+tech 3 idle at 6.404 when 0
+No.1: CHE 7.747 - 10.243 - 2.495 in transfer from 2 to 7
+tech 7 busy at 7.747 for 1 when 0
+tech 2 idle at 7.747 when 0
+No.2: REG 8.225 - 10.268 - 2.043
+tech 0 busy at 8.225 for 2 when 0
+No.3: REG 9.476 - 11.895 - 2.420
+tech 1 busy at 9.476 for 3 when 0
+No.1: PAY 10.243 - 12.914 - 2.671 in transfer from 7 to 10
+tech 10 busy at 10.243 for 1 when 0
+tech 7 idle at 10.243 when 0
+No.2: PAC 10.268 - 12.364 - 2.096 in transfer from 0 to 2
+tech 2 busy at 10.268 for 2 when 0
+tech 0 idle at 10.268 when 0
+No.4: REG 10.631 - 11.263 - 0.632
+tech 0 busy at 10.631 for 4 when 0
+tech 6 idle at 11.257 when 0
+No.4: PAC 11.263 - 11.811 - 0.547 in transfer from 0 to 3
+tech 3 busy at 11.263 for 4 when 0
+tech 0 idle at 11.263 when 0
+No.4: CHE 11.811 - 13.331 - 1.520 in transfer from 3 to 6
+tech 6 busy at 11.811 for 4 when 0
+tech 3 idle at 11.811 when 0
+No.3: PAC 11.895 - 17.371 - 5.475 in transfer from 1 to 3
+tech 3 busy at 11.895 for 3 when 0
+tech 1 idle at 11.895 when 0
+No.2: CHE 12.364 - 13.556 - 1.193 in transfer from 2 to 7
+tech 7 busy at 12.364 for 2 when 0
+tech 2 idle at 12.364 when 0
+No.1: LEAVE 12.914 in leave
+No.0: PAY 12.914 - 13.249 - 0.335 in leave2
+tech 10 busy at 12.914 for 0 when 0
+No.0: LEAVE 13.249 in leave
+tech 10 idle at 13.249 when 0
+No.4: PAY 13.331 - 14.944 - 1.613 in transfer from 6 to 10
+tech 10 busy at 13.331 for 4 when 0
+tech 6 idle at 13.331 when 0
+tech 7 idle at 13.556 when 0
+No.5: REG 13.747 - 14.579 - 0.832
+tech 0 busy at 13.747 for 5 when 0
+No.6: REG 14.378 - 15.964 - 1.585
+tech 1 busy at 14.378 for 6 when 0
+No.5: PAC 14.579 - 19.177 - 4.597 in transfer from 0 to 2
+tech 2 busy at 14.579 for 5 when 0
+tech 0 idle at 14.579 when 0
+No.4: LEAVE 14.944 in leave
+No.2: PAY 14.944 - 20.188 - 5.244 in leave2
+tech 10 busy at 14.944 for 2 when 0
+No.7: REG 15.744 - 20.920 - 5.175
+tech 0 busy at 15.744 for 7 when 0
+No.6: PAC 15.964 - 20.984 - 5.021 in transfer from 1 to 4
+tech 4 busy at 15.964 for 6 when 0
+tech 1 idle at 15.964 when 0
+No.3: CHE 17.371 - 19.567 - 2.196 in transfer from 3 to 6
+tech 6 busy at 17.371 for 3 when 0
+tech 3 idle at 17.371 when 0
+No.5: CHE 19.177 - 20.755 - 1.578 in transfer from 2 to 7
+tech 7 busy at 19.177 for 5 when 0
+tech 2 idle at 19.177 when 0
+tech 6 idle at 19.567 when 0
+No.2: LEAVE 20.188 in leave
+No.3: PAY 20.188 - 20.560 - 0.373 in leave2
+tech 10 busy at 20.188 for 3 when 0
+No.3: LEAVE 20.560 in leave
+tech 10 idle at 20.560 when 0
+No.8: REG 20.579 - 21.241 - 0.662
+tech 1 busy at 20.579 for 8 when 0
+No.5: PAY 20.755 - 21.737 - 0.982 in transfer from 7 to 10
+tech 10 busy at 20.755 for 5 when 0
+tech 7 idle at 20.755 when 0
+No.7: PAC 20.920 - 27.775 - 6.855 in transfer from 0 to 2
+tech 2 busy at 20.920 for 7 when 0
+tech 0 idle at 20.920 when 0
+No.6: CHE 20.984 - 24.814 - 3.830 in transfer from 4 to 6
+tech 6 busy at 20.984 for 6 when 0
+tech 4 idle at 20.984 when 0
+No.8: PAC 21.241 - 24.360 - 3.119 in transfer from 1 to 3
+tech 3 busy at 21.241 for 8 when 0
+tech 1 idle at 21.241 when 0
+No.5: LEAVE 21.737 in leave
+tech 10 idle at 21.737 when 0
+No.9: REG 23.906 - 26.417 - 2.511
+tech 0 busy at 23.906 for 9 when 0
+No.8: CHE 24.360 - 25.664 - 1.304 in transfer from 3 to 7
+tech 7 busy at 24.360 for 8 when 0
+tech 3 idle at 24.360 when 0
+No.6: PAY 24.814 - 26.335 - 1.521 in transfer from 6 to 10
+tech 10 busy at 24.814 for 6 when 0
+tech 6 idle at 24.814 when 0
+tech 7 idle at 25.664 when 0
+No.6: LEAVE 26.335 in leave
+No.8: PAY 26.335 - 27.691 - 1.357 in leave2
+tech 10 busy at 26.335 for 8 when 0
+No.9: PAC 26.417 - 27.791 - 1.374 in transfer from 0 to 3
+tech 3 busy at 26.417 for 9 when 0
+tech 0 idle at 26.417 when 0
+No.8: LEAVE 27.691 in leave
+tech 10 idle at 27.691 when 0
+No.10: REG 27.760 - 29.884 - 2.123
+tech 0 busy at 27.760 for 10 when 0
+No.7: CHE 27.775 - 30.109 - 2.334 in transfer from 2 to 6
+tech 6 busy at 27.775 for 7 when 0
+tech 2 idle at 27.775 when 0
+No.9: CHE 27.791 - 28.895 - 1.105 in transfer from 3 to 7
+tech 7 busy at 27.791 for 9 when 0
+tech 3 idle at 27.791 when 0
+No.9: PAY 28.895 - 29.789 - 0.894 in transfer from 7 to 10
+tech 10 busy at 28.895 for 9 when 0
+tech 7 idle at 28.895 when 0
+No.9: LEAVE 29.789 in leave
+tech 10 idle at 29.789 when 0
+No.10: PAC 29.884 - 33.057 - 3.173 in transfer from 0 to 2
+tech 2 busy at 29.884 for 10 when 0
+tech 0 idle at 29.884 when 0
+No.7: PAY 30.109 - 30.419 - 0.310 in transfer from 6 to 10
+tech 10 busy at 30.109 for 7 when 0
+tech 6 idle at 30.109 when 0
+No.7: LEAVE 30.419 in leave
+tech 10 idle at 30.419 when 0
+No.11: REG 31.229 - 40.085 - 8.856
+tech 0 busy at 31.229 for 11 when 0
+No.10: CHE 33.057 - 39.573 - 6.516 in transfer from 2 to 6
+tech 6 busy at 33.057 for 10 when 0
+tech 2 idle at 33.057 when 0
+No.12: REG 33.427 - 42.299 - 8.872
+tech 1 busy at 33.427 for 12 when 0
+No.10: PAY 39.573 - 40.339 - 0.766 in transfer from 6 to 10
+tech 10 busy at 39.573 for 10 when 0
+tech 6 idle at 39.573 when 0
+No.11: PAC 40.085 - 43.652 - 3.567 in transfer from 0 to 2
+tech 2 busy at 40.085 for 11 when 0
+No.13: REG 40.085 - 41.783 - 1.698 in transfer3 from 0
+tech 0 busy at 40.085 for 13 when 0
+No.10: LEAVE 40.339 in leave
+tech 10 idle at 40.339 when 0
+No.13: PAC 41.783 - 47.758 - 5.975 in transfer from 0 to 3
+tech 3 busy at 41.783 for 13 when 0
+No.14: REG 41.783 - 42.389 - 0.606 in transfer3 from 0
+tech 0 busy at 41.783 for 14 when 0
+No.12: PAC 42.299 - 44.430 - 2.131 in transfer from 1 to 4
+tech 4 busy at 42.299 for 12 when 0
+No.15: REG 42.299 - 42.866 - 0.567 in transfer3 from 1
+tech 1 busy at 42.299 for 15 when 0
+No.14: PAC 42.389 - 46.456 - 4.067 in transfer from 0 to 5
+tech 5 busy at 42.389 for 14 when 0
+No.16: REG 42.389 - 45.981 - 3.592 in transfer3 from 0
+tech 0 busy at 42.389 for 16 when 0
+No.17: REG 42.866 - 44.449 - 1.583 in transfer3 from 1
+tech 1 busy at 42.866 for 17 when 0
+No.11: CHE 43.652 - 48.286 - 4.634 in transfer from 2 to 6
+tech 6 busy at 43.652 for 11 when 0
+No.15: PAC 43.652 - 44.603 - 0.952 in transfer3 from 2
+tech 2 busy at 43.652 for 15 when 0
+No.12: CHE 44.430 - 47.493 - 3.063 in transfer from 4 to 7
+tech 7 busy at 44.430 for 12 when 0
+tech 4 idle at 44.430 when 0
+No.17: PAC 44.449 - 48.617 - 4.168 in transfer from 1 to 4
+tech 4 busy at 44.449 for 17 when 0
+tech 1 idle at 44.449 when 0
+No.15: CHE 44.603 - 50.785 - 6.182 in transfer from 2 to 8
+tech 8 busy at 44.603 for 15 when 0
+tech 2 idle at 44.603 when 0
+No.18: REG 45.313 - 46.496 - 1.183
+tech 1 busy at 45.313 for 18 when 0
+No.16: PAC 45.981 - 46.957 - 0.975 in transfer from 0 to 2
+tech 2 busy at 45.981 for 16 when 0
+tech 0 idle at 45.981 when 0
+No.19: REG 45.996 - 49.347 - 3.352
+tech 0 busy at 45.996 for 19 when 0
+No.14: CHE 46.456 - 53.811 - 7.355 in transfer from 5 to 9
+tech 9 busy at 46.456 for 14 when 0
+tech 5 idle at 46.456 when 0
+No.18: PAC 46.496 - 47.534 - 1.038 in transfer from 1 to 5
+tech 5 busy at 46.496 for 18 when 0
+tech 1 idle at 46.496 when 0
+tech 2 idle at 46.957 when 0
+No.20: REG 47.337 - 52.882 - 5.544
+tech 1 busy at 47.337 for 20 when 0
+No.12: PAY 47.493 - 47.852 - 0.358 in transfer from 7 to 10
+tech 10 busy at 47.493 for 12 when 0
+No.16: CHE 47.493 - 55.319 - 7.826 in transfer3 from 7
+tech 7 busy at 47.493 for 16 when 0
+tech 5 idle at 47.534 when 0
+tech 3 idle at 47.758 when 0
+No.12: LEAVE 47.852 in leave
+tech 10 idle at 47.852 when 0
+No.11: PAY 48.286 - 49.149 - 0.862 in transfer from 6 to 10
+tech 10 busy at 48.286 for 11 when 0
+No.18: CHE 48.286 - 57.824 - 9.537 in transfer3 from 6
+tech 6 busy at 48.286 for 18 when 0
+tech 4 idle at 48.617 when 0
+No.11: LEAVE 49.149 in leave
+tech 10 idle at 49.149 when 0
+No.19: PAC 49.347 - 50.596 - 1.249 in transfer from 0 to 2
+tech 2 busy at 49.347 for 19 when 0
+tech 0 idle at 49.347 when 0
+No.21: REG 49.963 - 50.320 - 0.357
+tech 0 busy at 49.963 for 21 when 0
+No.21: PAC 50.320 - 51.723 - 1.403 in transfer from 0 to 3
+tech 3 busy at 50.320 for 21 when 0
+tech 0 idle at 50.320 when 0
+tech 2 idle at 50.596 when 0
+No.15: PAY 50.785 - 51.923 - 1.138 in transfer from 8 to 10
+tech 10 busy at 50.785 for 15 when 0
+No.13: CHE 50.785 - 53.240 - 2.455 in transfer3 from 8
+tech 8 busy at 50.785 for 13 when 0
+No.22: REG 51.588 - 55.988 - 4.400
+tech 0 busy at 51.588 for 22 when 0
+tech 3 idle at 51.723 when 0
+No.15: LEAVE 51.923 in leave
+tech 10 idle at 51.923 when 0
+No.20: PAC 52.882 - 54.004 - 1.122 in transfer from 1 to 2
+tech 2 busy at 52.882 for 20 when 0
+tech 1 idle at 52.882 when 0
+No.13: PAY 53.240 - 55.265 - 2.025 in transfer from 8 to 10
+tech 10 busy at 53.240 for 13 when 0
+No.17: CHE 53.240 - 62.681 - 9.441 in transfer3 from 8
+tech 8 busy at 53.240 for 17 when 0
+No.23: REG 53.683 - 55.014 - 1.330
+tech 1 busy at 53.683 for 23 when 0
+No.19: CHE 53.811 - 56.511 - 2.700 in transfer3 from 9
+tech 9 busy at 53.811 for 19 when 0
+tech 2 idle at 54.004 when 0
+No.23: PAC 55.014 - 63.535 - 8.521 in transfer from 1 to 2
+tech 2 busy at 55.014 for 23 when 0
+tech 1 idle at 55.014 when 0
+No.13: LEAVE 55.265 in leave
+No.14: PAY 55.265 - 59.464 - 4.200 in leave2
+tech 10 busy at 55.265 for 14 when 0
+No.21: CHE 55.319 - 60.466 - 5.147 in transfer3 from 7
+tech 7 busy at 55.319 for 21 when 0
+No.22: PAC 55.988 - 56.684 - 0.696 in transfer from 0 to 3
+tech 3 busy at 55.988 for 22 when 0
+tech 0 idle at 55.988 when 0
+No.20: CHE 56.511 - 61.157 - 4.645 in transfer3 from 9
+tech 9 busy at 56.511 for 20 when 0
+tech 3 idle at 56.684 when 0
+No.22: CHE 57.824 - 66.260 - 8.436 in transfer3 from 6
+tech 6 busy at 57.824 for 22 when 0
+No.24: REG 58.192 - 66.916 - 8.723
+tech 0 busy at 58.192 for 24 when 0
+No.14: LEAVE 59.464 in leave
+No.16: PAY 59.464 - 60.988 - 1.524 in leave2
+tech 10 busy at 59.464 for 16 when 0
+Time 60.000000: 8.770678 140.330848 16
+8.770678 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
+tech 7 idle at 60.466 when 0
+No.16: LEAVE 60.988 in leave
+No.19: PAY 60.988 - 66.117 - 5.129 in leave2
+tech 10 busy at 60.988 for 19 when 0
+tech 9 idle at 61.157 when 0
+No.25: REG 61.171 - 62.533 - 1.362
+tech 1 busy at 61.171 for 25 when 0
+No.25: PAC 62.533 - 64.792 - 2.260 in transfer from 1 to 3
+tech 3 busy at 62.533 for 25 when 0
+No.26: REG 62.533 - 63.693 - 1.160 in transfer3 from 1
+tech 1 busy at 62.533 for 26 when 0
+tech 8 idle at 62.681 when 0
+No.23: CHE 63.535 - 66.223 - 2.688 in transfer from 2 to 7
+tech 7 busy at 63.535 for 23 when 0
+tech 2 idle at 63.535 when 0
+No.26: PAC 63.693 - 65.374 - 1.681 in transfer from 1 to 2
+tech 2 busy at 63.693 for 26 when 0
+tech 1 idle at 63.693 when 0
+No.27: REG 64.221 - 65.158 - 0.937
+tech 1 busy at 64.221 for 27 when 0
+No.25: CHE 64.792 - 65.128 - 0.335 in transfer from 3 to 8
+tech 8 busy at 64.792 for 25 when 0
+tech 3 idle at 64.792 when 0
+tech 8 idle at 65.128 when 0
+No.27: PAC 65.158 - 67.336 - 2.178 in transfer from 1 to 3
+tech 3 busy at 65.158 for 27 when 0
+No.28: REG 65.158 - 66.558 - 1.400 in transfer3 from 1
+tech 1 busy at 65.158 for 28 when 0
+No.26: CHE 65.374 - 67.396 - 2.023 in transfer from 2 to 8
+tech 8 busy at 65.374 for 26 when 0
+tech 2 idle at 65.374 when 0
+No.19: LEAVE 66.117 in leave
+No.18: PAY 66.117 - 68.234 - 2.117 in leave2
+tech 10 busy at 66.117 for 18 when 0
+tech 7 idle at 66.223 when 0
+tech 6 idle at 66.260 when 0
+No.28: PAC 66.558 - 67.080 - 0.522 in transfer from 1 to 2
+tech 2 busy at 66.558 for 28 when 0
+No.29: REG 66.558 - 69.726 - 3.168 in transfer3 from 1
+tech 1 busy at 66.558 for 29 when 0
+No.24: PAC 66.916 - 67.697 - 0.781 in transfer from 0 to 4
+tech 4 busy at 66.916 for 24 when 0
+No.30: REG 66.916 - 67.327 - 0.411 in transfer3 from 0
+tech 0 busy at 66.916 for 30 when 0
+No.28: CHE 67.080 - 68.730 - 1.650 in transfer from 2 to 6
+tech 6 busy at 67.080 for 28 when 0
+tech 2 idle at 67.080 when 0
+No.30: PAC 67.327 - 67.623 - 0.296 in transfer from 0 to 2
+tech 2 busy at 67.327 for 30 when 0
+tech 0 idle at 67.327 when 0
+No.27: CHE 67.336 - 71.174 - 3.838 in transfer from 3 to 7
+tech 7 busy at 67.336 for 27 when 0
+tech 3 idle at 67.336 when 0
+tech 8 idle at 67.396 when 0
+No.30: CHE 67.623 - 68.524 - 0.901 in transfer from 2 to 8
+tech 8 busy at 67.623 for 30 when 0
+tech 2 idle at 67.623 when 0
+No.24: CHE 67.697 - 69.115 - 1.418 in transfer from 4 to 9
+tech 9 busy at 67.697 for 24 when 0
+tech 4 idle at 67.697 when 0
+No.18: LEAVE 68.234 in leave
+No.21: PAY 68.234 - 71.501 - 3.267 in leave2
+tech 10 busy at 68.234 for 21 when 0
+tech 8 idle at 68.524 when 0
+tech 6 idle at 68.730 when 0
+tech 9 idle at 69.115 when 0
+No.29: PAC 69.726 - 70.561 - 0.835 in transfer from 1 to 2
+tech 2 busy at 69.726 for 29 when 0
+tech 1 idle at 69.726 when 0
+No.31: REG 69.787 - 70.538 - 0.751
+tech 0 busy at 69.787 for 31 when 0
+No.31: PAC 70.538 - 74.507 - 3.969 in transfer from 0 to 3
+tech 3 busy at 70.538 for 31 when 0
+tech 0 idle at 70.538 when 0
+No.29: CHE 70.561 - 75.815 - 5.254 in transfer from 2 to 6
+tech 6 busy at 70.561 for 29 when 0
+tech 2 idle at 70.561 when 0
+No.32: REG 71.032 - 72.532 - 1.501
+tech 0 busy at 71.032 for 32 when 0
+tech 7 idle at 71.174 when 0
+No.21: LEAVE 71.501 in leave
+No.20: PAY 71.501 - 72.323 - 0.823 in leave2
+tech 10 busy at 71.501 for 20 when 0
+No.33: REG 71.987 - 72.130 - 0.143
+tech 1 busy at 71.987 for 33 when 0
+No.33: PAC 72.130 - 72.590 - 0.460 in transfer from 1 to 2
+tech 2 busy at 72.130 for 33 when 0
+tech 1 idle at 72.130 when 0
+No.34: REG 72.228 - 74.674 - 2.445
+tech 1 busy at 72.228 for 34 when 0
+No.20: LEAVE 72.323 in leave
+No.17: PAY 72.323 - 73.363 - 1.039 in leave2
+tech 10 busy at 72.323 for 17 when 0
+No.32: PAC 72.532 - 73.704 - 1.172 in transfer from 0 to 4
+tech 4 busy at 72.532 for 32 when 0
+tech 0 idle at 72.532 when 0
+No.33: CHE 72.590 - 76.404 - 3.814 in transfer from 2 to 7
+tech 7 busy at 72.590 for 33 when 0
+tech 2 idle at 72.590 when 0
+No.35: REG 72.805 - 73.212 - 0.407
+tech 0 busy at 72.805 for 35 when 0
+No.35: PAC 73.212 - 74.718 - 1.506 in transfer from 0 to 2
+tech 2 busy at 73.212 for 35 when 0
+tech 0 idle at 73.212 when 0
+No.36: REG 73.228 - 73.764 - 0.537
+tech 0 busy at 73.228 for 36 when 0
+No.17: LEAVE 73.363 in leave
+No.25: PAY 73.363 - 74.401 - 1.038 in leave2
+tech 10 busy at 73.363 for 25 when 0
+No.32: CHE 73.704 - 76.185 - 2.480 in transfer from 4 to 8
+tech 8 busy at 73.704 for 32 when 0
+tech 4 idle at 73.704 when 0
+No.36: PAC 73.764 - 78.468 - 4.703 in transfer from 0 to 4
+tech 4 busy at 73.764 for 36 when 0
+tech 0 idle at 73.764 when 0
+No.25: LEAVE 74.401 in leave
+No.23: PAY 74.401 - 82.423 - 8.022 in leave2
+tech 10 busy at 74.401 for 23 when 0
+No.31: CHE 74.507 - 75.422 - 0.915 in transfer from 3 to 9
+tech 9 busy at 74.507 for 31 when 0
+tech 3 idle at 74.507 when 0
+No.34: PAC 74.674 - 75.227 - 0.553 in transfer from 1 to 3
+tech 3 busy at 74.674 for 34 when 0
+tech 1 idle at 74.674 when 0
+tech 2 idle at 74.718 when 0
+tech 3 idle at 75.227 when 0
+No.35: CHE 75.422 - 76.427 - 1.004 in transfer3 from 9
+tech 9 busy at 75.422 for 35 when 0
+No.34: CHE 75.815 - 77.233 - 1.418 in transfer3 from 6
+tech 6 busy at 75.815 for 34 when 0
+tech 8 idle at 76.185 when 0
+tech 7 idle at 76.404 when 0
+tech 9 idle at 76.427 when 0
+No.37: REG 76.894 - 78.193 - 1.299
+tech 0 busy at 76.894 for 37 when 0
+tech 6 idle at 77.233 when 0
+No.38: REG 77.572 - 78.492 - 0.920
+tech 1 busy at 77.572 for 38 when 0
+No.37: PAC 78.193 - 79.839 - 1.646 in transfer from 0 to 2
+tech 2 busy at 78.193 for 37 when 0
+tech 0 idle at 78.193 when 0
+No.36: CHE 78.468 - 82.714 - 4.246 in transfer from 4 to 6
+tech 6 busy at 78.468 for 36 when 0
+tech 4 idle at 78.468 when 0
+No.38: PAC 78.492 - 79.503 - 1.011 in transfer from 1 to 3
+tech 3 busy at 78.492 for 38 when 0
+tech 1 idle at 78.492 when 0
+No.38: CHE 79.503 - 83.030 - 3.527 in transfer from 3 to 7
+tech 7 busy at 79.503 for 38 when 0
+tech 3 idle at 79.503 when 0
+No.37: CHE 79.839 - 81.972 - 2.133 in transfer from 2 to 8
+tech 8 busy at 79.839 for 37 when 0
+tech 2 idle at 79.839 when 0
+No.39: REG 80.315 - 80.727 - 0.412
+tech 0 busy at 80.315 for 39 when 0
+No.39: PAC 80.727 - 81.397 - 0.670 in transfer from 0 to 2
+tech 2 busy at 80.727 for 39 when 0
+tech 0 idle at 80.727 when 0
+No.39: CHE 81.397 - 82.506 - 1.109 in transfer from 2 to 9
+tech 9 busy at 81.397 for 39 when 0
+tech 2 idle at 81.397 when 0
+tech 8 idle at 81.972 when 0
+No.23: LEAVE 82.423 in leave
+No.22: PAY 82.423 - 85.521 - 3.098 in leave2
+tech 10 busy at 82.423 for 22 when 0
+No.40: REG 82.462 - 83.145 - 0.684
+tech 0 busy at 82.462 for 40 when 0
+tech 9 idle at 82.506 when 0
+tech 6 idle at 82.714 when 0
+tech 7 idle at 83.030 when 0
+No.40: PAC 83.145 - 85.219 - 2.074 in transfer from 0 to 2
+tech 2 busy at 83.145 for 40 when 0
+tech 0 idle at 83.145 when 0
+No.41: REG 84.990 - 85.134 - 0.145
+tech 0 busy at 84.990 for 41 when 0
+No.41: PAC 85.134 - 85.669 - 0.535 in transfer from 0 to 3
+tech 3 busy at 85.134 for 41 when 0
+tech 0 idle at 85.134 when 0
+No.40: CHE 85.219 - 88.267 - 3.048 in transfer from 2 to 6
+tech 6 busy at 85.219 for 40 when 0
+tech 2 idle at 85.219 when 0
+No.22: LEAVE 85.521 in leave
+No.26: PAY 85.521 - 85.708 - 0.188 in leave2
+tech 10 busy at 85.521 for 26 when 0
+No.41: CHE 85.669 - 86.644 - 0.975 in transfer from 3 to 7
+tech 7 busy at 85.669 for 41 when 0
+tech 3 idle at 85.669 when 0
+No.26: LEAVE 85.708 in leave
+No.30: PAY 85.708 - 86.236 - 0.527 in leave2
+tech 10 busy at 85.708 for 30 when 0
+No.30: LEAVE 86.236 in leave
+No.28: PAY 86.236 - 87.287 - 1.051 in leave2
+tech 10 busy at 86.236 for 28 when 0
+tech 7 idle at 86.644 when 0
+No.28: LEAVE 87.287 in leave
+No.24: PAY 87.287 - 87.645 - 0.358 in leave2
+tech 10 busy at 87.287 for 24 when 0
+No.24: LEAVE 87.645 in leave
+No.27: PAY 87.645 - 89.697 - 2.052 in leave2
+tech 10 busy at 87.645 for 27 when 0
+No.42: REG 88.101 - 91.328 - 3.227
+tech 0 busy at 88.101 for 42 when 0
+tech 6 idle at 88.267 when 0
+No.43: REG 88.876 - 89.934 - 1.058
+tech 1 busy at 88.876 for 43 when 0
+No.27: LEAVE 89.697 in leave
+No.31: PAY 89.697 - 92.333 - 2.636 in leave2
+tech 10 busy at 89.697 for 31 when 0
+No.43: PAC 89.934 - 90.407 - 0.473 in transfer from 1 to 2
+tech 2 busy at 89.934 for 43 when 0
+tech 1 idle at 89.934 when 0
+No.43: CHE 90.407 - 93.783 - 3.376 in transfer from 2 to 6
+tech 6 busy at 90.407 for 43 when 0
+tech 2 idle at 90.407 when 0
+No.42: PAC 91.328 - 93.978 - 2.650 in transfer from 0 to 2
+tech 2 busy at 91.328 for 42 when 0
+tech 0 idle at 91.328 when 0
+No.31: LEAVE 92.333 in leave
+No.29: PAY 92.333 - 93.162 - 0.829 in leave2
+tech 10 busy at 92.333 for 29 when 0
+No.29: LEAVE 93.162 in leave
+No.32: PAY 93.162 - 95.334 - 2.173 in leave2
+tech 10 busy at 93.162 for 32 when 0
+No.44: REG 93.501 - 94.167 - 0.665
+tech 0 busy at 93.501 for 44 when 0
+tech 6 idle at 93.783 when 0
+No.42: CHE 93.978 - 94.402 - 0.425 in transfer from 2 to 6
+tech 6 busy at 93.978 for 42 when 0
+tech 2 idle at 93.978 when 0
+No.44: PAC 94.167 - 94.487 - 0.320 in transfer from 0 to 2
+tech 2 busy at 94.167 for 44 when 0
+tech 0 idle at 94.167 when 0
+tech 6 idle at 94.402 when 0
+No.44: CHE 94.487 - 99.450 - 4.964 in transfer from 2 to 6
+tech 6 busy at 94.487 for 44 when 0
+tech 2 idle at 94.487 when 0
+No.45: REG 94.923 - 98.849 - 3.926
+tech 0 busy at 94.923 for 45 when 0
+No.32: LEAVE 95.334 in leave
+No.33: PAY 95.334 - 96.238 - 0.904 in leave2
+tech 10 busy at 95.334 for 33 when 0
+No.33: LEAVE 96.238 in leave
+No.35: PAY 96.238 - 96.385 - 0.147 in leave2
+tech 10 busy at 96.238 for 35 when 0
+No.35: LEAVE 96.385 in leave
+No.34: PAY 96.385 - 98.340 - 1.955 in leave2
+tech 10 busy at 96.385 for 34 when 0
+No.46: REG 96.898 - 97.754 - 0.856
+tech 1 busy at 96.898 for 46 when 0
+No.46: PAC 97.754 - 98.556 - 0.802 in transfer from 1 to 2
+tech 2 busy at 97.754 for 46 when 0
+tech 1 idle at 97.754 when 0
+No.47: REG 98.154 - 98.921 - 0.766
+tech 1 busy at 98.154 for 47 when 0
+No.34: LEAVE 98.340 in leave
+No.37: PAY 98.340 - 100.588 - 2.248 in leave2
+tech 10 busy at 98.340 for 37 when 0
+No.46: CHE 98.556 - 101.258 - 2.702 in transfer from 2 to 7
+tech 7 busy at 98.556 for 46 when 0
+tech 2 idle at 98.556 when 0
+No.45: PAC 98.849 - 101.026 - 2.177 in transfer from 0 to 2
+tech 2 busy at 98.849 for 45 when 0
+tech 0 idle at 98.849 when 0
+No.47: PAC 98.921 - 101.156 - 2.235 in transfer from 1 to 3
+tech 3 busy at 98.921 for 47 when 0
+tech 1 idle at 98.921 when 0
+tech 6 idle at 99.450 when 0
+No.48: REG 100.071 - 100.749 - 0.677
+tech 0 busy at 100.071 for 48 when 0
+No.37: LEAVE 100.588 in leave
+No.39: PAY 100.588 - 100.899 - 0.311 in leave2
+tech 10 busy at 100.588 for 39 when 0
+No.48: PAC 100.749 - 101.054 - 0.305 in transfer from 0 to 4
+tech 4 busy at 100.749 for 48 when 0
+tech 0 idle at 100.749 when 0
+No.49: REG 100.762 - 106.044 - 5.282
+tech 0 busy at 100.762 for 49 when 0
+No.39: LEAVE 100.899 in leave
+No.36: PAY 100.899 - 101.919 - 1.020 in leave2
+tech 10 busy at 100.899 for 36 when 0
+No.45: CHE 101.026 - 102.611 - 1.585 in transfer from 2 to 6
+tech 6 busy at 101.026 for 45 when 0
+tech 2 idle at 101.026 when 0
+No.48: CHE 101.054 - 101.560 - 0.506 in transfer from 4 to 8
+tech 8 busy at 101.054 for 48 when 0
+tech 4 idle at 101.054 when 0
+No.47: CHE 101.156 - 102.105 - 0.949 in transfer from 3 to 9
+tech 9 busy at 101.156 for 47 when 0
+tech 3 idle at 101.156 when 0
+tech 7 idle at 101.258 when 0
+tech 8 idle at 101.560 when 0
+No.36: LEAVE 101.919 in leave
+No.38: PAY 101.919 - 102.431 - 0.512 in leave2
+tech 10 busy at 101.919 for 38 when 0
+tech 9 idle at 102.105 when 0
+No.38: LEAVE 102.431 in leave
+No.41: PAY 102.431 - 102.755 - 0.324 in leave2
+tech 10 busy at 102.431 for 41 when 0
+tech 6 idle at 102.611 when 0
+No.41: LEAVE 102.755 in leave
+No.40: PAY 102.755 - 103.515 - 0.760 in leave2
+tech 10 busy at 102.755 for 40 when 0
+No.40: LEAVE 103.515 in leave
+No.43: PAY 103.515 - 105.524 - 2.009 in leave2
+tech 10 busy at 103.515 for 43 when 0
+No.50: REG 104.313 - 104.472 - 0.159
+tech 1 busy at 104.313 for 50 when 0
+No.50: PAC 104.472 - 104.625 - 0.153 in transfer from 1 to 2
+tech 2 busy at 104.472 for 50 when 0
+tech 1 idle at 104.472 when 0
+No.50: CHE 104.625 - 106.282 - 1.657 in transfer from 2 to 6
+tech 6 busy at 104.625 for 50 when 0
+tech 2 idle at 104.625 when 0
+No.51: REG 104.794 - 105.281 - 0.486
+tech 1 busy at 104.794 for 51 when 0
+No.51: PAC 105.281 - 106.993 - 1.712 in transfer from 1 to 2
+tech 2 busy at 105.281 for 51 when 0
+tech 1 idle at 105.281 when 0
+No.43: LEAVE 105.524 in leave
+No.42: PAY 105.524 - 106.238 - 0.714 in leave2
+tech 10 busy at 105.524 for 42 when 0
+No.49: PAC 106.044 - 108.535 - 2.491 in transfer from 0 to 3
+tech 3 busy at 106.044 for 49 when 0
+tech 0 idle at 106.044 when 0
+No.42: LEAVE 106.238 in leave
+No.44: PAY 106.238 - 110.008 - 3.771 in leave2
+tech 10 busy at 106.238 for 44 when 0
+tech 6 idle at 106.282 when 0
+No.52: REG 106.530 - 107.433 - 0.903
+tech 0 busy at 106.530 for 52 when 0
+No.51: CHE 106.993 - 111.489 - 4.496 in transfer from 2 to 6
+tech 6 busy at 106.993 for 51 when 0
+tech 2 idle at 106.993 when 0
+No.52: PAC 107.433 - 110.167 - 2.734 in transfer from 0 to 2
+tech 2 busy at 107.433 for 52 when 0
+tech 0 idle at 107.433 when 0
+No.49: CHE 108.535 - 109.167 - 0.632 in transfer from 3 to 7
+tech 7 busy at 108.535 for 49 when 0
+tech 3 idle at 108.535 when 0
+No.53: REG 108.644 - 109.587 - 0.944
+tech 0 busy at 108.644 for 53 when 0
+tech 7 idle at 109.167 when 0
+No.53: PAC 109.587 - 114.364 - 4.777 in transfer from 0 to 3
+tech 3 busy at 109.587 for 53 when 0
+tech 0 idle at 109.587 when 0
+No.54: REG 109.638 - 114.018 - 4.380
+tech 0 busy at 109.638 for 54 when 0
+No.44: LEAVE 110.008 in leave
+No.46: PAY 110.008 - 111.069 - 1.061 in leave2
+tech 10 busy at 110.008 for 46 when 0
+No.52: CHE 110.167 - 112.123 - 1.956 in transfer from 2 to 7
+tech 7 busy at 110.167 for 52 when 0
+tech 2 idle at 110.167 when 0
+No.55: REG 110.180 - 111.312 - 1.131
+tech 1 busy at 110.180 for 55 when 0
+No.46: LEAVE 111.069 in leave
+No.48: PAY 111.069 - 111.705 - 0.636 in leave2
+tech 10 busy at 111.069 for 48 when 0
+No.55: PAC 111.312 - 112.104 - 0.792 in transfer from 1 to 2
+tech 2 busy at 111.312 for 55 when 0
+No.56: REG 111.312 - 112.568 - 1.257 in transfer3 from 1
+tech 1 busy at 111.312 for 56 when 0
+tech 6 idle at 111.489 when 0
+No.48: LEAVE 111.705 in leave
+No.47: PAY 111.705 - 113.210 - 1.505 in leave2
+tech 10 busy at 111.705 for 47 when 0
+No.55: CHE 112.104 - 115.666 - 3.562 in transfer from 2 to 6
+tech 6 busy at 112.104 for 55 when 0
+tech 2 idle at 112.104 when 0
+tech 7 idle at 112.123 when 0
+No.56: PAC 112.568 - 116.362 - 3.793 in transfer from 1 to 2
+tech 2 busy at 112.568 for 56 when 0
+No.57: REG 112.568 - 113.743 - 1.174 in transfer3 from 1
+tech 1 busy at 112.568 for 57 when 0
+No.47: LEAVE 113.210 in leave
+No.45: PAY 113.210 - 114.829 - 1.619 in leave2
+tech 10 busy at 113.210 for 45 when 0
+No.57: PAC 113.743 - 114.070 - 0.327 in transfer from 1 to 4
+tech 4 busy at 113.743 for 57 when 0
+No.58: REG 113.743 - 115.426 - 1.683 in transfer3 from 1
+tech 1 busy at 113.743 for 58 when 0
+No.54: PAC 114.018 - 114.178 - 0.161 in transfer from 0 to 5
+tech 5 busy at 114.018 for 54 when 0
+No.59: REG 114.018 - 114.913 - 0.896 in transfer3 from 0
+tech 0 busy at 114.018 for 59 when 0
+No.57: CHE 114.070 - 115.096 - 1.026 in transfer from 4 to 7
+tech 7 busy at 114.070 for 57 when 0
+tech 4 idle at 114.070 when 0
+No.54: CHE 114.178 - 116.431 - 2.253 in transfer from 5 to 8
+tech 8 busy at 114.178 for 54 when 0
+tech 5 idle at 114.178 when 0
+No.53: CHE 114.364 - 116.111 - 1.746 in transfer from 3 to 9
+tech 9 busy at 114.364 for 53 when 0
+tech 3 idle at 114.364 when 0
+No.45: LEAVE 114.829 in leave
+No.50: PAY 114.829 - 116.738 - 1.910 in leave2
+tech 10 busy at 114.829 for 50 when 0
+No.59: PAC 114.913 - 115.673 - 0.759 in transfer from 0 to 3
+tech 3 busy at 114.913 for 59 when 0
+No.60: REG 114.913 - 116.996 - 2.083 in transfer3 from 0
+tech 0 busy at 114.913 for 60 when 0
+tech 7 idle at 115.096 when 0
+No.58: PAC 115.426 - 117.164 - 1.738 in transfer from 1 to 4
+tech 4 busy at 115.426 for 58 when 0
+No.61: REG 115.426 - 116.290 - 0.864 in transfer3 from 1
+tech 1 busy at 115.426 for 61 when 0
+tech 6 idle at 115.666 when 0
+No.59: CHE 115.673 - 115.970 - 0.298 in transfer from 3 to 6
+tech 6 busy at 115.673 for 59 when 0
+tech 3 idle at 115.673 when 0
+tech 6 idle at 115.970 when 0
+tech 9 idle at 116.111 when 0
+No.61: PAC 116.290 - 117.620 - 1.330 in transfer from 1 to 3
+tech 3 busy at 116.290 for 61 when 0
+No.62: REG 116.290 - 116.791 - 0.501 in transfer3 from 1
+tech 1 busy at 116.290 for 62 when 0
+No.56: CHE 116.362 - 118.045 - 1.684 in transfer from 2 to 6
+tech 6 busy at 116.362 for 56 when 0
+tech 2 idle at 116.362 when 0
+tech 8 idle at 116.431 when 0
+No.50: LEAVE 116.738 in leave
+No.49: PAY 116.738 - 117.724 - 0.986 in leave2
+tech 10 busy at 116.738 for 49 when 0
+No.62: PAC 116.791 - 121.053 - 4.262 in transfer from 1 to 2
+tech 2 busy at 116.791 for 62 when 0
+tech 1 idle at 116.791 when 0
+No.60: PAC 116.996 - 119.932 - 2.936 in transfer from 0 to 5
+tech 5 busy at 116.996 for 60 when 0
+tech 0 idle at 116.996 when 0
+No.58: CHE 117.164 - 119.020 - 1.857 in transfer from 4 to 7
+tech 7 busy at 117.164 for 58 when 0
+tech 4 idle at 117.164 when 0
+No.61: CHE 117.620 - 121.792 - 4.173 in transfer from 3 to 8
+tech 8 busy at 117.620 for 61 when 0
+tech 3 idle at 117.620 when 0
+No.49: LEAVE 117.724 in leave
+No.51: PAY 117.724 - 118.311 - 0.587 in leave2
+tech 10 busy at 117.724 for 51 when 0
+tech 6 idle at 118.045 when 0
+No.51: LEAVE 118.311 in leave
+No.52: PAY 118.311 - 123.533 - 5.223 in leave2
+tech 10 busy at 118.311 for 52 when 0
+No.63: REG 118.604 - 119.037 - 0.433
+tech 0 busy at 118.604 for 63 when 0
+tech 7 idle at 119.020 when 0
+No.63: PAC 119.037 - 119.435 - 0.398 in transfer from 0 to 3
+tech 3 busy at 119.037 for 63 when 0
+tech 0 idle at 119.037 when 0
+No.63: CHE 119.435 - 121.105 - 1.670 in transfer from 3 to 6
+tech 6 busy at 119.435 for 63 when 0
+tech 3 idle at 119.435 when 0
+No.60: CHE 119.932 - 122.690 - 2.758 in transfer from 5 to 7
+tech 7 busy at 119.932 for 60 when 0
+tech 5 idle at 119.932 when 0
+Time 120.000000: 5.651344 203.448395 36
+8.770678 5.651344 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
+No.62: CHE 121.053 - 121.475 - 0.422 in transfer from 2 to 5
+tech 5 busy at 121.053 for 62 when 0
+tech 2 idle at 121.053 when 0
+tech 6 idle at 121.105 when 0
+tech 5 idle at 121.475 when 0
+No.64: REG 121.486 - 121.696 - 0.210
+tech 0 busy at 121.486 for 64 when 0
+No.64: PAC 121.696 - 123.407 - 1.712 in transfer from 0 to 2
+tech 2 busy at 121.696 for 64 when 0
+tech 0 idle at 121.696 when 0
+tech 8 idle at 121.792 when 0
+No.65: REG 121.850 - 123.532 - 1.683
+tech 0 busy at 121.850 for 65 when 0
+No.66: REG 122.502 - 122.668 - 0.166
+tech 1 busy at 122.502 for 66 when 0
+No.66: PAC 122.668 - 123.553 - 0.885 in transfer from 1 to 3
+tech 3 busy at 122.668 for 66 when 0
+tech 1 idle at 122.668 when 0
+tech 7 idle at 122.690 when 0
+No.67: REG 123.389 - 125.826 - 2.438
+tech 1 busy at 123.389 for 67 when 0
+No.64: CHE 123.407 - 128.981 - 5.574 in transfer from 2 to 5
+tech 5 busy at 123.407 for 64 when 0
+tech 2 idle at 123.407 when 0
+No.65: PAC 123.532 - 127.352 - 3.819 in transfer from 0 to 2
+tech 2 busy at 123.532 for 65 when 0
+tech 0 idle at 123.532 when 0
+No.52: LEAVE 123.533 in leave
+No.57: PAY 123.533 - 125.183 - 1.649 in leave2
+tech 10 busy at 123.533 for 57 when 0
+No.66: CHE 123.553 - 124.025 - 0.472 in transfer from 3 to 6
+tech 6 busy at 123.553 for 66 when 0
+tech 3 idle at 123.553 when 0
+tech 6 idle at 124.025 when 0
+No.68: REG 124.652 - 125.227 - 0.575
+tech 0 busy at 124.652 for 68 when 0
+No.57: LEAVE 125.183 in leave
+No.55: PAY 125.183 - 126.031 - 0.849 in leave2
+tech 10 busy at 125.183 for 55 when 0
+No.68: PAC 125.227 - 128.411 - 3.184 in transfer from 0 to 3
+tech 3 busy at 125.227 for 68 when 0
+tech 0 idle at 125.227 when 0
+No.69: REG 125.475 - 126.480 - 1.005
+tech 0 busy at 125.475 for 69 when 0
+No.67: PAC 125.826 - 127.561 - 1.735 in transfer from 1 to 4
+tech 4 busy at 125.826 for 67 when 0
+tech 1 idle at 125.826 when 0
+No.70: REG 126.011 - 126.841 - 0.830
+tech 1 busy at 126.011 for 70 when 0
+No.55: LEAVE 126.031 in leave
+No.59: PAY 126.031 - 128.079 - 2.047 in leave2
+tech 10 busy at 126.031 for 59 when 0
+tech 0 idle at 126.480 when 0
+tech 1 idle at 126.841 when 0
+No.65: CHE 127.352 - 128.437 - 1.085 in transfer from 2 to 6
+tech 6 busy at 127.352 for 65 when 0
+No.69: PAC 127.352 - 130.015 - 2.663 in transfer3 from 2
+tech 2 busy at 127.352 for 69 when 0
+No.67: CHE 127.561 - 128.601 - 1.040 in transfer from 4 to 7
+tech 7 busy at 127.561 for 67 when 0
+No.70: PAC 127.561 - 129.323 - 1.762 in transfer3 from 4
+tech 4 busy at 127.561 for 70 when 0
+No.59: LEAVE 128.079 in leave
+No.53: PAY 128.079 - 129.026 - 0.947 in leave2
+tech 10 busy at 128.079 for 53 when 0
+No.68: CHE 128.411 - 131.188 - 2.778 in transfer from 3 to 8
+tech 8 busy at 128.411 for 68 when 0
+tech 3 idle at 128.411 when 0
+tech 6 idle at 128.437 when 0
+tech 7 idle at 128.601 when 0
+tech 5 idle at 128.981 when 0
+No.53: LEAVE 129.026 in leave
+No.54: PAY 129.026 - 129.699 - 0.673 in leave2
+tech 10 busy at 129.026 for 54 when 0
+No.70: CHE 129.323 - 132.675 - 3.353 in transfer from 4 to 5
+tech 5 busy at 129.323 for 70 when 0
+tech 4 idle at 129.323 when 0
+No.71: REG 129.447 - 131.511 - 2.064
+tech 0 busy at 129.447 for 71 when 0
+No.54: LEAVE 129.699 in leave
+No.56: PAY 129.699 - 129.930 - 0.231 in leave2
+tech 10 busy at 129.699 for 56 when 0
+No.56: LEAVE 129.930 in leave
+No.58: PAY 129.930 - 130.076 - 0.147 in leave2
+tech 10 busy at 129.930 for 58 when 0
+No.69: CHE 130.015 - 135.551 - 5.536 in transfer from 2 to 6
+tech 6 busy at 130.015 for 69 when 0
+tech 2 idle at 130.015 when 0
+No.58: LEAVE 130.076 in leave
+No.63: PAY 130.076 - 131.072 - 0.996 in leave2
+tech 10 busy at 130.076 for 63 when 0
+No.72: REG 130.150 - 130.994 - 0.844
+tech 1 busy at 130.150 for 72 when 0
+No.72: PAC 130.994 - 132.734 - 1.740 in transfer from 1 to 2
+tech 2 busy at 130.994 for 72 when 0
+tech 1 idle at 130.994 when 0
+No.63: LEAVE 131.072 in leave
+No.62: PAY 131.072 - 131.793 - 0.721 in leave2
+tech 10 busy at 131.072 for 62 when 0
+tech 8 idle at 131.188 when 0
+No.73: REG 131.390 - 132.403 - 1.013
+tech 1 busy at 131.390 for 73 when 0
+No.71: PAC 131.511 - 135.728 - 4.217 in transfer from 0 to 3
+tech 3 busy at 131.511 for 71 when 0
+tech 0 idle at 131.511 when 0
+No.62: LEAVE 131.793 in leave
+No.61: PAY 131.793 - 132.330 - 0.537 in leave2
+tech 10 busy at 131.793 for 61 when 0
+No.61: LEAVE 132.330 in leave
+No.60: PAY 132.330 - 132.959 - 0.629 in leave2
+tech 10 busy at 132.330 for 60 when 0
+No.73: PAC 132.403 - 133.083 - 0.680 in transfer from 1 to 4
+tech 4 busy at 132.403 for 73 when 0
+tech 1 idle at 132.403 when 0
+tech 5 idle at 132.675 when 0
+No.72: CHE 132.734 - 133.189 - 0.456 in transfer from 2 to 5
+tech 5 busy at 132.734 for 72 when 0
+tech 2 idle at 132.734 when 0
+No.60: LEAVE 132.959 in leave
+No.66: PAY 132.959 - 133.446 - 0.488 in leave2
+tech 10 busy at 132.959 for 66 when 0
+No.73: CHE 133.083 - 136.222 - 3.139 in transfer from 4 to 7
+tech 7 busy at 133.083 for 73 when 0
+tech 4 idle at 133.083 when 0
+tech 5 idle at 133.189 when 0
+No.74: REG 133.339 - 134.568 - 1.229
+tech 0 busy at 133.339 for 74 when 0
+No.66: LEAVE 133.446 in leave
+No.65: PAY 133.446 - 133.781 - 0.335 in leave2
+tech 10 busy at 133.446 for 65 when 0
+No.75: REG 133.726 - 135.929 - 2.203
+tech 1 busy at 133.726 for 75 when 0
+No.65: LEAVE 133.781 in leave
+No.67: PAY 133.781 - 134.540 - 0.758 in leave2
+tech 10 busy at 133.781 for 67 when 0
+No.67: LEAVE 134.540 in leave
+No.64: PAY 134.540 - 135.523 - 0.983 in leave2
+tech 10 busy at 134.540 for 64 when 0
+No.74: PAC 134.568 - 135.021 - 0.453 in transfer from 0 to 2
+tech 2 busy at 134.568 for 74 when 0
+No.76: REG 134.568 - 134.904 - 0.336 in transfer3 from 0
+tech 0 busy at 134.568 for 76 when 0
+No.76: PAC 134.904 - 140.244 - 5.340 in transfer from 0 to 4
+tech 4 busy at 134.904 for 76 when 0
+tech 0 idle at 134.904 when 0
+No.74: CHE 135.021 - 137.719 - 2.699 in transfer from 2 to 5
+tech 5 busy at 135.021 for 74 when 0
+tech 2 idle at 135.021 when 0
+No.77: REG 135.040 - 135.742 - 0.702
+tech 0 busy at 135.040 for 77 when 0
+No.64: LEAVE 135.523 in leave
+No.68: PAY 135.523 - 136.287 - 0.764 in leave2
+tech 10 busy at 135.523 for 68 when 0
+tech 6 idle at 135.551 when 0
+No.71: CHE 135.728 - 137.104 - 1.376 in transfer from 3 to 6
+tech 6 busy at 135.728 for 71 when 0
+tech 3 idle at 135.728 when 0
+No.77: PAC 135.742 - 137.019 - 1.277 in transfer from 0 to 2
+tech 2 busy at 135.742 for 77 when 0
+tech 0 idle at 135.742 when 0
+No.78: REG 135.836 - 136.010 - 0.175
+tech 0 busy at 135.836 for 78 when 0
+No.75: PAC 135.929 - 136.986 - 1.057 in transfer from 1 to 3
+tech 3 busy at 135.929 for 75 when 0
+tech 1 idle at 135.929 when 0
+tech 0 idle at 136.010 when 0
+tech 7 idle at 136.222 when 0
+No.68: LEAVE 136.287 in leave
+No.70: PAY 136.287 - 137.288 - 1.001 in leave2
+tech 10 busy at 136.287 for 70 when 0
+No.75: CHE 136.986 - 137.400 - 0.414 in transfer from 3 to 7
+tech 7 busy at 136.986 for 75 when 0
+No.78: PAC 136.986 - 138.064 - 1.078 in transfer3 from 3
+tech 3 busy at 136.986 for 78 when 0
+No.79: REG 137.005 - 137.854 - 0.849
+tech 0 busy at 137.005 for 79 when 0
+No.77: CHE 137.019 - 139.156 - 2.137 in transfer from 2 to 8
+tech 8 busy at 137.019 for 77 when 0
+tech 2 idle at 137.019 when 0
+tech 6 idle at 137.104 when 0
+No.70: LEAVE 137.288 in leave
+No.72: PAY 137.288 - 137.875 - 0.587 in leave2
+tech 10 busy at 137.288 for 72 when 0
+tech 7 idle at 137.400 when 0
+No.80: REG 137.648 - 137.990 - 0.343
+tech 1 busy at 137.648 for 80 when 0
+tech 5 idle at 137.719 when 0
+No.79: PAC 137.854 - 142.727 - 4.874 in transfer from 0 to 2
+tech 2 busy at 137.854 for 79 when 0
+tech 0 idle at 137.854 when 0
+No.72: LEAVE 137.875 in leave
+No.69: PAY 137.875 - 138.033 - 0.159 in leave2
+tech 10 busy at 137.875 for 69 when 0
+tech 1 idle at 137.990 when 0
+No.69: LEAVE 138.033 in leave
+No.73: PAY 138.033 - 139.107 - 1.074 in leave2
+tech 10 busy at 138.033 for 73 when 0
+No.78: CHE 138.064 - 140.504 - 2.440 in transfer from 3 to 5
+tech 5 busy at 138.064 for 78 when 0
+No.80: PAC 138.064 - 138.728 - 0.664 in transfer3 from 3
+tech 3 busy at 138.064 for 80 when 0
+No.80: CHE 138.728 - 142.373 - 3.646 in transfer from 3 to 6
+tech 6 busy at 138.728 for 80 when 0
+tech 3 idle at 138.728 when 0
+No.81: REG 139.033 - 139.940 - 0.907
+tech 0 busy at 139.033 for 81 when 0
+No.73: LEAVE 139.107 in leave
+No.71: PAY 139.107 - 140.119 - 1.012 in leave2
+tech 10 busy at 139.107 for 71 when 0
+tech 8 idle at 139.156 when 0
+No.81: PAC 139.940 - 140.412 - 0.472 in transfer from 0 to 3
+tech 3 busy at 139.940 for 81 when 0
+tech 0 idle at 139.940 when 0
+No.71: LEAVE 140.119 in leave
+No.75: PAY 140.119 - 141.702 - 1.583 in leave2
+tech 10 busy at 140.119 for 75 when 0
+No.76: CHE 140.244 - 141.877 - 1.633 in transfer from 4 to 7
+tech 7 busy at 140.244 for 76 when 0
+tech 4 idle at 140.244 when 0
+No.81: CHE 140.412 - 143.885 - 3.473 in transfer from 3 to 8
+tech 8 busy at 140.412 for 81 when 0
+tech 3 idle at 140.412 when 0
+tech 5 idle at 140.504 when 0
+No.82: REG 140.874 - 142.714 - 1.840
+tech 0 busy at 140.874 for 82 when 0
+No.83: REG 141.493 - 143.484 - 1.991
+tech 1 busy at 141.493 for 83 when 0
+No.75: LEAVE 141.702 in leave
+No.74: PAY 141.702 - 143.516 - 1.814 in leave2
+tech 10 busy at 141.702 for 74 when 0
+tech 7 idle at 141.877 when 0
+tech 6 idle at 142.373 when 0
+No.82: PAC 142.714 - 144.949 - 2.235 in transfer from 0 to 3
+tech 3 busy at 142.714 for 82 when 0
+No.84: REG 142.714 - 143.401 - 0.687 in transfer3 from 0
+tech 0 busy at 142.714 for 84 when 0
+No.79: CHE 142.727 - 145.092 - 2.364 in transfer from 2 to 5
+tech 5 busy at 142.727 for 79 when 0
+tech 2 idle at 142.727 when 0
+No.84: PAC 143.401 - 144.915 - 1.514 in transfer from 0 to 2
+tech 2 busy at 143.401 for 84 when 0
+No.85: REG 143.401 - 144.613 - 1.212 in transfer3 from 0
+tech 0 busy at 143.401 for 85 when 0
+No.83: PAC 143.484 - 148.841 - 5.357 in transfer from 1 to 4
+tech 4 busy at 143.484 for 83 when 0
+No.86: REG 143.484 - 145.680 - 2.195 in transfer3 from 1
+tech 1 busy at 143.484 for 86 when 0
+No.74: LEAVE 143.516 in leave
+No.77: PAY 143.516 - 143.712 - 0.196 in leave2
+tech 10 busy at 143.516 for 77 when 0
+No.77: LEAVE 143.712 in leave
+No.78: PAY 143.712 - 143.901 - 0.189 in leave2
+tech 10 busy at 143.712 for 78 when 0
+tech 8 idle at 143.885 when 0
+No.78: LEAVE 143.901 in leave
+No.76: PAY 143.901 - 144.184 - 0.283 in leave2
+tech 10 busy at 143.901 for 76 when 0
+No.76: LEAVE 144.184 in leave
+No.80: PAY 144.184 - 146.503 - 2.319 in leave2
+tech 10 busy at 144.184 for 80 when 0
+No.87: REG 144.613 - 145.204 - 0.590 in transfer3 from 0
+tech 0 busy at 144.613 for 87 when 0
+No.84: CHE 144.915 - 146.744 - 1.829 in transfer from 2 to 6
+tech 6 busy at 144.915 for 84 when 0
+No.85: PAC 144.915 - 147.888 - 2.973 in transfer3 from 2
+tech 2 busy at 144.915 for 85 when 0
+No.82: CHE 144.949 - 147.214 - 2.265 in transfer from 3 to 7
+tech 7 busy at 144.949 for 82 when 0
+tech 3 idle at 144.949 when 0
+tech 5 idle at 145.092 when 0
+No.87: PAC 145.204 - 149.128 - 3.924 in transfer from 0 to 3
+tech 3 busy at 145.204 for 87 when 0
+No.88: REG 145.204 - 148.682 - 3.479 in transfer3 from 0
+tech 0 busy at 145.204 for 88 when 0
+tech 1 idle at 145.680 when 0
+No.89: REG 145.691 - 145.894 - 0.203
+tech 1 busy at 145.691 for 89 when 0
+tech 1 idle at 145.894 when 0
+No.80: LEAVE 146.503 in leave
+No.81: PAY 146.503 - 146.999 - 0.496 in leave2
+tech 10 busy at 146.503 for 81 when 0
+tech 6 idle at 146.744 when 0
+No.90: REG 146.812 - 147.678 - 0.866
+tech 1 busy at 146.812 for 90 when 0
+No.81: LEAVE 146.999 in leave
+No.79: PAY 146.999 - 148.900 - 1.902 in leave2
+tech 10 busy at 146.999 for 79 when 0
+tech 7 idle at 147.214 when 0
+tech 1 idle at 147.678 when 0
+No.85: CHE 147.888 - 150.100 - 2.212 in transfer from 2 to 5
+tech 5 busy at 147.888 for 85 when 0
+No.86: PAC 147.888 - 150.152 - 2.264 in transfer3 from 2
+tech 2 busy at 147.888 for 86 when 0
+tech 0 idle at 148.682 when 0
+No.83: CHE 148.841 - 150.016 - 1.175 in transfer from 4 to 6
+tech 6 busy at 148.841 for 83 when 0
+No.89: PAC 148.841 - 149.066 - 0.225 in transfer3 from 4
+tech 4 busy at 148.841 for 89 when 0
+No.79: LEAVE 148.900 in leave
+No.84: PAY 148.900 - 151.577 - 2.677 in leave2
+tech 10 busy at 148.900 for 84 when 0
+No.89: CHE 149.066 - 151.425 - 2.359 in transfer from 4 to 7
+tech 7 busy at 149.066 for 89 when 0
+No.90: PAC 149.066 - 150.027 - 0.961 in transfer3 from 4
+tech 4 busy at 149.066 for 90 when 0
+No.87: CHE 149.128 - 152.638 - 3.510 in transfer from 3 to 8
+tech 8 busy at 149.128 for 87 when 0
+No.88: PAC 149.128 - 150.638 - 1.510 in transfer3 from 3
+tech 3 busy at 149.128 for 88 when 0
+No.91: REG 149.805 - 149.946 - 0.141
+tech 0 busy at 149.805 for 91 when 0
+tech 0 idle at 149.946 when 0
+tech 6 idle at 150.016 when 0
+No.90: CHE 150.027 - 154.450 - 4.424 in transfer from 4 to 6
+tech 6 busy at 150.027 for 90 when 0
+No.91: PAC 150.027 - 151.084 - 1.057 in transfer3 from 4
+tech 4 busy at 150.027 for 91 when 0
+tech 5 idle at 150.100 when 0
+No.86: CHE 150.152 - 153.208 - 3.056 in transfer from 2 to 5
+tech 5 busy at 150.152 for 86 when 0
+tech 2 idle at 150.152 when 0
+tech 3 idle at 150.638 when 0
+No.92: REG 150.926 - 152.736 - 1.810
+tech 0 busy at 150.926 for 92 when 0
+tech 4 idle at 151.084 when 0
+No.93: REG 151.226 - 153.930 - 2.704
+tech 1 busy at 151.226 for 93 when 0
+No.88: CHE 151.425 - 157.350 - 5.924 in transfer3 from 7
+tech 7 busy at 151.425 for 88 when 0
+No.84: LEAVE 151.577 in leave
+No.82: PAY 151.577 - 153.561 - 1.984 in leave2
+tech 10 busy at 151.577 for 82 when 0
+No.91: CHE 152.638 - 154.798 - 2.160 in transfer3 from 8
+tech 8 busy at 152.638 for 91 when 0
+No.92: PAC 152.736 - 153.062 - 0.327 in transfer from 0 to 2
+tech 2 busy at 152.736 for 92 when 0
+No.94: REG 152.736 - 155.442 - 2.706 in transfer3 from 0
+tech 0 busy at 152.736 for 94 when 0
+tech 2 idle at 153.062 when 0
+No.92: CHE 153.208 - 154.221 - 1.013 in transfer3 from 5
+tech 5 busy at 153.208 for 92 when 0
+No.82: LEAVE 153.561 in leave
+No.83: PAY 153.561 - 154.768 - 1.206 in leave2
+tech 10 busy at 153.561 for 83 when 0
+No.93: PAC 153.930 - 159.435 - 5.505 in transfer from 1 to 2
+tech 2 busy at 153.930 for 93 when 0
+No.95: REG 153.930 - 155.392 - 1.462 in transfer3 from 1
+tech 1 busy at 153.930 for 95 when 0
+tech 5 idle at 154.221 when 0
+tech 6 idle at 154.450 when 0
+No.83: LEAVE 154.768 in leave
+No.85: PAY 154.768 - 156.439 - 1.671 in leave2
+tech 10 busy at 154.768 for 85 when 0
+tech 8 idle at 154.798 when 0
+No.95: PAC 155.392 - 155.783 - 0.390 in transfer from 1 to 3
+tech 3 busy at 155.392 for 95 when 0
+No.96: REG 155.392 - 155.846 - 0.454 in transfer3 from 1
+tech 1 busy at 155.392 for 96 when 0
+No.94: PAC 155.442 - 155.627 - 0.185 in transfer from 0 to 4
+tech 4 busy at 155.442 for 94 when 0
+tech 0 idle at 155.442 when 0
+No.94: CHE 155.627 - 159.506 - 3.879 in transfer from 4 to 5
+tech 5 busy at 155.627 for 94 when 0
+tech 4 idle at 155.627 when 0
+No.95: CHE 155.783 - 157.506 - 1.724 in transfer from 3 to 6
+tech 6 busy at 155.783 for 95 when 0
+tech 3 idle at 155.783 when 0
+No.96: PAC 155.846 - 158.391 - 2.545 in transfer from 1 to 3
+tech 3 busy at 155.846 for 96 when 0
+tech 1 idle at 155.846 when 0
+No.97: REG 156.180 - 156.508 - 0.328
+tech 0 busy at 156.180 for 97 when 0
+No.85: LEAVE 156.439 in leave
+No.89: PAY 156.439 - 158.792 - 2.353 in leave2
+tech 10 busy at 156.439 for 89 when 0
+No.97: PAC 156.508 - 156.934 - 0.426 in transfer from 0 to 4
+tech 4 busy at 156.508 for 97 when 0
+tech 0 idle at 156.508 when 0
+No.97: CHE 156.934 - 158.116 - 1.182 in transfer from 4 to 8
+tech 8 busy at 156.934 for 97 when 0
+tech 4 idle at 156.934 when 0
+tech 7 idle at 157.350 when 0
+tech 6 idle at 157.506 when 0
+No.98: REG 158.105 - 158.390 - 0.285
+tech 0 busy at 158.105 for 98 when 0
+tech 8 idle at 158.116 when 0
+No.98: PAC 158.390 - 161.191 - 2.801 in transfer from 0 to 4
+tech 4 busy at 158.390 for 98 when 0
+tech 0 idle at 158.390 when 0
+No.96: CHE 158.391 - 158.841 - 0.450 in transfer from 3 to 6
+tech 6 busy at 158.391 for 96 when 0
+tech 3 idle at 158.391 when 0
+No.89: LEAVE 158.792 in leave
+No.87: PAY 158.792 - 159.159 - 0.367 in leave2
+tech 10 busy at 158.792 for 87 when 0
+tech 6 idle at 158.841 when 0
+No.87: LEAVE 159.159 in leave
+No.86: PAY 159.159 - 159.334 - 0.175 in leave2
+tech 10 busy at 159.159 for 86 when 0
+No.86: LEAVE 159.334 in leave
+No.92: PAY 159.334 - 159.677 - 0.343 in leave2
+tech 10 busy at 159.334 for 92 when 0
+No.93: CHE 159.435 - 162.007 - 2.572 in transfer from 2 to 6
+tech 6 busy at 159.435 for 93 when 0
+tech 2 idle at 159.435 when 0
+tech 5 idle at 159.506 when 0
+No.92: LEAVE 159.677 in leave
+No.90: PAY 159.677 - 160.378 - 0.702 in leave2
+tech 10 busy at 159.677 for 90 when 0
+No.99: REG 159.898 - 160.087 - 0.189
+tech 0 busy at 159.898 for 99 when 0
+No.99: PAC 160.087 - 160.619 - 0.532 in transfer from 0 to 2
+tech 2 busy at 160.087 for 99 when 0
+tech 0 idle at 160.087 when 0
+No.90: LEAVE 160.378 in leave
+No.91: PAY 160.378 - 160.694 - 0.315 in leave2
+tech 10 busy at 160.378 for 91 when 0
+No.99: CHE 160.619 - 166.515 - 5.896 in transfer from 2 to 5
+tech 5 busy at 160.619 for 99 when 0
+tech 2 idle at 160.619 when 0
+No.91: LEAVE 160.694 in leave
+No.88: PAY 160.694 - 161.043 - 0.349 in leave2
+tech 10 busy at 160.694 for 88 when 0
+No.88: LEAVE 161.043 in leave
+No.95: PAY 161.043 - 162.183 - 1.140 in leave2
+tech 10 busy at 161.043 for 95 when 0
+No.98: CHE 161.191 - 163.974 - 2.783 in transfer from 4 to 7
+tech 7 busy at 161.191 for 98 when 0
+tech 4 idle at 161.191 when 0
+tech 6 idle at 162.007 when 0
+No.95: LEAVE 162.183 in leave
+No.97: PAY 162.183 - 163.192 - 1.009 in leave2
+tech 10 busy at 162.183 for 97 when 0
+No.100: REG 163.157 - 163.881 - 0.724
+tech 0 busy at 163.157 for 100 when 0
+No.97: LEAVE 163.192 in leave
+No.96: PAY 163.192 - 164.032 - 0.839 in leave2
+tech 10 busy at 163.192 for 96 when 0
+No.100: PAC 163.881 - 164.325 - 0.444 in transfer from 0 to 2
+tech 2 busy at 163.881 for 100 when 0
+tech 0 idle at 163.881 when 0
+tech 7 idle at 163.974 when 0
+No.96: LEAVE 164.032 in leave
+No.94: PAY 164.032 - 164.376 - 0.345 in leave2
+tech 10 busy at 164.032 for 94 when 0
+No.100: CHE 164.325 - 164.523 - 0.198 in transfer from 2 to 6
+tech 6 busy at 164.325 for 100 when 0
+tech 2 idle at 164.325 when 0
+No.94: LEAVE 164.376 in leave
+No.93: PAY 164.376 - 164.817 - 0.441 in leave2
+tech 10 busy at 164.376 for 93 when 0
+tech 6 idle at 164.523 when 0
+No.93: LEAVE 164.817 in leave
+No.98: PAY 164.817 - 165.350 - 0.533 in leave2
+tech 10 busy at 164.817 for 98 when 0
+No.98: LEAVE 165.350 in leave
+No.100: PAY 165.350 - 166.169 - 0.819 in leave2
+tech 10 busy at 165.350 for 100 when 0
+No.100: LEAVE 166.169 in leave
+tech 10 idle at 166.169 when 0
+No.101: REG 166.492 - 167.653 - 1.161
+tech 0 busy at 166.492 for 101 when 0
+No.99: PAY 166.515 - 166.898 - 0.383 in transfer from 5 to 10
+tech 10 busy at 166.515 for 99 when 0
+tech 5 idle at 166.515 when 0
+No.99: LEAVE 166.898 in leave
+tech 10 idle at 166.898 when 0
+No.102: REG 167.368 - 168.662 - 1.294
+tech 1 busy at 167.368 for 102 when 0
+No.101: PAC 167.653 - 169.031 - 1.378 in transfer from 0 to 2
+tech 2 busy at 167.653 for 101 when 0
+tech 0 idle at 167.653 when 0
+No.103: REG 167.968 - 169.902 - 1.934
+tech 0 busy at 167.968 for 103 when 0
+No.102: PAC 168.662 - 169.662 - 1.000 in transfer from 1 to 3
+tech 3 busy at 168.662 for 102 when 0
+tech 1 idle at 168.662 when 0
+No.101: CHE 169.031 - 169.639 - 0.608 in transfer from 2 to 5
+tech 5 busy at 169.031 for 101 when 0
+tech 2 idle at 169.031 when 0
+No.104: REG 169.440 - 170.111 - 0.671
+tech 1 busy at 169.440 for 104 when 0
+No.101: PAY 169.639 - 174.569 - 4.929 in transfer from 5 to 10
+tech 10 busy at 169.639 for 101 when 0
+tech 5 idle at 169.639 when 0
+No.102: CHE 169.662 - 173.287 - 3.626 in transfer from 3 to 5
+tech 5 busy at 169.662 for 102 when 0
+tech 3 idle at 169.662 when 0
+No.103: PAC 169.902 - 170.324 - 0.421 in transfer from 0 to 2
+tech 2 busy at 169.902 for 103 when 0
+tech 0 idle at 169.902 when 0
+No.104: PAC 170.111 - 173.223 - 3.112 in transfer from 1 to 3
+tech 3 busy at 170.111 for 104 when 0
+tech 1 idle at 170.111 when 0
+No.105: REG 170.310 - 172.953 - 2.643
+tech 0 busy at 170.310 for 105 when 0
+No.103: CHE 170.324 - 174.475 - 4.152 in transfer from 2 to 6
+tech 6 busy at 170.324 for 103 when 0
+tech 2 idle at 170.324 when 0
+No.105: PAC 172.953 - 174.947 - 1.993 in transfer from 0 to 2
+tech 2 busy at 172.953 for 105 when 0
+tech 0 idle at 172.953 when 0
+No.106: REG 173.201 - 177.940 - 4.739
+tech 0 busy at 173.201 for 106 when 0
+No.104: CHE 173.223 - 174.468 - 1.245 in transfer from 3 to 7
+tech 7 busy at 173.223 for 104 when 0
+tech 3 idle at 173.223 when 0
+tech 5 idle at 173.287 when 0
+No.107: REG 173.710 - 174.734 - 1.024
+tech 1 busy at 173.710 for 107 when 0
+tech 7 idle at 174.468 when 0
+tech 6 idle at 174.475 when 0
+No.101: LEAVE 174.569 in leave
+No.102: PAY 174.569 - 175.555 - 0.986 in leave2
+tech 10 busy at 174.569 for 102 when 0
+No.107: PAC 174.734 - 176.189 - 1.455 in transfer from 1 to 3
+tech 3 busy at 174.734 for 107 when 0
+tech 1 idle at 174.734 when 0
+No.105: CHE 174.947 - 175.507 - 0.560 in transfer from 2 to 5
+tech 5 busy at 174.947 for 105 when 0
+tech 2 idle at 174.947 when 0
+tech 5 idle at 175.507 when 0
+No.102: LEAVE 175.555 in leave
+No.104: PAY 175.555 - 178.022 - 2.467 in leave2
+tech 10 busy at 175.555 for 104 when 0
+No.107: CHE 176.189 - 179.033 - 2.844 in transfer from 3 to 5
+tech 5 busy at 176.189 for 107 when 0
+tech 3 idle at 176.189 when 0
+No.108: REG 177.288 - 180.777 - 3.489
+tech 1 busy at 177.288 for 108 when 0
+No.106: PAC 177.940 - 178.335 - 0.395 in transfer from 0 to 2
+tech 2 busy at 177.940 for 106 when 0
+tech 0 idle at 177.940 when 0
+No.104: LEAVE 178.022 in leave
+No.103: PAY 178.022 - 180.644 - 2.622 in leave2
+tech 10 busy at 178.022 for 103 when 0
+No.106: CHE 178.335 - 179.628 - 1.293 in transfer from 2 to 6
+tech 6 busy at 178.335 for 106 when 0
+tech 2 idle at 178.335 when 0
+No.109: REG 178.818 - 179.369 - 0.552
+tech 0 busy at 178.818 for 109 when 0
+tech 5 idle at 179.033 when 0
+No.109: PAC 179.369 - 182.034 - 2.664 in transfer from 0 to 2
+tech 2 busy at 179.369 for 109 when 0
+tech 0 idle at 179.369 when 0
+tech 6 idle at 179.628 when 0
+Time 180.000000: 4.773325 248.212875 52
+8.770678 5.651344 4.773325 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
+No.103: LEAVE 180.644 in leave
+No.105: PAY 180.644 - 181.867 - 1.223 in leave2
+tech 10 busy at 180.644 for 105 when 0
+No.108: PAC 180.777 - 184.150 - 3.374 in transfer from 1 to 3
+tech 3 busy at 180.777 for 108 when 0
+tech 1 idle at 180.777 when 0
+No.110: REG 181.104 - 181.584 - 0.480
+tech 0 busy at 181.104 for 110 when 0
+No.110: PAC 181.584 - 182.244 - 0.660 in transfer from 0 to 4
+tech 4 busy at 181.584 for 110 when 0
+tech 0 idle at 181.584 when 0
+No.105: LEAVE 181.867 in leave
+No.107: PAY 181.867 - 183.721 - 1.854 in leave2
+tech 10 busy at 181.867 for 107 when 0
+No.109: CHE 182.034 - 185.897 - 3.864 in transfer from 2 to 6
+tech 6 busy at 182.034 for 109 when 0
+tech 2 idle at 182.034 when 0
+No.111: REG 182.138 - 185.419 - 3.280
+tech 0 busy at 182.138 for 111 when 0
+No.110: CHE 182.244 - 186.440 - 4.196 in transfer from 4 to 7
+tech 7 busy at 182.244 for 110 when 0
+tech 4 idle at 182.244 when 0
+No.107: LEAVE 183.721 in leave
+No.106: PAY 183.721 - 185.142 - 1.421 in leave2
+tech 10 busy at 183.721 for 106 when 0
+No.112: REG 183.758 - 184.393 - 0.635
+tech 1 busy at 183.758 for 112 when 0
+No.108: CHE 184.150 - 185.442 - 1.292 in transfer from 3 to 8
+tech 8 busy at 184.150 for 108 when 0
+tech 3 idle at 184.150 when 0
+No.112: PAC 184.393 - 187.311 - 2.918 in transfer from 1 to 2
+tech 2 busy at 184.393 for 112 when 0
+tech 1 idle at 184.393 when 0
+No.106: LEAVE 185.142 in leave
+tech 10 idle at 185.142 when 0
+No.113: REG 185.389 - 186.429 - 1.040
+tech 1 busy at 185.389 for 113 when 0
+No.111: PAC 185.419 - 192.518 - 7.100 in transfer from 0 to 3
+tech 3 busy at 185.419 for 111 when 0
+tech 0 idle at 185.419 when 0
+No.108: PAY 185.442 - 185.741 - 0.299 in transfer from 8 to 10
+tech 10 busy at 185.442 for 108 when 0
+tech 8 idle at 185.442 when 0
+No.108: LEAVE 185.741 in leave
+tech 10 idle at 185.741 when 0
+No.109: PAY 185.897 - 186.108 - 0.211 in transfer from 6 to 10
+tech 10 busy at 185.897 for 109 when 0
+tech 6 idle at 185.897 when 0
+No.109: LEAVE 186.108 in leave
+tech 10 idle at 186.108 when 0
+No.113: PAC 186.429 - 191.907 - 5.477 in transfer from 1 to 4
+tech 4 busy at 186.429 for 113 when 0
+tech 1 idle at 186.429 when 0
+No.110: PAY 186.440 - 195.980 - 9.540 in transfer from 7 to 10
+tech 10 busy at 186.440 for 110 when 0
+tech 7 idle at 186.440 when 0
+No.112: CHE 187.311 - 194.476 - 7.165 in transfer from 2 to 6
+tech 6 busy at 187.311 for 112 when 0
+tech 2 idle at 187.311 when 0
+No.114: REG 187.958 - 188.609 - 0.651
+tech 0 busy at 187.958 for 114 when 0
+No.115: REG 188.280 - 188.764 - 0.484
+tech 1 busy at 188.280 for 115 when 0
+No.114: PAC 188.609 - 189.434 - 0.825 in transfer from 0 to 2
+tech 2 busy at 188.609 for 114 when 0
+No.116: REG 188.609 - 196.932 - 8.323 in transfer3 from 0
+tech 0 busy at 188.609 for 116 when 0
+No.115: PAC 188.764 - 189.100 - 0.336 in transfer from 1 to 5
+tech 5 busy at 188.764 for 115 when 0
+tech 1 idle at 188.764 when 0
+No.115: CHE 189.100 - 190.304 - 1.204 in transfer from 5 to 7
+tech 7 busy at 189.100 for 115 when 0
+tech 5 idle at 189.100 when 0
+No.117: REG 189.274 - 196.286 - 7.012
+tech 1 busy at 189.274 for 117 when 0
+No.114: CHE 189.434 - 193.143 - 3.709 in transfer from 2 to 8
+tech 8 busy at 189.434 for 114 when 0
+tech 2 idle at 189.434 when 0
+tech 7 idle at 190.304 when 0
+No.113: CHE 191.907 - 193.041 - 1.135 in transfer from 4 to 7
+tech 7 busy at 191.907 for 113 when 0
+tech 4 idle at 191.907 when 0
+No.111: CHE 192.518 - 195.649 - 3.130 in transfer from 3 to 9
+tech 9 busy at 192.518 for 111 when 0
+tech 3 idle at 192.518 when 0
+tech 7 idle at 193.041 when 0
+tech 8 idle at 193.143 when 0
+tech 6 idle at 194.476 when 0
+tech 9 idle at 195.649 when 0
+No.110: LEAVE 195.980 in leave
+No.115: PAY 195.980 - 204.208 - 8.228 in leave2
+tech 10 busy at 195.980 for 115 when 0
+No.117: PAC 196.286 - 196.860 - 0.574 in transfer from 1 to 2
+tech 2 busy at 196.286 for 117 when 0
+No.118: REG 196.286 - 198.737 - 2.451 in transfer3 from 1
+tech 1 busy at 196.286 for 118 when 0
+No.117: CHE 196.860 - 197.789 - 0.929 in transfer from 2 to 6
+tech 6 busy at 196.860 for 117 when 0
+tech 2 idle at 196.860 when 0
+No.116: PAC 196.932 - 197.711 - 0.779 in transfer from 0 to 2
+tech 2 busy at 196.932 for 116 when 0
+No.119: REG 196.932 - 201.665 - 4.733 in transfer3 from 0
+tech 0 busy at 196.932 for 119 when 0
+No.116: CHE 197.711 - 206.756 - 9.046 in transfer from 2 to 7
+tech 7 busy at 197.711 for 116 when 0
+tech 2 idle at 197.711 when 0
+tech 6 idle at 197.789 when 0
+No.118: PAC 198.737 - 199.294 - 0.558 in transfer from 1 to 2
+tech 2 busy at 198.737 for 118 when 0
+No.120: REG 198.737 - 199.973 - 1.236 in transfer3 from 1
+tech 1 busy at 198.737 for 120 when 0
+No.118: CHE 199.294 - 206.878 - 7.583 in transfer from 2 to 6
+tech 6 busy at 199.294 for 118 when 0
+tech 2 idle at 199.294 when 0
+No.120: PAC 199.973 - 204.902 - 4.929 in transfer from 1 to 2
+tech 2 busy at 199.973 for 120 when 0
+No.121: REG 199.973 - 201.120 - 1.147 in transfer3 from 1
+tech 1 busy at 199.973 for 121 when 0
+No.121: PAC 201.120 - 203.909 - 2.789 in transfer from 1 to 3
+tech 3 busy at 201.120 for 121 when 0
+No.122: REG 201.120 - 201.722 - 0.602 in transfer3 from 1
+tech 1 busy at 201.120 for 122 when 0
+No.119: PAC 201.665 - 205.159 - 3.494 in transfer from 0 to 4
+tech 4 busy at 201.665 for 119 when 0
+No.123: REG 201.665 - 202.074 - 0.408 in transfer3 from 0
+tech 0 busy at 201.665 for 123 when 0
+No.122: PAC 201.722 - 203.967 - 2.244 in transfer from 1 to 5
+tech 5 busy at 201.722 for 122 when 0
+No.124: REG 201.722 - 207.575 - 5.852 in transfer3 from 1
+tech 1 busy at 201.722 for 124 when 0
+tech 0 idle at 202.074 when 0
+No.125: REG 202.402 - 203.663 - 1.261
+tech 0 busy at 202.402 for 125 when 0
+No.126: REG 203.663 - 204.095 - 0.433 in transfer3 from 0
+tech 0 busy at 203.663 for 126 when 0
+No.121: CHE 203.909 - 210.380 - 6.471 in transfer from 3 to 8
+tech 8 busy at 203.909 for 121 when 0
+No.123: PAC 203.909 - 204.391 - 0.482 in transfer3 from 3
+tech 3 busy at 203.909 for 123 when 0
+No.122: CHE 203.967 - 207.972 - 4.005 in transfer from 5 to 9
+tech 9 busy at 203.967 for 122 when 0
+No.125: PAC 203.967 - 204.679 - 0.712 in transfer3 from 5
+tech 5 busy at 203.967 for 125 when 0
+tech 0 idle at 204.095 when 0
+No.115: LEAVE 204.208 in leave
+No.113: PAY 204.208 - 204.563 - 0.355 in leave2
+tech 10 busy at 204.208 for 113 when 0
+No.126: PAC 204.391 - 208.569 - 4.177 in transfer3 from 3
+tech 3 busy at 204.391 for 126 when 0
+No.113: LEAVE 204.563 in leave
+No.114: PAY 204.563 - 208.240 - 3.677 in leave2
+tech 10 busy at 204.563 for 114 when 0
+tech 5 idle at 204.679 when 0
+tech 2 idle at 204.902 when 0
+tech 4 idle at 205.159 when 0
+No.123: CHE 206.756 - 207.506 - 0.750 in transfer3 from 7
+tech 7 busy at 206.756 for 123 when 0
+No.125: CHE 206.878 - 211.886 - 5.008 in transfer3 from 6
+tech 6 busy at 206.878 for 125 when 0
+No.120: CHE 207.506 - 209.494 - 1.988 in transfer3 from 7
+tech 7 busy at 207.506 for 120 when 0
+No.124: PAC 207.575 - 208.879 - 1.304 in transfer from 1 to 2
+tech 2 busy at 207.575 for 124 when 0
+tech 1 idle at 207.575 when 0
+No.119: CHE 207.972 - 215.996 - 8.024 in transfer3 from 9
+tech 9 busy at 207.972 for 119 when 0
+No.114: LEAVE 208.240 in leave
+No.112: PAY 208.240 - 209.275 - 1.035 in leave2
+tech 10 busy at 208.240 for 112 when 0
+tech 3 idle at 208.569 when 0
+tech 2 idle at 208.879 when 0
+No.127: REG 209.041 - 211.890 - 2.849
+tech 0 busy at 209.041 for 127 when 0
+No.112: LEAVE 209.275 in leave
+No.111: PAY 209.275 - 209.515 - 0.240 in leave2
+tech 10 busy at 209.275 for 111 when 0
+No.126: CHE 209.494 - 209.788 - 0.294 in transfer3 from 7
+tech 7 busy at 209.494 for 126 when 0
+No.111: LEAVE 209.515 in leave
+No.117: PAY 209.515 - 212.011 - 2.496 in leave2
+tech 10 busy at 209.515 for 117 when 0
+No.124: CHE 209.788 - 211.817 - 2.029 in transfer3 from 7
+tech 7 busy at 209.788 for 124 when 0
+tech 8 idle at 210.380 when 0
+tech 7 idle at 211.817 when 0
+tech 6 idle at 211.886 when 0
+No.127: PAC 211.890 - 218.011 - 6.121 in transfer from 0 to 2
+tech 2 busy at 211.890 for 127 when 0
+tech 0 idle at 211.890 when 0
+No.117: LEAVE 212.011 in leave
+No.116: PAY 212.011 - 217.847 - 5.836 in leave2
+tech 10 busy at 212.011 for 116 when 0
+No.128: REG 213.625 - 214.281 - 0.655
+tech 0 busy at 213.625 for 128 when 0
+No.128: PAC 214.281 - 220.879 - 6.598 in transfer from 0 to 3
+tech 3 busy at 214.281 for 128 when 0
+tech 0 idle at 214.281 when 0
+tech 9 idle at 215.996 when 0
+No.129: REG 217.750 - 221.045 - 3.295
+tech 0 busy at 217.750 for 129 when 0
+No.116: LEAVE 217.847 in leave
+No.118: PAY 217.847 - 218.168 - 0.321 in leave2
+tech 10 busy at 217.847 for 118 when 0
+No.127: CHE 218.011 - 221.496 - 3.485 in transfer from 2 to 6
+tech 6 busy at 218.011 for 127 when 0
+tech 2 idle at 218.011 when 0
+No.118: LEAVE 218.168 in leave
+No.123: PAY 218.168 - 218.733 - 0.565 in leave2
+tech 10 busy at 218.168 for 123 when 0
+No.130: REG 218.185 - 218.815 - 0.630
+tech 1 busy at 218.185 for 130 when 0
+No.123: LEAVE 218.733 in leave
+No.122: PAY 218.733 - 219.304 - 0.571 in leave2
+tech 10 busy at 218.733 for 122 when 0
+No.130: PAC 218.815 - 219.750 - 0.935 in transfer from 1 to 2
+tech 2 busy at 218.815 for 130 when 0
+tech 1 idle at 218.815 when 0
+No.122: LEAVE 219.304 in leave
+No.120: PAY 219.304 - 220.912 - 1.608 in leave2
+tech 10 busy at 219.304 for 120 when 0
+No.130: CHE 219.750 - 221.840 - 2.090 in transfer from 2 to 7
+tech 7 busy at 219.750 for 130 when 0
+tech 2 idle at 219.750 when 0
+No.131: REG 220.236 - 223.748 - 3.511
+tech 1 busy at 220.236 for 131 when 0
+No.128: CHE 220.879 - 223.373 - 2.494 in transfer from 3 to 8
+tech 8 busy at 220.879 for 128 when 0
+tech 3 idle at 220.879 when 0
+No.120: LEAVE 220.912 in leave
+No.126: PAY 220.912 - 221.416 - 0.504 in leave2
+tech 10 busy at 220.912 for 126 when 0
+No.129: PAC 221.045 - 224.466 - 3.421 in transfer from 0 to 2
+tech 2 busy at 221.045 for 129 when 0
+No.132: REG 221.045 - 221.907 - 0.862 in transfer3 from 0
+tech 0 busy at 221.045 for 132 when 0
+No.126: LEAVE 221.416 in leave
+No.121: PAY 221.416 - 223.793 - 2.377 in leave2
+tech 10 busy at 221.416 for 121 when 0
+tech 6 idle at 221.496 when 0
+tech 7 idle at 221.840 when 0
+No.132: PAC 221.907 - 222.874 - 0.966 in transfer from 0 to 3
+tech 3 busy at 221.907 for 132 when 0
+tech 0 idle at 221.907 when 0
+No.132: CHE 222.874 - 230.604 - 7.730 in transfer from 3 to 6
+tech 6 busy at 222.874 for 132 when 0
+tech 3 idle at 222.874 when 0
+tech 8 idle at 223.373 when 0
+No.131: PAC 223.748 - 227.779 - 4.031 in transfer from 1 to 3
+tech 3 busy at 223.748 for 131 when 0
+tech 1 idle at 223.748 when 0
+No.121: LEAVE 223.793 in leave
+No.124: PAY 223.793 - 224.545 - 0.752 in leave2
+tech 10 busy at 223.793 for 124 when 0
+No.129: CHE 224.466 - 229.155 - 4.689 in transfer from 2 to 7
+tech 7 busy at 224.466 for 129 when 0
+tech 2 idle at 224.466 when 0
+No.124: LEAVE 224.545 in leave
+No.125: PAY 224.545 - 225.699 - 1.154 in leave2
+tech 10 busy at 224.545 for 125 when 0
+No.133: REG 224.919 - 226.779 - 1.859
+tech 0 busy at 224.919 for 133 when 0
+No.125: LEAVE 225.699 in leave
+No.119: PAY 225.699 - 226.137 - 0.439 in leave2
+tech 10 busy at 225.699 for 119 when 0
+No.134: REG 225.758 - 227.303 - 1.545
+tech 1 busy at 225.758 for 134 when 0
+No.119: LEAVE 226.137 in leave
+No.127: PAY 226.137 - 228.597 - 2.460 in leave2
+tech 10 busy at 226.137 for 127 when 0
+No.133: PAC 226.779 - 232.392 - 5.613 in transfer from 0 to 2
+tech 2 busy at 226.779 for 133 when 0
+tech 0 idle at 226.779 when 0
+No.134: PAC 227.303 - 233.725 - 6.422 in transfer from 1 to 4
+tech 4 busy at 227.303 for 134 when 0
+tech 1 idle at 227.303 when 0
+No.131: CHE 227.779 - 234.120 - 6.341 in transfer from 3 to 8
+tech 8 busy at 227.779 for 131 when 0
+tech 3 idle at 227.779 when 0
+No.127: LEAVE 228.597 in leave
+No.130: PAY 228.597 - 230.598 - 2.001 in leave2
+tech 10 busy at 228.597 for 130 when 0
+No.135: REG 229.120 - 231.151 - 2.031
+tech 0 busy at 229.120 for 135 when 0
+tech 7 idle at 229.155 when 0
+No.130: LEAVE 230.598 in leave
+No.128: PAY 230.598 - 233.496 - 2.897 in leave2
+tech 10 busy at 230.598 for 128 when 0
+tech 6 idle at 230.604 when 0
+No.135: PAC 231.151 - 236.704 - 5.552 in transfer from 0 to 3
+tech 3 busy at 231.151 for 135 when 0
+tech 0 idle at 231.151 when 0
+No.136: REG 231.639 - 233.707 - 2.068
+tech 0 busy at 231.639 for 136 when 0
+No.133: CHE 232.392 - 241.224 - 8.832 in transfer from 2 to 6
+tech 6 busy at 232.392 for 133 when 0
+tech 2 idle at 232.392 when 0
+No.128: LEAVE 233.496 in leave
+No.129: PAY 233.496 - 235.288 - 1.793 in leave2
+tech 10 busy at 233.496 for 129 when 0
+No.136: PAC 233.707 - 242.666 - 8.959 in transfer from 0 to 2
+tech 2 busy at 233.707 for 136 when 0
+tech 0 idle at 233.707 when 0
+No.134: CHE 233.725 - 242.982 - 9.257 in transfer from 4 to 7
+tech 7 busy at 233.725 for 134 when 0
+tech 4 idle at 233.725 when 0
+No.137: REG 234.081 - 236.343 - 2.262
+tech 0 busy at 234.081 for 137 when 0
+tech 8 idle at 234.120 when 0
+No.138: REG 234.889 - 242.394 - 7.504
+tech 1 busy at 234.889 for 138 when 0
+No.129: LEAVE 235.288 in leave
+No.132: PAY 235.288 - 239.063 - 3.775 in leave2
+tech 10 busy at 235.288 for 132 when 0
+No.137: PAC 236.343 - 236.780 - 0.437 in transfer from 0 to 4
+tech 4 busy at 236.343 for 137 when 0
+No.139: REG 236.343 - 236.623 - 0.280 in transfer3 from 0
+tech 0 busy at 236.343 for 139 when 0
+No.139: PAC 236.623 - 237.154 - 0.531 in transfer from 0 to 5
+tech 5 busy at 236.623 for 139 when 0
+No.140: REG 236.623 - 238.501 - 1.877 in transfer3 from 0
+tech 0 busy at 236.623 for 140 when 0
+No.135: CHE 236.704 - 239.154 - 2.451 in transfer from 3 to 8
+tech 8 busy at 236.704 for 135 when 0
+tech 3 idle at 236.704 when 0
+No.137: CHE 236.780 - 242.323 - 5.544 in transfer from 4 to 9
+tech 9 busy at 236.780 for 137 when 0
+tech 4 idle at 236.780 when 0
+tech 5 idle at 237.154 when 0
+No.140: PAC 238.501 - 247.627 - 9.127 in transfer from 0 to 3
+tech 3 busy at 238.501 for 140 when 0
+No.141: REG 238.501 - 238.999 - 0.499 in transfer3 from 0
+tech 0 busy at 238.501 for 141 when 0
+No.141: PAC 238.999 - 239.770 - 0.771 in transfer from 0 to 4
+tech 4 busy at 238.999 for 141 when 0
+tech 0 idle at 238.999 when 0
+No.132: LEAVE 239.063 in leave
+No.131: PAY 239.063 - 243.098 - 4.035 in leave2
+tech 10 busy at 239.063 for 131 when 0
+No.139: CHE 239.154 - 245.131 - 5.977 in transfer3 from 8
+tech 8 busy at 239.154 for 139 when 0
+tech 4 idle at 239.770 when 0
+No.142: REG 239.816 - 241.792 - 1.976
+tech 0 busy at 239.816 for 142 when 0
+Time 240.000000: 7.945751 222.481037 28
+8.770678 5.651344 4.773325 7.945751 0.000000 0.000000 0.000000 0.000000 0.000000 
+No.141: CHE 241.224 - 246.110 - 4.886 in transfer3 from 6
+tech 6 busy at 241.224 for 141 when 0
+tech 0 idle at 241.792 when 0
+tech 9 idle at 242.323 when 0
+tech 1 idle at 242.394 when 0
+No.136: CHE 242.666 - 244.404 - 1.738 in transfer from 2 to 4
+tech 4 busy at 242.666 for 136 when 0
+No.142: PAC 242.666 - 243.499 - 0.833 in transfer3 from 2
+tech 2 busy at 242.666 for 142 when 0
+tech 7 idle at 242.982 when 0
+No.131: LEAVE 243.098 in leave
+No.135: PAY 243.098 - 244.179 - 1.081 in leave2
+tech 10 busy at 243.098 for 135 when 0
+No.142: CHE 243.499 - 247.853 - 4.354 in transfer from 2 to 5
+tech 5 busy at 243.499 for 142 when 0
+No.138: PAC 243.499 - 244.624 - 1.126 in transfer3 from 2
+tech 2 busy at 243.499 for 138 when 0
+No.143: REG 243.978 - 244.598 - 0.620
+tech 0 busy at 243.978 for 143 when 0
+No.135: LEAVE 244.179 in leave
+No.133: PAY 244.179 - 245.686 - 1.507 in leave2
+tech 10 busy at 244.179 for 133 when 0
+tech 4 idle at 244.404 when 0
+tech 0 idle at 244.598 when 0
+No.138: CHE 244.624 - 252.209 - 7.584 in transfer from 2 to 4
+tech 4 busy at 244.624 for 138 when 0
+No.143: PAC 244.624 - 245.346 - 0.721 in transfer3 from 2
+tech 2 busy at 244.624 for 143 when 0
+tech 8 idle at 245.131 when 0
+No.143: CHE 245.346 - 254.639 - 9.294 in transfer from 2 to 7
+tech 7 busy at 245.346 for 143 when 0
+tech 2 idle at 245.346 when 0
+No.133: LEAVE 245.686 in leave
+No.137: PAY 245.686 - 246.178 - 0.492 in leave2
+tech 10 busy at 245.686 for 137 when 0
+tech 6 idle at 246.110 when 0
+No.137: LEAVE 246.178 in leave
+No.134: PAY 246.178 - 252.683 - 6.505 in leave2
+tech 10 busy at 246.178 for 134 when 0
+No.144: REG 247.172 - 250.481 - 3.309
+tech 0 busy at 247.172 for 144 when 0
+No.140: CHE 247.627 - 251.205 - 3.578 in transfer from 3 to 6
+tech 6 busy at 247.627 for 140 when 0
+tech 3 idle at 247.627 when 0
+tech 5 idle at 247.853 when 0
+No.145: REG 249.476 - 251.805 - 2.329
+tech 1 busy at 249.476 for 145 when 0
+No.144: PAC 250.481 - 251.361 - 0.880 in transfer from 0 to 2
+tech 2 busy at 250.481 for 144 when 0
+No.146: REG 250.481 - 254.128 - 3.646 in transfer3 from 0
+tech 0 busy at 250.481 for 146 when 0
+tech 6 idle at 251.205 when 0
+No.144: CHE 251.361 - 253.725 - 2.364 in transfer from 2 to 5
+tech 5 busy at 251.361 for 144 when 0
+tech 2 idle at 251.361 when 0
+No.145: PAC 251.805 - 253.020 - 1.215 in transfer from 1 to 2
+tech 2 busy at 251.805 for 145 when 0
+tech 1 idle at 251.805 when 0
+tech 4 idle at 252.209 when 0
+No.134: LEAVE 252.683 in leave
+No.136: PAY 252.683 - 254.016 - 1.333 in leave2
+tech 10 busy at 252.683 for 136 when 0
+No.145: CHE 253.020 - 256.604 - 3.585 in transfer from 2 to 4
+tech 4 busy at 253.020 for 145 when 0
+tech 2 idle at 253.020 when 0
+tech 5 idle at 253.725 when 0
+No.136: LEAVE 254.016 in leave
+No.139: PAY 254.016 - 257.762 - 3.747 in leave2
+tech 10 busy at 254.016 for 139 when 0
+No.146: PAC 254.128 - 255.995 - 1.867 in transfer from 0 to 2
+tech 2 busy at 254.128 for 146 when 0
+tech 0 idle at 254.128 when 0
+No.147: REG 254.631 - 258.331 - 3.700
+tech 0 busy at 254.631 for 147 when 0
+tech 7 idle at 254.639 when 0
+No.148: REG 255.622 - 259.435 - 3.813
+tech 1 busy at 255.622 for 148 when 0
+No.146: CHE 255.995 - 257.236 - 1.241 in transfer from 2 to 5
+tech 5 busy at 255.995 for 146 when 0
+tech 2 idle at 255.995 when 0
+tech 4 idle at 256.604 when 0
+tech 5 idle at 257.236 when 0
+No.139: LEAVE 257.762 in leave
+No.141: PAY 257.762 - 258.384 - 0.622 in leave2
+tech 10 busy at 257.762 for 141 when 0
+No.147: PAC 258.331 - 259.025 - 0.693 in transfer from 0 to 2
+tech 2 busy at 258.331 for 147 when 0
+No.149: REG 258.331 - 258.892 - 0.560 in transfer3 from 0
+tech 0 busy at 258.331 for 149 when 0
+No.141: LEAVE 258.384 in leave
+No.142: PAY 258.384 - 258.727 - 0.343 in leave2
+tech 10 busy at 258.384 for 142 when 0
+No.142: LEAVE 258.727 in leave
+No.140: PAY 258.727 - 259.786 - 1.059 in leave2
+tech 10 busy at 258.727 for 140 when 0
+No.149: PAC 258.892 - 261.411 - 2.519 in transfer from 0 to 3
+tech 3 busy at 258.892 for 149 when 0
+tech 0 idle at 258.892 when 0
+No.147: CHE 259.025 - 266.833 - 7.809 in transfer from 2 to 4
+tech 4 busy at 259.025 for 147 when 0
+tech 2 idle at 259.025 when 0
+No.148: PAC 259.435 - 262.428 - 2.993 in transfer from 1 to 2
+tech 2 busy at 259.435 for 148 when 0
+tech 1 idle at 259.435 when 0
+No.140: LEAVE 259.786 in leave
+No.138: PAY 259.786 - 270.540 - 10.754 in leave2
+tech 10 busy at 259.786 for 138 when 0
+No.149: CHE 261.411 - 266.789 - 5.379 in transfer from 3 to 5
+tech 5 busy at 261.411 for 149 when 0
+tech 3 idle at 261.411 when 0
+No.148: CHE 262.428 - 266.899 - 4.471 in transfer from 2 to 6
+tech 6 busy at 262.428 for 148 when 0
+tech 2 idle at 262.428 when 0
+tech 5 idle at 266.789 when 0
+tech 4 idle at 266.833 when 0
+tech 6 idle at 266.899 when 0
+No.150: REG 269.302 - 269.720 - 0.418
+tech 0 busy at 269.302 for 150 when 0
+No.150: PAC 269.720 - 270.093 - 0.373 in transfer from 0 to 2
+tech 2 busy at 269.720 for 150 when 0
+tech 0 idle at 269.720 when 0
+No.150: CHE 270.093 - 278.276 - 8.183 in transfer from 2 to 4
+tech 4 busy at 270.093 for 150 when 0
+tech 2 idle at 270.093 when 0
+No.138: LEAVE 270.540 in leave
+No.144: PAY 270.540 - 270.937 - 0.397 in leave2
+tech 10 busy at 270.540 for 144 when 0
+No.144: LEAVE 270.937 in leave
+No.143: PAY 270.937 - 271.503 - 0.566 in leave2
+tech 10 busy at 270.937 for 143 when 0
+No.143: LEAVE 271.503 in leave
+No.145: PAY 271.503 - 272.170 - 0.666 in leave2
+tech 10 busy at 271.503 for 145 when 0
+No.145: LEAVE 272.170 in leave
+No.146: PAY 272.170 - 275.438 - 3.268 in leave2
+tech 10 busy at 272.170 for 146 when 0
+No.151: REG 274.959 - 275.643 - 0.684
+tech 0 busy at 274.959 for 151 when 0
+No.146: LEAVE 275.438 in leave
+No.149: PAY 275.438 - 276.079 - 0.641 in leave2
+tech 10 busy at 275.438 for 149 when 0
+No.151: PAC 275.643 - 276.411 - 0.769 in transfer from 0 to 2
+tech 2 busy at 275.643 for 151 when 0
+tech 0 idle at 275.643 when 0
+No.149: LEAVE 276.079 in leave
+No.147: PAY 276.079 - 279.316 - 3.237 in leave2
+tech 10 busy at 276.079 for 147 when 0
+No.151: CHE 276.411 - 283.703 - 7.292 in transfer from 2 to 5
+tech 5 busy at 276.411 for 151 when 0
+tech 2 idle at 276.411 when 0
+tech 4 idle at 278.276 when 0
+No.152: REG 279.113 - 280.287 - 1.175
+tech 0 busy at 279.113 for 152 when 0
+No.147: LEAVE 279.316 in leave
+No.148: PAY 279.316 - 280.198 - 0.882 in leave2
+tech 10 busy at 279.316 for 148 when 0
+No.148: LEAVE 280.198 in leave
+No.150: PAY 280.198 - 280.476 - 0.278 in leave2
+tech 10 busy at 280.198 for 150 when 0
+No.153: REG 280.268 - 280.968 - 0.700
+tech 1 busy at 280.268 for 153 when 0
+No.152: PAC 280.287 - 285.861 - 5.573 in transfer from 0 to 2
+tech 2 busy at 280.287 for 152 when 0
+tech 0 idle at 280.287 when 0
+No.150: LEAVE 280.476 in leave
+tech 10 idle at 280.476 when 0
+No.153: PAC 280.968 - 282.791 - 1.823 in transfer from 1 to 3
+tech 3 busy at 280.968 for 153 when 0
+tech 1 idle at 280.968 when 0
+No.154: REG 282.203 - 287.343 - 5.140
+tech 0 busy at 282.203 for 154 when 0
+No.153: CHE 282.791 - 286.450 - 3.659 in transfer from 3 to 4
+tech 4 busy at 282.791 for 153 when 0
+tech 3 idle at 282.791 when 0
+No.155: REG 283.439 - 284.324 - 0.885
+tech 1 busy at 283.439 for 155 when 0
+No.151: PAY 283.703 - 284.007 - 0.303 in transfer from 5 to 10
+tech 10 busy at 283.703 for 151 when 0
+tech 5 idle at 283.703 when 0
+No.151: LEAVE 284.007 in leave
+tech 10 idle at 284.007 when 0
+No.155: PAC 284.324 - 285.665 - 1.340 in transfer from 1 to 3
+tech 3 busy at 284.324 for 155 when 0
+tech 1 idle at 284.324 when 0
+No.156: REG 285.215 - 285.973 - 0.759
+tech 1 busy at 285.215 for 156 when 0
+No.155: CHE 285.665 - 286.724 - 1.059 in transfer from 3 to 5
+tech 5 busy at 285.665 for 155 when 0
+tech 3 idle at 285.665 when 0
+No.152: CHE 285.861 - 293.231 - 7.370 in transfer from 2 to 6
+tech 6 busy at 285.861 for 152 when 0
+tech 2 idle at 285.861 when 0
+No.156: PAC 285.973 - 287.605 - 1.632 in transfer from 1 to 2
+tech 2 busy at 285.973 for 156 when 0
+No.157: REG 285.973 - 290.235 - 4.262 in transfer3 from 1
+tech 1 busy at 285.973 for 157 when 0
+No.153: PAY 286.450 - 287.237 - 0.786 in transfer from 4 to 10
+tech 10 busy at 286.450 for 153 when 0
+tech 4 idle at 286.450 when 0
+tech 5 idle at 286.724 when 0
+No.153: LEAVE 287.237 in leave
+No.155: PAY 287.237 - 287.653 - 0.416 in leave2
+tech 10 busy at 287.237 for 155 when 0
+No.154: PAC 287.343 - 291.452 - 4.109 in transfer from 0 to 3
+tech 3 busy at 287.343 for 154 when 0
+tech 0 idle at 287.343 when 0
+No.156: CHE 287.605 - 289.599 - 1.994 in transfer from 2 to 4
+tech 4 busy at 287.605 for 156 when 0
+tech 2 idle at 287.605 when 0
+No.155: LEAVE 287.653 in leave
+tech 10 idle at 287.653 when 0
+No.156: PAY 289.599 - 290.781 - 1.182 in transfer from 4 to 10
+tech 10 busy at 289.599 for 156 when 0
+tech 4 idle at 289.599 when 0
+No.158: REG 289.694 - 292.058 - 2.364
+tech 0 busy at 289.694 for 158 when 0
+No.157: PAC 290.235 - 290.512 - 0.277 in transfer from 1 to 2
+tech 2 busy at 290.235 for 157 when 0
+tech 1 idle at 290.235 when 0
+No.157: CHE 290.512 - 294.701 - 4.189 in transfer from 2 to 4
+tech 4 busy at 290.512 for 157 when 0
+tech 2 idle at 290.512 when 0
+No.156: LEAVE 290.781 in leave
+tech 10 idle at 290.781 when 0
+No.154: CHE 291.452 - 294.036 - 2.585 in transfer from 3 to 5
+tech 5 busy at 291.452 for 154 when 0
+tech 3 idle at 291.452 when 0
+No.158: PAC 292.058 - 293.304 - 1.246 in transfer from 0 to 2
+tech 2 busy at 292.058 for 158 when 0
+tech 0 idle at 292.058 when 0
+No.152: PAY 293.231 - 294.436 - 1.205 in transfer from 6 to 10
+tech 10 busy at 293.231 for 152 when 0
+tech 6 idle at 293.231 when 0
+No.158: CHE 293.304 - 299.300 - 5.996 in transfer from 2 to 6
+tech 6 busy at 293.304 for 158 when 0
+tech 2 idle at 293.304 when 0
+tech 5 idle at 294.036 when 0
+No.152: LEAVE 294.436 in leave
+No.154: PAY 294.436 - 295.458 - 1.022 in leave2
+tech 10 busy at 294.436 for 154 when 0
+tech 4 idle at 294.701 when 0
+No.154: LEAVE 295.458 in leave
+No.157: PAY 295.458 - 302.986 - 7.528 in leave2
+tech 10 busy at 295.458 for 157 when 0
+No.159: REG 297.728 - 305.251 - 7.523
+tech 0 busy at 297.728 for 159 when 0
+tech 6 idle at 299.300 when 0
+Time 300.000000: 7.829958 195.748956 25
+8.770678 5.651344 4.773325 7.945751 7.829958 0.000000 0.000000 0.000000 0.000000 
+No.157: LEAVE 302.986 in leave
+No.158: PAY 302.986 - 303.261 - 0.275 in leave2
+tech 10 busy at 302.986 for 158 when 0
+No.158: LEAVE 303.261 in leave
+tech 10 idle at 303.261 when 0
+No.159: PAC 305.251 - 309.452 - 4.201 in transfer from 0 to 1
+tech 1 busy at 305.251 for 159 when 0
+No.160: REG 305.251 - 306.395 - 1.144 in transfer3 from 0
+tech 0 busy at 305.251 for 160 when 0
+No.160: PAC 306.395 - 307.842 - 1.447 in transfer from 0 to 2
+tech 2 busy at 306.395 for 160 when 0
+No.161: REG 306.395 - 308.991 - 2.596 in transfer3 from 0
+tech 0 busy at 306.395 for 161 when 0
+No.160: CHE 307.842 - 308.332 - 0.490 in transfer from 2 to 3
+tech 3 busy at 307.842 for 160 when 0
+tech 2 idle at 307.842 when 0
+No.160: PAY 308.332 - 308.636 - 0.304 in transfer from 3 to 6
+tech 6 busy at 308.332 for 160 when 0
+tech 3 idle at 308.332 when 0
+No.160: LEAVE 308.636 in leave
+tech 6 idle at 308.636 when 0
+No.161: PAC 308.991 - 316.504 - 7.513 in transfer from 0 to 2
+tech 2 busy at 308.991 for 161 when 0
+No.162: REG 308.991 - 311.908 - 2.918 in transfer3 from 0
+tech 0 busy at 308.991 for 162 when 0
+No.159: CHE 309.452 - 311.540 - 2.088 in transfer from 1 to 3
+tech 3 busy at 309.452 for 159 when 0
+tech 1 idle at 309.452 when 0
+No.159: PAY 311.540 - 312.402 - 0.862 in transfer from 3 to 6
+tech 6 busy at 311.540 for 159 when 0
+tech 3 idle at 311.540 when 0
+No.162: PAC 311.908 - 316.116 - 4.208 in transfer from 0 to 1
+tech 1 busy at 311.908 for 162 when 0
+No.163: REG 311.908 - 313.676 - 1.768 in transfer3 from 0
+tech 0 busy at 311.908 for 163 when 0
+No.159: LEAVE 312.402 in leave
+tech 6 idle at 312.402 when 0
+No.164: REG 313.676 - 314.581 - 0.905 in transfer3 from 0
+tech 0 busy at 313.676 for 164 when 0
+No.165: REG 314.581 - 319.830 - 5.249 in transfer3 from 0
+tech 0 busy at 314.581 for 165 when 0
+No.162: CHE 316.116 - 316.389 - 0.272 in transfer from 1 to 3
+tech 3 busy at 316.116 for 162 when 0
+No.163: PAC 316.116 - 320.098 - 3.981 in transfer3 from 1
+tech 1 busy at 316.116 for 163 when 0
+No.162: PAY 316.389 - 317.911 - 1.522 in transfer from 3 to 6
+tech 6 busy at 316.389 for 162 when 0
+tech 3 idle at 316.389 when 0
+No.161: CHE 316.504 - 320.264 - 3.760 in transfer from 2 to 3
+tech 3 busy at 316.504 for 161 when 0
+No.164: PAC 316.504 - 317.385 - 0.881 in transfer3 from 2
+tech 2 busy at 316.504 for 164 when 0
+No.164: CHE 317.385 - 318.295 - 0.910 in transfer from 2 to 4
+tech 4 busy at 317.385 for 164 when 0
+tech 2 idle at 317.385 when 0
+No.162: LEAVE 317.911 in leave
+tech 6 idle at 317.911 when 0
+No.164: PAY 318.295 - 320.376 - 2.080 in transfer from 4 to 6
+tech 6 busy at 318.295 for 164 when 0
+tech 4 idle at 318.295 when 0
+No.165: PAC 319.830 - 329.399 - 9.569 in transfer from 0 to 2
+tech 2 busy at 319.830 for 165 when 0
+No.166: REG 319.830 - 324.610 - 4.779 in transfer3 from 0
+tech 0 busy at 319.830 for 166 when 0
+No.163: CHE 320.098 - 322.578 - 2.480 in transfer from 1 to 4
+tech 4 busy at 320.098 for 163 when 0
+tech 1 idle at 320.098 when 0
+No.161: PAY 320.264 - 322.184 - 1.920 in transfer from 3 to 10
+tech 10 busy at 320.264 for 161 when 0
+tech 3 idle at 320.264 when 0
+No.164: LEAVE 320.376 in leave
+tech 6 idle at 320.376 when 0
+No.161: LEAVE 322.184 in leave
+tech 10 idle at 322.184 when 0
+No.163: PAY 322.578 - 326.619 - 4.041 in transfer from 4 to 6
+tech 6 busy at 322.578 for 163 when 0
+tech 4 idle at 322.578 when 0
+No.166: PAC 324.610 - 327.298 - 2.689 in transfer from 0 to 1
+tech 1 busy at 324.610 for 166 when 0
+No.167: REG 324.610 - 326.935 - 2.325 in transfer3 from 0
+tech 0 busy at 324.610 for 167 when 0
+No.163: LEAVE 326.619 in leave
+tech 6 idle at 326.619 when 0
+No.168: REG 326.935 - 327.776 - 0.841 in transfer3 from 0
+tech 0 busy at 326.935 for 168 when 0
+No.166: CHE 327.298 - 329.085 - 1.787 in transfer from 1 to 3
+tech 3 busy at 327.298 for 166 when 0
+No.167: PAC 327.298 - 332.869 - 5.571 in transfer3 from 1
+tech 1 busy at 327.298 for 167 when 0
+tech 0 idle at 327.776 when 0
+No.166: PAY 329.085 - 332.420 - 3.334 in transfer from 3 to 6
+tech 6 busy at 329.085 for 166 when 0
+tech 3 idle at 329.085 when 0
+No.165: CHE 329.399 - 336.947 - 7.549 in transfer from 2 to 3
+tech 3 busy at 329.399 for 165 when 0
+No.168: PAC 329.399 - 330.057 - 0.658 in transfer3 from 2
+tech 2 busy at 329.399 for 168 when 0
+No.168: CHE 330.057 - 331.256 - 1.199 in transfer from 2 to 4
+tech 4 busy at 330.057 for 168 when 0
+tech 2 idle at 330.057 when 0
+No.168: PAY 331.256 - 333.595 - 2.339 in transfer from 4 to 10
+tech 10 busy at 331.256 for 168 when 0
+tech 4 idle at 331.256 when 0
+No.169: REG 331.836 - 333.132 - 1.296
+tech 0 busy at 331.836 for 169 when 0
+No.166: LEAVE 332.420 in leave
+tech 6 idle at 332.420 when 0
+No.167: CHE 332.869 - 334.927 - 2.058 in transfer from 1 to 4
+tech 4 busy at 332.869 for 167 when 0
+tech 1 idle at 332.869 when 0
+No.169: PAC 333.132 - 337.713 - 4.581 in transfer from 0 to 1
+tech 1 busy at 333.132 for 169 when 0
+tech 0 idle at 333.132 when 0
+No.168: LEAVE 333.595 in leave
+tech 10 idle at 333.595 when 0
+No.170: REG 334.350 - 335.483 - 1.133
+tech 0 busy at 334.350 for 170 when 0
+No.167: PAY 334.927 - 335.562 - 0.635 in transfer from 4 to 6
+tech 6 busy at 334.927 for 167 when 0
+tech 4 idle at 334.927 when 0
+No.170: PAC 335.483 - 337.175 - 1.692 in transfer from 0 to 2
+tech 2 busy at 335.483 for 170 when 0
+No.171: REG 335.483 - 336.450 - 0.968 in transfer3 from 0
+tech 0 busy at 335.483 for 171 when 0
+No.167: LEAVE 335.562 in leave
+tech 6 idle at 335.562 when 0
+tech 0 idle at 336.450 when 0
+No.165: PAY 336.947 - 337.843 - 0.896 in transfer from 3 to 6
+tech 6 busy at 336.947 for 165 when 0
+tech 3 idle at 336.947 when 0
+No.172: REG 337.025 - 342.229 - 5.204
+tech 0 busy at 337.025 for 172 when 0
+No.170: CHE 337.175 - 345.924 - 8.749 in transfer from 2 to 3
+tech 3 busy at 337.175 for 170 when 0
+No.171: PAC 337.175 - 339.625 - 2.450 in transfer3 from 2
+tech 2 busy at 337.175 for 171 when 0
+No.169: CHE 337.713 - 340.259 - 2.547 in transfer from 1 to 4
+tech 4 busy at 337.713 for 169 when 0
+tech 1 idle at 337.713 when 0
+No.165: LEAVE 337.843 in leave
+tech 6 idle at 337.843 when 0
+No.171: CHE 339.625 - 341.493 - 1.868 in transfer from 2 to 5
+tech 5 busy at 339.625 for 171 when 0
+tech 2 idle at 339.625 when 0
+No.169: PAY 340.259 - 348.781 - 8.522 in transfer from 4 to 6
+tech 6 busy at 340.259 for 169 when 0
+tech 4 idle at 340.259 when 0
+No.171: PAY 341.493 - 343.653 - 2.160 in transfer from 5 to 10
+tech 10 busy at 341.493 for 171 when 0
+tech 5 idle at 341.493 when 0
+No.172: PAC 342.229 - 343.805 - 1.576 in transfer from 0 to 1
+tech 1 busy at 342.229 for 172 when 0
+No.173: REG 342.229 - 343.368 - 1.139 in transfer3 from 0
+tech 0 busy at 342.229 for 173 when 0
+No.173: PAC 343.368 - 344.459 - 1.091 in transfer from 0 to 2
+tech 2 busy at 343.368 for 173 when 0
+No.174: REG 343.368 - 343.950 - 0.582 in transfer3 from 0
+tech 0 busy at 343.368 for 174 when 0
+No.171: LEAVE 343.653 in leave
+tech 10 idle at 343.653 when 0
+No.172: CHE 343.805 - 348.638 - 4.833 in transfer from 1 to 4
+tech 4 busy at 343.805 for 172 when 0
+tech 1 idle at 343.805 when 0
+No.174: PAC 343.950 - 346.357 - 2.407 in transfer from 0 to 1
+tech 1 busy at 343.950 for 174 when 0
+No.175: REG 343.950 - 345.441 - 1.491 in transfer3 from 0
+tech 0 busy at 343.950 for 175 when 0
+No.173: CHE 344.459 - 347.048 - 2.589 in transfer from 2 to 5
+tech 5 busy at 344.459 for 173 when 0
+tech 2 idle at 344.459 when 0
+No.175: PAC 345.441 - 351.481 - 6.040 in transfer from 0 to 2
+tech 2 busy at 345.441 for 175 when 0
+No.176: REG 345.441 - 352.655 - 7.215 in transfer3 from 0
+tech 0 busy at 345.441 for 176 when 0
+No.170: PAY 345.924 - 347.164 - 1.239 in transfer from 3 to 10
+tech 10 busy at 345.924 for 170 when 0
+tech 3 idle at 345.924 when 0
+No.174: CHE 346.357 - 355.705 - 9.348 in transfer from 1 to 3
+tech 3 busy at 346.357 for 174 when 0
+tech 1 idle at 346.357 when 0
+tech 5 idle at 347.048 when 0
+No.170: LEAVE 347.164 in leave
+No.173: PAY 347.164 - 348.121 - 0.957 in leave2
+tech 10 busy at 347.164 for 173 when 0
+No.173: LEAVE 348.121 in leave
+tech 10 idle at 348.121 when 0
+No.172: PAY 348.638 - 350.459 - 1.821 in transfer from 4 to 10
+tech 10 busy at 348.638 for 172 when 0
+tech 4 idle at 348.638 when 0
+No.169: LEAVE 348.781 in leave
+tech 6 idle at 348.781 when 0
+No.172: LEAVE 350.459 in leave
+tech 10 idle at 350.459 when 0
+No.175: CHE 351.481 - 354.569 - 3.088 in transfer from 2 to 4
+tech 4 busy at 351.481 for 175 when 0
+tech 2 idle at 351.481 when 0
+No.176: PAC 352.655 - 359.319 - 6.664 in transfer from 0 to 1
+tech 1 busy at 352.655 for 176 when 0
+No.177: REG 352.655 - 357.394 - 4.738 in transfer3 from 0
+tech 0 busy at 352.655 for 177 when 0
+No.175: PAY 354.569 - 355.068 - 0.499 in transfer from 4 to 6
+tech 6 busy at 354.569 for 175 when 0
+tech 4 idle at 354.569 when 0
+No.175: LEAVE 355.068 in leave
+tech 6 idle at 355.068 when 0
+No.174: PAY 355.705 - 356.015 - 0.309 in transfer from 3 to 6
+tech 6 busy at 355.705 for 174 when 0
+tech 3 idle at 355.705 when 0
+No.174: LEAVE 356.015 in leave
+tech 6 idle at 356.015 when 0
+No.177: PAC 357.394 - 362.577 - 5.183 in transfer from 0 to 2
+tech 2 busy at 357.394 for 177 when 0
+No.178: REG 357.394 - 358.823 - 1.429 in transfer3 from 0
+tech 0 busy at 357.394 for 178 when 0
+No.179: REG 358.823 - 361.135 - 2.312 in transfer3 from 0
+tech 0 busy at 358.823 for 179 when 0
+No.176: CHE 359.319 - 364.979 - 5.660 in transfer from 1 to 3
+tech 3 busy at 359.319 for 176 when 0
+No.178: PAC 359.319 - 366.368 - 7.049 in transfer3 from 1
+tech 1 busy at 359.319 for 178 when 0
+Time 360.000000: 11.684023 221.996437 19
+8.770678 5.651344 4.773325 7.945751 7.829958 11.684023 0.000000 0.000000 0.000000 
+No.179: PAC 361.135 - 364.420 - 3.285 in transfer from 0 to 4
+tech 4 busy at 361.135 for 179 when 0
+No.180: REG 361.135 - 363.458 - 2.323 in transfer3 from 0
+tech 0 busy at 361.135 for 180 when 0
+No.177: CHE 362.577 - 366.552 - 3.976 in transfer from 2 to 6
+tech 6 busy at 362.577 for 177 when 0
+tech 2 idle at 362.577 when 0
+No.180: PAC 363.458 - 366.413 - 2.955 in transfer from 0 to 2
+tech 2 busy at 363.458 for 180 when 0
+No.181: REG 363.458 - 372.943 - 9.485 in transfer3 from 0
+tech 0 busy at 363.458 for 181 when 0
+No.179: CHE 364.420 - 369.620 - 5.200 in transfer from 4 to 7
+tech 7 busy at 364.420 for 179 when 0
+tech 4 idle at 364.420 when 0
+No.176: PAY 364.979 - 366.650 - 1.671 in transfer from 3 to 9
+tech 9 busy at 364.979 for 176 when 0
+tech 3 idle at 364.979 when 0
+No.178: CHE 366.368 - 368.413 - 2.045 in transfer from 1 to 3
+tech 3 busy at 366.368 for 178 when 0
+tech 1 idle at 366.368 when 0
+No.180: CHE 366.413 - 369.473 - 3.060 in transfer from 2 to 8
+tech 8 busy at 366.413 for 180 when 0
+tech 2 idle at 366.413 when 0
+tech 6 idle at 366.552 when 0
+No.176: LEAVE 366.650 in leave
+No.177: PAY 366.650 - 367.754 - 1.104 in leave2
+tech 9 busy at 366.650 for 177 when 0
+No.177: LEAVE 367.754 in leave
+tech 9 idle at 367.754 when 0
+No.178: PAY 368.413 - 369.833 - 1.420 in transfer from 3 to 9
+tech 9 busy at 368.413 for 178 when 0
+tech 3 idle at 368.413 when 0
+tech 8 idle at 369.473 when 0
+tech 7 idle at 369.620 when 0
+No.178: LEAVE 369.833 in leave
+No.180: PAY 369.833 - 371.962 - 2.129 in leave2
+tech 9 busy at 369.833 for 180 when 0
+No.180: LEAVE 371.962 in leave
+No.179: PAY 371.962 - 372.376 - 0.414 in leave2
+tech 9 busy at 371.962 for 179 when 0
+No.179: LEAVE 372.376 in leave
+tech 9 idle at 372.376 when 0
+No.181: PAC 372.943 - 378.261 - 5.318 in transfer from 0 to 1
+tech 1 busy at 372.943 for 181 when 0
+No.182: REG 372.943 - 380.205 - 7.262 in transfer3 from 0
+tech 0 busy at 372.943 for 182 when 0
+No.181: CHE 378.261 - 385.425 - 7.165 in transfer from 1 to 3
+tech 3 busy at 378.261 for 181 when 0
+tech 1 idle at 378.261 when 0
+No.182: PAC 380.205 - 383.273 - 3.068 in transfer from 0 to 1
+tech 1 busy at 380.205 for 182 when 0
+No.183: REG 380.205 - 381.714 - 1.509 in transfer3 from 0
+tech 0 busy at 380.205 for 183 when 0
+No.183: PAC 381.714 - 385.708 - 3.993 in transfer from 0 to 2
+tech 2 busy at 381.714 for 183 when 0
+No.184: REG 381.714 - 383.625 - 1.910 in transfer3 from 0
+tech 0 busy at 381.714 for 184 when 0
+No.182: CHE 383.273 - 384.695 - 1.422 in transfer from 1 to 6
+tech 6 busy at 383.273 for 182 when 0
+tech 1 idle at 383.273 when 0
+No.184: PAC 383.625 - 384.575 - 0.951 in transfer from 0 to 1
+tech 1 busy at 383.625 for 184 when 0
+No.185: REG 383.625 - 384.594 - 0.970 in transfer3 from 0
+tech 0 busy at 383.625 for 185 when 0
+No.184: CHE 384.575 - 388.570 - 3.995 in transfer from 1 to 7
+tech 7 busy at 384.575 for 184 when 0
+tech 1 idle at 384.575 when 0
+No.185: PAC 384.594 - 386.643 - 2.049 in transfer from 0 to 1
+tech 1 busy at 384.594 for 185 when 0
+No.186: REG 384.594 - 388.979 - 4.385 in transfer3 from 0
+tech 0 busy at 384.594 for 186 when 0
+No.182: PAY 384.695 - 385.131 - 0.436 in transfer from 6 to 9
+tech 9 busy at 384.695 for 182 when 0
+tech 6 idle at 384.695 when 0
+No.182: LEAVE 385.131 in leave
+tech 9 idle at 385.131 when 0
+No.181: PAY 385.425 - 393.316 - 7.891 in transfer from 3 to 9
+tech 9 busy at 385.425 for 181 when 0
+tech 3 idle at 385.425 when 0
+No.183: CHE 385.708 - 391.263 - 5.555 in transfer from 2 to 3
+tech 3 busy at 385.708 for 183 when 0
+tech 2 idle at 385.708 when 0
+No.185: CHE 386.643 - 388.628 - 1.984 in transfer from 1 to 6
+tech 6 busy at 386.643 for 185 when 0
+tech 1 idle at 386.643 when 0
+tech 7 idle at 388.570 when 0
+tech 6 idle at 388.628 when 0
+No.186: PAC 388.979 - 391.421 - 2.441 in transfer from 0 to 1
+tech 1 busy at 388.979 for 186 when 0
+No.187: REG 388.979 - 389.851 - 0.872 in transfer3 from 0
+tech 0 busy at 388.979 for 187 when 0
+No.187: PAC 389.851 - 393.513 - 3.662 in transfer from 0 to 2
+tech 2 busy at 389.851 for 187 when 0
+No.188: REG 389.851 - 390.930 - 1.079 in transfer3 from 0
+tech 0 busy at 389.851 for 188 when 0
+No.188: PAC 390.930 - 395.674 - 4.744 in transfer from 0 to 4
+tech 4 busy at 390.930 for 188 when 0
+No.189: REG 390.930 - 391.577 - 0.647 in transfer3 from 0
+tech 0 busy at 390.930 for 189 when 0
+tech 3 idle at 391.263 when 0
+No.186: CHE 391.421 - 396.657 - 5.237 in transfer from 1 to 3
+tech 3 busy at 391.421 for 186 when 0
+tech 1 idle at 391.421 when 0
+No.189: PAC 391.577 - 392.273 - 0.696 in transfer from 0 to 1
+tech 1 busy at 391.577 for 189 when 0
+No.190: REG 391.577 - 392.242 - 0.665 in transfer3 from 0
+tech 0 busy at 391.577 for 190 when 0
+No.190: PAC 392.242 - 393.301 - 1.059 in transfer from 0 to 5
+tech 5 busy at 392.242 for 190 when 0
+No.191: REG 392.242 - 393.079 - 0.837 in transfer3 from 0
+tech 0 busy at 392.242 for 191 when 0
+No.189: CHE 392.273 - 396.133 - 3.860 in transfer from 1 to 6
+tech 6 busy at 392.273 for 189 when 0
+tech 1 idle at 392.273 when 0
+No.191: PAC 393.079 - 393.716 - 0.637 in transfer from 0 to 1
+tech 1 busy at 393.079 for 191 when 0
+No.192: REG 393.079 - 394.109 - 1.030 in transfer3 from 0
+tech 0 busy at 393.079 for 192 when 0
+No.190: CHE 393.301 - 398.715 - 5.413 in transfer from 5 to 7
+tech 7 busy at 393.301 for 190 when 0
+tech 5 idle at 393.301 when 0
+No.181: LEAVE 393.316 in leave
+No.184: PAY 393.316 - 394.303 - 0.987 in leave2
+tech 9 busy at 393.316 for 184 when 0
+No.187: CHE 393.513 - 396.848 - 3.334 in transfer from 2 to 8
+tech 8 busy at 393.513 for 187 when 0
+tech 2 idle at 393.513 when 0
+tech 1 idle at 393.716 when 0
+No.192: PAC 394.109 - 394.655 - 0.546 in transfer from 0 to 1
+tech 1 busy at 394.109 for 192 when 0
+No.193: REG 394.109 - 394.830 - 0.721 in transfer3 from 0
+tech 0 busy at 394.109 for 193 when 0
+No.184: LEAVE 394.303 in leave
+No.185: PAY 394.303 - 394.823 - 0.520 in leave2
+tech 9 busy at 394.303 for 185 when 0
+tech 1 idle at 394.655 when 0
+No.185: LEAVE 394.823 in leave
+No.183: PAY 394.823 - 395.380 - 0.557 in leave2
+tech 9 busy at 394.823 for 183 when 0
+No.193: PAC 394.830 - 399.240 - 4.410 in transfer from 0 to 1
+tech 1 busy at 394.830 for 193 when 0
+No.194: REG 394.830 - 397.133 - 2.303 in transfer3 from 0
+tech 0 busy at 394.830 for 194 when 0
+No.183: LEAVE 395.380 in leave
+tech 9 idle at 395.380 when 0
+tech 4 idle at 395.674 when 0
+No.189: PAY 396.133 - 396.593 - 0.460 in transfer from 6 to 9
+tech 9 busy at 396.133 for 189 when 0
+No.191: CHE 396.133 - 396.408 - 0.275 in transfer3 from 6
+tech 6 busy at 396.133 for 191 when 0
+No.192: CHE 396.408 - 398.364 - 1.956 in transfer3 from 6
+tech 6 busy at 396.408 for 192 when 0
+No.189: LEAVE 396.593 in leave
+No.191: PAY 396.593 - 397.471 - 0.878 in leave2
+tech 9 busy at 396.593 for 191 when 0
+No.188: CHE 396.657 - 398.276 - 1.618 in transfer3 from 3
+tech 3 busy at 396.657 for 188 when 0
+tech 8 idle at 396.848 when 0
+No.194: PAC 397.133 - 399.989 - 2.856 in transfer from 0 to 2
+tech 2 busy at 397.133 for 194 when 0
+No.195: REG 397.133 - 397.909 - 0.775 in transfer3 from 0
+tech 0 busy at 397.133 for 195 when 0
+No.191: LEAVE 397.471 in leave
+No.186: PAY 397.471 - 398.096 - 0.625 in leave2
+tech 9 busy at 397.471 for 186 when 0
+No.195: PAC 397.909 - 400.682 - 2.774 in transfer from 0 to 4
+tech 4 busy at 397.909 for 195 when 0
+No.196: REG 397.909 - 399.186 - 1.277 in transfer3 from 0
+tech 0 busy at 397.909 for 196 when 0
+No.186: LEAVE 398.096 in leave
+No.187: PAY 398.096 - 398.905 - 0.810 in leave2
+tech 9 busy at 398.096 for 187 when 0
+tech 3 idle at 398.276 when 0
+tech 6 idle at 398.364 when 0
+tech 7 idle at 398.715 when 0
+No.187: LEAVE 398.905 in leave
+No.188: PAY 398.905 - 400.158 - 1.253 in leave2
+tech 9 busy at 398.905 for 188 when 0
+No.196: PAC 399.186 - 399.804 - 0.618 in transfer from 0 to 5
+tech 5 busy at 399.186 for 196 when 0
+No.197: REG 399.186 - 400.161 - 0.976 in transfer3 from 0
+tech 0 busy at 399.186 for 197 when 0
+No.193: CHE 399.240 - 404.623 - 5.382 in transfer from 1 to 3
+tech 3 busy at 399.240 for 193 when 0
+tech 1 idle at 399.240 when 0
+No.196: CHE 399.804 - 403.293 - 3.490 in transfer from 5 to 6
+tech 6 busy at 399.804 for 196 when 0
+tech 5 idle at 399.804 when 0
+No.194: CHE 399.989 - 401.446 - 1.457 in transfer from 2 to 7
+tech 7 busy at 399.989 for 194 when 0
+tech 2 idle at 399.989 when 0
+No.188: LEAVE 400.158 in leave
+No.192: PAY 400.158 - 402.765 - 2.607 in leave2
+tech 9 busy at 400.158 for 192 when 0
+No.197: PAC 400.161 - 401.067 - 0.905 in transfer from 0 to 1
+tech 1 busy at 400.161 for 197 when 0
+No.198: REG 400.161 - 400.687 - 0.526 in transfer3 from 0
+tech 0 busy at 400.161 for 198 when 0
+No.195: CHE 400.682 - 402.753 - 2.071 in transfer from 4 to 8
+tech 8 busy at 400.682 for 195 when 0
+tech 4 idle at 400.682 when 0
+No.198: PAC 400.687 - 403.735 - 3.047 in transfer from 0 to 2
+tech 2 busy at 400.687 for 198 when 0
+No.199: REG 400.687 - 400.930 - 0.243 in transfer3 from 0
+tech 0 busy at 400.687 for 199 when 0
+No.199: PAC 400.930 - 401.655 - 0.724 in transfer from 0 to 4
+tech 4 busy at 400.930 for 199 when 0
+No.200: REG 400.930 - 404.028 - 3.098 in transfer3 from 0
+tech 0 busy at 400.930 for 200 when 0
+tech 1 idle at 401.067 when 0
+No.197: CHE 401.446 - 405.484 - 4.038 in transfer3 from 7
+tech 7 busy at 401.446 for 197 when 0
+tech 4 idle at 401.655 when 0
+No.199: CHE 402.753 - 406.807 - 4.054 in transfer3 from 8
+tech 8 busy at 402.753 for 199 when 0
+No.192: LEAVE 402.765 in leave
+No.190: PAY 402.765 - 403.345 - 0.580 in leave2
+tech 9 busy at 402.765 for 190 when 0
+tech 6 idle at 403.293 when 0
+No.190: LEAVE 403.345 in leave
+No.194: PAY 403.345 - 403.836 - 0.491 in leave2
+tech 9 busy at 403.345 for 194 when 0
+No.198: CHE 403.735 - 406.006 - 2.271 in transfer from 2 to 6
+tech 6 busy at 403.735 for 198 when 0
+tech 2 idle at 403.735 when 0
+No.194: LEAVE 403.836 in leave
+No.195: PAY 403.836 - 404.377 - 0.541 in leave2
+tech 9 busy at 403.836 for 195 when 0
+No.200: PAC 404.028 - 405.607 - 1.578 in transfer from 0 to 1
+tech 1 busy at 404.028 for 200 when 0
+No.201: REG 404.028 - 405.571 - 1.543 in transfer3 from 0
+tech 0 busy at 404.028 for 201 when 0
+No.195: LEAVE 404.377 in leave
+No.196: PAY 404.377 - 405.563 - 1.186 in leave2
+tech 9 busy at 404.377 for 196 when 0
+tech 3 idle at 404.623 when 0
+tech 7 idle at 405.484 when 0
+No.196: LEAVE 405.563 in leave
+No.193: PAY 405.563 - 406.242 - 0.679 in leave2
+tech 9 busy at 405.563 for 193 when 0
+No.201: PAC 405.571 - 407.475 - 1.904 in transfer from 0 to 2
+tech 2 busy at 405.571 for 201 when 0
+No.202: REG 405.571 - 406.027 - 0.456 in transfer3 from 0
+tech 0 busy at 405.571 for 202 when 0
+No.200: CHE 405.607 - 410.685 - 5.078 in transfer from 1 to 3
+tech 3 busy at 405.607 for 200 when 0
+tech 1 idle at 405.607 when 0
+tech 6 idle at 406.006 when 0
+No.202: PAC 406.027 - 407.164 - 1.136 in transfer from 0 to 1
+tech 1 busy at 406.027 for 202 when 0
+No.203: REG 406.027 - 406.278 - 0.251 in transfer3 from 0
+tech 0 busy at 406.027 for 203 when 0
+No.193: LEAVE 406.242 in leave
+No.197: PAY 406.242 - 406.787 - 0.545 in leave2
+tech 9 busy at 406.242 for 197 when 0
+No.203: PAC 406.278 - 406.875 - 0.598 in transfer from 0 to 4
+tech 4 busy at 406.278 for 203 when 0
+No.204: REG 406.278 - 406.795 - 0.518 in transfer3 from 0
+tech 0 busy at 406.278 for 204 when 0
+No.197: LEAVE 406.787 in leave
+No.198: PAY 406.787 - 408.120 - 1.333 in leave2
+tech 9 busy at 406.787 for 198 when 0
+No.204: PAC 406.795 - 409.403 - 2.608 in transfer from 0 to 5
+tech 5 busy at 406.795 for 204 when 0
+No.205: REG 406.795 - 407.563 - 0.767 in transfer3 from 0
+tech 0 busy at 406.795 for 205 when 0
+tech 8 idle at 406.807 when 0
+No.203: CHE 406.875 - 408.240 - 1.364 in transfer from 4 to 6
+tech 6 busy at 406.875 for 203 when 0
+tech 4 idle at 406.875 when 0
+No.202: CHE 407.164 - 409.711 - 2.548 in transfer from 1 to 7
+tech 7 busy at 407.164 for 202 when 0
+tech 1 idle at 407.164 when 0
+No.201: CHE 407.475 - 409.701 - 2.226 in transfer from 2 to 8
+tech 8 busy at 407.475 for 201 when 0
+tech 2 idle at 407.475 when 0
+No.205: PAC 407.563 - 408.090 - 0.528 in transfer from 0 to 1
+tech 1 busy at 407.563 for 205 when 0
+No.206: REG 407.563 - 409.376 - 1.814 in transfer3 from 0
+tech 0 busy at 407.563 for 206 when 0
+tech 1 idle at 408.090 when 0
+No.198: LEAVE 408.120 in leave
+No.199: PAY 408.120 - 408.722 - 0.602 in leave2
+tech 9 busy at 408.120 for 199 when 0
+No.205: CHE 408.240 - 408.701 - 0.461 in transfer3 from 6
+tech 6 busy at 408.240 for 205 when 0
+tech 6 idle at 408.701 when 0
+No.199: LEAVE 408.722 in leave
+No.203: PAY 408.722 - 409.196 - 0.474 in leave2
+tech 9 busy at 408.722 for 203 when 0
+No.203: LEAVE 409.196 in leave
+No.205: PAY 409.196 - 413.908 - 4.711 in leave2
+tech 9 busy at 409.196 for 205 when 0
+No.206: PAC 409.376 - 414.000 - 4.624 in transfer from 0 to 1
+tech 1 busy at 409.376 for 206 when 0
+No.207: REG 409.376 - 412.970 - 3.594 in transfer3 from 0
+tech 0 busy at 409.376 for 207 when 0
+No.204: CHE 409.403 - 409.643 - 0.240 in transfer from 5 to 6
+tech 6 busy at 409.403 for 204 when 0
+tech 5 idle at 409.403 when 0
+tech 6 idle at 409.643 when 0
+tech 8 idle at 409.701 when 0
+tech 7 idle at 409.711 when 0
+tech 3 idle at 410.685 when 0
+No.207: PAC 412.970 - 413.993 - 1.023 in transfer from 0 to 2
+tech 2 busy at 412.970 for 207 when 0
+No.208: REG 412.970 - 416.663 - 3.693 in transfer3 from 0
+tech 0 busy at 412.970 for 208 when 0
+No.205: LEAVE 413.908 in leave
+No.204: PAY 413.908 - 415.330 - 1.422 in leave2
+tech 9 busy at 413.908 for 204 when 0
+No.207: CHE 413.993 - 418.740 - 4.747 in transfer from 2 to 3
+tech 3 busy at 413.993 for 207 when 0
+tech 2 idle at 413.993 when 0
+No.206: CHE 414.000 - 416.072 - 2.071 in transfer from 1 to 6
+tech 6 busy at 414.000 for 206 when 0
+tech 1 idle at 414.000 when 0
+No.204: LEAVE 415.330 in leave
+No.201: PAY 415.330 - 417.650 - 2.320 in leave2
+tech 9 busy at 415.330 for 201 when 0
+tech 6 idle at 416.072 when 0
+No.208: PAC 416.663 - 417.620 - 0.957 in transfer from 0 to 1
+tech 1 busy at 416.663 for 208 when 0
+No.209: REG 416.663 - 417.792 - 1.129 in transfer3 from 0
+tech 0 busy at 416.663 for 209 when 0
+No.208: CHE 417.620 - 419.134 - 1.514 in transfer from 1 to 6
+tech 6 busy at 417.620 for 208 when 0
+tech 1 idle at 417.620 when 0
+No.201: LEAVE 417.650 in leave
+No.202: PAY 417.650 - 418.864 - 1.214 in leave2
+tech 9 busy at 417.650 for 202 when 0
+No.209: PAC 417.792 - 420.372 - 2.580 in transfer from 0 to 1
+tech 1 busy at 417.792 for 209 when 0
+No.210: REG 417.792 - 418.196 - 0.404 in transfer3 from 0
+tech 0 busy at 417.792 for 210 when 0
+No.210: PAC 418.196 - 421.184 - 2.988 in transfer from 0 to 2
+tech 2 busy at 418.196 for 210 when 0
+No.211: REG 418.196 - 418.773 - 0.577 in transfer3 from 0
+tech 0 busy at 418.196 for 211 when 0
+tech 3 idle at 418.740 when 0
+No.211: PAC 418.773 - 420.297 - 1.524 in transfer from 0 to 4
+tech 4 busy at 418.773 for 211 when 0
+No.212: REG 418.773 - 419.855 - 1.082 in transfer3 from 0
+tech 0 busy at 418.773 for 212 when 0
+No.202: LEAVE 418.864 in leave
+No.200: PAY 418.864 - 420.599 - 1.735 in leave2
+tech 9 busy at 418.864 for 200 when 0
+tech 6 idle at 419.134 when 0
+No.212: PAC 419.855 - 422.048 - 2.194 in transfer from 0 to 5
+tech 5 busy at 419.855 for 212 when 0
+No.213: REG 419.855 - 420.309 - 0.454 in transfer3 from 0
+tech 0 busy at 419.855 for 213 when 0
+Time 420.000000: 18.719944 542.878372 29
+8.770678 5.651344 4.773325 7.945751 7.829958 11.684023 18.719944 0.000000 0.000000 
+No.211: CHE 420.297 - 420.954 - 0.658 in transfer from 4 to 6
+tech 6 busy at 420.297 for 211 when 0
+tech 4 idle at 420.297 when 0
+No.213: PAC 420.309 - 425.232 - 4.923 in transfer from 0 to 3
+tech 3 busy at 420.309 for 213 when 0
+No.214: REG 420.309 - 421.038 - 0.729 in transfer3 from 0
+tech 0 busy at 420.309 for 214 when 0
+No.209: CHE 420.372 - 421.789 - 1.417 in transfer from 1 to 7
+tech 7 busy at 420.372 for 209 when 0
+tech 1 idle at 420.372 when 0
+No.200: LEAVE 420.599 in leave
+No.206: PAY 420.599 - 421.017 - 0.418 in leave2
+tech 9 busy at 420.599 for 206 when 0
+No.207: PAY 420.954 - 421.292 - 0.338 in transfer from 6 to 10
+tech 10 busy at 420.954 for 207 when 0
+tech 6 idle at 420.954 when 0
+No.206: LEAVE 421.017 in leave
+No.208: PAY 421.017 - 423.906 - 2.889 in leave2
+tech 9 busy at 421.017 for 208 when 0
+No.214: PAC 421.038 - 421.779 - 0.742 in transfer from 0 to 1
+tech 1 busy at 421.038 for 214 when 0
+No.215: REG 421.038 - 421.684 - 0.647 in transfer3 from 0
+tech 0 busy at 421.038 for 215 when 0
+No.210: CHE 421.184 - 422.714 - 1.530 in transfer from 2 to 6
+tech 6 busy at 421.184 for 210 when 0
+tech 2 idle at 421.184 when 0
+No.207: LEAVE 421.292 in leave
+No.211: PAY 421.292 - 423.930 - 2.638 in leave2
+tech 10 busy at 421.292 for 211 when 0
+No.215: PAC 421.684 - 424.254 - 2.570 in transfer from 0 to 2
+tech 2 busy at 421.684 for 215 when 0
+No.216: REG 421.684 - 424.073 - 2.388 in transfer3 from 0
+tech 0 busy at 421.684 for 216 when 0
+No.214: CHE 421.779 - 423.021 - 1.241 in transfer from 1 to 8
+tech 8 busy at 421.779 for 214 when 0
+tech 1 idle at 421.779 when 0
+tech 7 idle at 421.789 when 0
+No.212: CHE 422.048 - 423.453 - 1.405 in transfer from 5 to 7
+tech 7 busy at 422.048 for 212 when 0
+tech 5 idle at 422.048 when 0
+tech 6 idle at 422.714 when 0
+tech 8 idle at 423.021 when 0
+tech 7 idle at 423.453 when 0
+No.208: LEAVE 423.906 in leave
+No.209: PAY 423.906 - 424.172 - 0.266 in leave2
+tech 9 busy at 423.906 for 209 when 0
+No.211: LEAVE 423.930 in leave
+No.210: PAY 423.930 - 424.578 - 0.648 in leave2
+tech 10 busy at 423.930 for 210 when 0
+No.216: PAC 424.073 - 424.875 - 0.802 in transfer from 0 to 1
+tech 1 busy at 424.073 for 216 when 0
+tech 0 idle at 424.073 when 0
+No.217: REG 424.156 - 427.942 - 3.786
+tech 0 busy at 424.156 for 217 when 0
+No.209: LEAVE 424.172 in leave
+No.214: PAY 424.172 - 424.414 - 0.242 in leave2
+tech 9 busy at 424.172 for 214 when 0
+No.215: CHE 424.254 - 425.425 - 1.171 in transfer from 2 to 6
+tech 6 busy at 424.254 for 215 when 0
+tech 2 idle at 424.254 when 0
+No.214: LEAVE 424.414 in leave
+No.212: PAY 424.414 - 425.281 - 0.868 in leave2
+tech 9 busy at 424.414 for 212 when 0
+No.210: LEAVE 424.578 in leave
+tech 10 idle at 424.578 when 0
+No.216: CHE 424.875 - 425.179 - 0.304 in transfer from 1 to 7
+tech 7 busy at 424.875 for 216 when 0
+tech 1 idle at 424.875 when 0
+No.216: PAY 425.179 - 427.337 - 2.158 in transfer from 7 to 10
+tech 10 busy at 425.179 for 216 when 0
+tech 7 idle at 425.179 when 0
+No.213: CHE 425.232 - 427.767 - 2.534 in transfer from 3 to 7
+tech 7 busy at 425.232 for 213 when 0
+tech 3 idle at 425.232 when 0
+No.212: LEAVE 425.281 in leave
+tech 9 idle at 425.281 when 0
+No.215: PAY 425.425 - 426.028 - 0.603 in transfer from 6 to 9
+tech 9 busy at 425.425 for 215 when 0
+tech 6 idle at 425.425 when 0
+No.215: LEAVE 426.028 in leave
+tech 9 idle at 426.028 when 0
+No.216: LEAVE 427.337 in leave
+tech 10 idle at 427.337 when 0
+No.213: PAY 427.767 - 433.026 - 5.259 in transfer from 7 to 9
+tech 9 busy at 427.767 for 213 when 0
+tech 7 idle at 427.767 when 0
+No.217: PAC 427.942 - 428.849 - 0.906 in transfer from 0 to 1
+tech 1 busy at 427.942 for 217 when 0
+No.218: REG 427.942 - 428.138 - 0.195 in transfer3 from 0
+tech 0 busy at 427.942 for 218 when 0
+No.218: PAC 428.138 - 430.176 - 2.038 in transfer from 0 to 2
+tech 2 busy at 428.138 for 218 when 0
+No.219: REG 428.138 - 430.864 - 2.726 in transfer3 from 0
+tech 0 busy at 428.138 for 219 when 0
+No.217: CHE 428.849 - 431.360 - 2.511 in transfer from 1 to 6
+tech 6 busy at 428.849 for 217 when 0
+tech 1 idle at 428.849 when 0
+No.218: CHE 430.176 - 434.434 - 4.258 in transfer from 2 to 7
+tech 7 busy at 430.176 for 218 when 0
+tech 2 idle at 430.176 when 0
+No.219: PAC 430.864 - 432.401 - 1.537 in transfer from 0 to 1
+tech 1 busy at 430.864 for 219 when 0
+No.220: REG 430.864 - 433.146 - 2.282 in transfer3 from 0
+tech 0 busy at 430.864 for 220 when 0
+No.217: PAY 431.360 - 432.055 - 0.695 in transfer from 6 to 10
+tech 10 busy at 431.360 for 217 when 0
+tech 6 idle at 431.360 when 0
+No.217: LEAVE 432.055 in leave
+tech 10 idle at 432.055 when 0
+No.219: CHE 432.401 - 433.536 - 1.135 in transfer from 1 to 6
+tech 6 busy at 432.401 for 219 when 0
+tech 1 idle at 432.401 when 0
+No.213: LEAVE 433.026 in leave
+tech 9 idle at 433.026 when 0
+No.220: PAC 433.146 - 437.084 - 3.938 in transfer from 0 to 1
+tech 1 busy at 433.146 for 220 when 0
+No.221: REG 433.146 - 434.184 - 1.038 in transfer3 from 0
+tech 0 busy at 433.146 for 221 when 0
+No.219: PAY 433.536 - 434.388 - 0.853 in transfer from 6 to 9
+tech 9 busy at 433.536 for 219 when 0
+tech 6 idle at 433.536 when 0
+No.221: PAC 434.184 - 434.830 - 0.646 in transfer from 0 to 2
+tech 2 busy at 434.184 for 221 when 0
+No.222: REG 434.184 - 434.380 - 0.196 in transfer3 from 0
+tech 0 busy at 434.184 for 222 when 0
+No.222: PAC 434.380 - 436.257 - 1.877 in transfer from 0 to 3
+tech 3 busy at 434.380 for 222 when 0
+No.223: REG 434.380 - 436.803 - 2.423 in transfer3 from 0
+tech 0 busy at 434.380 for 223 when 0
+No.219: LEAVE 434.388 in leave
+tech 9 idle at 434.388 when 0
+No.218: PAY 434.434 - 434.855 - 0.421 in transfer from 7 to 9
+tech 9 busy at 434.434 for 218 when 0
+tech 7 idle at 434.434 when 0
+No.221: CHE 434.830 - 436.305 - 1.475 in transfer from 2 to 6
+tech 6 busy at 434.830 for 221 when 0
+tech 2 idle at 434.830 when 0
+No.218: LEAVE 434.855 in leave
+tech 9 idle at 434.855 when 0
+No.222: CHE 436.257 - 439.040 - 2.783 in transfer from 3 to 7
+tech 7 busy at 436.257 for 222 when 0
+tech 3 idle at 436.257 when 0
+No.221: PAY 436.305 - 436.684 - 0.378 in transfer from 6 to 9
+tech 9 busy at 436.305 for 221 when 0
+tech 6 idle at 436.305 when 0
+No.221: LEAVE 436.684 in leave
+tech 9 idle at 436.684 when 0
+No.223: PAC 436.803 - 438.047 - 1.243 in transfer from 0 to 2
+tech 2 busy at 436.803 for 223 when 0
+No.224: REG 436.803 - 438.784 - 1.981 in transfer3 from 0
+tech 0 busy at 436.803 for 224 when 0
+No.220: CHE 437.084 - 441.166 - 4.082 in transfer from 1 to 6
+tech 6 busy at 437.084 for 220 when 0
+tech 1 idle at 437.084 when 0
+No.223: CHE 438.047 - 443.165 - 5.118 in transfer from 2 to 8
+tech 8 busy at 438.047 for 223 when 0
+tech 2 idle at 438.047 when 0
+No.224: PAC 438.784 - 441.376 - 2.592 in transfer from 0 to 1
+tech 1 busy at 438.784 for 224 when 0
+No.225: REG 438.784 - 440.064 - 1.280 in transfer3 from 0
+tech 0 busy at 438.784 for 225 when 0
+No.222: PAY 439.040 - 443.720 - 4.680 in transfer from 7 to 9
+tech 9 busy at 439.040 for 222 when 0
+tech 7 idle at 439.040 when 0
+No.225: PAC 440.064 - 444.269 - 4.205 in transfer from 0 to 2
+tech 2 busy at 440.064 for 225 when 0
+No.226: REG 440.064 - 441.752 - 1.688 in transfer3 from 0
+tech 0 busy at 440.064 for 226 when 0
+No.220: PAY 441.166 - 441.647 - 0.481 in transfer from 6 to 10
+tech 10 busy at 441.166 for 220 when 0
+tech 6 idle at 441.166 when 0
+No.224: CHE 441.376 - 442.931 - 1.555 in transfer from 1 to 6
+tech 6 busy at 441.376 for 224 when 0
+tech 1 idle at 441.376 when 0
+No.220: LEAVE 441.647 in leave
+tech 10 idle at 441.647 when 0
+No.226: PAC 441.752 - 443.114 - 1.362 in transfer from 0 to 1
+tech 1 busy at 441.752 for 226 when 0
+No.227: REG 441.752 - 443.814 - 2.061 in transfer3 from 0
+tech 0 busy at 441.752 for 227 when 0
+No.224: PAY 442.931 - 444.384 - 1.454 in transfer from 6 to 10
+tech 10 busy at 442.931 for 224 when 0
+tech 6 idle at 442.931 when 0
+No.226: CHE 443.114 - 446.130 - 3.016 in transfer from 1 to 6
+tech 6 busy at 443.114 for 226 when 0
+tech 1 idle at 443.114 when 0
+tech 8 idle at 443.165 when 0
+No.222: LEAVE 443.720 in leave
+No.223: PAY 443.720 - 444.033 - 0.313 in leave2
+tech 9 busy at 443.720 for 223 when 0
+No.227: PAC 443.814 - 445.571 - 1.757 in transfer from 0 to 1
+tech 1 busy at 443.814 for 227 when 0
+No.228: REG 443.814 - 445.224 - 1.410 in transfer3 from 0
+tech 0 busy at 443.814 for 228 when 0
+No.223: LEAVE 444.033 in leave
+tech 9 idle at 444.033 when 0
+No.225: CHE 444.269 - 445.115 - 0.845 in transfer from 2 to 7
+tech 7 busy at 444.269 for 225 when 0
+tech 2 idle at 444.269 when 0
+No.224: LEAVE 444.384 in leave
+tech 10 idle at 444.384 when 0
+No.225: PAY 445.115 - 446.104 - 0.989 in transfer from 7 to 9
+tech 9 busy at 445.115 for 225 when 0
+tech 7 idle at 445.115 when 0
+No.228: PAC 445.224 - 446.148 - 0.924 in transfer from 0 to 2
+tech 2 busy at 445.224 for 228 when 0
+No.229: REG 445.224 - 449.498 - 4.274 in transfer3 from 0
+tech 0 busy at 445.224 for 229 when 0
+No.227: CHE 445.571 - 448.156 - 2.584 in transfer from 1 to 7
+tech 7 busy at 445.571 for 227 when 0
+tech 1 idle at 445.571 when 0
+No.225: LEAVE 446.104 in leave
+tech 9 idle at 446.104 when 0
+No.226: PAY 446.130 - 447.412 - 1.282 in transfer from 6 to 9
+tech 9 busy at 446.130 for 226 when 0
+tech 6 idle at 446.130 when 0
+No.228: CHE 446.148 - 449.217 - 3.069 in transfer from 2 to 6
+tech 6 busy at 446.148 for 228 when 0
+tech 2 idle at 446.148 when 0
+No.226: LEAVE 447.412 in leave
+tech 9 idle at 447.412 when 0
+No.227: PAY 448.156 - 449.109 - 0.953 in transfer from 7 to 9
+tech 9 busy at 448.156 for 227 when 0
+tech 7 idle at 448.156 when 0
+No.227: LEAVE 449.109 in leave
+tech 9 idle at 449.109 when 0
+No.228: PAY 449.217 - 449.686 - 0.469 in transfer from 6 to 9
+tech 9 busy at 449.217 for 228 when 0
+tech 6 idle at 449.217 when 0
+No.229: PAC 449.498 - 450.703 - 1.205 in transfer from 0 to 1
+tech 1 busy at 449.498 for 229 when 0
+No.230: REG 449.498 - 450.592 - 1.094 in transfer3 from 0
+tech 0 busy at 449.498 for 230 when 0
+No.228: LEAVE 449.686 in leave
+tech 9 idle at 449.686 when 0
+No.230: PAC 450.592 - 454.303 - 3.712 in transfer from 0 to 2
+tech 2 busy at 450.592 for 230 when 0
+No.231: REG 450.592 - 450.945 - 0.353 in transfer3 from 0
+tech 0 busy at 450.592 for 231 when 0
+No.229: CHE 450.703 - 454.283 - 3.580 in transfer from 1 to 6
+tech 6 busy at 450.703 for 229 when 0
+tech 1 idle at 450.703 when 0
+No.231: PAC 450.945 - 451.383 - 0.439 in transfer from 0 to 1
+tech 1 busy at 450.945 for 231 when 0
+No.232: REG 450.945 - 451.209 - 0.265 in transfer3 from 0
+tech 0 busy at 450.945 for 232 when 0
+No.232: PAC 451.209 - 455.697 - 4.488 in transfer from 0 to 3
+tech 3 busy at 451.209 for 232 when 0
+tech 0 idle at 451.209 when 0
+No.231: CHE 451.383 - 455.296 - 3.912 in transfer from 1 to 7
+tech 7 busy at 451.383 for 231 when 0
+tech 1 idle at 451.383 when 0
+No.233: REG 451.849 - 453.381 - 1.532
+tech 0 busy at 451.849 for 233 when 0
+No.233: PAC 453.381 - 454.445 - 1.064 in transfer from 0 to 1
+tech 1 busy at 453.381 for 233 when 0
+No.234: REG 453.381 - 454.689 - 1.308 in transfer3 from 0
+tech 0 busy at 453.381 for 234 when 0
+No.229: PAY 454.283 - 455.908 - 1.625 in transfer from 6 to 9
+tech 9 busy at 454.283 for 229 when 0
+tech 6 idle at 454.283 when 0
+No.230: CHE 454.303 - 456.023 - 1.720 in transfer from 2 to 6
+tech 6 busy at 454.303 for 230 when 0
+tech 2 idle at 454.303 when 0
+No.233: CHE 454.445 - 458.540 - 4.095 in transfer from 1 to 8
+tech 8 busy at 454.445 for 233 when 0
+tech 1 idle at 454.445 when 0
+No.234: PAC 454.689 - 456.554 - 1.865 in transfer from 0 to 1
+tech 1 busy at 454.689 for 234 when 0
+No.235: REG 454.689 - 455.345 - 0.656 in transfer3 from 0
+tech 0 busy at 454.689 for 235 when 0
+No.231: PAY 455.296 - 455.955 - 0.660 in transfer from 7 to 10
+tech 10 busy at 455.296 for 231 when 0
+tech 7 idle at 455.296 when 0
+No.235: PAC 455.345 - 456.849 - 1.504 in transfer from 0 to 2
+tech 2 busy at 455.345 for 235 when 0
+No.236: REG 455.345 - 456.026 - 0.681 in transfer3 from 0
+tech 0 busy at 455.345 for 236 when 0
+No.232: CHE 455.697 - 458.729 - 3.032 in transfer from 3 to 7
+tech 7 busy at 455.697 for 232 when 0
+tech 3 idle at 455.697 when 0
+No.229: LEAVE 455.908 in leave
+tech 9 idle at 455.908 when 0
+No.231: LEAVE 455.955 in leave
+tech 10 idle at 455.955 when 0
+No.230: PAY 456.023 - 456.188 - 0.165 in transfer from 6 to 9
+tech 9 busy at 456.023 for 230 when 0
+tech 6 idle at 456.023 when 0
+No.236: PAC 456.026 - 458.574 - 2.547 in transfer from 0 to 3
+tech 3 busy at 456.026 for 236 when 0
+No.237: REG 456.026 - 456.325 - 0.299 in transfer3 from 0
+tech 0 busy at 456.026 for 237 when 0
+No.230: LEAVE 456.188 in leave
+tech 9 idle at 456.188 when 0
+No.237: PAC 456.325 - 456.657 - 0.332 in transfer from 0 to 4
+tech 4 busy at 456.325 for 237 when 0
+tech 0 idle at 456.325 when 0
+No.234: CHE 456.554 - 457.220 - 0.666 in transfer from 1 to 6
+tech 6 busy at 456.554 for 234 when 0
+tech 1 idle at 456.554 when 0
+tech 4 idle at 456.657 when 0
+tech 2 idle at 456.849 when 0
+No.238: REG 456.956 - 459.730 - 2.774
+tech 0 busy at 456.956 for 238 when 0
+No.234: PAY 457.220 - 457.926 - 0.706 in transfer from 6 to 9
+tech 9 busy at 457.220 for 234 when 0
+No.237: CHE 457.220 - 462.268 - 5.048 in transfer3 from 6
+tech 6 busy at 457.220 for 237 when 0
+No.234: LEAVE 457.926 in leave
+tech 9 idle at 457.926 when 0
+No.233: PAY 458.540 - 459.013 - 0.473 in transfer from 8 to 9
+tech 9 busy at 458.540 for 233 when 0
+No.235: CHE 458.540 - 458.892 - 0.351 in transfer3 from 8
+tech 8 busy at 458.540 for 235 when 0
+tech 3 idle at 458.574 when 0
+No.232: PAY 458.729 - 459.876 - 1.147 in transfer from 7 to 10
+tech 10 busy at 458.729 for 232 when 0
+No.236: CHE 458.729 - 459.402 - 0.673 in transfer3 from 7
+tech 7 busy at 458.729 for 236 when 0
+tech 8 idle at 458.892 when 0
+No.233: LEAVE 459.013 in leave
+No.235: PAY 459.013 - 459.424 - 0.411 in leave2
+tech 9 busy at 459.013 for 235 when 0
+tech 7 idle at 459.402 when 0
+No.235: LEAVE 459.424 in leave
+No.236: PAY 459.424 - 460.255 - 0.831 in leave2
+tech 9 busy at 459.424 for 236 when 0
+No.238: PAC 459.730 - 459.997 - 0.267 in transfer from 0 to 1
+tech 1 busy at 459.730 for 238 when 0
+No.239: REG 459.730 - 461.939 - 2.209 in transfer3 from 0
+tech 0 busy at 459.730 for 239 when 0
+No.232: LEAVE 459.876 in leave
+tech 10 idle at 459.876 when 0
+No.238: CHE 459.997 - 461.267 - 1.270 in transfer from 1 to 7
+tech 7 busy at 459.997 for 238 when 0
+tech 1 idle at 459.997 when 0
+No.236: LEAVE 460.255 in leave
+tech 9 idle at 460.255 when 0
+No.238: PAY 461.267 - 461.888 - 0.621 in transfer from 7 to 9
+tech 9 busy at 461.267 for 238 when 0
+tech 7 idle at 461.267 when 0
+No.238: LEAVE 461.888 in leave
+tech 9 idle at 461.888 when 0
+No.239: PAC 461.939 - 464.306 - 2.367 in transfer from 0 to 1
+tech 1 busy at 461.939 for 239 when 0
+No.240: REG 461.939 - 463.263 - 1.325 in transfer3 from 0
+tech 0 busy at 461.939 for 240 when 0
+No.237: PAY 462.268 - 462.561 - 0.293 in transfer from 6 to 9
+tech 9 busy at 462.268 for 237 when 0
+tech 6 idle at 462.268 when 0
+No.237: LEAVE 462.561 in leave
+tech 9 idle at 462.561 when 0
+No.240: PAC 463.263 - 464.271 - 1.008 in transfer from 0 to 2
+tech 2 busy at 463.263 for 240 when 0
+No.241: REG 463.263 - 464.241 - 0.978 in transfer3 from 0
+tech 0 busy at 463.263 for 241 when 0
+No.241: PAC 464.241 - 464.624 - 0.383 in transfer from 0 to 3
+tech 3 busy at 464.241 for 241 when 0
+No.242: REG 464.241 - 465.670 - 1.429 in transfer3 from 0
+tech 0 busy at 464.241 for 242 when 0
+No.240: CHE 464.271 - 469.405 - 5.134 in transfer from 2 to 6
+tech 6 busy at 464.271 for 240 when 0
+tech 2 idle at 464.271 when 0
+No.239: CHE 464.306 - 466.468 - 2.162 in transfer from 1 to 7
+tech 7 busy at 464.306 for 239 when 0
+tech 1 idle at 464.306 when 0
+No.241: CHE 464.624 - 467.634 - 3.010 in transfer from 3 to 8
+tech 8 busy at 464.624 for 241 when 0
+tech 3 idle at 464.624 when 0
+No.242: PAC 465.670 - 467.679 - 2.009 in transfer from 0 to 1
+tech 1 busy at 465.670 for 242 when 0
+No.243: REG 465.670 - 466.410 - 0.740 in transfer3 from 0
+tech 0 busy at 465.670 for 243 when 0
+No.243: PAC 466.410 - 466.552 - 0.142 in transfer from 0 to 2
+tech 2 busy at 466.410 for 243 when 0
+tech 0 idle at 466.410 when 0
+No.239: PAY 466.468 - 471.113 - 4.646 in transfer from 7 to 9
+tech 9 busy at 466.468 for 239 when 0
+tech 7 idle at 466.468 when 0
+No.243: CHE 466.552 - 470.848 - 4.296 in transfer from 2 to 7
+tech 7 busy at 466.552 for 243 when 0
+tech 2 idle at 466.552 when 0
+No.241: PAY 467.634 - 467.898 - 0.263 in transfer from 8 to 10
+tech 10 busy at 467.634 for 241 when 0
+tech 8 idle at 467.634 when 0
+No.242: CHE 467.679 - 468.587 - 0.908 in transfer from 1 to 8
+tech 8 busy at 467.679 for 242 when 0
+tech 1 idle at 467.679 when 0
+No.241: LEAVE 467.898 in leave
+tech 10 idle at 467.898 when 0
+No.242: PAY 468.587 - 469.382 - 0.795 in transfer from 8 to 10
+tech 10 busy at 468.587 for 242 when 0
+tech 8 idle at 468.587 when 0
+No.244: REG 469.232 - 469.626 - 0.394
+tech 0 busy at 469.232 for 244 when 0
+No.242: LEAVE 469.382 in leave
+tech 10 idle at 469.382 when 0
+No.240: PAY 469.405 - 469.547 - 0.141 in transfer from 6 to 10
+tech 10 busy at 469.405 for 240 when 0
+tech 6 idle at 469.405 when 0
+No.240: LEAVE 469.547 in leave
+tech 10 idle at 469.547 when 0
+No.244: PAC 469.626 - 470.755 - 1.130 in transfer from 0 to 1
+tech 1 busy at 469.626 for 244 when 0
+tech 0 idle at 469.626 when 0
+No.245: REG 469.834 - 471.059 - 1.225
+tech 0 busy at 469.834 for 245 when 0
+No.244: CHE 470.755 - 472.391 - 1.635 in transfer from 1 to 6
+tech 6 busy at 470.755 for 244 when 0
+tech 1 idle at 470.755 when 0
+No.243: PAY 470.848 - 471.075 - 0.227 in transfer from 7 to 10
+tech 10 busy at 470.848 for 243 when 0
+tech 7 idle at 470.848 when 0
+No.245: PAC 471.059 - 472.071 - 1.011 in transfer from 0 to 1
+tech 1 busy at 471.059 for 245 when 0
+tech 0 idle at 471.059 when 0
+No.243: LEAVE 471.075 in leave
+tech 10 idle at 471.075 when 0
+No.239: LEAVE 471.113 in leave
+tech 9 idle at 471.113 when 0
+No.245: CHE 472.071 - 473.675 - 1.605 in transfer from 1 to 7
+tech 7 busy at 472.071 for 245 when 0
+tech 1 idle at 472.071 when 0
+No.244: PAY 472.391 - 474.688 - 2.297 in transfer from 6 to 9
+tech 9 busy at 472.391 for 244 when 0
+tech 6 idle at 472.391 when 0
+No.246: REG 472.944 - 474.173 - 1.230
+tech 0 busy at 472.944 for 246 when 0
+No.245: PAY 473.675 - 475.470 - 1.794 in transfer from 7 to 10
+tech 10 busy at 473.675 for 245 when 0
+tech 7 idle at 473.675 when 0
+No.246: PAC 474.173 - 476.589 - 2.416 in transfer from 0 to 1
+tech 1 busy at 474.173 for 246 when 0
+No.247: REG 474.173 - 474.864 - 0.691 in transfer3 from 0
+tech 0 busy at 474.173 for 247 when 0
+No.244: LEAVE 474.688 in leave
+tech 9 idle at 474.688 when 0
+No.247: PAC 474.864 - 475.695 - 0.831 in transfer from 0 to 2
+tech 2 busy at 474.864 for 247 when 0
+tech 0 idle at 474.864 when 0
+No.248: REG 475.061 - 477.447 - 2.386
+tech 0 busy at 475.061 for 248 when 0
+No.245: LEAVE 475.470 in leave
+tech 10 idle at 475.470 when 0
+No.247: CHE 475.695 - 478.405 - 2.711 in transfer from 2 to 6
+tech 6 busy at 475.695 for 247 when 0
+tech 2 idle at 475.695 when 0
+No.246: CHE 476.589 - 479.833 - 3.244 in transfer from 1 to 7
+tech 7 busy at 476.589 for 246 when 0
+tech 1 idle at 476.589 when 0
+No.248: PAC 477.447 - 479.376 - 1.928 in transfer from 0 to 1
+tech 1 busy at 477.447 for 248 when 0
+tech 0 idle at 477.447 when 0
+No.249: REG 478.327 - 480.140 - 1.813
+tech 0 busy at 478.327 for 249 when 0
+No.247: PAY 478.405 - 478.868 - 0.463 in transfer from 6 to 9
+tech 9 busy at 478.405 for 247 when 0
+tech 6 idle at 478.405 when 0
+No.247: LEAVE 478.868 in leave
+tech 9 idle at 478.868 when 0
+No.248: CHE 479.376 - 480.354 - 0.978 in transfer from 1 to 6
+tech 6 busy at 479.376 for 248 when 0
+tech 1 idle at 479.376 when 0
+No.246: PAY 479.833 - 481.207 - 1.373 in transfer from 7 to 9
+tech 9 busy at 479.833 for 246 when 0
+tech 7 idle at 479.833 when 0
+Time 480.000000: 6.762694 284.033144 42
+8.770678 5.651344 4.773325 7.945751 7.829958 11.684023 18.719944 6.762694 0.000000 
+No.249: PAC 480.140 - 485.179 - 5.039 in transfer from 0 to 2
+tech 2 busy at 480.140 for 249 when 0
+No.250: REG 480.140 - 481.863 - 1.723 in transfer3 from 0
+tech 0 busy at 480.140 for 250 when 0
+No.248: PAY 480.354 - 480.815 - 0.461 in transfer from 6 to 10
+tech 10 busy at 480.354 for 248 when 0
+tech 6 idle at 480.354 when 0
+No.248: LEAVE 480.815 in leave
+tech 10 idle at 480.815 when 0
+No.246: LEAVE 481.207 in leave
+tech 9 idle at 481.207 when 0
+No.251: REG 481.368 - 482.438 - 1.070
+tech 1 busy at 481.368 for 251 when 0
+No.250: PAC 481.863 - 482.717 - 0.854 in transfer from 0 to 3
+tech 3 busy at 481.863 for 250 when 0
+tech 0 idle at 481.863 when 0
+No.251: PAC 482.438 - 491.777 - 9.339 in transfer from 1 to 4
+tech 4 busy at 482.438 for 251 when 0
+tech 1 idle at 482.438 when 0
+No.250: CHE 482.717 - 484.138 - 1.421 in transfer from 3 to 6
+tech 6 busy at 482.717 for 250 when 0
+tech 3 idle at 482.717 when 0
+No.252: REG 483.875 - 484.619 - 0.744
+tech 0 busy at 483.875 for 252 when 0
+No.250: PAY 484.138 - 484.462 - 0.324 in transfer from 6 to 9
+tech 9 busy at 484.138 for 250 when 0
+tech 6 idle at 484.138 when 0
+No.250: LEAVE 484.462 in leave
+tech 9 idle at 484.462 when 0
+No.252: PAC 484.619 - 486.049 - 1.430 in transfer from 0 to 3
+tech 3 busy at 484.619 for 252 when 0
+tech 0 idle at 484.619 when 0
+No.253: REG 485.067 - 485.360 - 0.294
+tech 0 busy at 485.067 for 253 when 0
+No.249: CHE 485.179 - 488.786 - 3.607 in transfer from 2 to 6
+tech 6 busy at 485.179 for 249 when 0
+tech 2 idle at 485.179 when 0
+No.253: PAC 485.360 - 493.501 - 8.141 in transfer from 0 to 2
+tech 2 busy at 485.360 for 253 when 0
+tech 0 idle at 485.360 when 0
+No.252: CHE 486.049 - 488.911 - 2.863 in transfer from 3 to 7
+tech 7 busy at 486.049 for 252 when 0
+tech 3 idle at 486.049 when 0
+No.254: REG 486.385 - 486.938 - 0.553
+tech 0 busy at 486.385 for 254 when 0
+No.254: PAC 486.938 - 488.857 - 1.919 in transfer from 0 to 3
+tech 3 busy at 486.938 for 254 when 0
+tech 0 idle at 486.938 when 0
+No.255: REG 487.345 - 492.260 - 4.915
+tech 0 busy at 487.345 for 255 when 0
+No.249: PAY 488.786 - 490.229 - 1.444 in transfer from 6 to 9
+tech 9 busy at 488.786 for 249 when 0
+tech 6 idle at 488.786 when 0
+No.254: CHE 488.857 - 490.126 - 1.270 in transfer from 3 to 6
+tech 6 busy at 488.857 for 254 when 0
+tech 3 idle at 488.857 when 0
+No.252: PAY 488.911 - 489.254 - 0.343 in transfer from 7 to 10
+tech 10 busy at 488.911 for 252 when 0
+tech 7 idle at 488.911 when 0
+No.256: REG 489.042 - 489.618 - 0.577
+tech 1 busy at 489.042 for 256 when 0
+No.252: LEAVE 489.254 in leave
+tech 10 idle at 489.254 when 0
+No.256: PAC 489.618 - 491.530 - 1.912 in transfer from 1 to 3
+tech 3 busy at 489.618 for 256 when 0
+tech 1 idle at 489.618 when 0
+No.257: REG 489.879 - 495.326 - 5.447
+tech 1 busy at 489.879 for 257 when 0
+No.254: PAY 490.126 - 493.562 - 3.436 in transfer from 6 to 10
+tech 10 busy at 490.126 for 254 when 0
+tech 6 idle at 490.126 when 0
+No.249: LEAVE 490.229 in leave
+tech 9 idle at 490.229 when 0
+No.256: CHE 491.530 - 493.771 - 2.241 in transfer from 3 to 6
+tech 6 busy at 491.530 for 256 when 0
+tech 3 idle at 491.530 when 0
+No.251: CHE 491.777 - 500.712 - 8.936 in transfer from 4 to 7
+tech 7 busy at 491.777 for 251 when 0
+tech 4 idle at 491.777 when 0
+No.255: PAC 492.260 - 493.043 - 0.783 in transfer from 0 to 3
+tech 3 busy at 492.260 for 255 when 0
+No.258: REG 492.260 - 492.508 - 0.248 in transfer3 from 0
+tech 0 busy at 492.260 for 258 when 0
+No.258: PAC 492.508 - 499.596 - 7.088 in transfer from 0 to 4
+tech 4 busy at 492.508 for 258 when 0
+No.259: REG 492.508 - 494.078 - 1.571 in transfer3 from 0
+tech 0 busy at 492.508 for 259 when 0
+No.255: CHE 493.043 - 495.812 - 2.769 in transfer from 3 to 8
+tech 8 busy at 493.043 for 255 when 0
+tech 3 idle at 493.043 when 0
+tech 2 idle at 493.501 when 0
+No.254: LEAVE 493.562 in leave
+tech 10 idle at 493.562 when 0
+No.256: PAY 493.771 - 495.384 - 1.612 in transfer from 6 to 9
+tech 9 busy at 493.771 for 256 when 0
+No.253: CHE 493.771 - 497.636 - 3.865 in transfer3 from 6
+tech 6 busy at 493.771 for 253 when 0
+No.259: PAC 494.078 - 494.736 - 0.658 in transfer from 0 to 2
+tech 2 busy at 494.078 for 259 when 0
+No.260: REG 494.078 - 495.984 - 1.905 in transfer3 from 0
+tech 0 busy at 494.078 for 260 when 0
+tech 2 idle at 494.736 when 0
+No.257: PAC 495.326 - 496.039 - 0.713 in transfer from 1 to 2
+tech 2 busy at 495.326 for 257 when 0
+No.261: REG 495.326 - 495.834 - 0.508 in transfer3 from 1
+tech 1 busy at 495.326 for 261 when 0
+No.256: LEAVE 495.384 in leave
+tech 9 idle at 495.384 when 0
+No.255: PAY 495.812 - 496.354 - 0.543 in transfer from 8 to 9
+tech 9 busy at 495.812 for 255 when 0
+No.259: CHE 495.812 - 496.998 - 1.186 in transfer3 from 8
+tech 8 busy at 495.812 for 259 when 0
+No.261: PAC 495.834 - 497.949 - 2.115 in transfer from 1 to 3
+tech 3 busy at 495.834 for 261 when 0
+tech 1 idle at 495.834 when 0
+No.260: PAC 495.984 - 498.361 - 2.377 in transfer from 0 to 5
+tech 5 busy at 495.984 for 260 when 0
+tech 0 idle at 495.984 when 0
+tech 2 idle at 496.039 when 0
+No.255: LEAVE 496.354 in leave
+tech 9 idle at 496.354 when 0
+No.259: PAY 496.998 - 498.193 - 1.195 in transfer from 8 to 9
+tech 9 busy at 496.998 for 259 when 0
+No.257: CHE 496.998 - 497.957 - 0.959 in transfer3 from 8
+tech 8 busy at 496.998 for 257 when 0
+No.253: PAY 497.636 - 498.619 - 0.983 in transfer from 6 to 10
+tech 10 busy at 497.636 for 253 when 0
+tech 6 idle at 497.636 when 0
+No.261: CHE 497.949 - 504.239 - 6.290 in transfer from 3 to 6
+tech 6 busy at 497.949 for 261 when 0
+tech 3 idle at 497.949 when 0
+tech 8 idle at 497.957 when 0
+No.259: LEAVE 498.193 in leave
+No.257: PAY 498.193 - 498.655 - 0.462 in leave2
+tech 9 busy at 498.193 for 257 when 0
+No.260: CHE 498.361 - 500.479 - 2.118 in transfer from 5 to 8
+tech 8 busy at 498.361 for 260 when 0
+tech 5 idle at 498.361 when 0
+No.253: LEAVE 498.619 in leave
+tech 10 idle at 498.619 when 0
+No.257: LEAVE 498.655 in leave
+tech 9 idle at 498.655 when 0
+No.262: REG 499.553 - 500.811 - 1.258
+tech 0 busy at 499.553 for 262 when 0
+tech 4 idle at 499.596 when 0
+No.260: PAY 500.479 - 504.468 - 3.989 in transfer from 8 to 9
+tech 9 busy at 500.479 for 260 when 0
+No.258: CHE 500.479 - 509.499 - 9.020 in transfer3 from 8
+tech 8 busy at 500.479 for 258 when 0
+No.251: PAY 500.712 - 503.223 - 2.511 in transfer from 7 to 10
+tech 10 busy at 500.712 for 251 when 0
+tech 7 idle at 500.712 when 0
+No.262: PAC 500.811 - 502.374 - 1.563 in transfer from 0 to 2
+tech 2 busy at 500.811 for 262 when 0
+tech 0 idle at 500.811 when 0
+No.263: REG 502.210 - 502.595 - 0.385
+tech 0 busy at 502.210 for 263 when 0
+No.262: CHE 502.374 - 510.376 - 8.002 in transfer from 2 to 7
+tech 7 busy at 502.374 for 262 when 0
+tech 2 idle at 502.374 when 0
+No.263: PAC 502.595 - 503.038 - 0.443 in transfer from 0 to 2
+tech 2 busy at 502.595 for 263 when 0
+tech 0 idle at 502.595 when 0
+tech 2 idle at 503.038 when 0
+No.264: REG 503.100 - 503.752 - 0.652
+tech 0 busy at 503.100 for 264 when 0
+No.251: LEAVE 503.223 in leave
+tech 10 idle at 503.223 when 0
+No.264: PAC 503.752 - 508.511 - 4.759 in transfer from 0 to 2
+tech 2 busy at 503.752 for 264 when 0
+tech 0 idle at 503.752 when 0
+No.261: PAY 504.239 - 506.523 - 2.284 in transfer from 6 to 10
+tech 10 busy at 504.239 for 261 when 0
+No.263: CHE 504.239 - 506.794 - 2.556 in transfer3 from 6
+tech 6 busy at 504.239 for 263 when 0
+No.260: LEAVE 504.468 in leave
+tech 9 idle at 504.468 when 0
+No.265: REG 504.715 - 505.679 - 0.964
+tech 0 busy at 504.715 for 265 when 0
+No.265: PAC 505.679 - 510.607 - 4.928 in transfer from 0 to 3
+tech 3 busy at 505.679 for 265 when 0
+tech 0 idle at 505.679 when 0
+No.266: REG 506.449 - 512.167 - 5.718
+tech 0 busy at 506.449 for 266 when 0
+No.261: LEAVE 506.523 in leave
+tech 10 idle at 506.523 when 0
+No.263: PAY 506.794 - 510.933 - 4.138 in transfer from 6 to 9
+tech 9 busy at 506.794 for 263 when 0
+tech 6 idle at 506.794 when 0
+No.267: REG 507.021 - 512.564 - 5.543
+tech 1 busy at 507.021 for 267 when 0
+No.264: CHE 508.511 - 512.810 - 4.300 in transfer from 2 to 6
+tech 6 busy at 508.511 for 264 when 0
+tech 2 idle at 508.511 when 0
+No.258: PAY 509.499 - 512.792 - 3.293 in transfer from 8 to 10
+tech 10 busy at 509.499 for 258 when 0
+tech 8 idle at 509.499 when 0
+tech 7 idle at 510.376 when 0
+No.265: CHE 510.607 - 518.022 - 7.415 in transfer from 3 to 7
+tech 7 busy at 510.607 for 265 when 0
+tech 3 idle at 510.607 when 0
+No.263: LEAVE 510.933 in leave
+No.262: PAY 510.933 - 511.580 - 0.647 in leave2
+tech 9 busy at 510.933 for 262 when 0
+No.262: LEAVE 511.580 in leave
+tech 9 idle at 511.580 when 0
+No.266: PAC 512.167 - 518.512 - 6.346 in transfer from 0 to 2
+tech 2 busy at 512.167 for 266 when 0
+tech 0 idle at 512.167 when 0
+No.267: PAC 512.564 - 513.776 - 1.212 in transfer from 1 to 3
+tech 3 busy at 512.564 for 267 when 0
+tech 1 idle at 512.564 when 0
+No.258: LEAVE 512.792 in leave
+tech 10 idle at 512.792 when 0
+No.264: PAY 512.810 - 519.998 - 7.188 in transfer from 6 to 9
+tech 9 busy at 512.810 for 264 when 0
+tech 6 idle at 512.810 when 0
+No.267: CHE 513.776 - 518.916 - 5.140 in transfer from 3 to 6
+tech 6 busy at 513.776 for 267 when 0
+tech 3 idle at 513.776 when 0
+No.268: REG 515.787 - 516.654 - 0.867
+tech 0 busy at 515.787 for 268 when 0
+No.269: REG 516.058 - 517.786 - 1.728
+tech 1 busy at 516.058 for 269 when 0
+No.268: PAC 516.654 - 524.137 - 7.483 in transfer from 0 to 3
+tech 3 busy at 516.654 for 268 when 0
+No.270: REG 516.654 - 520.360 - 3.706 in transfer3 from 0
+tech 0 busy at 516.654 for 270 when 0
+No.269: PAC 517.786 - 523.699 - 5.914 in transfer from 1 to 4
+tech 4 busy at 517.786 for 269 when 0
+No.271: REG 517.786 - 519.400 - 1.614 in transfer3 from 1
+tech 1 busy at 517.786 for 271 when 0
+No.265: PAY 518.022 - 519.270 - 1.248 in transfer from 7 to 10
+tech 10 busy at 518.022 for 265 when 0
+tech 7 idle at 518.022 when 0
+No.266: CHE 518.512 - 519.823 - 1.310 in transfer from 2 to 7
+tech 7 busy at 518.512 for 266 when 0
+tech 2 idle at 518.512 when 0
+tech 6 idle at 518.916 when 0
+No.265: LEAVE 519.270 in leave
+No.267: PAY 519.270 - 521.673 - 2.403 in leave2
+tech 10 busy at 519.270 for 267 when 0
+No.271: PAC 519.400 - 527.859 - 8.459 in transfer from 1 to 2
+tech 2 busy at 519.400 for 271 when 0
+No.272: REG 519.400 - 520.861 - 1.461 in transfer3 from 1
+tech 1 busy at 519.400 for 272 when 0
+tech 7 idle at 519.823 when 0
+No.264: LEAVE 519.998 in leave
+No.266: PAY 519.998 - 523.297 - 3.299 in leave2
+tech 9 busy at 519.998 for 266 when 0
+No.270: PAC 520.360 - 520.684 - 0.324 in transfer from 0 to 5
+tech 5 busy at 520.360 for 270 when 0
+tech 0 idle at 520.360 when 0
+No.273: REG 520.361 - 523.731 - 3.369
+tech 0 busy at 520.361 for 273 when 0
+No.270: CHE 520.684 - 523.225 - 2.541 in transfer from 5 to 6
+tech 6 busy at 520.684 for 270 when 0
+tech 5 idle at 520.684 when 0
+No.272: PAC 520.861 - 522.548 - 1.687 in transfer from 1 to 5
+tech 5 busy at 520.861 for 272 when 0
+tech 1 idle at 520.861 when 0
+No.274: REG 521.501 - 525.533 - 4.032
+tech 1 busy at 521.501 for 274 when 0
+No.267: LEAVE 521.673 in leave
+tech 10 idle at 521.673 when 0
+No.272: CHE 522.548 - 532.007 - 9.458 in transfer from 5 to 7
+tech 7 busy at 522.548 for 272 when 0
+tech 5 idle at 522.548 when 0
+No.270: PAY 523.225 - 525.946 - 2.721 in transfer from 6 to 10
+tech 10 busy at 523.225 for 270 when 0
+tech 6 idle at 523.225 when 0
+No.266: LEAVE 523.297 in leave
+tech 9 idle at 523.297 when 0
+No.269: CHE 523.699 - 526.456 - 2.756 in transfer from 4 to 6
+tech 6 busy at 523.699 for 269 when 0
+tech 4 idle at 523.699 when 0
+No.273: PAC 523.731 - 528.390 - 4.660 in transfer from 0 to 4
+tech 4 busy at 523.731 for 273 when 0
+No.275: REG 523.731 - 525.481 - 1.750 in transfer3 from 0
+tech 0 busy at 523.731 for 275 when 0
+No.268: CHE 524.137 - 528.287 - 4.151 in transfer from 3 to 8
+tech 8 busy at 524.137 for 268 when 0
+tech 3 idle at 524.137 when 0
+No.275: PAC 525.481 - 525.788 - 0.307 in transfer from 0 to 3
+tech 3 busy at 525.481 for 275 when 0
+No.276: REG 525.481 - 530.097 - 4.616 in transfer3 from 0
+tech 0 busy at 525.481 for 276 when 0
+No.274: PAC 525.533 - 530.074 - 4.541 in transfer from 1 to 5
+tech 5 busy at 525.533 for 274 when 0
+No.277: REG 525.533 - 527.290 - 1.757 in transfer3 from 1
+tech 1 busy at 525.533 for 277 when 0
+tech 3 idle at 525.788 when 0
+No.270: LEAVE 525.946 in leave
+tech 10 idle at 525.946 when 0
+No.269: PAY 526.456 - 526.898 - 0.442 in transfer from 6 to 9
+tech 9 busy at 526.456 for 269 when 0
+No.275: CHE 526.456 - 534.603 - 8.147 in transfer3 from 6
+tech 6 busy at 526.456 for 275 when 0
+No.269: LEAVE 526.898 in leave
+tech 9 idle at 526.898 when 0
+No.277: PAC 527.290 - 527.982 - 0.692 in transfer from 1 to 3
+tech 3 busy at 527.290 for 277 when 0
+No.278: REG 527.290 - 530.320 - 3.031 in transfer3 from 1
+tech 1 busy at 527.290 for 278 when 0
+tech 2 idle at 527.859 when 0
+tech 3 idle at 527.982 when 0
+No.268: PAY 528.287 - 528.825 - 0.538 in transfer from 8 to 9
+tech 9 busy at 528.287 for 268 when 0
+No.271: CHE 528.287 - 529.080 - 0.792 in transfer3 from 8
+tech 8 busy at 528.287 for 271 when 0
+tech 4 idle at 528.390 when 0
+No.268: LEAVE 528.825 in leave
+tech 9 idle at 528.825 when 0
+No.271: PAY 529.080 - 530.129 - 1.049 in transfer from 8 to 9
+tech 9 busy at 529.080 for 271 when 0
+No.277: CHE 529.080 - 532.995 - 3.915 in transfer3 from 8
+tech 8 busy at 529.080 for 277 when 0
+tech 5 idle at 530.074 when 0
+No.276: PAC 530.097 - 532.254 - 2.157 in transfer from 0 to 2
+tech 2 busy at 530.097 for 276 when 0
+No.279: REG 530.097 - 538.171 - 8.074 in transfer3 from 0
+tech 0 busy at 530.097 for 279 when 0
+No.271: LEAVE 530.129 in leave
+tech 9 idle at 530.129 when 0
+No.278: PAC 530.320 - 533.435 - 3.114 in transfer from 1 to 3
+tech 3 busy at 530.320 for 278 when 0
+No.280: REG 530.320 - 530.926 - 0.606 in transfer3 from 1
+tech 1 busy at 530.320 for 280 when 0
+No.280: PAC 530.926 - 533.464 - 2.537 in transfer from 1 to 4
+tech 4 busy at 530.926 for 280 when 0
+No.281: REG 530.926 - 531.357 - 0.430 in transfer3 from 1
+tech 1 busy at 530.926 for 281 when 0
+No.281: PAC 531.357 - 539.979 - 8.622 in transfer from 1 to 5
+tech 5 busy at 531.357 for 281 when 0
+No.282: REG 531.357 - 536.433 - 5.076 in transfer3 from 1
+tech 1 busy at 531.357 for 282 when 0
+No.272: PAY 532.007 - 532.833 - 0.827 in transfer from 7 to 9
+tech 9 busy at 532.007 for 272 when 0
+No.273: CHE 532.007 - 536.391 - 4.384 in transfer3 from 7
+tech 7 busy at 532.007 for 273 when 0
+tech 2 idle at 532.254 when 0
+No.272: LEAVE 532.833 in leave
+tech 9 idle at 532.833 when 0
+No.277: PAY 532.995 - 533.268 - 0.273 in transfer from 8 to 9
+tech 9 busy at 532.995 for 277 when 0
+No.274: CHE 532.995 - 534.534 - 1.538 in transfer3 from 8
+tech 8 busy at 532.995 for 274 when 0
+No.277: LEAVE 533.268 in leave
+tech 9 idle at 533.268 when 0
+tech 3 idle at 533.435 when 0
+tech 4 idle at 533.464 when 0
+No.274: PAY 534.534 - 540.776 - 6.242 in transfer from 8 to 9
+tech 9 busy at 534.534 for 274 when 0
+No.276: CHE 534.534 - 542.930 - 8.397 in transfer3 from 8
+tech 8 busy at 534.534 for 276 when 0
+No.275: PAY 534.603 - 536.474 - 1.871 in transfer from 6 to 10
+tech 10 busy at 534.603 for 275 when 0
+No.278: CHE 534.603 - 536.719 - 2.116 in transfer3 from 6
+tech 6 busy at 534.603 for 278 when 0
+No.280: CHE 536.391 - 539.658 - 3.267 in transfer3 from 7
+tech 7 busy at 536.391 for 280 when 0
+No.282: PAC 536.433 - 544.219 - 7.786 in transfer from 1 to 2
+tech 2 busy at 536.433 for 282 when 0
+No.283: REG 536.433 - 538.062 - 1.629 in transfer3 from 1
+tech 1 busy at 536.433 for 283 when 0
+No.275: LEAVE 536.474 in leave
+No.273: PAY 536.474 - 536.739 - 0.265 in leave2
+tech 10 busy at 536.474 for 273 when 0
+tech 6 idle at 536.719 when 0
+No.273: LEAVE 536.739 in leave
+No.278: PAY 536.739 - 539.348 - 2.609 in leave2
+tech 10 busy at 536.739 for 278 when 0
+No.283: PAC 538.062 - 539.572 - 1.510 in transfer from 1 to 3
+tech 3 busy at 538.062 for 283 when 0
+No.284: REG 538.062 - 540.986 - 2.924 in transfer3 from 1
+tech 1 busy at 538.062 for 284 when 0
+No.279: PAC 538.171 - 544.246 - 6.076 in transfer from 0 to 4
+tech 4 busy at 538.171 for 279 when 0
+No.285: REG 538.171 - 544.817 - 6.646 in transfer3 from 0
+tech 0 busy at 538.171 for 285 when 0
+No.278: LEAVE 539.348 in leave
+tech 10 idle at 539.348 when 0
+No.283: CHE 539.572 - 547.754 - 8.182 in transfer from 3 to 6
+tech 6 busy at 539.572 for 283 when 0
+tech 3 idle at 539.572 when 0
+No.280: PAY 539.658 - 540.089 - 0.431 in transfer from 7 to 10
+tech 10 busy at 539.658 for 280 when 0
+tech 7 idle at 539.658 when 0
+No.281: CHE 539.979 - 544.119 - 4.141 in transfer from 5 to 7
+tech 7 busy at 539.979 for 281 when 0
+tech 5 idle at 539.979 when 0
+Time 540.000000: 8.243940 247.318207 30
+8.770678 5.651344 4.773325 7.945751 7.829958 11.684023 18.719944 6.762694 8.243940 
+No.280: LEAVE 540.089 in leave
+tech 10 idle at 540.089 when 0
+No.274: LEAVE 540.776 in leave
+tech 9 idle at 540.776 when 0
+No.284: PAC 540.986 - 546.144 - 5.158 in transfer from 1 to 3
+tech 3 busy at 540.986 for 284 when 0
+No.286: REG 540.986 - 542.894 - 1.908 in transfer3 from 1
+tech 1 busy at 540.986 for 286 when 0
+No.286: PAC 542.894 - 549.222 - 6.328 in transfer from 1 to 5
+tech 5 busy at 542.894 for 286 when 0
+No.287: REG 542.894 - 543.855 - 0.960 in transfer3 from 1
+tech 1 busy at 542.894 for 287 when 0
+No.276: PAY 542.930 - 543.839 - 0.909 in transfer from 8 to 9
+tech 9 busy at 542.930 for 276 when 0
+tech 8 idle at 542.930 when 0
+No.276: LEAVE 543.839 in leave
+tech 9 idle at 543.839 when 0
+tech 1 idle at 543.855 when 0
+No.281: PAY 544.119 - 549.775 - 5.656 in transfer from 7 to 9
+tech 9 busy at 544.119 for 281 when 0
+tech 7 idle at 544.119 when 0
+No.282: CHE 544.219 - 545.586 - 1.368 in transfer from 2 to 7
+tech 7 busy at 544.219 for 282 when 0
+No.287: PAC 544.219 - 548.797 - 4.578 in transfer3 from 2
+tech 2 busy at 544.219 for 287 when 0
+No.279: CHE 544.246 - 550.099 - 5.853 in transfer from 4 to 8
+tech 8 busy at 544.246 for 279 when 0
+tech 4 idle at 544.246 when 0
+No.285: PAC 544.817 - 551.942 - 7.125 in transfer from 0 to 4
+tech 4 busy at 544.817 for 285 when 0
+tech 0 idle at 544.817 when 0
+No.282: PAY 545.586 - 546.011 - 0.424 in transfer from 7 to 10
+tech 10 busy at 545.586 for 282 when 0
+tech 7 idle at 545.586 when 0
+No.282: LEAVE 546.011 in leave
+tech 10 idle at 546.011 when 0
+No.284: CHE 546.144 - 549.036 - 2.892 in transfer from 3 to 7
+tech 7 busy at 546.144 for 284 when 0
+tech 3 idle at 546.144 when 0
+No.283: PAY 547.754 - 549.238 - 1.484 in transfer from 6 to 10
+tech 10 busy at 547.754 for 283 when 0
+tech 6 idle at 547.754 when 0
+No.287: CHE 548.797 - 556.682 - 7.885 in transfer from 2 to 6
+tech 6 busy at 548.797 for 287 when 0
+tech 2 idle at 548.797 when 0
+tech 7 idle at 549.036 when 0
+No.286: CHE 549.222 - 557.342 - 8.120 in transfer from 5 to 7
+tech 7 busy at 549.222 for 286 when 0
+tech 5 idle at 549.222 when 0
+No.283: LEAVE 549.238 in leave
+No.284: PAY 549.238 - 551.777 - 2.539 in leave2
+tech 10 busy at 549.238 for 284 when 0
+No.281: LEAVE 549.775 in leave
+tech 9 idle at 549.775 when 0
+No.279: PAY 550.099 - 551.162 - 1.062 in transfer from 8 to 9
+tech 9 busy at 550.099 for 279 when 0
+tech 8 idle at 550.099 when 0
+No.279: LEAVE 551.162 in leave
+tech 9 idle at 551.162 when 0
+No.284: LEAVE 551.777 in leave
+tech 10 idle at 551.777 when 0
+No.285: CHE 551.942 - 560.415 - 8.474 in transfer from 4 to 8
+tech 8 busy at 551.942 for 285 when 0
+tech 4 idle at 551.942 when 0
+No.287: PAY 556.682 - 557.113 - 0.431 in transfer from 6 to 9
+tech 9 busy at 556.682 for 287 when 0
+tech 6 idle at 556.682 when 0
+No.287: LEAVE 557.113 in leave
+tech 9 idle at 557.113 when 0
+No.286: PAY 557.342 - 558.003 - 0.661 in transfer from 7 to 9
+tech 9 busy at 557.342 for 286 when 0
+tech 7 idle at 557.342 when 0
+No.286: LEAVE 558.003 in leave
+tech 9 idle at 558.003 when 0
+No.285: PAY 560.415 - 566.139 - 5.724 in transfer from 8 to 9
+tech 9 busy at 560.415 for 285 when 0
+tech 8 idle at 560.415 when 0
+No.285: LEAVE 566.139 in leave
+tech 9 idle at 566.139 when 0

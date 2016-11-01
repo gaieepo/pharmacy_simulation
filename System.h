@@ -6,6 +6,7 @@
 #include "Tech.h"
 #include <queue>
 #include <vector>
+#include <memory>
 
 class System {
 public:
@@ -15,7 +16,18 @@ public:
 
 	void setTechAllocation(int reg, int pac, int flx, int che, int pay);
 	void setReschedule(int reg, int pac, int flx, int che, int pay, double time);
+	// void setReschedule(std::vector<int> &hour, double time);
 	void clearReschedule();
+
+	// void clearQueue(std::queue<double> &q) {
+	// 	std::queue<double> empty;
+	// 	std::swap(q, empty);
+	// }
+
+	// void clearQueue(std::queue<int> &q) {
+	// 	std::queue<int> empty;
+	// 	std::swap(q, empty);
+	// }
 
 	void clearQueue(std::queue<Prescription> &q) {
 		std::queue<Prescription> empty;
@@ -71,6 +83,7 @@ private:
 	void prescRedo();
 	void prescShift();
 	void changeSchedule();
+	void debug(double latest_event_time);
 
 	bool display_helper = false;
 	bool rescheduled = false;
@@ -104,7 +117,12 @@ private:
 	double avg_reg_utility_rate = 0;
 	double avg_pac_utility_rate = 0;
 	double avg_che_utility_rate = 0;
-	double avg_pay_utility_rate = 0;	
+	double avg_pay_utility_rate = 0;
+
+	double reg_hourly_utility[9] = {0,0,0,0,0,0,0,0,0};
+	double pac_hourly_utility[9] = {0,0,0,0,0,0,0,0,0};
+	double che_hourly_utility[9] = {0,0,0,0,0,0,0,0,0};
+	double pay_hourly_utility[9] = {0,0,0,0,0,0,0,0,0};	
 
 	Tech* techs = nullptr;
 
@@ -119,8 +137,15 @@ private:
 	std::queue<Prescription> *curr = nullptr;
 	std::queue<Prescription> *next = nullptr;
 
+	double hourly_avg_stay_minutes[9] = {0,0,0,0,0,0,0,0,0};
+	double hourly_stay_minutes = 0;
+	int hourly_prescription_num = 0;
+
 	int total_prescription_num = 0;
-	int boundary_case = 0;
+	int debug_prescription_num = 0;
+	int prescription_num = 0;
+	double hourly_limit[9] = {0,0,0,0,0,0,0,0,0};
+	int limit = 0;
 
 	double total_stay_minutes = 0;
 	double avg_stay_minutes = 0;
@@ -142,6 +167,7 @@ private:
 	double avg_pay_queue_minutes = 0;
 
 	int idCount = 0;
+	int prescription_limit = 400;
 };
 
 #endif

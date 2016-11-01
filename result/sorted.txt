@@ -1,0 +1,1440 @@
+0: REG 0.000 - 4.409 - 4.409
+0: PAC 4.409 - 6.404 - 1.995 in transfer from 0 to 3
+0: CHE 6.404 - 11.257 - 4.853 in transfer from 3 to 6
+0: PAY 12.914 - 13.249 - 0.335 in leave2
+0: LEAVE 13.249 in leave
+1: REG 1.759 - 3.122 - 1.363
+1: PAC 3.122 - 7.747 - 4.625 in transfer from 1 to 2
+1: CHE 7.747 - 10.243 - 2.495 in transfer from 2 to 7
+1: PAY 10.243 - 12.914 - 2.671 in transfer from 7 to 10
+1: LEAVE 12.914 in leave
+2: REG 8.225 - 10.268 - 2.043
+2: PAC 10.268 - 12.364 - 2.096 in transfer from 0 to 2
+2: CHE 12.364 - 13.556 - 1.193 in transfer from 2 to 7
+2: PAY 14.944 - 20.188 - 5.244 in leave2
+2: LEAVE 20.188 in leave
+3: REG 9.476 - 11.895 - 2.420
+3: PAC 11.895 - 17.371 - 5.475 in transfer from 1 to 3
+3: CHE 17.371 - 19.567 - 2.196 in transfer from 3 to 6
+3: PAY 20.188 - 20.560 - 0.373 in leave2
+3: LEAVE 20.560 in leave
+4: REG 10.631 - 11.263 - 0.632
+4: PAC 11.263 - 11.811 - 0.547 in transfer from 0 to 3
+4: CHE 11.811 - 13.331 - 1.520 in transfer from 3 to 6
+4: PAY 13.331 - 14.944 - 1.613 in transfer from 6 to 10
+4: LEAVE 14.944 in leave
+5: REG 13.747 - 14.579 - 0.832
+5: PAC 14.579 - 19.177 - 4.597 in transfer from 0 to 2
+5: CHE 19.177 - 20.755 - 1.578 in transfer from 2 to 7
+5: PAY 20.755 - 21.737 - 0.982 in transfer from 7 to 10
+5: LEAVE 21.737 in leave
+6: REG 14.378 - 15.964 - 1.585
+6: PAC 15.964 - 20.984 - 5.021 in transfer from 1 to 4
+6: CHE 20.984 - 24.814 - 3.830 in transfer from 4 to 6
+6: PAY 24.814 - 26.335 - 1.521 in transfer from 6 to 10
+6: LEAVE 26.335 in leave
+7: REG 15.744 - 20.920 - 5.175
+7: PAC 20.920 - 27.775 - 6.855 in transfer from 0 to 2
+7: CHE 27.775 - 30.109 - 2.334 in transfer from 2 to 6
+7: PAY 30.109 - 30.419 - 0.310 in transfer from 6 to 10
+7: LEAVE 30.419 in leave
+8: REG 20.579 - 21.241 - 0.662
+8: PAC 21.241 - 24.360 - 3.119 in transfer from 1 to 3
+8: CHE 24.360 - 25.664 - 1.304 in transfer from 3 to 7
+8: PAY 26.335 - 27.691 - 1.357 in leave2
+8: LEAVE 27.691 in leave
+9: REG 23.906 - 26.417 - 2.511
+9: PAC 26.417 - 27.791 - 1.374 in transfer from 0 to 3
+9: CHE 27.791 - 28.895 - 1.105 in transfer from 3 to 7
+9: PAY 28.895 - 29.789 - 0.894 in transfer from 7 to 10
+9: LEAVE 29.789 in leave
+10: REG 27.760 - 29.884 - 2.123
+10: PAC 29.884 - 33.057 - 3.173 in transfer from 0 to 2
+10: CHE 33.057 - 39.573 - 6.516 in transfer from 2 to 6
+10: PAY 39.573 - 40.339 - 0.766 in transfer from 6 to 10
+10: LEAVE 40.339 in leave
+11: REG 31.229 - 40.085 - 8.856
+11: PAC 40.085 - 43.652 - 3.567 in transfer from 0 to 2
+11: CHE 43.652 - 48.286 - 4.634 in transfer from 2 to 6
+11: PAY 48.286 - 49.149 - 0.862 in transfer from 6 to 10
+11: LEAVE 49.149 in leave
+12: REG 33.427 - 42.299 - 8.872
+12: PAC 42.299 - 44.430 - 2.131 in transfer from 1 to 4
+12: CHE 44.430 - 47.493 - 3.063 in transfer from 4 to 7
+12: PAY 47.493 - 47.852 - 0.358 in transfer from 7 to 10
+12: LEAVE 47.852 in leave
+13: REG 40.085 - 41.783 - 1.698 in transfer3 from 0
+13: PAC 41.783 - 47.758 - 5.975 in transfer from 0 to 3
+13: CHE 50.785 - 53.240 - 2.455 in transfer3 from 8
+13: PAY 53.240 - 55.265 - 2.025 in transfer from 8 to 10
+13: LEAVE 55.265 in leave
+14: REG 41.783 - 42.389 - 0.606 in transfer3 from 0
+14: PAC 42.389 - 46.456 - 4.067 in transfer from 0 to 5
+14: CHE 46.456 - 53.811 - 7.355 in transfer from 5 to 9
+14: PAY 55.265 - 59.464 - 4.200 in leave2
+14: LEAVE 59.464 in leave
+15: REG 42.299 - 42.866 - 0.567 in transfer3 from 1
+15: PAC 43.652 - 44.603 - 0.952 in transfer3 from 2
+15: CHE 44.603 - 50.785 - 6.182 in transfer from 2 to 8
+15: PAY 50.785 - 51.923 - 1.138 in transfer from 8 to 10
+15: LEAVE 51.923 in leave
+16: REG 42.389 - 45.981 - 3.592 in transfer3 from 0
+16: PAC 45.981 - 46.957 - 0.975 in transfer from 0 to 2
+16: CHE 47.493 - 55.319 - 7.826 in transfer3 from 7
+16: PAY 59.464 - 60.988 - 1.524 in leave2
+16: LEAVE 60.988 in leave
+17: REG 42.866 - 44.449 - 1.583 in transfer3 from 1
+17: PAC 44.449 - 48.617 - 4.168 in transfer from 1 to 4
+17: CHE 53.240 - 62.681 - 9.441 in transfer3 from 8
+17: PAY 72.323 - 73.363 - 1.039 in leave2
+17: LEAVE 73.363 in leave
+18: REG 45.313 - 46.496 - 1.183
+18: PAC 46.496 - 47.534 - 1.038 in transfer from 1 to 5
+18: CHE 48.286 - 57.824 - 9.537 in transfer3 from 6
+18: PAY 66.117 - 68.234 - 2.117 in leave2
+18: LEAVE 68.234 in leave
+19: REG 45.996 - 49.347 - 3.352
+19: PAC 49.347 - 50.596 - 1.249 in transfer from 0 to 2
+19: CHE 53.811 - 56.511 - 2.700 in transfer3 from 9
+19: PAY 60.988 - 66.117 - 5.129 in leave2
+19: LEAVE 66.117 in leave
+20: REG 47.337 - 52.882 - 5.544
+20: PAC 52.882 - 54.004 - 1.122 in transfer from 1 to 2
+20: CHE 56.511 - 61.157 - 4.645 in transfer3 from 9
+20: PAY 71.501 - 72.323 - 0.823 in leave2
+20: LEAVE 72.323 in leave
+21: REG 49.963 - 50.320 - 0.357
+21: PAC 50.320 - 51.723 - 1.403 in transfer from 0 to 3
+21: CHE 55.319 - 60.466 - 5.147 in transfer3 from 7
+21: PAY 68.234 - 71.501 - 3.267 in leave2
+21: LEAVE 71.501 in leave
+22: REG 51.588 - 55.988 - 4.400
+22: PAC 55.988 - 56.684 - 0.696 in transfer from 0 to 3
+22: CHE 57.824 - 66.260 - 8.436 in transfer3 from 6
+22: PAY 82.423 - 85.521 - 3.098 in leave2
+22: LEAVE 85.521 in leave
+23: REG 53.683 - 55.014 - 1.330
+23: PAC 55.014 - 63.535 - 8.521 in transfer from 1 to 2
+23: CHE 63.535 - 66.223 - 2.688 in transfer from 2 to 7
+23: PAY 74.401 - 82.423 - 8.022 in leave2
+23: LEAVE 82.423 in leave
+24: REG 58.192 - 66.916 - 8.723
+24: PAC 66.916 - 67.697 - 0.781 in transfer from 0 to 4
+24: CHE 67.697 - 69.115 - 1.418 in transfer from 4 to 9
+24: PAY 87.287 - 87.645 - 0.358 in leave2
+24: LEAVE 87.645 in leave
+25: REG 61.171 - 62.533 - 1.362
+25: PAC 62.533 - 64.792 - 2.260 in transfer from 1 to 3
+25: CHE 64.792 - 65.128 - 0.335 in transfer from 3 to 8
+25: PAY 73.363 - 74.401 - 1.038 in leave2
+25: LEAVE 74.401 in leave
+26: REG 62.533 - 63.693 - 1.160 in transfer3 from 1
+26: PAC 63.693 - 65.374 - 1.681 in transfer from 1 to 2
+26: CHE 65.374 - 67.396 - 2.023 in transfer from 2 to 8
+26: PAY 85.521 - 85.708 - 0.188 in leave2
+26: LEAVE 85.708 in leave
+27: REG 64.221 - 65.158 - 0.937
+27: PAC 65.158 - 67.336 - 2.178 in transfer from 1 to 3
+27: CHE 67.336 - 71.174 - 3.838 in transfer from 3 to 7
+27: PAY 87.645 - 89.697 - 2.052 in leave2
+27: LEAVE 89.697 in leave
+28: REG 65.158 - 66.558 - 1.400 in transfer3 from 1
+28: PAC 66.558 - 67.080 - 0.522 in transfer from 1 to 2
+28: CHE 67.080 - 68.730 - 1.650 in transfer from 2 to 6
+28: PAY 86.236 - 87.287 - 1.051 in leave2
+28: LEAVE 87.287 in leave
+29: REG 66.558 - 69.726 - 3.168 in transfer3 from 1
+29: PAC 69.726 - 70.561 - 0.835 in transfer from 1 to 2
+29: CHE 70.561 - 75.815 - 5.254 in transfer from 2 to 6
+29: PAY 92.333 - 93.162 - 0.829 in leave2
+29: LEAVE 93.162 in leave
+30: REG 66.916 - 67.327 - 0.411 in transfer3 from 0
+30: PAC 67.327 - 67.623 - 0.296 in transfer from 0 to 2
+30: CHE 67.623 - 68.524 - 0.901 in transfer from 2 to 8
+30: PAY 85.708 - 86.236 - 0.527 in leave2
+30: LEAVE 86.236 in leave
+31: REG 69.787 - 70.538 - 0.751
+31: PAC 70.538 - 74.507 - 3.969 in transfer from 0 to 3
+31: CHE 74.507 - 75.422 - 0.915 in transfer from 3 to 9
+31: PAY 89.697 - 92.333 - 2.636 in leave2
+31: LEAVE 92.333 in leave
+32: REG 71.032 - 72.532 - 1.501
+32: PAC 72.532 - 73.704 - 1.172 in transfer from 0 to 4
+32: CHE 73.704 - 76.185 - 2.480 in transfer from 4 to 8
+32: PAY 93.162 - 95.334 - 2.173 in leave2
+32: LEAVE 95.334 in leave
+33: REG 71.987 - 72.130 - 0.143
+33: PAC 72.130 - 72.590 - 0.460 in transfer from 1 to 2
+33: CHE 72.590 - 76.404 - 3.814 in transfer from 2 to 7
+33: PAY 95.334 - 96.238 - 0.904 in leave2
+33: LEAVE 96.238 in leave
+34: REG 72.228 - 74.674 - 2.445
+34: PAC 74.674 - 75.227 - 0.553 in transfer from 1 to 3
+34: CHE 75.815 - 77.233 - 1.418 in transfer3 from 6
+34: PAY 96.385 - 98.340 - 1.955 in leave2
+34: LEAVE 98.340 in leave
+35: REG 72.805 - 73.212 - 0.407
+35: PAC 73.212 - 74.718 - 1.506 in transfer from 0 to 2
+35: CHE 75.422 - 76.427 - 1.004 in transfer3 from 9
+35: PAY 96.238 - 96.385 - 0.147 in leave2
+35: LEAVE 96.385 in leave
+36: REG 73.228 - 73.764 - 0.537
+36: PAC 73.764 - 78.468 - 4.703 in transfer from 0 to 4
+36: CHE 78.468 - 82.714 - 4.246 in transfer from 4 to 6
+36: PAY 100.899 - 101.919 - 1.020 in leave2
+36: LEAVE 101.919 in leave
+37: REG 76.894 - 78.193 - 1.299
+37: PAC 78.193 - 79.839 - 1.646 in transfer from 0 to 2
+37: CHE 79.839 - 81.972 - 2.133 in transfer from 2 to 8
+37: PAY 98.340 - 100.588 - 2.248 in leave2
+37: LEAVE 100.588 in leave
+38: REG 77.572 - 78.492 - 0.920
+38: PAC 78.492 - 79.503 - 1.011 in transfer from 1 to 3
+38: CHE 79.503 - 83.030 - 3.527 in transfer from 3 to 7
+38: PAY 101.919 - 102.431 - 0.512 in leave2
+38: LEAVE 102.431 in leave
+39: REG 80.315 - 80.727 - 0.412
+39: PAC 80.727 - 81.397 - 0.670 in transfer from 0 to 2
+39: CHE 81.397 - 82.506 - 1.109 in transfer from 2 to 9
+39: PAY 100.588 - 100.899 - 0.311 in leave2
+39: LEAVE 100.899 in leave
+40: REG 82.462 - 83.145 - 0.684
+40: PAC 83.145 - 85.219 - 2.074 in transfer from 0 to 2
+40: CHE 85.219 - 88.267 - 3.048 in transfer from 2 to 6
+40: PAY 102.755 - 103.515 - 0.760 in leave2
+40: LEAVE 103.515 in leave
+41: REG 84.990 - 85.134 - 0.145
+41: PAC 85.134 - 85.669 - 0.535 in transfer from 0 to 3
+41: CHE 85.669 - 86.644 - 0.975 in transfer from 3 to 7
+41: PAY 102.431 - 102.755 - 0.324 in leave2
+41: LEAVE 102.755 in leave
+42: REG 88.101 - 91.328 - 3.227
+42: PAC 91.328 - 93.978 - 2.650 in transfer from 0 to 2
+42: CHE 93.978 - 94.402 - 0.425 in transfer from 2 to 6
+42: PAY 105.524 - 106.238 - 0.714 in leave2
+42: LEAVE 106.238 in leave
+43: REG 88.876 - 89.934 - 1.058
+43: PAC 89.934 - 90.407 - 0.473 in transfer from 1 to 2
+43: CHE 90.407 - 93.783 - 3.376 in transfer from 2 to 6
+43: PAY 103.515 - 105.524 - 2.009 in leave2
+43: LEAVE 105.524 in leave
+44: REG 93.501 - 94.167 - 0.665
+44: PAC 94.167 - 94.487 - 0.320 in transfer from 0 to 2
+44: CHE 94.487 - 99.450 - 4.964 in transfer from 2 to 6
+44: PAY 106.238 - 110.008 - 3.771 in leave2
+44: LEAVE 110.008 in leave
+45: REG 94.923 - 98.849 - 3.926
+45: PAC 98.849 - 101.026 - 2.177 in transfer from 0 to 2
+45: CHE 101.026 - 102.611 - 1.585 in transfer from 2 to 6
+45: PAY 113.210 - 114.829 - 1.619 in leave2
+45: LEAVE 114.829 in leave
+46: REG 96.898 - 97.754 - 0.856
+46: PAC 97.754 - 98.556 - 0.802 in transfer from 1 to 2
+46: CHE 98.556 - 101.258 - 2.702 in transfer from 2 to 7
+46: PAY 110.008 - 111.069 - 1.061 in leave2
+46: LEAVE 111.069 in leave
+47: REG 98.154 - 98.921 - 0.766
+47: PAC 98.921 - 101.156 - 2.235 in transfer from 1 to 3
+47: CHE 101.156 - 102.105 - 0.949 in transfer from 3 to 9
+47: PAY 111.705 - 113.210 - 1.505 in leave2
+47: LEAVE 113.210 in leave
+48: REG 100.071 - 100.749 - 0.677
+48: PAC 100.749 - 101.054 - 0.305 in transfer from 0 to 4
+48: CHE 101.054 - 101.560 - 0.506 in transfer from 4 to 8
+48: PAY 111.069 - 111.705 - 0.636 in leave2
+48: LEAVE 111.705 in leave
+49: REG 100.762 - 106.044 - 5.282
+49: PAC 106.044 - 108.535 - 2.491 in transfer from 0 to 3
+49: CHE 108.535 - 109.167 - 0.632 in transfer from 3 to 7
+49: PAY 116.738 - 117.724 - 0.986 in leave2
+49: LEAVE 117.724 in leave
+50: REG 104.313 - 104.472 - 0.159
+50: PAC 104.472 - 104.625 - 0.153 in transfer from 1 to 2
+50: CHE 104.625 - 106.282 - 1.657 in transfer from 2 to 6
+50: PAY 114.829 - 116.738 - 1.910 in leave2
+50: LEAVE 116.738 in leave
+51: REG 104.794 - 105.281 - 0.486
+51: PAC 105.281 - 106.993 - 1.712 in transfer from 1 to 2
+51: CHE 106.993 - 111.489 - 4.496 in transfer from 2 to 6
+51: PAY 117.724 - 118.311 - 0.587 in leave2
+51: LEAVE 118.311 in leave
+52: REG 106.530 - 107.433 - 0.903
+52: PAC 107.433 - 110.167 - 2.734 in transfer from 0 to 2
+52: CHE 110.167 - 112.123 - 1.956 in transfer from 2 to 7
+52: PAY 118.311 - 123.533 - 5.223 in leave2
+52: LEAVE 123.533 in leave
+53: REG 108.644 - 109.587 - 0.944
+53: PAC 109.587 - 114.364 - 4.777 in transfer from 0 to 3
+53: CHE 114.364 - 116.111 - 1.746 in transfer from 3 to 9
+53: PAY 128.079 - 129.026 - 0.947 in leave2
+53: LEAVE 129.026 in leave
+54: REG 109.638 - 114.018 - 4.380
+54: PAC 114.018 - 114.178 - 0.161 in transfer from 0 to 5
+54: CHE 114.178 - 116.431 - 2.253 in transfer from 5 to 8
+54: PAY 129.026 - 129.699 - 0.673 in leave2
+54: LEAVE 129.699 in leave
+55: REG 110.180 - 111.312 - 1.131
+55: PAC 111.312 - 112.104 - 0.792 in transfer from 1 to 2
+55: CHE 112.104 - 115.666 - 3.562 in transfer from 2 to 6
+55: PAY 125.183 - 126.031 - 0.849 in leave2
+55: LEAVE 126.031 in leave
+56: REG 111.312 - 112.568 - 1.257 in transfer3 from 1
+56: PAC 112.568 - 116.362 - 3.793 in transfer from 1 to 2
+56: CHE 116.362 - 118.045 - 1.684 in transfer from 2 to 6
+56: PAY 129.699 - 129.930 - 0.231 in leave2
+56: LEAVE 129.930 in leave
+57: REG 112.568 - 113.743 - 1.174 in transfer3 from 1
+57: PAC 113.743 - 114.070 - 0.327 in transfer from 1 to 4
+57: CHE 114.070 - 115.096 - 1.026 in transfer from 4 to 7
+57: PAY 123.533 - 125.183 - 1.649 in leave2
+57: LEAVE 125.183 in leave
+58: REG 113.743 - 115.426 - 1.683 in transfer3 from 1
+58: PAC 115.426 - 117.164 - 1.738 in transfer from 1 to 4
+58: CHE 117.164 - 119.020 - 1.857 in transfer from 4 to 7
+58: PAY 129.930 - 130.076 - 0.147 in leave2
+58: LEAVE 130.076 in leave
+59: REG 114.018 - 114.913 - 0.896 in transfer3 from 0
+59: PAC 114.913 - 115.673 - 0.759 in transfer from 0 to 3
+59: CHE 115.673 - 115.970 - 0.298 in transfer from 3 to 6
+59: PAY 126.031 - 128.079 - 2.047 in leave2
+59: LEAVE 128.079 in leave
+60: REG 114.913 - 116.996 - 2.083 in transfer3 from 0
+60: PAC 116.996 - 119.932 - 2.936 in transfer from 0 to 5
+60: CHE 119.932 - 122.690 - 2.758 in transfer from 5 to 7
+60: PAY 132.330 - 132.959 - 0.629 in leave2
+60: LEAVE 132.959 in leave
+61: REG 115.426 - 116.290 - 0.864 in transfer3 from 1
+61: PAC 116.290 - 117.620 - 1.330 in transfer from 1 to 3
+61: CHE 117.620 - 121.792 - 4.173 in transfer from 3 to 8
+61: PAY 131.793 - 132.330 - 0.537 in leave2
+61: LEAVE 132.330 in leave
+62: REG 116.290 - 116.791 - 0.501 in transfer3 from 1
+62: PAC 116.791 - 121.053 - 4.262 in transfer from 1 to 2
+62: CHE 121.053 - 121.475 - 0.422 in transfer from 2 to 5
+62: PAY 131.072 - 131.793 - 0.721 in leave2
+62: LEAVE 131.793 in leave
+63: REG 118.604 - 119.037 - 0.433
+63: PAC 119.037 - 119.435 - 0.398 in transfer from 0 to 3
+63: CHE 119.435 - 121.105 - 1.670 in transfer from 3 to 6
+63: PAY 130.076 - 131.072 - 0.996 in leave2
+63: LEAVE 131.072 in leave
+64: REG 121.486 - 121.696 - 0.210
+64: PAC 121.696 - 123.407 - 1.712 in transfer from 0 to 2
+64: CHE 123.407 - 128.981 - 5.574 in transfer from 2 to 5
+64: PAY 134.540 - 135.523 - 0.983 in leave2
+64: LEAVE 135.523 in leave
+65: REG 121.850 - 123.532 - 1.683
+65: PAC 123.532 - 127.352 - 3.819 in transfer from 0 to 2
+65: CHE 127.352 - 128.437 - 1.085 in transfer from 2 to 6
+65: PAY 133.446 - 133.781 - 0.335 in leave2
+65: LEAVE 133.781 in leave
+66: REG 122.502 - 122.668 - 0.166
+66: PAC 122.668 - 123.553 - 0.885 in transfer from 1 to 3
+66: CHE 123.553 - 124.025 - 0.472 in transfer from 3 to 6
+66: PAY 132.959 - 133.446 - 0.488 in leave2
+66: LEAVE 133.446 in leave
+67: REG 123.389 - 125.826 - 2.438
+67: PAC 125.826 - 127.561 - 1.735 in transfer from 1 to 4
+67: CHE 127.561 - 128.601 - 1.040 in transfer from 4 to 7
+67: PAY 133.781 - 134.540 - 0.758 in leave2
+67: LEAVE 134.540 in leave
+68: REG 124.652 - 125.227 - 0.575
+68: PAC 125.227 - 128.411 - 3.184 in transfer from 0 to 3
+68: CHE 128.411 - 131.188 - 2.778 in transfer from 3 to 8
+68: PAY 135.523 - 136.287 - 0.764 in leave2
+68: LEAVE 136.287 in leave
+69: REG 125.475 - 126.480 - 1.005
+69: PAC 127.352 - 130.015 - 2.663 in transfer3 from 2
+69: CHE 130.015 - 135.551 - 5.536 in transfer from 2 to 6
+69: PAY 137.875 - 138.033 - 0.159 in leave2
+69: LEAVE 138.033 in leave
+70: REG 126.011 - 126.841 - 0.830
+70: PAC 127.561 - 129.323 - 1.762 in transfer3 from 4
+70: CHE 129.323 - 132.675 - 3.353 in transfer from 4 to 5
+70: PAY 136.287 - 137.288 - 1.001 in leave2
+70: LEAVE 137.288 in leave
+71: REG 129.447 - 131.511 - 2.064
+71: PAC 131.511 - 135.728 - 4.217 in transfer from 0 to 3
+71: CHE 135.728 - 137.104 - 1.376 in transfer from 3 to 6
+71: PAY 139.107 - 140.119 - 1.012 in leave2
+71: LEAVE 140.119 in leave
+72: REG 130.150 - 130.994 - 0.844
+72: PAC 130.994 - 132.734 - 1.740 in transfer from 1 to 2
+72: CHE 132.734 - 133.189 - 0.456 in transfer from 2 to 5
+72: PAY 137.288 - 137.875 - 0.587 in leave2
+72: LEAVE 137.875 in leave
+73: REG 131.390 - 132.403 - 1.013
+73: PAC 132.403 - 133.083 - 0.680 in transfer from 1 to 4
+73: CHE 133.083 - 136.222 - 3.139 in transfer from 4 to 7
+73: PAY 138.033 - 139.107 - 1.074 in leave2
+73: LEAVE 139.107 in leave
+74: REG 133.339 - 134.568 - 1.229
+74: PAC 134.568 - 135.021 - 0.453 in transfer from 0 to 2
+74: CHE 135.021 - 137.719 - 2.699 in transfer from 2 to 5
+74: PAY 141.702 - 143.516 - 1.814 in leave2
+74: LEAVE 143.516 in leave
+75: REG 133.726 - 135.929 - 2.203
+75: PAC 135.929 - 136.986 - 1.057 in transfer from 1 to 3
+75: CHE 136.986 - 137.400 - 0.414 in transfer from 3 to 7
+75: PAY 140.119 - 141.702 - 1.583 in leave2
+75: LEAVE 141.702 in leave
+76: REG 134.568 - 134.904 - 0.336 in transfer3 from 0
+76: PAC 134.904 - 140.244 - 5.340 in transfer from 0 to 4
+76: CHE 140.244 - 141.877 - 1.633 in transfer from 4 to 7
+76: PAY 143.901 - 144.184 - 0.283 in leave2
+76: LEAVE 144.184 in leave
+77: REG 135.040 - 135.742 - 0.702
+77: PAC 135.742 - 137.019 - 1.277 in transfer from 0 to 2
+77: CHE 137.019 - 139.156 - 2.137 in transfer from 2 to 8
+77: PAY 143.516 - 143.712 - 0.196 in leave2
+77: LEAVE 143.712 in leave
+78: REG 135.836 - 136.010 - 0.175
+78: PAC 136.986 - 138.064 - 1.078 in transfer3 from 3
+78: CHE 138.064 - 140.504 - 2.440 in transfer from 3 to 5
+78: PAY 143.712 - 143.901 - 0.189 in leave2
+78: LEAVE 143.901 in leave
+79: REG 137.005 - 137.854 - 0.849
+79: PAC 137.854 - 142.727 - 4.874 in transfer from 0 to 2
+79: CHE 142.727 - 145.092 - 2.364 in transfer from 2 to 5
+79: PAY 146.999 - 148.900 - 1.902 in leave2
+79: LEAVE 148.900 in leave
+80: REG 137.648 - 137.990 - 0.343
+80: PAC 138.064 - 138.728 - 0.664 in transfer3 from 3
+80: CHE 138.728 - 142.373 - 3.646 in transfer from 3 to 6
+80: PAY 144.184 - 146.503 - 2.319 in leave2
+80: LEAVE 146.503 in leave
+81: REG 139.033 - 139.940 - 0.907
+81: PAC 139.940 - 140.412 - 0.472 in transfer from 0 to 3
+81: CHE 140.412 - 143.885 - 3.473 in transfer from 3 to 8
+81: PAY 146.503 - 146.999 - 0.496 in leave2
+81: LEAVE 146.999 in leave
+82: REG 140.874 - 142.714 - 1.840
+82: PAC 142.714 - 144.949 - 2.235 in transfer from 0 to 3
+82: CHE 144.949 - 147.214 - 2.265 in transfer from 3 to 7
+82: PAY 151.577 - 153.561 - 1.984 in leave2
+82: LEAVE 153.561 in leave
+83: REG 141.493 - 143.484 - 1.991
+83: PAC 143.484 - 148.841 - 5.357 in transfer from 1 to 4
+83: CHE 148.841 - 150.016 - 1.175 in transfer from 4 to 6
+83: PAY 153.561 - 154.768 - 1.206 in leave2
+83: LEAVE 154.768 in leave
+84: REG 142.714 - 143.401 - 0.687 in transfer3 from 0
+84: PAC 143.401 - 144.915 - 1.514 in transfer from 0 to 2
+84: CHE 144.915 - 146.744 - 1.829 in transfer from 2 to 6
+84: PAY 148.900 - 151.577 - 2.677 in leave2
+84: LEAVE 151.577 in leave
+85: REG 143.401 - 144.613 - 1.212 in transfer3 from 0
+85: PAC 144.915 - 147.888 - 2.973 in transfer3 from 2
+85: CHE 147.888 - 150.100 - 2.212 in transfer from 2 to 5
+85: PAY 154.768 - 156.439 - 1.671 in leave2
+85: LEAVE 156.439 in leave
+86: REG 143.484 - 145.680 - 2.195 in transfer3 from 1
+86: PAC 147.888 - 150.152 - 2.264 in transfer3 from 2
+86: CHE 150.152 - 153.208 - 3.056 in transfer from 2 to 5
+86: PAY 159.159 - 159.334 - 0.175 in leave2
+86: LEAVE 159.334 in leave
+87: REG 144.613 - 145.204 - 0.590 in transfer3 from 0
+87: PAC 145.204 - 149.128 - 3.924 in transfer from 0 to 3
+87: CHE 149.128 - 152.638 - 3.510 in transfer from 3 to 8
+87: PAY 158.792 - 159.159 - 0.367 in leave2
+87: LEAVE 159.159 in leave
+88: REG 145.204 - 148.682 - 3.479 in transfer3 from 0
+88: PAC 149.128 - 150.638 - 1.510 in transfer3 from 3
+88: CHE 151.425 - 157.350 - 5.924 in transfer3 from 7
+88: PAY 160.694 - 161.043 - 0.349 in leave2
+88: LEAVE 161.043 in leave
+89: REG 145.691 - 145.894 - 0.203
+89: PAC 148.841 - 149.066 - 0.225 in transfer3 from 4
+89: CHE 149.066 - 151.425 - 2.359 in transfer from 4 to 7
+89: PAY 156.439 - 158.792 - 2.353 in leave2
+89: LEAVE 158.792 in leave
+90: REG 146.812 - 147.678 - 0.866
+90: PAC 149.066 - 150.027 - 0.961 in transfer3 from 4
+90: CHE 150.027 - 154.450 - 4.424 in transfer from 4 to 6
+90: PAY 159.677 - 160.378 - 0.702 in leave2
+90: LEAVE 160.378 in leave
+91: REG 149.805 - 149.946 - 0.141
+91: PAC 150.027 - 151.084 - 1.057 in transfer3 from 4
+91: CHE 152.638 - 154.798 - 2.160 in transfer3 from 8
+91: PAY 160.378 - 160.694 - 0.315 in leave2
+91: LEAVE 160.694 in leave
+92: REG 150.926 - 152.736 - 1.810
+92: PAC 152.736 - 153.062 - 0.327 in transfer from 0 to 2
+92: CHE 153.208 - 154.221 - 1.013 in transfer3 from 5
+92: PAY 159.334 - 159.677 - 0.343 in leave2
+92: LEAVE 159.677 in leave
+93: REG 151.226 - 153.930 - 2.704
+93: PAC 153.930 - 159.435 - 5.505 in transfer from 1 to 2
+93: CHE 159.435 - 162.007 - 2.572 in transfer from 2 to 6
+93: PAY 164.376 - 164.817 - 0.441 in leave2
+93: LEAVE 164.817 in leave
+94: REG 152.736 - 155.442 - 2.706 in transfer3 from 0
+94: PAC 155.442 - 155.627 - 0.185 in transfer from 0 to 4
+94: CHE 155.627 - 159.506 - 3.879 in transfer from 4 to 5
+94: PAY 164.032 - 164.376 - 0.345 in leave2
+94: LEAVE 164.376 in leave
+95: REG 153.930 - 155.392 - 1.462 in transfer3 from 1
+95: PAC 155.392 - 155.783 - 0.390 in transfer from 1 to 3
+95: CHE 155.783 - 157.506 - 1.724 in transfer from 3 to 6
+95: PAY 161.043 - 162.183 - 1.140 in leave2
+95: LEAVE 162.183 in leave
+96: REG 155.392 - 155.846 - 0.454 in transfer3 from 1
+96: PAC 155.846 - 158.391 - 2.545 in transfer from 1 to 3
+96: CHE 158.391 - 158.841 - 0.450 in transfer from 3 to 6
+96: PAY 163.192 - 164.032 - 0.839 in leave2
+96: LEAVE 164.032 in leave
+97: REG 156.180 - 156.508 - 0.328
+97: PAC 156.508 - 156.934 - 0.426 in transfer from 0 to 4
+97: CHE 156.934 - 158.116 - 1.182 in transfer from 4 to 8
+97: PAY 162.183 - 163.192 - 1.009 in leave2
+97: LEAVE 163.192 in leave
+98: REG 158.105 - 158.390 - 0.285
+98: PAC 158.390 - 161.191 - 2.801 in transfer from 0 to 4
+98: CHE 161.191 - 163.974 - 2.783 in transfer from 4 to 7
+98: PAY 164.817 - 165.350 - 0.533 in leave2
+98: LEAVE 165.350 in leave
+99: REG 159.898 - 160.087 - 0.189
+99: PAC 160.087 - 160.619 - 0.532 in transfer from 0 to 2
+99: CHE 160.619 - 166.515 - 5.896 in transfer from 2 to 5
+99: PAY 166.515 - 166.898 - 0.383 in transfer from 5 to 10
+99: LEAVE 166.898 in leave
+100: REG 163.157 - 163.881 - 0.724
+100: PAC 163.881 - 164.325 - 0.444 in transfer from 0 to 2
+100: CHE 164.325 - 164.523 - 0.198 in transfer from 2 to 6
+100: PAY 165.350 - 166.169 - 0.819 in leave2
+100: LEAVE 166.169 in leave
+101: REG 166.492 - 167.653 - 1.161
+101: PAC 167.653 - 169.031 - 1.378 in transfer from 0 to 2
+101: CHE 169.031 - 169.639 - 0.608 in transfer from 2 to 5
+101: PAY 169.639 - 174.569 - 4.929 in transfer from 5 to 10
+101: LEAVE 174.569 in leave
+102: REG 167.368 - 168.662 - 1.294
+102: PAC 168.662 - 169.662 - 1.000 in transfer from 1 to 3
+102: CHE 169.662 - 173.287 - 3.626 in transfer from 3 to 5
+102: PAY 174.569 - 175.555 - 0.986 in leave2
+102: LEAVE 175.555 in leave
+103: REG 167.968 - 169.902 - 1.934
+103: PAC 169.902 - 170.324 - 0.421 in transfer from 0 to 2
+103: CHE 170.324 - 174.475 - 4.152 in transfer from 2 to 6
+103: PAY 178.022 - 180.644 - 2.622 in leave2
+103: LEAVE 180.644 in leave
+104: REG 169.440 - 170.111 - 0.671
+104: PAC 170.111 - 173.223 - 3.112 in transfer from 1 to 3
+104: CHE 173.223 - 174.468 - 1.245 in transfer from 3 to 7
+104: PAY 175.555 - 178.022 - 2.467 in leave2
+104: LEAVE 178.022 in leave
+105: REG 170.310 - 172.953 - 2.643
+105: PAC 172.953 - 174.947 - 1.993 in transfer from 0 to 2
+105: CHE 174.947 - 175.507 - 0.560 in transfer from 2 to 5
+105: PAY 180.644 - 181.867 - 1.223 in leave2
+105: LEAVE 181.867 in leave
+106: REG 173.201 - 177.940 - 4.739
+106: PAC 177.940 - 178.335 - 0.395 in transfer from 0 to 2
+106: CHE 178.335 - 179.628 - 1.293 in transfer from 2 to 6
+106: PAY 183.721 - 185.142 - 1.421 in leave2
+106: LEAVE 185.142 in leave
+107: REG 173.710 - 174.734 - 1.024
+107: PAC 174.734 - 176.189 - 1.455 in transfer from 1 to 3
+107: CHE 176.189 - 179.033 - 2.844 in transfer from 3 to 5
+107: PAY 181.867 - 183.721 - 1.854 in leave2
+107: LEAVE 183.721 in leave
+108: REG 177.288 - 180.777 - 3.489
+108: PAC 180.777 - 184.150 - 3.374 in transfer from 1 to 3
+108: CHE 184.150 - 185.442 - 1.292 in transfer from 3 to 8
+108: PAY 185.442 - 185.741 - 0.299 in transfer from 8 to 10
+108: LEAVE 185.741 in leave
+109: REG 178.818 - 179.369 - 0.552
+109: PAC 179.369 - 182.034 - 2.664 in transfer from 0 to 2
+109: CHE 182.034 - 185.897 - 3.864 in transfer from 2 to 6
+109: PAY 185.897 - 186.108 - 0.211 in transfer from 6 to 10
+109: LEAVE 186.108 in leave
+110: REG 181.104 - 181.584 - 0.480
+110: PAC 181.584 - 182.244 - 0.660 in transfer from 0 to 4
+110: CHE 182.244 - 186.440 - 4.196 in transfer from 4 to 7
+110: PAY 186.440 - 195.980 - 9.540 in transfer from 7 to 10
+110: LEAVE 195.980 in leave
+111: REG 182.138 - 185.419 - 3.280
+111: PAC 185.419 - 192.518 - 7.100 in transfer from 0 to 3
+111: CHE 192.518 - 195.649 - 3.130 in transfer from 3 to 9
+111: PAY 209.275 - 209.515 - 0.240 in leave2
+111: LEAVE 209.515 in leave
+112: REG 183.758 - 184.393 - 0.635
+112: PAC 184.393 - 187.311 - 2.918 in transfer from 1 to 2
+112: CHE 187.311 - 194.476 - 7.165 in transfer from 2 to 6
+112: PAY 208.240 - 209.275 - 1.035 in leave2
+112: LEAVE 209.275 in leave
+113: REG 185.389 - 186.429 - 1.040
+113: PAC 186.429 - 191.907 - 5.477 in transfer from 1 to 4
+113: CHE 191.907 - 193.041 - 1.135 in transfer from 4 to 7
+113: PAY 204.208 - 204.563 - 0.355 in leave2
+113: LEAVE 204.563 in leave
+114: REG 187.958 - 188.609 - 0.651
+114: PAC 188.609 - 189.434 - 0.825 in transfer from 0 to 2
+114: CHE 189.434 - 193.143 - 3.709 in transfer from 2 to 8
+114: PAY 204.563 - 208.240 - 3.677 in leave2
+114: LEAVE 208.240 in leave
+115: REG 188.280 - 188.764 - 0.484
+115: PAC 188.764 - 189.100 - 0.336 in transfer from 1 to 5
+115: CHE 189.100 - 190.304 - 1.204 in transfer from 5 to 7
+115: PAY 195.980 - 204.208 - 8.228 in leave2
+115: LEAVE 204.208 in leave
+116: REG 188.609 - 196.932 - 8.323 in transfer3 from 0
+116: PAC 196.932 - 197.711 - 0.779 in transfer from 0 to 2
+116: CHE 197.711 - 206.756 - 9.046 in transfer from 2 to 7
+116: PAY 212.011 - 217.847 - 5.836 in leave2
+116: LEAVE 217.847 in leave
+117: REG 189.274 - 196.286 - 7.012
+117: PAC 196.286 - 196.860 - 0.574 in transfer from 1 to 2
+117: CHE 196.860 - 197.789 - 0.929 in transfer from 2 to 6
+117: PAY 209.515 - 212.011 - 2.496 in leave2
+117: LEAVE 212.011 in leave
+118: REG 196.286 - 198.737 - 2.451 in transfer3 from 1
+118: PAC 198.737 - 199.294 - 0.558 in transfer from 1 to 2
+118: CHE 199.294 - 206.878 - 7.583 in transfer from 2 to 6
+118: PAY 217.847 - 218.168 - 0.321 in leave2
+118: LEAVE 218.168 in leave
+119: REG 196.932 - 201.665 - 4.733 in transfer3 from 0
+119: PAC 201.665 - 205.159 - 3.494 in transfer from 0 to 4
+119: CHE 207.972 - 215.996 - 8.024 in transfer3 from 9
+119: PAY 225.699 - 226.137 - 0.439 in leave2
+119: LEAVE 226.137 in leave
+120: REG 198.737 - 199.973 - 1.236 in transfer3 from 1
+120: PAC 199.973 - 204.902 - 4.929 in transfer from 1 to 2
+120: CHE 207.506 - 209.494 - 1.988 in transfer3 from 7
+120: PAY 219.304 - 220.912 - 1.608 in leave2
+120: LEAVE 220.912 in leave
+121: REG 199.973 - 201.120 - 1.147 in transfer3 from 1
+121: PAC 201.120 - 203.909 - 2.789 in transfer from 1 to 3
+121: CHE 203.909 - 210.380 - 6.471 in transfer from 3 to 8
+121: PAY 221.416 - 223.793 - 2.377 in leave2
+121: LEAVE 223.793 in leave
+122: REG 201.120 - 201.722 - 0.602 in transfer3 from 1
+122: PAC 201.722 - 203.967 - 2.244 in transfer from 1 to 5
+122: CHE 203.967 - 207.972 - 4.005 in transfer from 5 to 9
+122: PAY 218.733 - 219.304 - 0.571 in leave2
+122: LEAVE 219.304 in leave
+123: REG 201.665 - 202.074 - 0.408 in transfer3 from 0
+123: PAC 203.909 - 204.391 - 0.482 in transfer3 from 3
+123: CHE 206.756 - 207.506 - 0.750 in transfer3 from 7
+123: PAY 218.168 - 218.733 - 0.565 in leave2
+123: LEAVE 218.733 in leave
+124: REG 201.722 - 207.575 - 5.852 in transfer3 from 1
+124: PAC 207.575 - 208.879 - 1.304 in transfer from 1 to 2
+124: CHE 209.788 - 211.817 - 2.029 in transfer3 from 7
+124: PAY 223.793 - 224.545 - 0.752 in leave2
+124: LEAVE 224.545 in leave
+125: REG 202.402 - 203.663 - 1.261
+125: PAC 203.967 - 204.679 - 0.712 in transfer3 from 5
+125: CHE 206.878 - 211.886 - 5.008 in transfer3 from 6
+125: PAY 224.545 - 225.699 - 1.154 in leave2
+125: LEAVE 225.699 in leave
+126: REG 203.663 - 204.095 - 0.433 in transfer3 from 0
+126: PAC 204.391 - 208.569 - 4.177 in transfer3 from 3
+126: CHE 209.494 - 209.788 - 0.294 in transfer3 from 7
+126: PAY 220.912 - 221.416 - 0.504 in leave2
+126: LEAVE 221.416 in leave
+127: REG 209.041 - 211.890 - 2.849
+127: PAC 211.890 - 218.011 - 6.121 in transfer from 0 to 2
+127: CHE 218.011 - 221.496 - 3.485 in transfer from 2 to 6
+127: PAY 226.137 - 228.597 - 2.460 in leave2
+127: LEAVE 228.597 in leave
+128: REG 213.625 - 214.281 - 0.655
+128: PAC 214.281 - 220.879 - 6.598 in transfer from 0 to 3
+128: CHE 220.879 - 223.373 - 2.494 in transfer from 3 to 8
+128: PAY 230.598 - 233.496 - 2.897 in leave2
+128: LEAVE 233.496 in leave
+129: REG 217.750 - 221.045 - 3.295
+129: PAC 221.045 - 224.466 - 3.421 in transfer from 0 to 2
+129: CHE 224.466 - 229.155 - 4.689 in transfer from 2 to 7
+129: PAY 233.496 - 235.288 - 1.793 in leave2
+129: LEAVE 235.288 in leave
+130: REG 218.185 - 218.815 - 0.630
+130: PAC 218.815 - 219.750 - 0.935 in transfer from 1 to 2
+130: CHE 219.750 - 221.840 - 2.090 in transfer from 2 to 7
+130: PAY 228.597 - 230.598 - 2.001 in leave2
+130: LEAVE 230.598 in leave
+131: REG 220.236 - 223.748 - 3.511
+131: PAC 223.748 - 227.779 - 4.031 in transfer from 1 to 3
+131: CHE 227.779 - 234.120 - 6.341 in transfer from 3 to 8
+131: PAY 239.063 - 243.098 - 4.035 in leave2
+131: LEAVE 243.098 in leave
+132: REG 221.045 - 221.907 - 0.862 in transfer3 from 0
+132: PAC 221.907 - 222.874 - 0.966 in transfer from 0 to 3
+132: CHE 222.874 - 230.604 - 7.730 in transfer from 3 to 6
+132: PAY 235.288 - 239.063 - 3.775 in leave2
+132: LEAVE 239.063 in leave
+133: REG 224.919 - 226.779 - 1.859
+133: PAC 226.779 - 232.392 - 5.613 in transfer from 0 to 2
+133: CHE 232.392 - 241.224 - 8.832 in transfer from 2 to 6
+133: PAY 244.179 - 245.686 - 1.507 in leave2
+133: LEAVE 245.686 in leave
+134: REG 225.758 - 227.303 - 1.545
+134: PAC 227.303 - 233.725 - 6.422 in transfer from 1 to 4
+134: CHE 233.725 - 242.982 - 9.257 in transfer from 4 to 7
+134: PAY 246.178 - 252.683 - 6.505 in leave2
+134: LEAVE 252.683 in leave
+135: REG 229.120 - 231.151 - 2.031
+135: PAC 231.151 - 236.704 - 5.552 in transfer from 0 to 3
+135: CHE 236.704 - 239.154 - 2.451 in transfer from 3 to 8
+135: PAY 243.098 - 244.179 - 1.081 in leave2
+135: LEAVE 244.179 in leave
+136: REG 231.639 - 233.707 - 2.068
+136: PAC 233.707 - 242.666 - 8.959 in transfer from 0 to 2
+136: CHE 242.666 - 244.404 - 1.738 in transfer from 2 to 4
+136: PAY 252.683 - 254.016 - 1.333 in leave2
+136: LEAVE 254.016 in leave
+137: REG 234.081 - 236.343 - 2.262
+137: PAC 236.343 - 236.780 - 0.437 in transfer from 0 to 4
+137: CHE 236.780 - 242.323 - 5.544 in transfer from 4 to 9
+137: PAY 245.686 - 246.178 - 0.492 in leave2
+137: LEAVE 246.178 in leave
+138: REG 234.889 - 242.394 - 7.504
+138: PAC 243.499 - 244.624 - 1.126 in transfer3 from 2
+138: CHE 244.624 - 252.209 - 7.584 in transfer from 2 to 4
+138: PAY 259.786 - 270.540 - 10.754 in leave2
+138: LEAVE 270.540 in leave
+139: REG 236.343 - 236.623 - 0.280 in transfer3 from 0
+139: PAC 236.623 - 237.154 - 0.531 in transfer from 0 to 5
+139: CHE 239.154 - 245.131 - 5.977 in transfer3 from 8
+139: PAY 254.016 - 257.762 - 3.747 in leave2
+139: LEAVE 257.762 in leave
+140: REG 236.623 - 238.501 - 1.877 in transfer3 from 0
+140: PAC 238.501 - 247.627 - 9.127 in transfer from 0 to 3
+140: CHE 247.627 - 251.205 - 3.578 in transfer from 3 to 6
+140: PAY 258.727 - 259.786 - 1.059 in leave2
+140: LEAVE 259.786 in leave
+141: REG 238.501 - 238.999 - 0.499 in transfer3 from 0
+141: PAC 238.999 - 239.770 - 0.771 in transfer from 0 to 4
+141: CHE 241.224 - 246.110 - 4.886 in transfer3 from 6
+141: PAY 257.762 - 258.384 - 0.622 in leave2
+141: LEAVE 258.384 in leave
+142: REG 239.816 - 241.792 - 1.976
+142: PAC 242.666 - 243.499 - 0.833 in transfer3 from 2
+142: CHE 243.499 - 247.853 - 4.354 in transfer from 2 to 5
+142: PAY 258.384 - 258.727 - 0.343 in leave2
+142: LEAVE 258.727 in leave
+143: REG 243.978 - 244.598 - 0.620
+143: PAC 244.624 - 245.346 - 0.721 in transfer3 from 2
+143: CHE 245.346 - 254.639 - 9.294 in transfer from 2 to 7
+143: PAY 270.937 - 271.503 - 0.566 in leave2
+143: LEAVE 271.503 in leave
+144: REG 247.172 - 250.481 - 3.309
+144: PAC 250.481 - 251.361 - 0.880 in transfer from 0 to 2
+144: CHE 251.361 - 253.725 - 2.364 in transfer from 2 to 5
+144: PAY 270.540 - 270.937 - 0.397 in leave2
+144: LEAVE 270.937 in leave
+145: REG 249.476 - 251.805 - 2.329
+145: PAC 251.805 - 253.020 - 1.215 in transfer from 1 to 2
+145: CHE 253.020 - 256.604 - 3.585 in transfer from 2 to 4
+145: PAY 271.503 - 272.170 - 0.666 in leave2
+145: LEAVE 272.170 in leave
+146: REG 250.481 - 254.128 - 3.646 in transfer3 from 0
+146: PAC 254.128 - 255.995 - 1.867 in transfer from 0 to 2
+146: CHE 255.995 - 257.236 - 1.241 in transfer from 2 to 5
+146: PAY 272.170 - 275.438 - 3.268 in leave2
+146: LEAVE 275.438 in leave
+147: REG 254.631 - 258.331 - 3.700
+147: PAC 258.331 - 259.025 - 0.693 in transfer from 0 to 2
+147: CHE 259.025 - 266.833 - 7.809 in transfer from 2 to 4
+147: PAY 276.079 - 279.316 - 3.237 in leave2
+147: LEAVE 279.316 in leave
+148: REG 255.622 - 259.435 - 3.813
+148: PAC 259.435 - 262.428 - 2.993 in transfer from 1 to 2
+148: CHE 262.428 - 266.899 - 4.471 in transfer from 2 to 6
+148: PAY 279.316 - 280.198 - 0.882 in leave2
+148: LEAVE 280.198 in leave
+149: REG 258.331 - 258.892 - 0.560 in transfer3 from 0
+149: PAC 258.892 - 261.411 - 2.519 in transfer from 0 to 3
+149: CHE 261.411 - 266.789 - 5.379 in transfer from 3 to 5
+149: PAY 275.438 - 276.079 - 0.641 in leave2
+149: LEAVE 276.079 in leave
+150: REG 269.302 - 269.720 - 0.418
+150: PAC 269.720 - 270.093 - 0.373 in transfer from 0 to 2
+150: CHE 270.093 - 278.276 - 8.183 in transfer from 2 to 4
+150: PAY 280.198 - 280.476 - 0.278 in leave2
+150: LEAVE 280.476 in leave
+151: REG 274.959 - 275.643 - 0.684
+151: PAC 275.643 - 276.411 - 0.769 in transfer from 0 to 2
+151: CHE 276.411 - 283.703 - 7.292 in transfer from 2 to 5
+151: PAY 283.703 - 284.007 - 0.303 in transfer from 5 to 10
+151: LEAVE 284.007 in leave
+152: REG 279.113 - 280.287 - 1.175
+152: PAC 280.287 - 285.861 - 5.573 in transfer from 0 to 2
+152: CHE 285.861 - 293.231 - 7.370 in transfer from 2 to 6
+152: PAY 293.231 - 294.436 - 1.205 in transfer from 6 to 10
+152: LEAVE 294.436 in leave
+153: REG 280.268 - 280.968 - 0.700
+153: PAC 280.968 - 282.791 - 1.823 in transfer from 1 to 3
+153: CHE 282.791 - 286.450 - 3.659 in transfer from 3 to 4
+153: PAY 286.450 - 287.237 - 0.786 in transfer from 4 to 10
+153: LEAVE 287.237 in leave
+154: REG 282.203 - 287.343 - 5.140
+154: PAC 287.343 - 291.452 - 4.109 in transfer from 0 to 3
+154: CHE 291.452 - 294.036 - 2.585 in transfer from 3 to 5
+154: PAY 294.436 - 295.458 - 1.022 in leave2
+154: LEAVE 295.458 in leave
+155: REG 283.439 - 284.324 - 0.885
+155: PAC 284.324 - 285.665 - 1.340 in transfer from 1 to 3
+155: CHE 285.665 - 286.724 - 1.059 in transfer from 3 to 5
+155: PAY 287.237 - 287.653 - 0.416 in leave2
+155: LEAVE 287.653 in leave
+156: REG 285.215 - 285.973 - 0.759
+156: PAC 285.973 - 287.605 - 1.632 in transfer from 1 to 2
+156: CHE 287.605 - 289.599 - 1.994 in transfer from 2 to 4
+156: PAY 289.599 - 290.781 - 1.182 in transfer from 4 to 10
+156: LEAVE 290.781 in leave
+157: REG 285.973 - 290.235 - 4.262 in transfer3 from 1
+157: PAC 290.235 - 290.512 - 0.277 in transfer from 1 to 2
+157: CHE 290.512 - 294.701 - 4.189 in transfer from 2 to 4
+157: PAY 295.458 - 302.986 - 7.528 in leave2
+157: LEAVE 302.986 in leave
+158: REG 289.694 - 292.058 - 2.364
+158: PAC 292.058 - 293.304 - 1.246 in transfer from 0 to 2
+158: CHE 293.304 - 299.300 - 5.996 in transfer from 2 to 6
+158: PAY 302.986 - 303.261 - 0.275 in leave2
+158: LEAVE 303.261 in leave
+159: REG 297.728 - 305.251 - 7.523
+159: PAC 305.251 - 309.452 - 4.201 in transfer from 0 to 1
+159: CHE 309.452 - 311.540 - 2.088 in transfer from 1 to 3
+159: PAY 311.540 - 312.402 - 0.862 in transfer from 3 to 6
+159: LEAVE 312.402 in leave
+160: REG 305.251 - 306.395 - 1.144 in transfer3 from 0
+160: PAC 306.395 - 307.842 - 1.447 in transfer from 0 to 2
+160: CHE 307.842 - 308.332 - 0.490 in transfer from 2 to 3
+160: PAY 308.332 - 308.636 - 0.304 in transfer from 3 to 6
+160: LEAVE 308.636 in leave
+161: REG 306.395 - 308.991 - 2.596 in transfer3 from 0
+161: PAC 308.991 - 316.504 - 7.513 in transfer from 0 to 2
+161: CHE 316.504 - 320.264 - 3.760 in transfer from 2 to 3
+161: PAY 320.264 - 322.184 - 1.920 in transfer from 3 to 10
+161: LEAVE 322.184 in leave
+162: REG 308.991 - 311.908 - 2.918 in transfer3 from 0
+162: PAC 311.908 - 316.116 - 4.208 in transfer from 0 to 1
+162: CHE 316.116 - 316.389 - 0.272 in transfer from 1 to 3
+162: PAY 316.389 - 317.911 - 1.522 in transfer from 3 to 6
+162: LEAVE 317.911 in leave
+163: REG 311.908 - 313.676 - 1.768 in transfer3 from 0
+163: PAC 316.116 - 320.098 - 3.981 in transfer3 from 1
+163: CHE 320.098 - 322.578 - 2.480 in transfer from 1 to 4
+163: PAY 322.578 - 326.619 - 4.041 in transfer from 4 to 6
+163: LEAVE 326.619 in leave
+164: REG 313.676 - 314.581 - 0.905 in transfer3 from 0
+164: PAC 316.504 - 317.385 - 0.881 in transfer3 from 2
+164: CHE 317.385 - 318.295 - 0.910 in transfer from 2 to 4
+164: PAY 318.295 - 320.376 - 2.080 in transfer from 4 to 6
+164: LEAVE 320.376 in leave
+165: REG 314.581 - 319.830 - 5.249 in transfer3 from 0
+165: PAC 319.830 - 329.399 - 9.569 in transfer from 0 to 2
+165: CHE 329.399 - 336.947 - 7.549 in transfer from 2 to 3
+165: PAY 336.947 - 337.843 - 0.896 in transfer from 3 to 6
+165: LEAVE 337.843 in leave
+166: REG 319.830 - 324.610 - 4.779 in transfer3 from 0
+166: PAC 324.610 - 327.298 - 2.689 in transfer from 0 to 1
+166: CHE 327.298 - 329.085 - 1.787 in transfer from 1 to 3
+166: PAY 329.085 - 332.420 - 3.334 in transfer from 3 to 6
+166: LEAVE 332.420 in leave
+167: REG 324.610 - 326.935 - 2.325 in transfer3 from 0
+167: PAC 327.298 - 332.869 - 5.571 in transfer3 from 1
+167: CHE 332.869 - 334.927 - 2.058 in transfer from 1 to 4
+167: PAY 334.927 - 335.562 - 0.635 in transfer from 4 to 6
+167: LEAVE 335.562 in leave
+168: REG 326.935 - 327.776 - 0.841 in transfer3 from 0
+168: PAC 329.399 - 330.057 - 0.658 in transfer3 from 2
+168: CHE 330.057 - 331.256 - 1.199 in transfer from 2 to 4
+168: PAY 331.256 - 333.595 - 2.339 in transfer from 4 to 10
+168: LEAVE 333.595 in leave
+169: REG 331.836 - 333.132 - 1.296
+169: PAC 333.132 - 337.713 - 4.581 in transfer from 0 to 1
+169: CHE 337.713 - 340.259 - 2.547 in transfer from 1 to 4
+169: PAY 340.259 - 348.781 - 8.522 in transfer from 4 to 6
+169: LEAVE 348.781 in leave
+170: REG 334.350 - 335.483 - 1.133
+170: PAC 335.483 - 337.175 - 1.692 in transfer from 0 to 2
+170: CHE 337.175 - 345.924 - 8.749 in transfer from 2 to 3
+170: PAY 345.924 - 347.164 - 1.239 in transfer from 3 to 10
+170: LEAVE 347.164 in leave
+171: REG 335.483 - 336.450 - 0.968 in transfer3 from 0
+171: PAC 337.175 - 339.625 - 2.450 in transfer3 from 2
+171: CHE 339.625 - 341.493 - 1.868 in transfer from 2 to 5
+171: PAY 341.493 - 343.653 - 2.160 in transfer from 5 to 10
+171: LEAVE 343.653 in leave
+172: REG 337.025 - 342.229 - 5.204
+172: PAC 342.229 - 343.805 - 1.576 in transfer from 0 to 1
+172: CHE 343.805 - 348.638 - 4.833 in transfer from 1 to 4
+172: PAY 348.638 - 350.459 - 1.821 in transfer from 4 to 10
+172: LEAVE 350.459 in leave
+173: REG 342.229 - 343.368 - 1.139 in transfer3 from 0
+173: PAC 343.368 - 344.459 - 1.091 in transfer from 0 to 2
+173: CHE 344.459 - 347.048 - 2.589 in transfer from 2 to 5
+173: PAY 347.164 - 348.121 - 0.957 in leave2
+173: LEAVE 348.121 in leave
+174: REG 343.368 - 343.950 - 0.582 in transfer3 from 0
+174: PAC 343.950 - 346.357 - 2.407 in transfer from 0 to 1
+174: CHE 346.357 - 355.705 - 9.348 in transfer from 1 to 3
+174: PAY 355.705 - 356.015 - 0.309 in transfer from 3 to 6
+174: LEAVE 356.015 in leave
+175: REG 343.950 - 345.441 - 1.491 in transfer3 from 0
+175: PAC 345.441 - 351.481 - 6.040 in transfer from 0 to 2
+175: CHE 351.481 - 354.569 - 3.088 in transfer from 2 to 4
+175: PAY 354.569 - 355.068 - 0.499 in transfer from 4 to 6
+175: LEAVE 355.068 in leave
+176: REG 345.441 - 352.655 - 7.215 in transfer3 from 0
+176: PAC 352.655 - 359.319 - 6.664 in transfer from 0 to 1
+176: CHE 359.319 - 364.979 - 5.660 in transfer from 1 to 3
+176: PAY 364.979 - 366.650 - 1.671 in transfer from 3 to 9
+176: LEAVE 366.650 in leave
+177: REG 352.655 - 357.394 - 4.738 in transfer3 from 0
+177: PAC 357.394 - 362.577 - 5.183 in transfer from 0 to 2
+177: CHE 362.577 - 366.552 - 3.976 in transfer from 2 to 6
+177: PAY 366.650 - 367.754 - 1.104 in leave2
+177: LEAVE 367.754 in leave
+178: REG 357.394 - 358.823 - 1.429 in transfer3 from 0
+178: PAC 359.319 - 366.368 - 7.049 in transfer3 from 1
+178: CHE 366.368 - 368.413 - 2.045 in transfer from 1 to 3
+178: PAY 368.413 - 369.833 - 1.420 in transfer from 3 to 9
+178: LEAVE 369.833 in leave
+179: REG 358.823 - 361.135 - 2.312 in transfer3 from 0
+179: PAC 361.135 - 364.420 - 3.285 in transfer from 0 to 4
+179: CHE 364.420 - 369.620 - 5.200 in transfer from 4 to 7
+179: PAY 371.962 - 372.376 - 0.414 in leave2
+179: LEAVE 372.376 in leave
+180: REG 361.135 - 363.458 - 2.323 in transfer3 from 0
+180: PAC 363.458 - 366.413 - 2.955 in transfer from 0 to 2
+180: CHE 366.413 - 369.473 - 3.060 in transfer from 2 to 8
+180: PAY 369.833 - 371.962 - 2.129 in leave2
+180: LEAVE 371.962 in leave
+181: REG 363.458 - 372.943 - 9.485 in transfer3 from 0
+181: PAC 372.943 - 378.261 - 5.318 in transfer from 0 to 1
+181: CHE 378.261 - 385.425 - 7.165 in transfer from 1 to 3
+181: PAY 385.425 - 393.316 - 7.891 in transfer from 3 to 9
+181: LEAVE 393.316 in leave
+182: REG 372.943 - 380.205 - 7.262 in transfer3 from 0
+182: PAC 380.205 - 383.273 - 3.068 in transfer from 0 to 1
+182: CHE 383.273 - 384.695 - 1.422 in transfer from 1 to 6
+182: PAY 384.695 - 385.131 - 0.436 in transfer from 6 to 9
+182: LEAVE 385.131 in leave
+183: REG 380.205 - 381.714 - 1.509 in transfer3 from 0
+183: PAC 381.714 - 385.708 - 3.993 in transfer from 0 to 2
+183: CHE 385.708 - 391.263 - 5.555 in transfer from 2 to 3
+183: PAY 394.823 - 395.380 - 0.557 in leave2
+183: LEAVE 395.380 in leave
+184: REG 381.714 - 383.625 - 1.910 in transfer3 from 0
+184: PAC 383.625 - 384.575 - 0.951 in transfer from 0 to 1
+184: CHE 384.575 - 388.570 - 3.995 in transfer from 1 to 7
+184: PAY 393.316 - 394.303 - 0.987 in leave2
+184: LEAVE 394.303 in leave
+185: REG 383.625 - 384.594 - 0.970 in transfer3 from 0
+185: PAC 384.594 - 386.643 - 2.049 in transfer from 0 to 1
+185: CHE 386.643 - 388.628 - 1.984 in transfer from 1 to 6
+185: PAY 394.303 - 394.823 - 0.520 in leave2
+185: LEAVE 394.823 in leave
+186: REG 384.594 - 388.979 - 4.385 in transfer3 from 0
+186: PAC 388.979 - 391.421 - 2.441 in transfer from 0 to 1
+186: CHE 391.421 - 396.657 - 5.237 in transfer from 1 to 3
+186: PAY 397.471 - 398.096 - 0.625 in leave2
+186: LEAVE 398.096 in leave
+187: REG 388.979 - 389.851 - 0.872 in transfer3 from 0
+187: PAC 389.851 - 393.513 - 3.662 in transfer from 0 to 2
+187: CHE 393.513 - 396.848 - 3.334 in transfer from 2 to 8
+187: PAY 398.096 - 398.905 - 0.810 in leave2
+187: LEAVE 398.905 in leave
+188: REG 389.851 - 390.930 - 1.079 in transfer3 from 0
+188: PAC 390.930 - 395.674 - 4.744 in transfer from 0 to 4
+188: CHE 396.657 - 398.276 - 1.618 in transfer3 from 3
+188: PAY 398.905 - 400.158 - 1.253 in leave2
+188: LEAVE 400.158 in leave
+189: REG 390.930 - 391.577 - 0.647 in transfer3 from 0
+189: PAC 391.577 - 392.273 - 0.696 in transfer from 0 to 1
+189: CHE 392.273 - 396.133 - 3.860 in transfer from 1 to 6
+189: PAY 396.133 - 396.593 - 0.460 in transfer from 6 to 9
+189: LEAVE 396.593 in leave
+190: REG 391.577 - 392.242 - 0.665 in transfer3 from 0
+190: PAC 392.242 - 393.301 - 1.059 in transfer from 0 to 5
+190: CHE 393.301 - 398.715 - 5.413 in transfer from 5 to 7
+190: PAY 402.765 - 403.345 - 0.580 in leave2
+190: LEAVE 403.345 in leave
+191: REG 392.242 - 393.079 - 0.837 in transfer3 from 0
+191: PAC 393.079 - 393.716 - 0.637 in transfer from 0 to 1
+191: CHE 396.133 - 396.408 - 0.275 in transfer3 from 6
+191: PAY 396.593 - 397.471 - 0.878 in leave2
+191: LEAVE 397.471 in leave
+192: REG 393.079 - 394.109 - 1.030 in transfer3 from 0
+192: PAC 394.109 - 394.655 - 0.546 in transfer from 0 to 1
+192: CHE 396.408 - 398.364 - 1.956 in transfer3 from 6
+192: PAY 400.158 - 402.765 - 2.607 in leave2
+192: LEAVE 402.765 in leave
+193: REG 394.109 - 394.830 - 0.721 in transfer3 from 0
+193: PAC 394.830 - 399.240 - 4.410 in transfer from 0 to 1
+193: CHE 399.240 - 404.623 - 5.382 in transfer from 1 to 3
+193: PAY 405.563 - 406.242 - 0.679 in leave2
+193: LEAVE 406.242 in leave
+194: REG 394.830 - 397.133 - 2.303 in transfer3 from 0
+194: PAC 397.133 - 399.989 - 2.856 in transfer from 0 to 2
+194: CHE 399.989 - 401.446 - 1.457 in transfer from 2 to 7
+194: PAY 403.345 - 403.836 - 0.491 in leave2
+194: LEAVE 403.836 in leave
+195: REG 397.133 - 397.909 - 0.775 in transfer3 from 0
+195: PAC 397.909 - 400.682 - 2.774 in transfer from 0 to 4
+195: CHE 400.682 - 402.753 - 2.071 in transfer from 4 to 8
+195: PAY 403.836 - 404.377 - 0.541 in leave2
+195: LEAVE 404.377 in leave
+196: REG 397.909 - 399.186 - 1.277 in transfer3 from 0
+196: PAC 399.186 - 399.804 - 0.618 in transfer from 0 to 5
+196: CHE 399.804 - 403.293 - 3.490 in transfer from 5 to 6
+196: PAY 404.377 - 405.563 - 1.186 in leave2
+196: LEAVE 405.563 in leave
+197: REG 399.186 - 400.161 - 0.976 in transfer3 from 0
+197: PAC 400.161 - 401.067 - 0.905 in transfer from 0 to 1
+197: CHE 401.446 - 405.484 - 4.038 in transfer3 from 7
+197: PAY 406.242 - 406.787 - 0.545 in leave2
+197: LEAVE 406.787 in leave
+198: REG 400.161 - 400.687 - 0.526 in transfer3 from 0
+198: PAC 400.687 - 403.735 - 3.047 in transfer from 0 to 2
+198: CHE 403.735 - 406.006 - 2.271 in transfer from 2 to 6
+198: PAY 406.787 - 408.120 - 1.333 in leave2
+198: LEAVE 408.120 in leave
+199: REG 400.687 - 400.930 - 0.243 in transfer3 from 0
+199: PAC 400.930 - 401.655 - 0.724 in transfer from 0 to 4
+199: CHE 402.753 - 406.807 - 4.054 in transfer3 from 8
+199: PAY 408.120 - 408.722 - 0.602 in leave2
+199: LEAVE 408.722 in leave
+200: REG 400.930 - 404.028 - 3.098 in transfer3 from 0
+200: PAC 404.028 - 405.607 - 1.578 in transfer from 0 to 1
+200: CHE 405.607 - 410.685 - 5.078 in transfer from 1 to 3
+200: PAY 418.864 - 420.599 - 1.735 in leave2
+200: LEAVE 420.599 in leave
+201: REG 404.028 - 405.571 - 1.543 in transfer3 from 0
+201: PAC 405.571 - 407.475 - 1.904 in transfer from 0 to 2
+201: CHE 407.475 - 409.701 - 2.226 in transfer from 2 to 8
+201: PAY 415.330 - 417.650 - 2.320 in leave2
+201: LEAVE 417.650 in leave
+202: REG 405.571 - 406.027 - 0.456 in transfer3 from 0
+202: PAC 406.027 - 407.164 - 1.136 in transfer from 0 to 1
+202: CHE 407.164 - 409.711 - 2.548 in transfer from 1 to 7
+202: PAY 417.650 - 418.864 - 1.214 in leave2
+202: LEAVE 418.864 in leave
+203: REG 406.027 - 406.278 - 0.251 in transfer3 from 0
+203: PAC 406.278 - 406.875 - 0.598 in transfer from 0 to 4
+203: CHE 406.875 - 408.240 - 1.364 in transfer from 4 to 6
+203: PAY 408.722 - 409.196 - 0.474 in leave2
+203: LEAVE 409.196 in leave
+204: REG 406.278 - 406.795 - 0.518 in transfer3 from 0
+204: PAC 406.795 - 409.403 - 2.608 in transfer from 0 to 5
+204: CHE 409.403 - 409.643 - 0.240 in transfer from 5 to 6
+204: PAY 413.908 - 415.330 - 1.422 in leave2
+204: LEAVE 415.330 in leave
+205: REG 406.795 - 407.563 - 0.767 in transfer3 from 0
+205: PAC 407.563 - 408.090 - 0.528 in transfer from 0 to 1
+205: CHE 408.240 - 408.701 - 0.461 in transfer3 from 6
+205: PAY 409.196 - 413.908 - 4.711 in leave2
+205: LEAVE 413.908 in leave
+206: REG 407.563 - 409.376 - 1.814 in transfer3 from 0
+206: PAC 409.376 - 414.000 - 4.624 in transfer from 0 to 1
+206: CHE 414.000 - 416.072 - 2.071 in transfer from 1 to 6
+206: PAY 420.599 - 421.017 - 0.418 in leave2
+206: LEAVE 421.017 in leave
+207: REG 409.376 - 412.970 - 3.594 in transfer3 from 0
+207: PAC 412.970 - 413.993 - 1.023 in transfer from 0 to 2
+207: CHE 413.993 - 418.740 - 4.747 in transfer from 2 to 3
+207: PAY 420.954 - 421.292 - 0.338 in transfer from 6 to 10
+207: LEAVE 421.292 in leave
+208: REG 412.970 - 416.663 - 3.693 in transfer3 from 0
+208: PAC 416.663 - 417.620 - 0.957 in transfer from 0 to 1
+208: CHE 417.620 - 419.134 - 1.514 in transfer from 1 to 6
+208: PAY 421.017 - 423.906 - 2.889 in leave2
+208: LEAVE 423.906 in leave
+209: REG 416.663 - 417.792 - 1.129 in transfer3 from 0
+209: PAC 417.792 - 420.372 - 2.580 in transfer from 0 to 1
+209: CHE 420.372 - 421.789 - 1.417 in transfer from 1 to 7
+209: PAY 423.906 - 424.172 - 0.266 in leave2
+209: LEAVE 424.172 in leave
+210: REG 417.792 - 418.196 - 0.404 in transfer3 from 0
+210: PAC 418.196 - 421.184 - 2.988 in transfer from 0 to 2
+210: CHE 421.184 - 422.714 - 1.530 in transfer from 2 to 6
+210: PAY 423.930 - 424.578 - 0.648 in leave2
+210: LEAVE 424.578 in leave
+211: REG 418.196 - 418.773 - 0.577 in transfer3 from 0
+211: PAC 418.773 - 420.297 - 1.524 in transfer from 0 to 4
+211: CHE 420.297 - 420.954 - 0.658 in transfer from 4 to 6
+211: PAY 421.292 - 423.930 - 2.638 in leave2
+211: LEAVE 423.930 in leave
+212: REG 418.773 - 419.855 - 1.082 in transfer3 from 0
+212: PAC 419.855 - 422.048 - 2.194 in transfer from 0 to 5
+212: CHE 422.048 - 423.453 - 1.405 in transfer from 5 to 7
+212: PAY 424.414 - 425.281 - 0.868 in leave2
+212: LEAVE 425.281 in leave
+213: REG 419.855 - 420.309 - 0.454 in transfer3 from 0
+213: PAC 420.309 - 425.232 - 4.923 in transfer from 0 to 3
+213: CHE 425.232 - 427.767 - 2.534 in transfer from 3 to 7
+213: PAY 427.767 - 433.026 - 5.259 in transfer from 7 to 9
+213: LEAVE 433.026 in leave
+214: REG 420.309 - 421.038 - 0.729 in transfer3 from 0
+214: PAC 421.038 - 421.779 - 0.742 in transfer from 0 to 1
+214: CHE 421.779 - 423.021 - 1.241 in transfer from 1 to 8
+214: PAY 424.172 - 424.414 - 0.242 in leave2
+214: LEAVE 424.414 in leave
+215: REG 421.038 - 421.684 - 0.647 in transfer3 from 0
+215: PAC 421.684 - 424.254 - 2.570 in transfer from 0 to 2
+215: CHE 424.254 - 425.425 - 1.171 in transfer from 2 to 6
+215: PAY 425.425 - 426.028 - 0.603 in transfer from 6 to 9
+215: LEAVE 426.028 in leave
+216: REG 421.684 - 424.073 - 2.388 in transfer3 from 0
+216: PAC 424.073 - 424.875 - 0.802 in transfer from 0 to 1
+216: CHE 424.875 - 425.179 - 0.304 in transfer from 1 to 7
+216: PAY 425.179 - 427.337 - 2.158 in transfer from 7 to 10
+216: LEAVE 427.337 in leave
+217: REG 424.156 - 427.942 - 3.786
+217: PAC 427.942 - 428.849 - 0.906 in transfer from 0 to 1
+217: CHE 428.849 - 431.360 - 2.511 in transfer from 1 to 6
+217: PAY 431.360 - 432.055 - 0.695 in transfer from 6 to 10
+217: LEAVE 432.055 in leave
+218: REG 427.942 - 428.138 - 0.195 in transfer3 from 0
+218: PAC 428.138 - 430.176 - 2.038 in transfer from 0 to 2
+218: CHE 430.176 - 434.434 - 4.258 in transfer from 2 to 7
+218: PAY 434.434 - 434.855 - 0.421 in transfer from 7 to 9
+218: LEAVE 434.855 in leave
+219: REG 428.138 - 430.864 - 2.726 in transfer3 from 0
+219: PAC 430.864 - 432.401 - 1.537 in transfer from 0 to 1
+219: CHE 432.401 - 433.536 - 1.135 in transfer from 1 to 6
+219: PAY 433.536 - 434.388 - 0.853 in transfer from 6 to 9
+219: LEAVE 434.388 in leave
+220: REG 430.864 - 433.146 - 2.282 in transfer3 from 0
+220: PAC 433.146 - 437.084 - 3.938 in transfer from 0 to 1
+220: CHE 437.084 - 441.166 - 4.082 in transfer from 1 to 6
+220: PAY 441.166 - 441.647 - 0.481 in transfer from 6 to 10
+220: LEAVE 441.647 in leave
+221: REG 433.146 - 434.184 - 1.038 in transfer3 from 0
+221: PAC 434.184 - 434.830 - 0.646 in transfer from 0 to 2
+221: CHE 434.830 - 436.305 - 1.475 in transfer from 2 to 6
+221: PAY 436.305 - 436.684 - 0.378 in transfer from 6 to 9
+221: LEAVE 436.684 in leave
+222: REG 434.184 - 434.380 - 0.196 in transfer3 from 0
+222: PAC 434.380 - 436.257 - 1.877 in transfer from 0 to 3
+222: CHE 436.257 - 439.040 - 2.783 in transfer from 3 to 7
+222: PAY 439.040 - 443.720 - 4.680 in transfer from 7 to 9
+222: LEAVE 443.720 in leave
+223: REG 434.380 - 436.803 - 2.423 in transfer3 from 0
+223: PAC 436.803 - 438.047 - 1.243 in transfer from 0 to 2
+223: CHE 438.047 - 443.165 - 5.118 in transfer from 2 to 8
+223: PAY 443.720 - 444.033 - 0.313 in leave2
+223: LEAVE 444.033 in leave
+224: REG 436.803 - 438.784 - 1.981 in transfer3 from 0
+224: PAC 438.784 - 441.376 - 2.592 in transfer from 0 to 1
+224: CHE 441.376 - 442.931 - 1.555 in transfer from 1 to 6
+224: PAY 442.931 - 444.384 - 1.454 in transfer from 6 to 10
+224: LEAVE 444.384 in leave
+225: REG 438.784 - 440.064 - 1.280 in transfer3 from 0
+225: PAC 440.064 - 444.269 - 4.205 in transfer from 0 to 2
+225: CHE 444.269 - 445.115 - 0.845 in transfer from 2 to 7
+225: PAY 445.115 - 446.104 - 0.989 in transfer from 7 to 9
+225: LEAVE 446.104 in leave
+226: REG 440.064 - 441.752 - 1.688 in transfer3 from 0
+226: PAC 441.752 - 443.114 - 1.362 in transfer from 0 to 1
+226: CHE 443.114 - 446.130 - 3.016 in transfer from 1 to 6
+226: PAY 446.130 - 447.412 - 1.282 in transfer from 6 to 9
+226: LEAVE 447.412 in leave
+227: REG 441.752 - 443.814 - 2.061 in transfer3 from 0
+227: PAC 443.814 - 445.571 - 1.757 in transfer from 0 to 1
+227: CHE 445.571 - 448.156 - 2.584 in transfer from 1 to 7
+227: PAY 448.156 - 449.109 - 0.953 in transfer from 7 to 9
+227: LEAVE 449.109 in leave
+228: REG 443.814 - 445.224 - 1.410 in transfer3 from 0
+228: PAC 445.224 - 446.148 - 0.924 in transfer from 0 to 2
+228: CHE 446.148 - 449.217 - 3.069 in transfer from 2 to 6
+228: PAY 449.217 - 449.686 - 0.469 in transfer from 6 to 9
+228: LEAVE 449.686 in leave
+229: REG 445.224 - 449.498 - 4.274 in transfer3 from 0
+229: PAC 449.498 - 450.703 - 1.205 in transfer from 0 to 1
+229: CHE 450.703 - 454.283 - 3.580 in transfer from 1 to 6
+229: PAY 454.283 - 455.908 - 1.625 in transfer from 6 to 9
+229: LEAVE 455.908 in leave
+230: REG 449.498 - 450.592 - 1.094 in transfer3 from 0
+230: PAC 450.592 - 454.303 - 3.712 in transfer from 0 to 2
+230: CHE 454.303 - 456.023 - 1.720 in transfer from 2 to 6
+230: PAY 456.023 - 456.188 - 0.165 in transfer from 6 to 9
+230: LEAVE 456.188 in leave
+231: REG 450.592 - 450.945 - 0.353 in transfer3 from 0
+231: PAC 450.945 - 451.383 - 0.439 in transfer from 0 to 1
+231: CHE 451.383 - 455.296 - 3.912 in transfer from 1 to 7
+231: PAY 455.296 - 455.955 - 0.660 in transfer from 7 to 10
+231: LEAVE 455.955 in leave
+232: REG 450.945 - 451.209 - 0.265 in transfer3 from 0
+232: PAC 451.209 - 455.697 - 4.488 in transfer from 0 to 3
+232: CHE 455.697 - 458.729 - 3.032 in transfer from 3 to 7
+232: PAY 458.729 - 459.876 - 1.147 in transfer from 7 to 10
+232: LEAVE 459.876 in leave
+233: REG 451.849 - 453.381 - 1.532
+233: PAC 453.381 - 454.445 - 1.064 in transfer from 0 to 1
+233: CHE 454.445 - 458.540 - 4.095 in transfer from 1 to 8
+233: PAY 458.540 - 459.013 - 0.473 in transfer from 8 to 9
+233: LEAVE 459.013 in leave
+234: REG 453.381 - 454.689 - 1.308 in transfer3 from 0
+234: PAC 454.689 - 456.554 - 1.865 in transfer from 0 to 1
+234: CHE 456.554 - 457.220 - 0.666 in transfer from 1 to 6
+234: PAY 457.220 - 457.926 - 0.706 in transfer from 6 to 9
+234: LEAVE 457.926 in leave
+235: REG 454.689 - 455.345 - 0.656 in transfer3 from 0
+235: PAC 455.345 - 456.849 - 1.504 in transfer from 0 to 2
+235: CHE 458.540 - 458.892 - 0.351 in transfer3 from 8
+235: PAY 459.013 - 459.424 - 0.411 in leave2
+235: LEAVE 459.424 in leave
+236: REG 455.345 - 456.026 - 0.681 in transfer3 from 0
+236: PAC 456.026 - 458.574 - 2.547 in transfer from 0 to 3
+236: CHE 458.729 - 459.402 - 0.673 in transfer3 from 7
+236: PAY 459.424 - 460.255 - 0.831 in leave2
+236: LEAVE 460.255 in leave
+237: REG 456.026 - 456.325 - 0.299 in transfer3 from 0
+237: PAC 456.325 - 456.657 - 0.332 in transfer from 0 to 4
+237: CHE 457.220 - 462.268 - 5.048 in transfer3 from 6
+237: PAY 462.268 - 462.561 - 0.293 in transfer from 6 to 9
+237: LEAVE 462.561 in leave
+238: REG 456.956 - 459.730 - 2.774
+238: PAC 459.730 - 459.997 - 0.267 in transfer from 0 to 1
+238: CHE 459.997 - 461.267 - 1.270 in transfer from 1 to 7
+238: PAY 461.267 - 461.888 - 0.621 in transfer from 7 to 9
+238: LEAVE 461.888 in leave
+239: REG 459.730 - 461.939 - 2.209 in transfer3 from 0
+239: PAC 461.939 - 464.306 - 2.367 in transfer from 0 to 1
+239: CHE 464.306 - 466.468 - 2.162 in transfer from 1 to 7
+239: PAY 466.468 - 471.113 - 4.646 in transfer from 7 to 9
+239: LEAVE 471.113 in leave
+240: REG 461.939 - 463.263 - 1.325 in transfer3 from 0
+240: PAC 463.263 - 464.271 - 1.008 in transfer from 0 to 2
+240: CHE 464.271 - 469.405 - 5.134 in transfer from 2 to 6
+240: PAY 469.405 - 469.547 - 0.141 in transfer from 6 to 10
+240: LEAVE 469.547 in leave
+241: REG 463.263 - 464.241 - 0.978 in transfer3 from 0
+241: PAC 464.241 - 464.624 - 0.383 in transfer from 0 to 3
+241: CHE 464.624 - 467.634 - 3.010 in transfer from 3 to 8
+241: PAY 467.634 - 467.898 - 0.263 in transfer from 8 to 10
+241: LEAVE 467.898 in leave
+242: REG 464.241 - 465.670 - 1.429 in transfer3 from 0
+242: PAC 465.670 - 467.679 - 2.009 in transfer from 0 to 1
+242: CHE 467.679 - 468.587 - 0.908 in transfer from 1 to 8
+242: PAY 468.587 - 469.382 - 0.795 in transfer from 8 to 10
+242: LEAVE 469.382 in leave
+243: REG 465.670 - 466.410 - 0.740 in transfer3 from 0
+243: PAC 466.410 - 466.552 - 0.142 in transfer from 0 to 2
+243: CHE 466.552 - 470.848 - 4.296 in transfer from 2 to 7
+243: PAY 470.848 - 471.075 - 0.227 in transfer from 7 to 10
+243: LEAVE 471.075 in leave
+244: REG 469.232 - 469.626 - 0.394
+244: PAC 469.626 - 470.755 - 1.130 in transfer from 0 to 1
+244: CHE 470.755 - 472.391 - 1.635 in transfer from 1 to 6
+244: PAY 472.391 - 474.688 - 2.297 in transfer from 6 to 9
+244: LEAVE 474.688 in leave
+245: REG 469.834 - 471.059 - 1.225
+245: PAC 471.059 - 472.071 - 1.011 in transfer from 0 to 1
+245: CHE 472.071 - 473.675 - 1.605 in transfer from 1 to 7
+245: PAY 473.675 - 475.470 - 1.794 in transfer from 7 to 10
+245: LEAVE 475.470 in leave
+246: REG 472.944 - 474.173 - 1.230
+246: PAC 474.173 - 476.589 - 2.416 in transfer from 0 to 1
+246: CHE 476.589 - 479.833 - 3.244 in transfer from 1 to 7
+246: PAY 479.833 - 481.207 - 1.373 in transfer from 7 to 9
+246: LEAVE 481.207 in leave
+247: REG 474.173 - 474.864 - 0.691 in transfer3 from 0
+247: PAC 474.864 - 475.695 - 0.831 in transfer from 0 to 2
+247: CHE 475.695 - 478.405 - 2.711 in transfer from 2 to 6
+247: PAY 478.405 - 478.868 - 0.463 in transfer from 6 to 9
+247: LEAVE 478.868 in leave
+248: REG 475.061 - 477.447 - 2.386
+248: PAC 477.447 - 479.376 - 1.928 in transfer from 0 to 1
+248: CHE 479.376 - 480.354 - 0.978 in transfer from 1 to 6
+248: PAY 480.354 - 480.815 - 0.461 in transfer from 6 to 10
+248: LEAVE 480.815 in leave
+249: REG 478.327 - 480.140 - 1.813
+249: PAC 480.140 - 485.179 - 5.039 in transfer from 0 to 2
+249: CHE 485.179 - 488.786 - 3.607 in transfer from 2 to 6
+249: PAY 488.786 - 490.229 - 1.444 in transfer from 6 to 9
+249: LEAVE 490.229 in leave
+250: REG 480.140 - 481.863 - 1.723 in transfer3 from 0
+250: PAC 481.863 - 482.717 - 0.854 in transfer from 0 to 3
+250: CHE 482.717 - 484.138 - 1.421 in transfer from 3 to 6
+250: PAY 484.138 - 484.462 - 0.324 in transfer from 6 to 9
+250: LEAVE 484.462 in leave
+251: REG 481.368 - 482.438 - 1.070
+251: PAC 482.438 - 491.777 - 9.339 in transfer from 1 to 4
+251: CHE 491.777 - 500.712 - 8.936 in transfer from 4 to 7
+251: PAY 500.712 - 503.223 - 2.511 in transfer from 7 to 10
+251: LEAVE 503.223 in leave
+252: REG 483.875 - 484.619 - 0.744
+252: PAC 484.619 - 486.049 - 1.430 in transfer from 0 to 3
+252: CHE 486.049 - 488.911 - 2.863 in transfer from 3 to 7
+252: PAY 488.911 - 489.254 - 0.343 in transfer from 7 to 10
+252: LEAVE 489.254 in leave
+253: REG 485.067 - 485.360 - 0.294
+253: PAC 485.360 - 493.501 - 8.141 in transfer from 0 to 2
+253: CHE 493.771 - 497.636 - 3.865 in transfer3 from 6
+253: PAY 497.636 - 498.619 - 0.983 in transfer from 6 to 10
+253: LEAVE 498.619 in leave
+254: REG 486.385 - 486.938 - 0.553
+254: PAC 486.938 - 488.857 - 1.919 in transfer from 0 to 3
+254: CHE 488.857 - 490.126 - 1.270 in transfer from 3 to 6
+254: PAY 490.126 - 493.562 - 3.436 in transfer from 6 to 10
+254: LEAVE 493.562 in leave
+255: REG 487.345 - 492.260 - 4.915
+255: PAC 492.260 - 493.043 - 0.783 in transfer from 0 to 3
+255: CHE 493.043 - 495.812 - 2.769 in transfer from 3 to 8
+255: PAY 495.812 - 496.354 - 0.543 in transfer from 8 to 9
+255: LEAVE 496.354 in leave
+256: REG 489.042 - 489.618 - 0.577
+256: PAC 489.618 - 491.530 - 1.912 in transfer from 1 to 3
+256: CHE 491.530 - 493.771 - 2.241 in transfer from 3 to 6
+256: PAY 493.771 - 495.384 - 1.612 in transfer from 6 to 9
+256: LEAVE 495.384 in leave
+257: REG 489.879 - 495.326 - 5.447
+257: PAC 495.326 - 496.039 - 0.713 in transfer from 1 to 2
+257: CHE 496.998 - 497.957 - 0.959 in transfer3 from 8
+257: PAY 498.193 - 498.655 - 0.462 in leave2
+257: LEAVE 498.655 in leave
+258: REG 492.260 - 492.508 - 0.248 in transfer3 from 0
+258: PAC 492.508 - 499.596 - 7.088 in transfer from 0 to 4
+258: CHE 500.479 - 509.499 - 9.020 in transfer3 from 8
+258: PAY 509.499 - 512.792 - 3.293 in transfer from 8 to 10
+258: LEAVE 512.792 in leave
+259: REG 492.508 - 494.078 - 1.571 in transfer3 from 0
+259: PAC 494.078 - 494.736 - 0.658 in transfer from 0 to 2
+259: CHE 495.812 - 496.998 - 1.186 in transfer3 from 8
+259: PAY 496.998 - 498.193 - 1.195 in transfer from 8 to 9
+259: LEAVE 498.193 in leave
+260: REG 494.078 - 495.984 - 1.905 in transfer3 from 0
+260: PAC 495.984 - 498.361 - 2.377 in transfer from 0 to 5
+260: CHE 498.361 - 500.479 - 2.118 in transfer from 5 to 8
+260: PAY 500.479 - 504.468 - 3.989 in transfer from 8 to 9
+260: LEAVE 504.468 in leave
+261: REG 495.326 - 495.834 - 0.508 in transfer3 from 1
+261: PAC 495.834 - 497.949 - 2.115 in transfer from 1 to 3
+261: CHE 497.949 - 504.239 - 6.290 in transfer from 3 to 6
+261: PAY 504.239 - 506.523 - 2.284 in transfer from 6 to 10
+261: LEAVE 506.523 in leave
+262: REG 499.553 - 500.811 - 1.258
+262: PAC 500.811 - 502.374 - 1.563 in transfer from 0 to 2
+262: CHE 502.374 - 510.376 - 8.002 in transfer from 2 to 7
+262: PAY 510.933 - 511.580 - 0.647 in leave2
+262: LEAVE 511.580 in leave
+263: REG 502.210 - 502.595 - 0.385
+263: PAC 502.595 - 503.038 - 0.443 in transfer from 0 to 2
+263: CHE 504.239 - 506.794 - 2.556 in transfer3 from 6
+263: PAY 506.794 - 510.933 - 4.138 in transfer from 6 to 9
+263: LEAVE 510.933 in leave
+264: REG 503.100 - 503.752 - 0.652
+264: PAC 503.752 - 508.511 - 4.759 in transfer from 0 to 2
+264: CHE 508.511 - 512.810 - 4.300 in transfer from 2 to 6
+264: PAY 512.810 - 519.998 - 7.188 in transfer from 6 to 9
+264: LEAVE 519.998 in leave
+265: REG 504.715 - 505.679 - 0.964
+265: PAC 505.679 - 510.607 - 4.928 in transfer from 0 to 3
+265: CHE 510.607 - 518.022 - 7.415 in transfer from 3 to 7
+265: PAY 518.022 - 519.270 - 1.248 in transfer from 7 to 10
+265: LEAVE 519.270 in leave
+266: REG 506.449 - 512.167 - 5.718
+266: PAC 512.167 - 518.512 - 6.346 in transfer from 0 to 2
+266: CHE 518.512 - 519.823 - 1.310 in transfer from 2 to 7
+266: PAY 519.998 - 523.297 - 3.299 in leave2
+266: LEAVE 523.297 in leave
+267: REG 507.021 - 512.564 - 5.543
+267: PAC 512.564 - 513.776 - 1.212 in transfer from 1 to 3
+267: CHE 513.776 - 518.916 - 5.140 in transfer from 3 to 6
+267: PAY 519.270 - 521.673 - 2.403 in leave2
+267: LEAVE 521.673 in leave
+268: REG 515.787 - 516.654 - 0.867
+268: PAC 516.654 - 524.137 - 7.483 in transfer from 0 to 3
+268: CHE 524.137 - 528.287 - 4.151 in transfer from 3 to 8
+268: PAY 528.287 - 528.825 - 0.538 in transfer from 8 to 9
+268: LEAVE 528.825 in leave
+269: REG 516.058 - 517.786 - 1.728
+269: PAC 517.786 - 523.699 - 5.914 in transfer from 1 to 4
+269: CHE 523.699 - 526.456 - 2.756 in transfer from 4 to 6
+269: PAY 526.456 - 526.898 - 0.442 in transfer from 6 to 9
+269: LEAVE 526.898 in leave
+270: REG 516.654 - 520.360 - 3.706 in transfer3 from 0
+270: PAC 520.360 - 520.684 - 0.324 in transfer from 0 to 5
+270: CHE 520.684 - 523.225 - 2.541 in transfer from 5 to 6
+270: PAY 523.225 - 525.946 - 2.721 in transfer from 6 to 10
+270: LEAVE 525.946 in leave
+271: REG 517.786 - 519.400 - 1.614 in transfer3 from 1
+271: PAC 519.400 - 527.859 - 8.459 in transfer from 1 to 2
+271: CHE 528.287 - 529.080 - 0.792 in transfer3 from 8
+271: PAY 529.080 - 530.129 - 1.049 in transfer from 8 to 9
+271: LEAVE 530.129 in leave
+272: REG 519.400 - 520.861 - 1.461 in transfer3 from 1
+272: PAC 520.861 - 522.548 - 1.687 in transfer from 1 to 5
+272: CHE 522.548 - 532.007 - 9.458 in transfer from 5 to 7
+272: PAY 532.007 - 532.833 - 0.827 in transfer from 7 to 9
+272: LEAVE 532.833 in leave
+273: REG 520.361 - 523.731 - 3.369
+273: PAC 523.731 - 528.390 - 4.660 in transfer from 0 to 4
+273: CHE 532.007 - 536.391 - 4.384 in transfer3 from 7
+273: PAY 536.474 - 536.739 - 0.265 in leave2
+273: LEAVE 536.739 in leave
+274: REG 521.501 - 525.533 - 4.032
+274: PAC 525.533 - 530.074 - 4.541 in transfer from 1 to 5
+274: CHE 532.995 - 534.534 - 1.538 in transfer3 from 8
+274: PAY 534.534 - 540.776 - 6.242 in transfer from 8 to 9
+274: LEAVE 540.776 in leave
+275: REG 523.731 - 525.481 - 1.750 in transfer3 from 0
+275: PAC 525.481 - 525.788 - 0.307 in transfer from 0 to 3
+275: CHE 526.456 - 534.603 - 8.147 in transfer3 from 6
+275: PAY 534.603 - 536.474 - 1.871 in transfer from 6 to 10
+275: LEAVE 536.474 in leave
+276: REG 525.481 - 530.097 - 4.616 in transfer3 from 0
+276: PAC 530.097 - 532.254 - 2.157 in transfer from 0 to 2
+276: CHE 534.534 - 542.930 - 8.397 in transfer3 from 8
+276: PAY 542.930 - 543.839 - 0.909 in transfer from 8 to 9
+276: LEAVE 543.839 in leave
+277: REG 525.533 - 527.290 - 1.757 in transfer3 from 1
+277: PAC 527.290 - 527.982 - 0.692 in transfer from 1 to 3
+277: CHE 529.080 - 532.995 - 3.915 in transfer3 from 8
+277: PAY 532.995 - 533.268 - 0.273 in transfer from 8 to 9
+277: LEAVE 533.268 in leave
+278: REG 527.290 - 530.320 - 3.031 in transfer3 from 1
+278: PAC 530.320 - 533.435 - 3.114 in transfer from 1 to 3
+278: CHE 534.603 - 536.719 - 2.116 in transfer3 from 6
+278: PAY 536.739 - 539.348 - 2.609 in leave2
+278: LEAVE 539.348 in leave
+279: REG 530.097 - 538.171 - 8.074 in transfer3 from 0
+279: PAC 538.171 - 544.246 - 6.076 in transfer from 0 to 4
+279: CHE 544.246 - 550.099 - 5.853 in transfer from 4 to 8
+279: PAY 550.099 - 551.162 - 1.062 in transfer from 8 to 9
+279: LEAVE 551.162 in leave
+280: REG 530.320 - 530.926 - 0.606 in transfer3 from 1
+280: PAC 530.926 - 533.464 - 2.537 in transfer from 1 to 4
+280: CHE 536.391 - 539.658 - 3.267 in transfer3 from 7
+280: PAY 539.658 - 540.089 - 0.431 in transfer from 7 to 10
+280: LEAVE 540.089 in leave
+281: REG 530.926 - 531.357 - 0.430 in transfer3 from 1
+281: PAC 531.357 - 539.979 - 8.622 in transfer from 1 to 5
+281: CHE 539.979 - 544.119 - 4.141 in transfer from 5 to 7
+281: PAY 544.119 - 549.775 - 5.656 in transfer from 7 to 9
+281: LEAVE 549.775 in leave
+282: REG 531.357 - 536.433 - 5.076 in transfer3 from 1
+282: PAC 536.433 - 544.219 - 7.786 in transfer from 1 to 2
+282: CHE 544.219 - 545.586 - 1.368 in transfer from 2 to 7
+282: PAY 545.586 - 546.011 - 0.424 in transfer from 7 to 10
+282: LEAVE 546.011 in leave
+283: REG 536.433 - 538.062 - 1.629 in transfer3 from 1
+283: PAC 538.062 - 539.572 - 1.510 in transfer from 1 to 3
+283: CHE 539.572 - 547.754 - 8.182 in transfer from 3 to 6
+283: PAY 547.754 - 549.238 - 1.484 in transfer from 6 to 10
+283: LEAVE 549.238 in leave
+284: REG 538.062 - 540.986 - 2.924 in transfer3 from 1
+284: PAC 540.986 - 546.144 - 5.158 in transfer from 1 to 3
+284: CHE 546.144 - 549.036 - 2.892 in transfer from 3 to 7
+284: PAY 549.238 - 551.777 - 2.539 in leave2
+284: LEAVE 551.777 in leave
+285: REG 538.171 - 544.817 - 6.646 in transfer3 from 0
+285: PAC 544.817 - 551.942 - 7.125 in transfer from 0 to 4
+285: CHE 551.942 - 560.415 - 8.474 in transfer from 4 to 8
+285: PAY 560.415 - 566.139 - 5.724 in transfer from 8 to 9
+285: LEAVE 566.139 in leave
+286: REG 540.986 - 542.894 - 1.908 in transfer3 from 1
+286: PAC 542.894 - 549.222 - 6.328 in transfer from 1 to 5
+286: CHE 549.222 - 557.342 - 8.120 in transfer from 5 to 7
+286: PAY 557.342 - 558.003 - 0.661 in transfer from 7 to 9
+286: LEAVE 558.003 in leave
+287: REG 542.894 - 543.855 - 0.960 in transfer3 from 1
+287: PAC 544.219 - 548.797 - 4.578 in transfer3 from 2
+287: CHE 548.797 - 556.682 - 7.885 in transfer from 2 to 6
+287: PAY 556.682 - 557.113 - 0.431 in transfer from 6 to 9
+287: LEAVE 557.113 in leave

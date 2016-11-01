@@ -1,0 +1,1914 @@
+tech 0 busy at 0.000 for 0 when 0
+tech 0 idle at 4.409 when 0
+tech 0 busy at 8.225 for 2 when 0
+tech 0 idle at 10.268 when 0
+tech 0 busy at 10.631 for 4 when 0
+tech 0 idle at 11.263 when 0
+tech 0 busy at 13.747 for 5 when 0
+tech 0 idle at 14.579 when 0
+tech 0 busy at 15.744 for 7 when 0
+tech 0 idle at 20.920 when 0
+tech 0 busy at 23.906 for 9 when 0
+tech 0 idle at 26.417 when 0
+tech 0 busy at 27.760 for 10 when 0
+tech 0 idle at 29.884 when 0
+tech 0 busy at 31.229 for 11 when 0
+tech 0 busy at 40.085 for 13 when 0
+tech 0 busy at 41.783 for 14 when 0
+tech 0 busy at 42.389 for 16 when 0
+tech 0 idle at 45.981 when 0
+tech 0 busy at 45.996 for 19 when 0
+tech 0 idle at 49.347 when 0
+tech 0 busy at 49.963 for 21 when 0
+tech 0 idle at 50.320 when 0
+tech 0 busy at 51.588 for 22 when 0
+tech 0 idle at 55.988 when 0
+tech 0 busy at 58.192 for 24 when 0
+tech 0 busy at 66.916 for 30 when 0
+tech 0 idle at 67.327 when 0
+tech 0 busy at 69.787 for 31 when 0
+tech 0 idle at 70.538 when 0
+tech 0 busy at 71.032 for 32 when 0
+tech 0 idle at 72.532 when 0
+tech 0 busy at 72.805 for 35 when 0
+tech 0 idle at 73.212 when 0
+tech 0 busy at 73.228 for 36 when 0
+tech 0 idle at 73.764 when 0
+tech 0 busy at 76.894 for 37 when 0
+tech 0 idle at 78.193 when 0
+tech 0 busy at 80.315 for 39 when 0
+tech 0 idle at 80.727 when 0
+tech 0 busy at 82.462 for 40 when 0
+tech 0 idle at 83.145 when 0
+tech 0 busy at 84.990 for 41 when 0
+tech 0 idle at 85.134 when 0
+tech 0 busy at 88.101 for 42 when 0
+tech 0 idle at 91.328 when 0
+tech 0 busy at 93.501 for 44 when 0
+tech 0 idle at 94.167 when 0
+tech 0 busy at 94.923 for 45 when 0
+tech 0 idle at 98.849 when 0
+tech 0 busy at 100.071 for 48 when 0
+tech 0 idle at 100.749 when 0
+tech 0 busy at 100.762 for 49 when 0
+tech 0 idle at 106.044 when 0
+tech 0 busy at 106.530 for 52 when 0
+tech 0 idle at 107.433 when 0
+tech 0 busy at 108.644 for 53 when 0
+tech 0 idle at 109.587 when 0
+tech 0 busy at 109.638 for 54 when 0
+tech 0 busy at 114.018 for 59 when 0
+tech 0 busy at 114.913 for 60 when 0
+tech 0 idle at 116.996 when 0
+tech 0 busy at 118.604 for 63 when 0
+tech 0 idle at 119.037 when 0
+tech 0 busy at 121.486 for 64 when 0
+tech 0 idle at 121.696 when 0
+tech 0 busy at 121.850 for 65 when 0
+tech 0 idle at 123.532 when 0
+tech 0 busy at 124.652 for 68 when 0
+tech 0 idle at 125.227 when 0
+tech 0 busy at 125.475 for 69 when 0
+tech 0 idle at 126.480 when 0
+tech 0 busy at 129.447 for 71 when 0
+tech 0 idle at 131.511 when 0
+tech 0 busy at 133.339 for 74 when 0
+tech 0 busy at 134.568 for 76 when 0
+tech 0 idle at 134.904 when 0
+tech 0 busy at 135.040 for 77 when 0
+tech 0 idle at 135.742 when 0
+tech 0 busy at 135.836 for 78 when 0
+tech 0 idle at 136.010 when 0
+tech 0 busy at 137.005 for 79 when 0
+tech 0 idle at 137.854 when 0
+tech 0 busy at 139.033 for 81 when 0
+tech 0 idle at 139.940 when 0
+tech 0 busy at 140.874 for 82 when 0
+tech 0 busy at 142.714 for 84 when 0
+tech 0 busy at 143.401 for 85 when 0
+tech 0 busy at 144.613 for 87 when 0
+tech 0 busy at 145.204 for 88 when 0
+tech 0 idle at 148.682 when 0
+tech 0 busy at 149.805 for 91 when 0
+tech 0 idle at 149.946 when 0
+tech 0 busy at 150.926 for 92 when 0
+tech 0 busy at 152.736 for 94 when 0
+tech 0 idle at 155.442 when 0
+tech 0 busy at 156.180 for 97 when 0
+tech 0 idle at 156.508 when 0
+tech 0 busy at 158.105 for 98 when 0
+tech 0 idle at 158.390 when 0
+tech 0 busy at 159.898 for 99 when 0
+tech 0 idle at 160.087 when 0
+tech 0 busy at 163.157 for 100 when 0
+tech 0 idle at 163.881 when 0
+tech 0 busy at 166.492 for 101 when 0
+tech 0 idle at 167.653 when 0
+tech 0 busy at 167.968 for 103 when 0
+tech 0 idle at 169.902 when 0
+tech 0 busy at 170.310 for 105 when 0
+tech 0 idle at 172.953 when 0
+tech 0 busy at 173.201 for 106 when 0
+tech 0 idle at 177.940 when 0
+tech 0 busy at 178.818 for 109 when 0
+tech 0 idle at 179.369 when 0
+tech 0 busy at 181.104 for 110 when 0
+tech 0 idle at 181.584 when 0
+tech 0 busy at 182.138 for 111 when 0
+tech 0 idle at 185.419 when 0
+tech 0 busy at 187.958 for 114 when 0
+tech 0 busy at 188.609 for 116 when 0
+tech 0 busy at 196.932 for 119 when 0
+tech 0 busy at 201.665 for 123 when 0
+tech 0 idle at 202.074 when 0
+tech 0 busy at 202.402 for 125 when 0
+tech 0 busy at 203.663 for 126 when 0
+tech 0 idle at 204.095 when 0
+tech 0 busy at 209.041 for 127 when 0
+tech 0 idle at 211.890 when 0
+tech 0 busy at 213.625 for 128 when 0
+tech 0 idle at 214.281 when 0
+tech 0 busy at 217.750 for 129 when 0
+tech 0 busy at 221.045 for 132 when 0
+tech 0 idle at 221.907 when 0
+tech 0 busy at 224.919 for 133 when 0
+tech 0 idle at 226.779 when 0
+tech 0 busy at 229.120 for 135 when 0
+tech 0 idle at 231.151 when 0
+tech 0 busy at 231.639 for 136 when 0
+tech 0 idle at 233.707 when 0
+tech 0 busy at 234.081 for 137 when 0
+tech 0 busy at 236.343 for 139 when 0
+tech 0 busy at 236.623 for 140 when 0
+tech 0 busy at 238.501 for 141 when 0
+tech 0 idle at 238.999 when 0
+tech 0 busy at 239.816 for 142 when 0
+tech 0 idle at 241.792 when 0
+tech 0 busy at 243.978 for 143 when 0
+tech 0 idle at 244.598 when 0
+tech 0 busy at 247.172 for 144 when 0
+tech 0 busy at 250.481 for 146 when 0
+tech 0 idle at 254.128 when 0
+tech 0 busy at 254.631 for 147 when 0
+tech 0 busy at 258.331 for 149 when 0
+tech 0 idle at 258.892 when 0
+tech 0 busy at 269.302 for 150 when 0
+tech 0 idle at 269.720 when 0
+tech 0 busy at 274.959 for 151 when 0
+tech 0 idle at 275.643 when 0
+tech 0 busy at 279.113 for 152 when 0
+tech 0 idle at 280.287 when 0
+tech 0 busy at 282.203 for 154 when 0
+tech 0 idle at 287.343 when 0
+tech 0 busy at 289.694 for 158 when 0
+tech 0 idle at 292.058 when 0
+tech 0 busy at 297.728 for 159 when 0
+tech 0 busy at 305.251 for 160 when 0
+tech 0 busy at 306.395 for 161 when 0
+tech 0 busy at 308.991 for 162 when 0
+tech 0 busy at 311.908 for 163 when 0
+tech 0 busy at 313.676 for 164 when 0
+tech 0 busy at 314.581 for 165 when 0
+tech 0 busy at 319.830 for 166 when 0
+tech 0 busy at 324.610 for 167 when 0
+tech 0 busy at 326.935 for 168 when 0
+tech 0 idle at 327.776 when 0
+tech 0 busy at 331.836 for 169 when 0
+tech 0 idle at 333.132 when 0
+tech 0 busy at 334.350 for 170 when 0
+tech 0 busy at 335.483 for 171 when 0
+tech 0 idle at 336.450 when 0
+tech 0 busy at 337.025 for 172 when 0
+tech 0 busy at 342.229 for 173 when 0
+tech 0 busy at 343.368 for 174 when 0
+tech 0 busy at 343.950 for 175 when 0
+tech 0 busy at 345.441 for 176 when 0
+tech 0 busy at 352.655 for 177 when 0
+tech 0 busy at 357.394 for 178 when 0
+tech 0 busy at 358.823 for 179 when 0
+tech 0 busy at 361.135 for 180 when 0
+tech 0 busy at 363.458 for 181 when 0
+tech 0 busy at 372.943 for 182 when 0
+tech 0 busy at 380.205 for 183 when 0
+tech 0 busy at 381.714 for 184 when 0
+tech 0 busy at 383.625 for 185 when 0
+tech 0 busy at 384.594 for 186 when 0
+tech 0 busy at 388.979 for 187 when 0
+tech 0 busy at 389.851 for 188 when 0
+tech 0 busy at 390.930 for 189 when 0
+tech 0 busy at 391.577 for 190 when 0
+tech 0 busy at 392.242 for 191 when 0
+tech 0 busy at 393.079 for 192 when 0
+tech 0 busy at 394.109 for 193 when 0
+tech 0 busy at 394.830 for 194 when 0
+tech 0 busy at 397.133 for 195 when 0
+tech 0 busy at 397.909 for 196 when 0
+tech 0 busy at 399.186 for 197 when 0
+tech 0 busy at 400.161 for 198 when 0
+tech 0 busy at 400.687 for 199 when 0
+tech 0 busy at 400.930 for 200 when 0
+tech 0 busy at 404.028 for 201 when 0
+tech 0 busy at 405.571 for 202 when 0
+tech 0 busy at 406.027 for 203 when 0
+tech 0 busy at 406.278 for 204 when 0
+tech 0 busy at 406.795 for 205 when 0
+tech 0 busy at 407.563 for 206 when 0
+tech 0 busy at 409.376 for 207 when 0
+tech 0 busy at 412.970 for 208 when 0
+tech 0 busy at 416.663 for 209 when 0
+tech 0 busy at 417.792 for 210 when 0
+tech 0 busy at 418.196 for 211 when 0
+tech 0 busy at 418.773 for 212 when 0
+tech 0 busy at 419.855 for 213 when 0
+tech 0 busy at 420.309 for 214 when 0
+tech 0 busy at 421.038 for 215 when 0
+tech 0 busy at 421.684 for 216 when 0
+tech 0 idle at 424.073 when 0
+tech 0 busy at 424.156 for 217 when 0
+tech 0 busy at 427.942 for 218 when 0
+tech 0 busy at 428.138 for 219 when 0
+tech 0 busy at 430.864 for 220 when 0
+tech 0 busy at 433.146 for 221 when 0
+tech 0 busy at 434.184 for 222 when 0
+tech 0 busy at 434.380 for 223 when 0
+tech 0 busy at 436.803 for 224 when 0
+tech 0 busy at 438.784 for 225 when 0
+tech 0 busy at 440.064 for 226 when 0
+tech 0 busy at 441.752 for 227 when 0
+tech 0 busy at 443.814 for 228 when 0
+tech 0 busy at 445.224 for 229 when 0
+tech 0 busy at 449.498 for 230 when 0
+tech 0 busy at 450.592 for 231 when 0
+tech 0 busy at 450.945 for 232 when 0
+tech 0 idle at 451.209 when 0
+tech 0 busy at 451.849 for 233 when 0
+tech 0 busy at 453.381 for 234 when 0
+tech 0 busy at 454.689 for 235 when 0
+tech 0 busy at 455.345 for 236 when 0
+tech 0 busy at 456.026 for 237 when 0
+tech 0 idle at 456.325 when 0
+tech 0 busy at 456.956 for 238 when 0
+tech 0 busy at 459.730 for 239 when 0
+tech 0 busy at 461.939 for 240 when 0
+tech 0 busy at 463.263 for 241 when 0
+tech 0 busy at 464.241 for 242 when 0
+tech 0 busy at 465.670 for 243 when 0
+tech 0 idle at 466.410 when 0
+tech 0 busy at 469.232 for 244 when 0
+tech 0 idle at 469.626 when 0
+tech 0 busy at 469.834 for 245 when 0
+tech 0 idle at 471.059 when 0
+tech 0 busy at 472.944 for 246 when 0
+tech 0 busy at 474.173 for 247 when 0
+tech 0 idle at 474.864 when 0
+tech 0 busy at 475.061 for 248 when 0
+tech 0 idle at 477.447 when 0
+tech 0 busy at 478.327 for 249 when 0
+tech 0 busy at 480.140 for 250 when 0
+tech 0 idle at 481.863 when 0
+tech 0 busy at 483.875 for 252 when 0
+tech 0 idle at 484.619 when 0
+tech 0 busy at 485.067 for 253 when 0
+tech 0 idle at 485.360 when 0
+tech 0 busy at 486.385 for 254 when 0
+tech 0 idle at 486.938 when 0
+tech 0 busy at 487.345 for 255 when 0
+tech 0 busy at 492.260 for 258 when 0
+tech 0 busy at 492.508 for 259 when 0
+tech 0 busy at 494.078 for 260 when 0
+tech 0 idle at 495.984 when 0
+tech 0 busy at 499.553 for 262 when 0
+tech 0 idle at 500.811 when 0
+tech 0 busy at 502.210 for 263 when 0
+tech 0 idle at 502.595 when 0
+tech 0 busy at 503.100 for 264 when 0
+tech 0 idle at 503.752 when 0
+tech 0 busy at 504.715 for 265 when 0
+tech 0 idle at 505.679 when 0
+tech 0 busy at 506.449 for 266 when 0
+tech 0 idle at 512.167 when 0
+tech 0 busy at 515.787 for 268 when 0
+tech 0 busy at 516.654 for 270 when 0
+tech 0 idle at 520.360 when 0
+tech 0 busy at 520.361 for 273 when 0
+tech 0 busy at 523.731 for 275 when 0
+tech 0 busy at 525.481 for 276 when 0
+tech 0 busy at 530.097 for 279 when 0
+tech 0 busy at 538.171 for 285 when 0
+tech 0 idle at 544.817 when 0
+tech 1 busy at 1.759 for 1 when 0
+tech 1 idle at 3.122 when 0
+tech 1 busy at 9.476 for 3 when 0
+tech 1 idle at 11.895 when 0
+tech 1 busy at 14.378 for 6 when 0
+tech 1 idle at 15.964 when 0
+tech 1 busy at 20.579 for 8 when 0
+tech 1 idle at 21.241 when 0
+tech 1 busy at 33.427 for 12 when 0
+tech 1 busy at 42.299 for 15 when 0
+tech 1 busy at 42.866 for 17 when 0
+tech 1 idle at 44.449 when 0
+tech 1 busy at 45.313 for 18 when 0
+tech 1 idle at 46.496 when 0
+tech 1 busy at 47.337 for 20 when 0
+tech 1 idle at 52.882 when 0
+tech 1 busy at 53.683 for 23 when 0
+tech 1 idle at 55.014 when 0
+tech 1 busy at 61.171 for 25 when 0
+tech 1 busy at 62.533 for 26 when 0
+tech 1 idle at 63.693 when 0
+tech 1 busy at 64.221 for 27 when 0
+tech 1 busy at 65.158 for 28 when 0
+tech 1 busy at 66.558 for 29 when 0
+tech 1 idle at 69.726 when 0
+tech 1 busy at 71.987 for 33 when 0
+tech 1 idle at 72.130 when 0
+tech 1 busy at 72.228 for 34 when 0
+tech 1 idle at 74.674 when 0
+tech 1 busy at 77.572 for 38 when 0
+tech 1 idle at 78.492 when 0
+tech 1 busy at 88.876 for 43 when 0
+tech 1 idle at 89.934 when 0
+tech 1 busy at 96.898 for 46 when 0
+tech 1 idle at 97.754 when 0
+tech 1 busy at 98.154 for 47 when 0
+tech 1 idle at 98.921 when 0
+tech 1 busy at 104.313 for 50 when 0
+tech 1 idle at 104.472 when 0
+tech 1 busy at 104.794 for 51 when 0
+tech 1 idle at 105.281 when 0
+tech 1 busy at 110.180 for 55 when 0
+tech 1 busy at 111.312 for 56 when 0
+tech 1 busy at 112.568 for 57 when 0
+tech 1 busy at 113.743 for 58 when 0
+tech 1 busy at 115.426 for 61 when 0
+tech 1 busy at 116.290 for 62 when 0
+tech 1 idle at 116.791 when 0
+tech 1 busy at 122.502 for 66 when 0
+tech 1 idle at 122.668 when 0
+tech 1 busy at 123.389 for 67 when 0
+tech 1 idle at 125.826 when 0
+tech 1 busy at 126.011 for 70 when 0
+tech 1 idle at 126.841 when 0
+tech 1 busy at 130.150 for 72 when 0
+tech 1 idle at 130.994 when 0
+tech 1 busy at 131.390 for 73 when 0
+tech 1 idle at 132.403 when 0
+tech 1 busy at 133.726 for 75 when 0
+tech 1 idle at 135.929 when 0
+tech 1 busy at 137.648 for 80 when 0
+tech 1 idle at 137.990 when 0
+tech 1 busy at 141.493 for 83 when 0
+tech 1 busy at 143.484 for 86 when 0
+tech 1 idle at 145.680 when 0
+tech 1 busy at 145.691 for 89 when 0
+tech 1 idle at 145.894 when 0
+tech 1 busy at 146.812 for 90 when 0
+tech 1 idle at 147.678 when 0
+tech 1 busy at 151.226 for 93 when 0
+tech 1 busy at 153.930 for 95 when 0
+tech 1 busy at 155.392 for 96 when 0
+tech 1 idle at 155.846 when 0
+tech 1 busy at 167.368 for 102 when 0
+tech 1 idle at 168.662 when 0
+tech 1 busy at 169.440 for 104 when 0
+tech 1 idle at 170.111 when 0
+tech 1 busy at 173.710 for 107 when 0
+tech 1 idle at 174.734 when 0
+tech 1 busy at 177.288 for 108 when 0
+tech 1 idle at 180.777 when 0
+tech 1 busy at 183.758 for 112 when 0
+tech 1 idle at 184.393 when 0
+tech 1 busy at 185.389 for 113 when 0
+tech 1 idle at 186.429 when 0
+tech 1 busy at 188.280 for 115 when 0
+tech 1 idle at 188.764 when 0
+tech 1 busy at 189.274 for 117 when 0
+tech 1 busy at 196.286 for 118 when 0
+tech 1 busy at 198.737 for 120 when 0
+tech 1 busy at 199.973 for 121 when 0
+tech 1 busy at 201.120 for 122 when 0
+tech 1 busy at 201.722 for 124 when 0
+tech 1 idle at 207.575 when 0
+tech 1 busy at 218.185 for 130 when 0
+tech 1 idle at 218.815 when 0
+tech 1 busy at 220.236 for 131 when 0
+tech 1 idle at 223.748 when 0
+tech 1 busy at 225.758 for 134 when 0
+tech 1 idle at 227.303 when 0
+tech 1 busy at 234.889 for 138 when 0
+tech 1 idle at 242.394 when 0
+tech 1 busy at 249.476 for 145 when 0
+tech 1 idle at 251.805 when 0
+tech 1 busy at 255.622 for 148 when 0
+tech 1 idle at 259.435 when 0
+tech 1 busy at 280.268 for 153 when 0
+tech 1 idle at 280.968 when 0
+tech 1 busy at 283.439 for 155 when 0
+tech 1 idle at 284.324 when 0
+tech 1 busy at 285.215 for 156 when 0
+tech 1 busy at 285.973 for 157 when 0
+tech 1 idle at 290.235 when 0
+tech 1 busy at 305.251 for 159 when 0
+tech 1 idle at 309.452 when 0
+tech 1 busy at 311.908 for 162 when 0
+tech 1 busy at 316.116 for 163 when 0
+tech 1 idle at 320.098 when 0
+tech 1 busy at 324.610 for 166 when 0
+tech 1 busy at 327.298 for 167 when 0
+tech 1 idle at 332.869 when 0
+tech 1 busy at 333.132 for 169 when 0
+tech 1 idle at 337.713 when 0
+tech 1 busy at 342.229 for 172 when 0
+tech 1 idle at 343.805 when 0
+tech 1 busy at 343.950 for 174 when 0
+tech 1 idle at 346.357 when 0
+tech 1 busy at 352.655 for 176 when 0
+tech 1 busy at 359.319 for 178 when 0
+tech 1 idle at 366.368 when 0
+tech 1 busy at 372.943 for 181 when 0
+tech 1 idle at 378.261 when 0
+tech 1 busy at 380.205 for 182 when 0
+tech 1 idle at 383.273 when 0
+tech 1 busy at 383.625 for 184 when 0
+tech 1 idle at 384.575 when 0
+tech 1 busy at 384.594 for 185 when 0
+tech 1 idle at 386.643 when 0
+tech 1 busy at 388.979 for 186 when 0
+tech 1 idle at 391.421 when 0
+tech 1 busy at 391.577 for 189 when 0
+tech 1 idle at 392.273 when 0
+tech 1 busy at 393.079 for 191 when 0
+tech 1 idle at 393.716 when 0
+tech 1 busy at 394.109 for 192 when 0
+tech 1 idle at 394.655 when 0
+tech 1 busy at 394.830 for 193 when 0
+tech 1 idle at 399.240 when 0
+tech 1 busy at 400.161 for 197 when 0
+tech 1 idle at 401.067 when 0
+tech 1 busy at 404.028 for 200 when 0
+tech 1 idle at 405.607 when 0
+tech 1 busy at 406.027 for 202 when 0
+tech 1 idle at 407.164 when 0
+tech 1 busy at 407.563 for 205 when 0
+tech 1 idle at 408.090 when 0
+tech 1 busy at 409.376 for 206 when 0
+tech 1 idle at 414.000 when 0
+tech 1 busy at 416.663 for 208 when 0
+tech 1 idle at 417.620 when 0
+tech 1 busy at 417.792 for 209 when 0
+tech 1 idle at 420.372 when 0
+tech 1 busy at 421.038 for 214 when 0
+tech 1 idle at 421.779 when 0
+tech 1 busy at 424.073 for 216 when 0
+tech 1 idle at 424.875 when 0
+tech 1 busy at 427.942 for 217 when 0
+tech 1 idle at 428.849 when 0
+tech 1 busy at 430.864 for 219 when 0
+tech 1 idle at 432.401 when 0
+tech 1 busy at 433.146 for 220 when 0
+tech 1 idle at 437.084 when 0
+tech 1 busy at 438.784 for 224 when 0
+tech 1 idle at 441.376 when 0
+tech 1 busy at 441.752 for 226 when 0
+tech 1 idle at 443.114 when 0
+tech 1 busy at 443.814 for 227 when 0
+tech 1 idle at 445.571 when 0
+tech 1 busy at 449.498 for 229 when 0
+tech 1 idle at 450.703 when 0
+tech 1 busy at 450.945 for 231 when 0
+tech 1 idle at 451.383 when 0
+tech 1 busy at 453.381 for 233 when 0
+tech 1 idle at 454.445 when 0
+tech 1 busy at 454.689 for 234 when 0
+tech 1 idle at 456.554 when 0
+tech 1 busy at 459.730 for 238 when 0
+tech 1 idle at 459.997 when 0
+tech 1 busy at 461.939 for 239 when 0
+tech 1 idle at 464.306 when 0
+tech 1 busy at 465.670 for 242 when 0
+tech 1 idle at 467.679 when 0
+tech 1 busy at 469.626 for 244 when 0
+tech 1 idle at 470.755 when 0
+tech 1 busy at 471.059 for 245 when 0
+tech 1 idle at 472.071 when 0
+tech 1 busy at 474.173 for 246 when 0
+tech 1 idle at 476.589 when 0
+tech 1 busy at 477.447 for 248 when 0
+tech 1 idle at 479.376 when 0
+tech 1 busy at 481.368 for 251 when 0
+tech 1 idle at 482.438 when 0
+tech 1 busy at 489.042 for 256 when 0
+tech 1 idle at 489.618 when 0
+tech 1 busy at 489.879 for 257 when 0
+tech 1 busy at 495.326 for 261 when 0
+tech 1 idle at 495.834 when 0
+tech 1 busy at 507.021 for 267 when 0
+tech 1 idle at 512.564 when 0
+tech 1 busy at 516.058 for 269 when 0
+tech 1 busy at 517.786 for 271 when 0
+tech 1 busy at 519.400 for 272 when 0
+tech 1 idle at 520.861 when 0
+tech 1 busy at 521.501 for 274 when 0
+tech 1 busy at 525.533 for 277 when 0
+tech 1 busy at 527.290 for 278 when 0
+tech 1 busy at 530.320 for 280 when 0
+tech 1 busy at 530.926 for 281 when 0
+tech 1 busy at 531.357 for 282 when 0
+tech 1 busy at 536.433 for 283 when 0
+tech 1 busy at 538.062 for 284 when 0
+tech 1 busy at 540.986 for 286 when 0
+tech 1 busy at 542.894 for 287 when 0
+tech 1 idle at 543.855 when 0
+tech 2 busy at 3.122 for 1 when 0
+tech 2 idle at 7.747 when 0
+tech 2 busy at 10.268 for 2 when 0
+tech 2 idle at 12.364 when 0
+tech 2 busy at 14.579 for 5 when 0
+tech 2 idle at 19.177 when 0
+tech 2 busy at 20.920 for 7 when 0
+tech 2 idle at 27.775 when 0
+tech 2 busy at 29.884 for 10 when 0
+tech 2 idle at 33.057 when 0
+tech 2 busy at 40.085 for 11 when 0
+tech 2 busy at 43.652 for 15 when 0
+tech 2 idle at 44.603 when 0
+tech 2 busy at 45.981 for 16 when 0
+tech 2 idle at 46.957 when 0
+tech 2 busy at 49.347 for 19 when 0
+tech 2 idle at 50.596 when 0
+tech 2 busy at 52.882 for 20 when 0
+tech 2 idle at 54.004 when 0
+tech 2 busy at 55.014 for 23 when 0
+tech 2 idle at 63.535 when 0
+tech 2 busy at 63.693 for 26 when 0
+tech 2 idle at 65.374 when 0
+tech 2 busy at 66.558 for 28 when 0
+tech 2 idle at 67.080 when 0
+tech 2 busy at 67.327 for 30 when 0
+tech 2 idle at 67.623 when 0
+tech 2 busy at 69.726 for 29 when 0
+tech 2 idle at 70.561 when 0
+tech 2 busy at 72.130 for 33 when 0
+tech 2 idle at 72.590 when 0
+tech 2 busy at 73.212 for 35 when 0
+tech 2 idle at 74.718 when 0
+tech 2 busy at 78.193 for 37 when 0
+tech 2 idle at 79.839 when 0
+tech 2 busy at 80.727 for 39 when 0
+tech 2 idle at 81.397 when 0
+tech 2 busy at 83.145 for 40 when 0
+tech 2 idle at 85.219 when 0
+tech 2 busy at 89.934 for 43 when 0
+tech 2 idle at 90.407 when 0
+tech 2 busy at 91.328 for 42 when 0
+tech 2 idle at 93.978 when 0
+tech 2 busy at 94.167 for 44 when 0
+tech 2 idle at 94.487 when 0
+tech 2 busy at 97.754 for 46 when 0
+tech 2 idle at 98.556 when 0
+tech 2 busy at 98.849 for 45 when 0
+tech 2 idle at 101.026 when 0
+tech 2 busy at 104.472 for 50 when 0
+tech 2 idle at 104.625 when 0
+tech 2 busy at 105.281 for 51 when 0
+tech 2 idle at 106.993 when 0
+tech 2 busy at 107.433 for 52 when 0
+tech 2 idle at 110.167 when 0
+tech 2 busy at 111.312 for 55 when 0
+tech 2 idle at 112.104 when 0
+tech 2 busy at 112.568 for 56 when 0
+tech 2 idle at 116.362 when 0
+tech 2 busy at 116.791 for 62 when 0
+tech 2 idle at 121.053 when 0
+tech 2 busy at 121.696 for 64 when 0
+tech 2 idle at 123.407 when 0
+tech 2 busy at 123.532 for 65 when 0
+tech 2 busy at 127.352 for 69 when 0
+tech 2 idle at 130.015 when 0
+tech 2 busy at 130.994 for 72 when 0
+tech 2 idle at 132.734 when 0
+tech 2 busy at 134.568 for 74 when 0
+tech 2 idle at 135.021 when 0
+tech 2 busy at 135.742 for 77 when 0
+tech 2 idle at 137.019 when 0
+tech 2 busy at 137.854 for 79 when 0
+tech 2 idle at 142.727 when 0
+tech 2 busy at 143.401 for 84 when 0
+tech 2 busy at 144.915 for 85 when 0
+tech 2 busy at 147.888 for 86 when 0
+tech 2 idle at 150.152 when 0
+tech 2 busy at 152.736 for 92 when 0
+tech 2 idle at 153.062 when 0
+tech 2 busy at 153.930 for 93 when 0
+tech 2 idle at 159.435 when 0
+tech 2 busy at 160.087 for 99 when 0
+tech 2 idle at 160.619 when 0
+tech 2 busy at 163.881 for 100 when 0
+tech 2 idle at 164.325 when 0
+tech 2 busy at 167.653 for 101 when 0
+tech 2 idle at 169.031 when 0
+tech 2 busy at 169.902 for 103 when 0
+tech 2 idle at 170.324 when 0
+tech 2 busy at 172.953 for 105 when 0
+tech 2 idle at 174.947 when 0
+tech 2 busy at 177.940 for 106 when 0
+tech 2 idle at 178.335 when 0
+tech 2 busy at 179.369 for 109 when 0
+tech 2 idle at 182.034 when 0
+tech 2 busy at 184.393 for 112 when 0
+tech 2 idle at 187.311 when 0
+tech 2 busy at 188.609 for 114 when 0
+tech 2 idle at 189.434 when 0
+tech 2 busy at 196.286 for 117 when 0
+tech 2 idle at 196.860 when 0
+tech 2 busy at 196.932 for 116 when 0
+tech 2 idle at 197.711 when 0
+tech 2 busy at 198.737 for 118 when 0
+tech 2 idle at 199.294 when 0
+tech 2 busy at 199.973 for 120 when 0
+tech 2 idle at 204.902 when 0
+tech 2 busy at 207.575 for 124 when 0
+tech 2 idle at 208.879 when 0
+tech 2 busy at 211.890 for 127 when 0
+tech 2 idle at 218.011 when 0
+tech 2 busy at 218.815 for 130 when 0
+tech 2 idle at 219.750 when 0
+tech 2 busy at 221.045 for 129 when 0
+tech 2 idle at 224.466 when 0
+tech 2 busy at 226.779 for 133 when 0
+tech 2 idle at 232.392 when 0
+tech 2 busy at 233.707 for 136 when 0
+tech 2 busy at 242.666 for 142 when 0
+tech 2 busy at 243.499 for 138 when 0
+tech 2 busy at 244.624 for 143 when 0
+tech 2 idle at 245.346 when 0
+tech 2 busy at 250.481 for 144 when 0
+tech 2 idle at 251.361 when 0
+tech 2 busy at 251.805 for 145 when 0
+tech 2 idle at 253.020 when 0
+tech 2 busy at 254.128 for 146 when 0
+tech 2 idle at 255.995 when 0
+tech 2 busy at 258.331 for 147 when 0
+tech 2 idle at 259.025 when 0
+tech 2 busy at 259.435 for 148 when 0
+tech 2 idle at 262.428 when 0
+tech 2 busy at 269.720 for 150 when 0
+tech 2 idle at 270.093 when 0
+tech 2 busy at 275.643 for 151 when 0
+tech 2 idle at 276.411 when 0
+tech 2 busy at 280.287 for 152 when 0
+tech 2 idle at 285.861 when 0
+tech 2 busy at 285.973 for 156 when 0
+tech 2 idle at 287.605 when 0
+tech 2 busy at 290.235 for 157 when 0
+tech 2 idle at 290.512 when 0
+tech 2 busy at 292.058 for 158 when 0
+tech 2 idle at 293.304 when 0
+tech 2 busy at 306.395 for 160 when 0
+tech 2 idle at 307.842 when 0
+tech 2 busy at 308.991 for 161 when 0
+tech 2 busy at 316.504 for 164 when 0
+tech 2 idle at 317.385 when 0
+tech 2 busy at 319.830 for 165 when 0
+tech 2 busy at 329.399 for 168 when 0
+tech 2 idle at 330.057 when 0
+tech 2 busy at 335.483 for 170 when 0
+tech 2 busy at 337.175 for 171 when 0
+tech 2 idle at 339.625 when 0
+tech 2 busy at 343.368 for 173 when 0
+tech 2 idle at 344.459 when 0
+tech 2 busy at 345.441 for 175 when 0
+tech 2 idle at 351.481 when 0
+tech 2 busy at 357.394 for 177 when 0
+tech 2 idle at 362.577 when 0
+tech 2 busy at 363.458 for 180 when 0
+tech 2 idle at 366.413 when 0
+tech 2 busy at 381.714 for 183 when 0
+tech 2 idle at 385.708 when 0
+tech 2 busy at 389.851 for 187 when 0
+tech 2 idle at 393.513 when 0
+tech 2 busy at 397.133 for 194 when 0
+tech 2 idle at 399.989 when 0
+tech 2 busy at 400.687 for 198 when 0
+tech 2 idle at 403.735 when 0
+tech 2 busy at 405.571 for 201 when 0
+tech 2 idle at 407.475 when 0
+tech 2 busy at 412.970 for 207 when 0
+tech 2 idle at 413.993 when 0
+tech 2 busy at 418.196 for 210 when 0
+tech 2 idle at 421.184 when 0
+tech 2 busy at 421.684 for 215 when 0
+tech 2 idle at 424.254 when 0
+tech 2 busy at 428.138 for 218 when 0
+tech 2 idle at 430.176 when 0
+tech 2 busy at 434.184 for 221 when 0
+tech 2 idle at 434.830 when 0
+tech 2 busy at 436.803 for 223 when 0
+tech 2 idle at 438.047 when 0
+tech 2 busy at 440.064 for 225 when 0
+tech 2 idle at 444.269 when 0
+tech 2 busy at 445.224 for 228 when 0
+tech 2 idle at 446.148 when 0
+tech 2 busy at 450.592 for 230 when 0
+tech 2 idle at 454.303 when 0
+tech 2 busy at 455.345 for 235 when 0
+tech 2 idle at 456.849 when 0
+tech 2 busy at 463.263 for 240 when 0
+tech 2 idle at 464.271 when 0
+tech 2 busy at 466.410 for 243 when 0
+tech 2 idle at 466.552 when 0
+tech 2 busy at 474.864 for 247 when 0
+tech 2 idle at 475.695 when 0
+tech 2 busy at 480.140 for 249 when 0
+tech 2 idle at 485.179 when 0
+tech 2 busy at 485.360 for 253 when 0
+tech 2 idle at 493.501 when 0
+tech 2 busy at 494.078 for 259 when 0
+tech 2 idle at 494.736 when 0
+tech 2 busy at 495.326 for 257 when 0
+tech 2 idle at 496.039 when 0
+tech 2 busy at 500.811 for 262 when 0
+tech 2 idle at 502.374 when 0
+tech 2 busy at 502.595 for 263 when 0
+tech 2 idle at 503.038 when 0
+tech 2 busy at 503.752 for 264 when 0
+tech 2 idle at 508.511 when 0
+tech 2 busy at 512.167 for 266 when 0
+tech 2 idle at 518.512 when 0
+tech 2 busy at 519.400 for 271 when 0
+tech 2 idle at 527.859 when 0
+tech 2 busy at 530.097 for 276 when 0
+tech 2 idle at 532.254 when 0
+tech 2 busy at 536.433 for 282 when 0
+tech 2 busy at 544.219 for 287 when 0
+tech 2 idle at 548.797 when 0
+tech 3 busy at 4.409 for 0 when 0
+tech 3 idle at 6.404 when 0
+tech 3 busy at 11.263 for 4 when 0
+tech 3 idle at 11.811 when 0
+tech 3 busy at 11.895 for 3 when 0
+tech 3 idle at 17.371 when 0
+tech 3 busy at 21.241 for 8 when 0
+tech 3 idle at 24.360 when 0
+tech 3 busy at 26.417 for 9 when 0
+tech 3 idle at 27.791 when 0
+tech 3 busy at 41.783 for 13 when 0
+tech 3 idle at 47.758 when 0
+tech 3 busy at 50.320 for 21 when 0
+tech 3 idle at 51.723 when 0
+tech 3 busy at 55.988 for 22 when 0
+tech 3 idle at 56.684 when 0
+tech 3 busy at 62.533 for 25 when 0
+tech 3 idle at 64.792 when 0
+tech 3 busy at 65.158 for 27 when 0
+tech 3 idle at 67.336 when 0
+tech 3 busy at 70.538 for 31 when 0
+tech 3 idle at 74.507 when 0
+tech 3 busy at 74.674 for 34 when 0
+tech 3 idle at 75.227 when 0
+tech 3 busy at 78.492 for 38 when 0
+tech 3 idle at 79.503 when 0
+tech 3 busy at 85.134 for 41 when 0
+tech 3 idle at 85.669 when 0
+tech 3 busy at 98.921 for 47 when 0
+tech 3 idle at 101.156 when 0
+tech 3 busy at 106.044 for 49 when 0
+tech 3 idle at 108.535 when 0
+tech 3 busy at 109.587 for 53 when 0
+tech 3 idle at 114.364 when 0
+tech 3 busy at 114.913 for 59 when 0
+tech 3 idle at 115.673 when 0
+tech 3 busy at 116.290 for 61 when 0
+tech 3 idle at 117.620 when 0
+tech 3 busy at 119.037 for 63 when 0
+tech 3 idle at 119.435 when 0
+tech 3 busy at 122.668 for 66 when 0
+tech 3 idle at 123.553 when 0
+tech 3 busy at 125.227 for 68 when 0
+tech 3 idle at 128.411 when 0
+tech 3 busy at 131.511 for 71 when 0
+tech 3 idle at 135.728 when 0
+tech 3 busy at 135.929 for 75 when 0
+tech 3 busy at 136.986 for 78 when 0
+tech 3 busy at 138.064 for 80 when 0
+tech 3 idle at 138.728 when 0
+tech 3 busy at 139.940 for 81 when 0
+tech 3 idle at 140.412 when 0
+tech 3 busy at 142.714 for 82 when 0
+tech 3 idle at 144.949 when 0
+tech 3 busy at 145.204 for 87 when 0
+tech 3 busy at 149.128 for 88 when 0
+tech 3 idle at 150.638 when 0
+tech 3 busy at 155.392 for 95 when 0
+tech 3 idle at 155.783 when 0
+tech 3 busy at 155.846 for 96 when 0
+tech 3 idle at 158.391 when 0
+tech 3 busy at 168.662 for 102 when 0
+tech 3 idle at 169.662 when 0
+tech 3 busy at 170.111 for 104 when 0
+tech 3 idle at 173.223 when 0
+tech 3 busy at 174.734 for 107 when 0
+tech 3 idle at 176.189 when 0
+tech 3 busy at 180.777 for 108 when 0
+tech 3 idle at 184.150 when 0
+tech 3 busy at 185.419 for 111 when 0
+tech 3 idle at 192.518 when 0
+tech 3 busy at 201.120 for 121 when 0
+tech 3 busy at 203.909 for 123 when 0
+tech 3 busy at 204.391 for 126 when 0
+tech 3 idle at 208.569 when 0
+tech 3 busy at 214.281 for 128 when 0
+tech 3 idle at 220.879 when 0
+tech 3 busy at 221.907 for 132 when 0
+tech 3 idle at 222.874 when 0
+tech 3 busy at 223.748 for 131 when 0
+tech 3 idle at 227.779 when 0
+tech 3 busy at 231.151 for 135 when 0
+tech 3 idle at 236.704 when 0
+tech 3 busy at 238.501 for 140 when 0
+tech 3 idle at 247.627 when 0
+tech 3 busy at 258.892 for 149 when 0
+tech 3 idle at 261.411 when 0
+tech 3 busy at 280.968 for 153 when 0
+tech 3 idle at 282.791 when 0
+tech 3 busy at 284.324 for 155 when 0
+tech 3 idle at 285.665 when 0
+tech 3 busy at 287.343 for 154 when 0
+tech 3 idle at 291.452 when 0
+tech 3 busy at 307.842 for 160 when 0
+tech 3 idle at 308.332 when 0
+tech 3 busy at 309.452 for 159 when 0
+tech 3 idle at 311.540 when 0
+tech 3 busy at 316.116 for 162 when 0
+tech 3 idle at 316.389 when 0
+tech 3 busy at 316.504 for 161 when 0
+tech 3 idle at 320.264 when 0
+tech 3 busy at 327.298 for 166 when 0
+tech 3 idle at 329.085 when 0
+tech 3 busy at 329.399 for 165 when 0
+tech 3 idle at 336.947 when 0
+tech 3 busy at 337.175 for 170 when 0
+tech 3 idle at 345.924 when 0
+tech 3 busy at 346.357 for 174 when 0
+tech 3 idle at 355.705 when 0
+tech 3 busy at 359.319 for 176 when 0
+tech 3 idle at 364.979 when 0
+tech 3 busy at 366.368 for 178 when 0
+tech 3 idle at 368.413 when 0
+tech 3 busy at 378.261 for 181 when 0
+tech 3 idle at 385.425 when 0
+tech 3 busy at 385.708 for 183 when 0
+tech 3 idle at 391.263 when 0
+tech 3 busy at 391.421 for 186 when 0
+tech 3 busy at 396.657 for 188 when 0
+tech 3 idle at 398.276 when 0
+tech 3 busy at 399.240 for 193 when 0
+tech 3 idle at 404.623 when 0
+tech 3 busy at 405.607 for 200 when 0
+tech 3 idle at 410.685 when 0
+tech 3 busy at 413.993 for 207 when 0
+tech 3 idle at 418.740 when 0
+tech 3 busy at 420.309 for 213 when 0
+tech 3 idle at 425.232 when 0
+tech 3 busy at 434.380 for 222 when 0
+tech 3 idle at 436.257 when 0
+tech 3 busy at 451.209 for 232 when 0
+tech 3 idle at 455.697 when 0
+tech 3 busy at 456.026 for 236 when 0
+tech 3 idle at 458.574 when 0
+tech 3 busy at 464.241 for 241 when 0
+tech 3 idle at 464.624 when 0
+tech 3 busy at 481.863 for 250 when 0
+tech 3 idle at 482.717 when 0
+tech 3 busy at 484.619 for 252 when 0
+tech 3 idle at 486.049 when 0
+tech 3 busy at 486.938 for 254 when 0
+tech 3 idle at 488.857 when 0
+tech 3 busy at 489.618 for 256 when 0
+tech 3 idle at 491.530 when 0
+tech 3 busy at 492.260 for 255 when 0
+tech 3 idle at 493.043 when 0
+tech 3 busy at 495.834 for 261 when 0
+tech 3 idle at 497.949 when 0
+tech 3 busy at 505.679 for 265 when 0
+tech 3 idle at 510.607 when 0
+tech 3 busy at 512.564 for 267 when 0
+tech 3 idle at 513.776 when 0
+tech 3 busy at 516.654 for 268 when 0
+tech 3 idle at 524.137 when 0
+tech 3 busy at 525.481 for 275 when 0
+tech 3 idle at 525.788 when 0
+tech 3 busy at 527.290 for 277 when 0
+tech 3 idle at 527.982 when 0
+tech 3 busy at 530.320 for 278 when 0
+tech 3 idle at 533.435 when 0
+tech 3 busy at 538.062 for 283 when 0
+tech 3 idle at 539.572 when 0
+tech 3 busy at 540.986 for 284 when 0
+tech 3 idle at 546.144 when 0
+tech 4 busy at 15.964 for 6 when 0
+tech 4 idle at 20.984 when 0
+tech 4 busy at 42.299 for 12 when 0
+tech 4 idle at 44.430 when 0
+tech 4 busy at 44.449 for 17 when 0
+tech 4 idle at 48.617 when 0
+tech 4 busy at 66.916 for 24 when 0
+tech 4 idle at 67.697 when 0
+tech 4 busy at 72.532 for 32 when 0
+tech 4 idle at 73.704 when 0
+tech 4 busy at 73.764 for 36 when 0
+tech 4 idle at 78.468 when 0
+tech 4 busy at 100.749 for 48 when 0
+tech 4 idle at 101.054 when 0
+tech 4 busy at 113.743 for 57 when 0
+tech 4 idle at 114.070 when 0
+tech 4 busy at 115.426 for 58 when 0
+tech 4 idle at 117.164 when 0
+tech 4 busy at 125.826 for 67 when 0
+tech 4 busy at 127.561 for 70 when 0
+tech 4 idle at 129.323 when 0
+tech 4 busy at 132.403 for 73 when 0
+tech 4 idle at 133.083 when 0
+tech 4 busy at 134.904 for 76 when 0
+tech 4 idle at 140.244 when 0
+tech 4 busy at 143.484 for 83 when 0
+tech 4 busy at 148.841 for 89 when 0
+tech 4 busy at 149.066 for 90 when 0
+tech 4 busy at 150.027 for 91 when 0
+tech 4 idle at 151.084 when 0
+tech 4 busy at 155.442 for 94 when 0
+tech 4 idle at 155.627 when 0
+tech 4 busy at 156.508 for 97 when 0
+tech 4 idle at 156.934 when 0
+tech 4 busy at 158.390 for 98 when 0
+tech 4 idle at 161.191 when 0
+tech 4 busy at 181.584 for 110 when 0
+tech 4 idle at 182.244 when 0
+tech 4 busy at 186.429 for 113 when 0
+tech 4 idle at 191.907 when 0
+tech 4 busy at 201.665 for 119 when 0
+tech 4 idle at 205.159 when 0
+tech 4 busy at 227.303 for 134 when 0
+tech 4 idle at 233.725 when 0
+tech 4 busy at 236.343 for 137 when 0
+tech 4 idle at 236.780 when 0
+tech 4 busy at 238.999 for 141 when 0
+tech 4 idle at 239.770 when 0
+tech 4 busy at 242.666 for 136 when 0
+tech 4 idle at 244.404 when 0
+tech 4 busy at 244.624 for 138 when 0
+tech 4 idle at 252.209 when 0
+tech 4 busy at 253.020 for 145 when 0
+tech 4 idle at 256.604 when 0
+tech 4 busy at 259.025 for 147 when 0
+tech 4 idle at 266.833 when 0
+tech 4 busy at 270.093 for 150 when 0
+tech 4 idle at 278.276 when 0
+tech 4 busy at 282.791 for 153 when 0
+tech 4 idle at 286.450 when 0
+tech 4 busy at 287.605 for 156 when 0
+tech 4 idle at 289.599 when 0
+tech 4 busy at 290.512 for 157 when 0
+tech 4 idle at 294.701 when 0
+tech 4 busy at 317.385 for 164 when 0
+tech 4 idle at 318.295 when 0
+tech 4 busy at 320.098 for 163 when 0
+tech 4 idle at 322.578 when 0
+tech 4 busy at 330.057 for 168 when 0
+tech 4 idle at 331.256 when 0
+tech 4 busy at 332.869 for 167 when 0
+tech 4 idle at 334.927 when 0
+tech 4 busy at 337.713 for 169 when 0
+tech 4 idle at 340.259 when 0
+tech 4 busy at 343.805 for 172 when 0
+tech 4 idle at 348.638 when 0
+tech 4 busy at 351.481 for 175 when 0
+tech 4 idle at 354.569 when 0
+tech 4 busy at 361.135 for 179 when 0
+tech 4 idle at 364.420 when 0
+tech 4 busy at 390.930 for 188 when 0
+tech 4 idle at 395.674 when 0
+tech 4 busy at 397.909 for 195 when 0
+tech 4 idle at 400.682 when 0
+tech 4 busy at 400.930 for 199 when 0
+tech 4 idle at 401.655 when 0
+tech 4 busy at 406.278 for 203 when 0
+tech 4 idle at 406.875 when 0
+tech 4 busy at 418.773 for 211 when 0
+tech 4 idle at 420.297 when 0
+tech 4 busy at 456.325 for 237 when 0
+tech 4 idle at 456.657 when 0
+tech 4 busy at 482.438 for 251 when 0
+tech 4 idle at 491.777 when 0
+tech 4 busy at 492.508 for 258 when 0
+tech 4 idle at 499.596 when 0
+tech 4 busy at 517.786 for 269 when 0
+tech 4 idle at 523.699 when 0
+tech 4 busy at 523.731 for 273 when 0
+tech 4 idle at 528.390 when 0
+tech 4 busy at 530.926 for 280 when 0
+tech 4 idle at 533.464 when 0
+tech 4 busy at 538.171 for 279 when 0
+tech 4 idle at 544.246 when 0
+tech 4 busy at 544.817 for 285 when 0
+tech 4 idle at 551.942 when 0
+tech 5 busy at 42.389 for 14 when 0
+tech 5 idle at 46.456 when 0
+tech 5 busy at 46.496 for 18 when 0
+tech 5 idle at 47.534 when 0
+tech 5 busy at 114.018 for 54 when 0
+tech 5 idle at 114.178 when 0
+tech 5 busy at 116.996 for 60 when 0
+tech 5 idle at 119.932 when 0
+tech 5 busy at 121.053 for 62 when 0
+tech 5 idle at 121.475 when 0
+tech 5 busy at 123.407 for 64 when 0
+tech 5 idle at 128.981 when 0
+tech 5 busy at 129.323 for 70 when 0
+tech 5 idle at 132.675 when 0
+tech 5 busy at 132.734 for 72 when 0
+tech 5 idle at 133.189 when 0
+tech 5 busy at 135.021 for 74 when 0
+tech 5 idle at 137.719 when 0
+tech 5 busy at 138.064 for 78 when 0
+tech 5 idle at 140.504 when 0
+tech 5 busy at 142.727 for 79 when 0
+tech 5 idle at 145.092 when 0
+tech 5 busy at 147.888 for 85 when 0
+tech 5 idle at 150.100 when 0
+tech 5 busy at 150.152 for 86 when 0
+tech 5 busy at 153.208 for 92 when 0
+tech 5 idle at 154.221 when 0
+tech 5 busy at 155.627 for 94 when 0
+tech 5 idle at 159.506 when 0
+tech 5 busy at 160.619 for 99 when 0
+tech 5 idle at 166.515 when 0
+tech 5 busy at 169.031 for 101 when 0
+tech 5 idle at 169.639 when 0
+tech 5 busy at 169.662 for 102 when 0
+tech 5 idle at 173.287 when 0
+tech 5 busy at 174.947 for 105 when 0
+tech 5 idle at 175.507 when 0
+tech 5 busy at 176.189 for 107 when 0
+tech 5 idle at 179.033 when 0
+tech 5 busy at 188.764 for 115 when 0
+tech 5 idle at 189.100 when 0
+tech 5 busy at 201.722 for 122 when 0
+tech 5 busy at 203.967 for 125 when 0
+tech 5 idle at 204.679 when 0
+tech 5 busy at 236.623 for 139 when 0
+tech 5 idle at 237.154 when 0
+tech 5 busy at 243.499 for 142 when 0
+tech 5 idle at 247.853 when 0
+tech 5 busy at 251.361 for 144 when 0
+tech 5 idle at 253.725 when 0
+tech 5 busy at 255.995 for 146 when 0
+tech 5 idle at 257.236 when 0
+tech 5 busy at 261.411 for 149 when 0
+tech 5 idle at 266.789 when 0
+tech 5 busy at 276.411 for 151 when 0
+tech 5 idle at 283.703 when 0
+tech 5 busy at 285.665 for 155 when 0
+tech 5 idle at 286.724 when 0
+tech 5 busy at 291.452 for 154 when 0
+tech 5 idle at 294.036 when 0
+tech 5 busy at 339.625 for 171 when 0
+tech 5 idle at 341.493 when 0
+tech 5 busy at 344.459 for 173 when 0
+tech 5 idle at 347.048 when 0
+tech 5 busy at 392.242 for 190 when 0
+tech 5 idle at 393.301 when 0
+tech 5 busy at 399.186 for 196 when 0
+tech 5 idle at 399.804 when 0
+tech 5 busy at 406.795 for 204 when 0
+tech 5 idle at 409.403 when 0
+tech 5 busy at 419.855 for 212 when 0
+tech 5 idle at 422.048 when 0
+tech 5 busy at 495.984 for 260 when 0
+tech 5 idle at 498.361 when 0
+tech 5 busy at 520.360 for 270 when 0
+tech 5 idle at 520.684 when 0
+tech 5 busy at 520.861 for 272 when 0
+tech 5 idle at 522.548 when 0
+tech 5 busy at 525.533 for 274 when 0
+tech 5 idle at 530.074 when 0
+tech 5 busy at 531.357 for 281 when 0
+tech 5 idle at 539.979 when 0
+tech 5 busy at 542.894 for 286 when 0
+tech 5 idle at 549.222 when 0
+tech 6 busy at 6.404 for 0 when 0
+tech 6 idle at 11.257 when 0
+tech 6 busy at 11.811 for 4 when 0
+tech 6 idle at 13.331 when 0
+tech 6 busy at 17.371 for 3 when 0
+tech 6 idle at 19.567 when 0
+tech 6 busy at 20.984 for 6 when 0
+tech 6 idle at 24.814 when 0
+tech 6 busy at 27.775 for 7 when 0
+tech 6 idle at 30.109 when 0
+tech 6 busy at 33.057 for 10 when 0
+tech 6 idle at 39.573 when 0
+tech 6 busy at 43.652 for 11 when 0
+tech 6 busy at 48.286 for 18 when 0
+tech 6 busy at 57.824 for 22 when 0
+tech 6 idle at 66.260 when 0
+tech 6 busy at 67.080 for 28 when 0
+tech 6 idle at 68.730 when 0
+tech 6 busy at 70.561 for 29 when 0
+tech 6 busy at 75.815 for 34 when 0
+tech 6 idle at 77.233 when 0
+tech 6 busy at 78.468 for 36 when 0
+tech 6 idle at 82.714 when 0
+tech 6 busy at 85.219 for 40 when 0
+tech 6 idle at 88.267 when 0
+tech 6 busy at 90.407 for 43 when 0
+tech 6 idle at 93.783 when 0
+tech 6 busy at 93.978 for 42 when 0
+tech 6 idle at 94.402 when 0
+tech 6 busy at 94.487 for 44 when 0
+tech 6 idle at 99.450 when 0
+tech 6 busy at 101.026 for 45 when 0
+tech 6 idle at 102.611 when 0
+tech 6 busy at 104.625 for 50 when 0
+tech 6 idle at 106.282 when 0
+tech 6 busy at 106.993 for 51 when 0
+tech 6 idle at 111.489 when 0
+tech 6 busy at 112.104 for 55 when 0
+tech 6 idle at 115.666 when 0
+tech 6 busy at 115.673 for 59 when 0
+tech 6 idle at 115.970 when 0
+tech 6 busy at 116.362 for 56 when 0
+tech 6 idle at 118.045 when 0
+tech 6 busy at 119.435 for 63 when 0
+tech 6 idle at 121.105 when 0
+tech 6 busy at 123.553 for 66 when 0
+tech 6 idle at 124.025 when 0
+tech 6 busy at 127.352 for 65 when 0
+tech 6 idle at 128.437 when 0
+tech 6 busy at 130.015 for 69 when 0
+tech 6 idle at 135.551 when 0
+tech 6 busy at 135.728 for 71 when 0
+tech 6 idle at 137.104 when 0
+tech 6 busy at 138.728 for 80 when 0
+tech 6 idle at 142.373 when 0
+tech 6 busy at 144.915 for 84 when 0
+tech 6 idle at 146.744 when 0
+tech 6 busy at 148.841 for 83 when 0
+tech 6 idle at 150.016 when 0
+tech 6 busy at 150.027 for 90 when 0
+tech 6 idle at 154.450 when 0
+tech 6 busy at 155.783 for 95 when 0
+tech 6 idle at 157.506 when 0
+tech 6 busy at 158.391 for 96 when 0
+tech 6 idle at 158.841 when 0
+tech 6 busy at 159.435 for 93 when 0
+tech 6 idle at 162.007 when 0
+tech 6 busy at 164.325 for 100 when 0
+tech 6 idle at 164.523 when 0
+tech 6 busy at 170.324 for 103 when 0
+tech 6 idle at 174.475 when 0
+tech 6 busy at 178.335 for 106 when 0
+tech 6 idle at 179.628 when 0
+tech 6 busy at 182.034 for 109 when 0
+tech 6 idle at 185.897 when 0
+tech 6 busy at 187.311 for 112 when 0
+tech 6 idle at 194.476 when 0
+tech 6 busy at 196.860 for 117 when 0
+tech 6 idle at 197.789 when 0
+tech 6 busy at 199.294 for 118 when 0
+tech 6 busy at 206.878 for 125 when 0
+tech 6 idle at 211.886 when 0
+tech 6 busy at 218.011 for 127 when 0
+tech 6 idle at 221.496 when 0
+tech 6 busy at 222.874 for 132 when 0
+tech 6 idle at 230.604 when 0
+tech 6 busy at 232.392 for 133 when 0
+tech 6 busy at 241.224 for 141 when 0
+tech 6 idle at 246.110 when 0
+tech 6 busy at 247.627 for 140 when 0
+tech 6 idle at 251.205 when 0
+tech 6 busy at 262.428 for 148 when 0
+tech 6 idle at 266.899 when 0
+tech 6 busy at 285.861 for 152 when 0
+tech 6 idle at 293.231 when 0
+tech 6 busy at 293.304 for 158 when 0
+tech 6 idle at 299.300 when 0
+tech 6 busy at 308.332 for 160 when 0
+tech 6 idle at 308.636 when 0
+tech 6 busy at 311.540 for 159 when 0
+tech 6 idle at 312.402 when 0
+tech 6 busy at 316.389 for 162 when 0
+tech 6 idle at 317.911 when 0
+tech 6 busy at 318.295 for 164 when 0
+tech 6 idle at 320.376 when 0
+tech 6 busy at 322.578 for 163 when 0
+tech 6 idle at 326.619 when 0
+tech 6 busy at 329.085 for 166 when 0
+tech 6 idle at 332.420 when 0
+tech 6 busy at 334.927 for 167 when 0
+tech 6 idle at 335.562 when 0
+tech 6 busy at 336.947 for 165 when 0
+tech 6 idle at 337.843 when 0
+tech 6 busy at 340.259 for 169 when 0
+tech 6 idle at 348.781 when 0
+tech 6 busy at 354.569 for 175 when 0
+tech 6 idle at 355.068 when 0
+tech 6 busy at 355.705 for 174 when 0
+tech 6 idle at 356.015 when 0
+tech 6 busy at 362.577 for 177 when 0
+tech 6 idle at 366.552 when 0
+tech 6 busy at 383.273 for 182 when 0
+tech 6 idle at 384.695 when 0
+tech 6 busy at 386.643 for 185 when 0
+tech 6 idle at 388.628 when 0
+tech 6 busy at 392.273 for 189 when 0
+tech 6 busy at 396.133 for 191 when 0
+tech 6 busy at 396.408 for 192 when 0
+tech 6 idle at 398.364 when 0
+tech 6 busy at 399.804 for 196 when 0
+tech 6 idle at 403.293 when 0
+tech 6 busy at 403.735 for 198 when 0
+tech 6 idle at 406.006 when 0
+tech 6 busy at 406.875 for 203 when 0
+tech 6 busy at 408.240 for 205 when 0
+tech 6 idle at 408.701 when 0
+tech 6 busy at 409.403 for 204 when 0
+tech 6 idle at 409.643 when 0
+tech 6 busy at 414.000 for 206 when 0
+tech 6 idle at 416.072 when 0
+tech 6 busy at 417.620 for 208 when 0
+tech 6 idle at 419.134 when 0
+tech 6 busy at 420.297 for 211 when 0
+tech 6 idle at 420.954 when 0
+tech 6 busy at 421.184 for 210 when 0
+tech 6 idle at 422.714 when 0
+tech 6 busy at 424.254 for 215 when 0
+tech 6 idle at 425.425 when 0
+tech 6 busy at 428.849 for 217 when 0
+tech 6 idle at 431.360 when 0
+tech 6 busy at 432.401 for 219 when 0
+tech 6 idle at 433.536 when 0
+tech 6 busy at 434.830 for 221 when 0
+tech 6 idle at 436.305 when 0
+tech 6 busy at 437.084 for 220 when 0
+tech 6 idle at 441.166 when 0
+tech 6 busy at 441.376 for 224 when 0
+tech 6 idle at 442.931 when 0
+tech 6 busy at 443.114 for 226 when 0
+tech 6 idle at 446.130 when 0
+tech 6 busy at 446.148 for 228 when 0
+tech 6 idle at 449.217 when 0
+tech 6 busy at 450.703 for 229 when 0
+tech 6 idle at 454.283 when 0
+tech 6 busy at 454.303 for 230 when 0
+tech 6 idle at 456.023 when 0
+tech 6 busy at 456.554 for 234 when 0
+tech 6 busy at 457.220 for 237 when 0
+tech 6 idle at 462.268 when 0
+tech 6 busy at 464.271 for 240 when 0
+tech 6 idle at 469.405 when 0
+tech 6 busy at 470.755 for 244 when 0
+tech 6 idle at 472.391 when 0
+tech 6 busy at 475.695 for 247 when 0
+tech 6 idle at 478.405 when 0
+tech 6 busy at 479.376 for 248 when 0
+tech 6 idle at 480.354 when 0
+tech 6 busy at 482.717 for 250 when 0
+tech 6 idle at 484.138 when 0
+tech 6 busy at 485.179 for 249 when 0
+tech 6 idle at 488.786 when 0
+tech 6 busy at 488.857 for 254 when 0
+tech 6 idle at 490.126 when 0
+tech 6 busy at 491.530 for 256 when 0
+tech 6 busy at 493.771 for 253 when 0
+tech 6 idle at 497.636 when 0
+tech 6 busy at 497.949 for 261 when 0
+tech 6 busy at 504.239 for 263 when 0
+tech 6 idle at 506.794 when 0
+tech 6 busy at 508.511 for 264 when 0
+tech 6 idle at 512.810 when 0
+tech 6 busy at 513.776 for 267 when 0
+tech 6 idle at 518.916 when 0
+tech 6 busy at 520.684 for 270 when 0
+tech 6 idle at 523.225 when 0
+tech 6 busy at 523.699 for 269 when 0
+tech 6 busy at 526.456 for 275 when 0
+tech 6 busy at 534.603 for 278 when 0
+tech 6 idle at 536.719 when 0
+tech 6 busy at 539.572 for 283 when 0
+tech 6 idle at 547.754 when 0
+tech 6 busy at 548.797 for 287 when 0
+tech 6 idle at 556.682 when 0
+tech 7 busy at 7.747 for 1 when 0
+tech 7 idle at 10.243 when 0
+tech 7 busy at 12.364 for 2 when 0
+tech 7 idle at 13.556 when 0
+tech 7 busy at 19.177 for 5 when 0
+tech 7 idle at 20.755 when 0
+tech 7 busy at 24.360 for 8 when 0
+tech 7 idle at 25.664 when 0
+tech 7 busy at 27.791 for 9 when 0
+tech 7 idle at 28.895 when 0
+tech 7 busy at 44.430 for 12 when 0
+tech 7 busy at 47.493 for 16 when 0
+tech 7 busy at 55.319 for 21 when 0
+tech 7 idle at 60.466 when 0
+tech 7 busy at 63.535 for 23 when 0
+tech 7 idle at 66.223 when 0
+tech 7 busy at 67.336 for 27 when 0
+tech 7 idle at 71.174 when 0
+tech 7 busy at 72.590 for 33 when 0
+tech 7 idle at 76.404 when 0
+tech 7 busy at 79.503 for 38 when 0
+tech 7 idle at 83.030 when 0
+tech 7 busy at 85.669 for 41 when 0
+tech 7 idle at 86.644 when 0
+tech 7 busy at 98.556 for 46 when 0
+tech 7 idle at 101.258 when 0
+tech 7 busy at 108.535 for 49 when 0
+tech 7 idle at 109.167 when 0
+tech 7 busy at 110.167 for 52 when 0
+tech 7 idle at 112.123 when 0
+tech 7 busy at 114.070 for 57 when 0
+tech 7 idle at 115.096 when 0
+tech 7 busy at 117.164 for 58 when 0
+tech 7 idle at 119.020 when 0
+tech 7 busy at 119.932 for 60 when 0
+tech 7 idle at 122.690 when 0
+tech 7 busy at 127.561 for 67 when 0
+tech 7 idle at 128.601 when 0
+tech 7 busy at 133.083 for 73 when 0
+tech 7 idle at 136.222 when 0
+tech 7 busy at 136.986 for 75 when 0
+tech 7 idle at 137.400 when 0
+tech 7 busy at 140.244 for 76 when 0
+tech 7 idle at 141.877 when 0
+tech 7 busy at 144.949 for 82 when 0
+tech 7 idle at 147.214 when 0
+tech 7 busy at 149.066 for 89 when 0
+tech 7 busy at 151.425 for 88 when 0
+tech 7 idle at 157.350 when 0
+tech 7 busy at 161.191 for 98 when 0
+tech 7 idle at 163.974 when 0
+tech 7 busy at 173.223 for 104 when 0
+tech 7 idle at 174.468 when 0
+tech 7 busy at 182.244 for 110 when 0
+tech 7 idle at 186.440 when 0
+tech 7 busy at 189.100 for 115 when 0
+tech 7 idle at 190.304 when 0
+tech 7 busy at 191.907 for 113 when 0
+tech 7 idle at 193.041 when 0
+tech 7 busy at 197.711 for 116 when 0
+tech 7 busy at 206.756 for 123 when 0
+tech 7 busy at 207.506 for 120 when 0
+tech 7 busy at 209.494 for 126 when 0
+tech 7 busy at 209.788 for 124 when 0
+tech 7 idle at 211.817 when 0
+tech 7 busy at 219.750 for 130 when 0
+tech 7 idle at 221.840 when 0
+tech 7 busy at 224.466 for 129 when 0
+tech 7 idle at 229.155 when 0
+tech 7 busy at 233.725 for 134 when 0
+tech 7 idle at 242.982 when 0
+tech 7 busy at 245.346 for 143 when 0
+tech 7 idle at 254.639 when 0
+tech 7 busy at 364.420 for 179 when 0
+tech 7 idle at 369.620 when 0
+tech 7 busy at 384.575 for 184 when 0
+tech 7 idle at 388.570 when 0
+tech 7 busy at 393.301 for 190 when 0
+tech 7 idle at 398.715 when 0
+tech 7 busy at 399.989 for 194 when 0
+tech 7 busy at 401.446 for 197 when 0
+tech 7 idle at 405.484 when 0
+tech 7 busy at 407.164 for 202 when 0
+tech 7 idle at 409.711 when 0
+tech 7 busy at 420.372 for 209 when 0
+tech 7 idle at 421.789 when 0
+tech 7 busy at 422.048 for 212 when 0
+tech 7 idle at 423.453 when 0
+tech 7 busy at 424.875 for 216 when 0
+tech 7 idle at 425.179 when 0
+tech 7 busy at 425.232 for 213 when 0
+tech 7 idle at 427.767 when 0
+tech 7 busy at 430.176 for 218 when 0
+tech 7 idle at 434.434 when 0
+tech 7 busy at 436.257 for 222 when 0
+tech 7 idle at 439.040 when 0
+tech 7 busy at 444.269 for 225 when 0
+tech 7 idle at 445.115 when 0
+tech 7 busy at 445.571 for 227 when 0
+tech 7 idle at 448.156 when 0
+tech 7 busy at 451.383 for 231 when 0
+tech 7 idle at 455.296 when 0
+tech 7 busy at 455.697 for 232 when 0
+tech 7 busy at 458.729 for 236 when 0
+tech 7 idle at 459.402 when 0
+tech 7 busy at 459.997 for 238 when 0
+tech 7 idle at 461.267 when 0
+tech 7 busy at 464.306 for 239 when 0
+tech 7 idle at 466.468 when 0
+tech 7 busy at 466.552 for 243 when 0
+tech 7 idle at 470.848 when 0
+tech 7 busy at 472.071 for 245 when 0
+tech 7 idle at 473.675 when 0
+tech 7 busy at 476.589 for 246 when 0
+tech 7 idle at 479.833 when 0
+tech 7 busy at 486.049 for 252 when 0
+tech 7 idle at 488.911 when 0
+tech 7 busy at 491.777 for 251 when 0
+tech 7 idle at 500.712 when 0
+tech 7 busy at 502.374 for 262 when 0
+tech 7 idle at 510.376 when 0
+tech 7 busy at 510.607 for 265 when 0
+tech 7 idle at 518.022 when 0
+tech 7 busy at 518.512 for 266 when 0
+tech 7 idle at 519.823 when 0
+tech 7 busy at 522.548 for 272 when 0
+tech 7 busy at 532.007 for 273 when 0
+tech 7 busy at 536.391 for 280 when 0
+tech 7 idle at 539.658 when 0
+tech 7 busy at 539.979 for 281 when 0
+tech 7 idle at 544.119 when 0
+tech 7 busy at 544.219 for 282 when 0
+tech 7 idle at 545.586 when 0
+tech 7 busy at 546.144 for 284 when 0
+tech 7 idle at 549.036 when 0
+tech 7 busy at 549.222 for 286 when 0
+tech 7 idle at 557.342 when 0
+tech 8 busy at 44.603 for 15 when 0
+tech 8 busy at 50.785 for 13 when 0
+tech 8 busy at 53.240 for 17 when 0
+tech 8 idle at 62.681 when 0
+tech 8 busy at 64.792 for 25 when 0
+tech 8 idle at 65.128 when 0
+tech 8 busy at 65.374 for 26 when 0
+tech 8 idle at 67.396 when 0
+tech 8 busy at 67.623 for 30 when 0
+tech 8 idle at 68.524 when 0
+tech 8 busy at 73.704 for 32 when 0
+tech 8 idle at 76.185 when 0
+tech 8 busy at 79.839 for 37 when 0
+tech 8 idle at 81.972 when 0
+tech 8 busy at 101.054 for 48 when 0
+tech 8 idle at 101.560 when 0
+tech 8 busy at 114.178 for 54 when 0
+tech 8 idle at 116.431 when 0
+tech 8 busy at 117.620 for 61 when 0
+tech 8 idle at 121.792 when 0
+tech 8 busy at 128.411 for 68 when 0
+tech 8 idle at 131.188 when 0
+tech 8 busy at 137.019 for 77 when 0
+tech 8 idle at 139.156 when 0
+tech 8 busy at 140.412 for 81 when 0
+tech 8 idle at 143.885 when 0
+tech 8 busy at 149.128 for 87 when 0
+tech 8 busy at 152.638 for 91 when 0
+tech 8 idle at 154.798 when 0
+tech 8 busy at 156.934 for 97 when 0
+tech 8 idle at 158.116 when 0
+tech 8 busy at 184.150 for 108 when 0
+tech 8 idle at 185.442 when 0
+tech 8 busy at 189.434 for 114 when 0
+tech 8 idle at 193.143 when 0
+tech 8 busy at 203.909 for 121 when 0
+tech 8 idle at 210.380 when 0
+tech 8 busy at 220.879 for 128 when 0
+tech 8 idle at 223.373 when 0
+tech 8 busy at 227.779 for 131 when 0
+tech 8 idle at 234.120 when 0
+tech 8 busy at 236.704 for 135 when 0
+tech 8 busy at 239.154 for 139 when 0
+tech 8 idle at 245.131 when 0
+tech 8 busy at 366.413 for 180 when 0
+tech 8 idle at 369.473 when 0
+tech 8 busy at 393.513 for 187 when 0
+tech 8 idle at 396.848 when 0
+tech 8 busy at 400.682 for 195 when 0
+tech 8 busy at 402.753 for 199 when 0
+tech 8 idle at 406.807 when 0
+tech 8 busy at 407.475 for 201 when 0
+tech 8 idle at 409.701 when 0
+tech 8 busy at 421.779 for 214 when 0
+tech 8 idle at 423.021 when 0
+tech 8 busy at 438.047 for 223 when 0
+tech 8 idle at 443.165 when 0
+tech 8 busy at 454.445 for 233 when 0
+tech 8 busy at 458.540 for 235 when 0
+tech 8 idle at 458.892 when 0
+tech 8 busy at 464.624 for 241 when 0
+tech 8 idle at 467.634 when 0
+tech 8 busy at 467.679 for 242 when 0
+tech 8 idle at 468.587 when 0
+tech 8 busy at 493.043 for 255 when 0
+tech 8 busy at 495.812 for 259 when 0
+tech 8 busy at 496.998 for 257 when 0
+tech 8 idle at 497.957 when 0
+tech 8 busy at 498.361 for 260 when 0
+tech 8 busy at 500.479 for 258 when 0
+tech 8 idle at 509.499 when 0
+tech 8 busy at 524.137 for 268 when 0
+tech 8 busy at 528.287 for 271 when 0
+tech 8 busy at 529.080 for 277 when 0
+tech 8 busy at 532.995 for 274 when 0
+tech 8 busy at 534.534 for 276 when 0
+tech 8 idle at 542.930 when 0
+tech 8 busy at 544.246 for 279 when 0
+tech 8 idle at 550.099 when 0
+tech 8 busy at 551.942 for 285 when 0
+tech 8 idle at 560.415 when 0
+tech 9 busy at 46.456 for 14 when 0
+tech 9 busy at 53.811 for 19 when 0
+tech 9 busy at 56.511 for 20 when 0
+tech 9 idle at 61.157 when 0
+tech 9 busy at 67.697 for 24 when 0
+tech 9 idle at 69.115 when 0
+tech 9 busy at 74.507 for 31 when 0
+tech 9 busy at 75.422 for 35 when 0
+tech 9 idle at 76.427 when 0
+tech 9 busy at 81.397 for 39 when 0
+tech 9 idle at 82.506 when 0
+tech 9 busy at 101.156 for 47 when 0
+tech 9 idle at 102.105 when 0
+tech 9 busy at 114.364 for 53 when 0
+tech 9 idle at 116.111 when 0
+tech 9 busy at 192.518 for 111 when 0
+tech 9 idle at 195.649 when 0
+tech 9 busy at 203.967 for 122 when 0
+tech 9 busy at 207.972 for 119 when 0
+tech 9 idle at 215.996 when 0
+tech 9 busy at 236.780 for 137 when 0
+tech 9 idle at 242.323 when 0
+tech 9 busy at 364.979 for 176 when 0
+tech 9 busy at 366.650 for 177 when 0
+tech 9 idle at 367.754 when 0
+tech 9 busy at 368.413 for 178 when 0
+tech 9 busy at 369.833 for 180 when 0
+tech 9 busy at 371.962 for 179 when 0
+tech 9 idle at 372.376 when 0
+tech 9 busy at 384.695 for 182 when 0
+tech 9 idle at 385.131 when 0
+tech 9 busy at 385.425 for 181 when 0
+tech 9 busy at 393.316 for 184 when 0
+tech 9 busy at 394.303 for 185 when 0
+tech 9 busy at 394.823 for 183 when 0
+tech 9 idle at 395.380 when 0
+tech 9 busy at 396.133 for 189 when 0
+tech 9 busy at 396.593 for 191 when 0
+tech 9 busy at 397.471 for 186 when 0
+tech 9 busy at 398.096 for 187 when 0
+tech 9 busy at 398.905 for 188 when 0
+tech 9 busy at 400.158 for 192 when 0
+tech 9 busy at 402.765 for 190 when 0
+tech 9 busy at 403.345 for 194 when 0
+tech 9 busy at 403.836 for 195 when 0
+tech 9 busy at 404.377 for 196 when 0
+tech 9 busy at 405.563 for 193 when 0
+tech 9 busy at 406.242 for 197 when 0
+tech 9 busy at 406.787 for 198 when 0
+tech 9 busy at 408.120 for 199 when 0
+tech 9 busy at 408.722 for 203 when 0
+tech 9 busy at 409.196 for 205 when 0
+tech 9 busy at 413.908 for 204 when 0
+tech 9 busy at 415.330 for 201 when 0
+tech 9 busy at 417.650 for 202 when 0
+tech 9 busy at 418.864 for 200 when 0
+tech 9 busy at 420.599 for 206 when 0
+tech 9 busy at 421.017 for 208 when 0
+tech 9 busy at 423.906 for 209 when 0
+tech 9 busy at 424.172 for 214 when 0
+tech 9 busy at 424.414 for 212 when 0
+tech 9 idle at 425.281 when 0
+tech 9 busy at 425.425 for 215 when 0
+tech 9 idle at 426.028 when 0
+tech 9 busy at 427.767 for 213 when 0
+tech 9 idle at 433.026 when 0
+tech 9 busy at 433.536 for 219 when 0
+tech 9 idle at 434.388 when 0
+tech 9 busy at 434.434 for 218 when 0
+tech 9 idle at 434.855 when 0
+tech 9 busy at 436.305 for 221 when 0
+tech 9 idle at 436.684 when 0
+tech 9 busy at 439.040 for 222 when 0
+tech 9 busy at 443.720 for 223 when 0
+tech 9 idle at 444.033 when 0
+tech 9 busy at 445.115 for 225 when 0
+tech 9 idle at 446.104 when 0
+tech 9 busy at 446.130 for 226 when 0
+tech 9 idle at 447.412 when 0
+tech 9 busy at 448.156 for 227 when 0
+tech 9 idle at 449.109 when 0
+tech 9 busy at 449.217 for 228 when 0
+tech 9 idle at 449.686 when 0
+tech 9 busy at 454.283 for 229 when 0
+tech 9 idle at 455.908 when 0
+tech 9 busy at 456.023 for 230 when 0
+tech 9 idle at 456.188 when 0
+tech 9 busy at 457.220 for 234 when 0
+tech 9 idle at 457.926 when 0
+tech 9 busy at 458.540 for 233 when 0
+tech 9 busy at 459.013 for 235 when 0
+tech 9 busy at 459.424 for 236 when 0
+tech 9 idle at 460.255 when 0
+tech 9 busy at 461.267 for 238 when 0
+tech 9 idle at 461.888 when 0
+tech 9 busy at 462.268 for 237 when 0
+tech 9 idle at 462.561 when 0
+tech 9 busy at 466.468 for 239 when 0
+tech 9 idle at 471.113 when 0
+tech 9 busy at 472.391 for 244 when 0
+tech 9 idle at 474.688 when 0
+tech 9 busy at 478.405 for 247 when 0
+tech 9 idle at 478.868 when 0
+tech 9 busy at 479.833 for 246 when 0
+tech 9 idle at 481.207 when 0
+tech 9 busy at 484.138 for 250 when 0
+tech 9 idle at 484.462 when 0
+tech 9 busy at 488.786 for 249 when 0
+tech 9 idle at 490.229 when 0
+tech 9 busy at 493.771 for 256 when 0
+tech 9 idle at 495.384 when 0
+tech 9 busy at 495.812 for 255 when 0
+tech 9 idle at 496.354 when 0
+tech 9 busy at 496.998 for 259 when 0
+tech 9 busy at 498.193 for 257 when 0
+tech 9 idle at 498.655 when 0
+tech 9 busy at 500.479 for 260 when 0
+tech 9 idle at 504.468 when 0
+tech 9 busy at 506.794 for 263 when 0
+tech 9 busy at 510.933 for 262 when 0
+tech 9 idle at 511.580 when 0
+tech 9 busy at 512.810 for 264 when 0
+tech 9 busy at 519.998 for 266 when 0
+tech 9 idle at 523.297 when 0
+tech 9 busy at 526.456 for 269 when 0
+tech 9 idle at 526.898 when 0
+tech 9 busy at 528.287 for 268 when 0
+tech 9 idle at 528.825 when 0
+tech 9 busy at 529.080 for 271 when 0
+tech 9 idle at 530.129 when 0
+tech 9 busy at 532.007 for 272 when 0
+tech 9 idle at 532.833 when 0
+tech 9 busy at 532.995 for 277 when 0
+tech 9 idle at 533.268 when 0
+tech 9 busy at 534.534 for 274 when 0
+tech 9 idle at 540.776 when 0
+tech 9 busy at 542.930 for 276 when 0
+tech 9 idle at 543.839 when 0
+tech 9 busy at 544.119 for 281 when 0
+tech 9 idle at 549.775 when 0
+tech 9 busy at 550.099 for 279 when 0
+tech 9 idle at 551.162 when 0
+tech 9 busy at 556.682 for 287 when 0
+tech 9 idle at 557.113 when 0
+tech 9 busy at 557.342 for 286 when 0
+tech 9 idle at 558.003 when 0
+tech 9 busy at 560.415 for 285 when 0
+tech 9 idle at 566.139 when 0
+tech 10 busy at 10.243 for 1 when 0
+tech 10 busy at 12.914 for 0 when 0
+tech 10 idle at 13.249 when 0
+tech 10 busy at 13.331 for 4 when 0
+tech 10 busy at 14.944 for 2 when 0
+tech 10 busy at 20.188 for 3 when 0
+tech 10 idle at 20.560 when 0
+tech 10 busy at 20.755 for 5 when 0
+tech 10 idle at 21.737 when 0
+tech 10 busy at 24.814 for 6 when 0
+tech 10 busy at 26.335 for 8 when 0
+tech 10 idle at 27.691 when 0
+tech 10 busy at 28.895 for 9 when 0
+tech 10 idle at 29.789 when 0
+tech 10 busy at 30.109 for 7 when 0
+tech 10 idle at 30.419 when 0
+tech 10 busy at 39.573 for 10 when 0
+tech 10 idle at 40.339 when 0
+tech 10 busy at 47.493 for 12 when 0
+tech 10 idle at 47.852 when 0
+tech 10 busy at 48.286 for 11 when 0
+tech 10 idle at 49.149 when 0
+tech 10 busy at 50.785 for 15 when 0
+tech 10 idle at 51.923 when 0
+tech 10 busy at 53.240 for 13 when 0
+tech 10 busy at 55.265 for 14 when 0
+tech 10 busy at 59.464 for 16 when 0
+tech 10 busy at 60.988 for 19 when 0
+tech 10 busy at 66.117 for 18 when 0
+tech 10 busy at 68.234 for 21 when 0
+tech 10 busy at 71.501 for 20 when 0
+tech 10 busy at 72.323 for 17 when 0
+tech 10 busy at 73.363 for 25 when 0
+tech 10 busy at 74.401 for 23 when 0
+tech 10 busy at 82.423 for 22 when 0
+tech 10 busy at 85.521 for 26 when 0
+tech 10 busy at 85.708 for 30 when 0
+tech 10 busy at 86.236 for 28 when 0
+tech 10 busy at 87.287 for 24 when 0
+tech 10 busy at 87.645 for 27 when 0
+tech 10 busy at 89.697 for 31 when 0
+tech 10 busy at 92.333 for 29 when 0
+tech 10 busy at 93.162 for 32 when 0
+tech 10 busy at 95.334 for 33 when 0
+tech 10 busy at 96.238 for 35 when 0
+tech 10 busy at 96.385 for 34 when 0
+tech 10 busy at 98.340 for 37 when 0
+tech 10 busy at 100.588 for 39 when 0
+tech 10 busy at 100.899 for 36 when 0
+tech 10 busy at 101.919 for 38 when 0
+tech 10 busy at 102.431 for 41 when 0
+tech 10 busy at 102.755 for 40 when 0
+tech 10 busy at 103.515 for 43 when 0
+tech 10 busy at 105.524 for 42 when 0
+tech 10 busy at 106.238 for 44 when 0
+tech 10 busy at 110.008 for 46 when 0
+tech 10 busy at 111.069 for 48 when 0
+tech 10 busy at 111.705 for 47 when 0
+tech 10 busy at 113.210 for 45 when 0
+tech 10 busy at 114.829 for 50 when 0
+tech 10 busy at 116.738 for 49 when 0
+tech 10 busy at 117.724 for 51 when 0
+tech 10 busy at 118.311 for 52 when 0
+tech 10 busy at 123.533 for 57 when 0
+tech 10 busy at 125.183 for 55 when 0
+tech 10 busy at 126.031 for 59 when 0
+tech 10 busy at 128.079 for 53 when 0
+tech 10 busy at 129.026 for 54 when 0
+tech 10 busy at 129.699 for 56 when 0
+tech 10 busy at 129.930 for 58 when 0
+tech 10 busy at 130.076 for 63 when 0
+tech 10 busy at 131.072 for 62 when 0
+tech 10 busy at 131.793 for 61 when 0
+tech 10 busy at 132.330 for 60 when 0
+tech 10 busy at 132.959 for 66 when 0
+tech 10 busy at 133.446 for 65 when 0
+tech 10 busy at 133.781 for 67 when 0
+tech 10 busy at 134.540 for 64 when 0
+tech 10 busy at 135.523 for 68 when 0
+tech 10 busy at 136.287 for 70 when 0
+tech 10 busy at 137.288 for 72 when 0
+tech 10 busy at 137.875 for 69 when 0
+tech 10 busy at 138.033 for 73 when 0
+tech 10 busy at 139.107 for 71 when 0
+tech 10 busy at 140.119 for 75 when 0
+tech 10 busy at 141.702 for 74 when 0
+tech 10 busy at 143.516 for 77 when 0
+tech 10 busy at 143.712 for 78 when 0
+tech 10 busy at 143.901 for 76 when 0
+tech 10 busy at 144.184 for 80 when 0
+tech 10 busy at 146.503 for 81 when 0
+tech 10 busy at 146.999 for 79 when 0
+tech 10 busy at 148.900 for 84 when 0
+tech 10 busy at 151.577 for 82 when 0
+tech 10 busy at 153.561 for 83 when 0
+tech 10 busy at 154.768 for 85 when 0
+tech 10 busy at 156.439 for 89 when 0
+tech 10 busy at 158.792 for 87 when 0
+tech 10 busy at 159.159 for 86 when 0
+tech 10 busy at 159.334 for 92 when 0
+tech 10 busy at 159.677 for 90 when 0
+tech 10 busy at 160.378 for 91 when 0
+tech 10 busy at 160.694 for 88 when 0
+tech 10 busy at 161.043 for 95 when 0
+tech 10 busy at 162.183 for 97 when 0
+tech 10 busy at 163.192 for 96 when 0
+tech 10 busy at 164.032 for 94 when 0
+tech 10 busy at 164.376 for 93 when 0
+tech 10 busy at 164.817 for 98 when 0
+tech 10 busy at 165.350 for 100 when 0
+tech 10 idle at 166.169 when 0
+tech 10 busy at 166.515 for 99 when 0
+tech 10 idle at 166.898 when 0
+tech 10 busy at 169.639 for 101 when 0
+tech 10 busy at 174.569 for 102 when 0
+tech 10 busy at 175.555 for 104 when 0
+tech 10 busy at 178.022 for 103 when 0
+tech 10 busy at 180.644 for 105 when 0
+tech 10 busy at 181.867 for 107 when 0
+tech 10 busy at 183.721 for 106 when 0
+tech 10 idle at 185.142 when 0
+tech 10 busy at 185.442 for 108 when 0
+tech 10 idle at 185.741 when 0
+tech 10 busy at 185.897 for 109 when 0
+tech 10 idle at 186.108 when 0
+tech 10 busy at 186.440 for 110 when 0
+tech 10 busy at 195.980 for 115 when 0
+tech 10 busy at 204.208 for 113 when 0
+tech 10 busy at 204.563 for 114 when 0
+tech 10 busy at 208.240 for 112 when 0
+tech 10 busy at 209.275 for 111 when 0
+tech 10 busy at 209.515 for 117 when 0
+tech 10 busy at 212.011 for 116 when 0
+tech 10 busy at 217.847 for 118 when 0
+tech 10 busy at 218.168 for 123 when 0
+tech 10 busy at 218.733 for 122 when 0
+tech 10 busy at 219.304 for 120 when 0
+tech 10 busy at 220.912 for 126 when 0
+tech 10 busy at 221.416 for 121 when 0
+tech 10 busy at 223.793 for 124 when 0
+tech 10 busy at 224.545 for 125 when 0
+tech 10 busy at 225.699 for 119 when 0
+tech 10 busy at 226.137 for 127 when 0
+tech 10 busy at 228.597 for 130 when 0
+tech 10 busy at 230.598 for 128 when 0
+tech 10 busy at 233.496 for 129 when 0
+tech 10 busy at 235.288 for 132 when 0
+tech 10 busy at 239.063 for 131 when 0
+tech 10 busy at 243.098 for 135 when 0
+tech 10 busy at 244.179 for 133 when 0
+tech 10 busy at 245.686 for 137 when 0
+tech 10 busy at 246.178 for 134 when 0
+tech 10 busy at 252.683 for 136 when 0
+tech 10 busy at 254.016 for 139 when 0
+tech 10 busy at 257.762 for 141 when 0
+tech 10 busy at 258.384 for 142 when 0
+tech 10 busy at 258.727 for 140 when 0
+tech 10 busy at 259.786 for 138 when 0
+tech 10 busy at 270.540 for 144 when 0
+tech 10 busy at 270.937 for 143 when 0
+tech 10 busy at 271.503 for 145 when 0
+tech 10 busy at 272.170 for 146 when 0
+tech 10 busy at 275.438 for 149 when 0
+tech 10 busy at 276.079 for 147 when 0
+tech 10 busy at 279.316 for 148 when 0
+tech 10 busy at 280.198 for 150 when 0
+tech 10 idle at 280.476 when 0
+tech 10 busy at 283.703 for 151 when 0
+tech 10 idle at 284.007 when 0
+tech 10 busy at 286.450 for 153 when 0
+tech 10 busy at 287.237 for 155 when 0
+tech 10 idle at 287.653 when 0
+tech 10 busy at 289.599 for 156 when 0
+tech 10 idle at 290.781 when 0
+tech 10 busy at 293.231 for 152 when 0
+tech 10 busy at 294.436 for 154 when 0
+tech 10 busy at 295.458 for 157 when 0
+tech 10 busy at 302.986 for 158 when 0
+tech 10 idle at 303.261 when 0
+tech 10 busy at 320.264 for 161 when 0
+tech 10 idle at 322.184 when 0
+tech 10 busy at 331.256 for 168 when 0
+tech 10 idle at 333.595 when 0
+tech 10 busy at 341.493 for 171 when 0
+tech 10 idle at 343.653 when 0
+tech 10 busy at 345.924 for 170 when 0
+tech 10 busy at 347.164 for 173 when 0
+tech 10 idle at 348.121 when 0
+tech 10 busy at 348.638 for 172 when 0
+tech 10 idle at 350.459 when 0
+tech 10 busy at 420.954 for 207 when 0
+tech 10 busy at 421.292 for 211 when 0
+tech 10 busy at 423.930 for 210 when 0
+tech 10 idle at 424.578 when 0
+tech 10 busy at 425.179 for 216 when 0
+tech 10 idle at 427.337 when 0
+tech 10 busy at 431.360 for 217 when 0
+tech 10 idle at 432.055 when 0
+tech 10 busy at 441.166 for 220 when 0
+tech 10 idle at 441.647 when 0
+tech 10 busy at 442.931 for 224 when 0
+tech 10 idle at 444.384 when 0
+tech 10 busy at 455.296 for 231 when 0
+tech 10 idle at 455.955 when 0
+tech 10 busy at 458.729 for 232 when 0
+tech 10 idle at 459.876 when 0
+tech 10 busy at 467.634 for 241 when 0
+tech 10 idle at 467.898 when 0
+tech 10 busy at 468.587 for 242 when 0
+tech 10 idle at 469.382 when 0
+tech 10 busy at 469.405 for 240 when 0
+tech 10 idle at 469.547 when 0
+tech 10 busy at 470.848 for 243 when 0
+tech 10 idle at 471.075 when 0
+tech 10 busy at 473.675 for 245 when 0
+tech 10 idle at 475.470 when 0
+tech 10 busy at 480.354 for 248 when 0
+tech 10 idle at 480.815 when 0
+tech 10 busy at 488.911 for 252 when 0
+tech 10 idle at 489.254 when 0
+tech 10 busy at 490.126 for 254 when 0
+tech 10 idle at 493.562 when 0
+tech 10 busy at 497.636 for 253 when 0
+tech 10 idle at 498.619 when 0
+tech 10 busy at 500.712 for 251 when 0
+tech 10 idle at 503.223 when 0
+tech 10 busy at 504.239 for 261 when 0
+tech 10 idle at 506.523 when 0
+tech 10 busy at 509.499 for 258 when 0
+tech 10 idle at 512.792 when 0
+tech 10 busy at 518.022 for 265 when 0
+tech 10 busy at 519.270 for 267 when 0
+tech 10 idle at 521.673 when 0
+tech 10 busy at 523.225 for 270 when 0
+tech 10 idle at 525.946 when 0
+tech 10 busy at 534.603 for 275 when 0
+tech 10 busy at 536.474 for 273 when 0
+tech 10 busy at 536.739 for 278 when 0
+tech 10 idle at 539.348 when 0
+tech 10 busy at 539.658 for 280 when 0
+tech 10 idle at 540.089 when 0
+tech 10 busy at 545.586 for 282 when 0
+tech 10 idle at 546.011 when 0
+tech 10 busy at 547.754 for 283 when 0
+tech 10 busy at 549.238 for 284 when 0
+tech 10 idle at 551.777 when 0

@@ -3,8 +3,8 @@
 
 #include "Random.h"
 
-// type: 0(arrive), 1(transfer), 2(leave), 3(redo), 4(shift), 5(reschedule), 6(shutdown)
-// from: 0-8 from which tech
+// type: 0(arrive), 1(transfer), 2(leave), 3(redo), 4(shift), 5(reschedule), 6(shutdown), 7(debug)
+// from: 0-10 from which tech
 
 struct Event {
 	double occur_time;
