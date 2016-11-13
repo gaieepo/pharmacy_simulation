@@ -24,7 +24,7 @@ int main() {
 	
 	int tech_num = 11;
 
-	int simulate_num = 10;
+	int simulate_num = 1;
 
 	int break_schedule[9][2] = {
 		{11, 4},
@@ -50,33 +50,33 @@ int main() {
 	system.setReschedule(2, 4, 0, 4, 1, 480); // 7, 4
 
 	
-    std::ifstream Reader ("banner.txt");             //Open file
-    std::string Art = getFileContents (Reader);       //Get file
-    std::cout << Art << std::endl;               //Print it to the screen
-    Reader.close ();                           //Close file
+    // std::ifstream Reader ("banner.txt");             //Open file
+    // std::string Art = getFileContents (Reader);       //Get file
+    // std::cout << Art << std::endl;               //Print it to the screen
+    // Reader.close ();                           //Close file
 
-    bool sent = false;
-    std::string input = "";
-    while (input != "q") {
-    	std::cout << "--------------------------\n";
-    	std::cout << "- 1.Base case simulation -\n- 2.Change arrival rate  -\n--------------------------\nEnter choice: ";
-    	std::cin >> input;
-    	if (input == "1") {
+    // bool sent = false;
+    // std::string input = "";
+    // while (input != "q") {
+    // 	std::cout << "--------------------------\n";
+    // 	std::cout << "- 1.Base case simulation -\n- 2.Change arrival rate  -\n--------------------------\nEnter choice: ";
+    // 	std::cin >> input;
+    // 	if (input == "1") {
     		system.simulate(simulate_num);
     		std::cout << "Overall average staying time: " << system.getAvgStayMinutes() << std::endl;
-    	}
-    	else if (input == "2") {
-    		if (!sent) {
-	    		std::cout << "Input arrival rate: " << std::endl;
-	    		std::cout << "The simulation package has sent to NSCC for computation..." << std::endl;
-	    		sent = true;
-	    	} else {
-	    		std::cout << "You are only allowed to submit one simulation package at a time. Please be patient." << std::endl;
-	    	}
-    	}
-    }
-    std::cout << "Existing the simulation environment..." << std::endl;
-    std::cout << "Thanks for your participation" << std::endl;
+    // 	}
+    // 	else if (input == "2") {
+    // 		if (!sent) {
+	   //  		std::cout << "Input arrival rate: " << std::endl;
+	   //  		std::cout << "The simulation package has sent to NSCC for computation..." << std::endl;
+	   //  		sent = true;
+	   //  	} else {
+	   //  		std::cout << "You are only allowed to submit one simulation package at a time. Please be patient." << std::endl;
+	   //  	}
+    // 	}
+    // }
+    // std::cout << "Existing the simulation environment..." << std::endl;
+    // std::cout << "Thanks for your participation" << std::endl;
 }
 
 std::string getFileContents (std::ifstream& File)

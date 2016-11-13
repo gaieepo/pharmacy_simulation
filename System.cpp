@@ -591,10 +591,10 @@ void System::prescArrive() {
 		reg_queue.pop();
 		presc->reg_typ_start = current_event->occur_time;
 		presc->reg_typ_end = current_event->occur_time + presc->reg_typ_duration;
-		printf("No.%d: REG %.3f - %.3f - %.3f\n", presc->id, presc->reg_typ_start, presc->reg_typ_end, presc->reg_typ_duration);
+		// printf("No.%d: REG %.3f - %.3f - %.3f\n", presc->id, presc->reg_typ_start, presc->reg_typ_end, presc->reg_typ_duration);
 		techs[idleIndex].serve(*presc);
 		techs[idleIndex].setBusy(current_event->occur_time);
-		printf("tech %d busy at %.3f for %d\n", idleIndex, current_event->occur_time, presc->id);
+		// printf("tech %d busy at %.3f for %d\n", idleIndex, current_event->occur_time, presc->id);
 		techs[idleIndex].setNextFinishTime(presc->reg_typ_end);
 
 		Event transfer_event(presc->reg_typ_end, 1, idleIndex);
@@ -623,13 +623,13 @@ void System::prescTransfer() {
 		if (location == PAC) {
 			direct.pac_start = current_event->occur_time;
 			direct.pac_end = current_event->occur_time + direct.pac_duration;
-			printf("No.%d: PAC %.3f - %.3f - %.3f in transfer from %d to %d\n", direct.id, direct.pac_start, direct.pac_end, direct.pac_duration, current_event->from, idleIndex);
+			// printf("No.%d: PAC %.3f - %.3f - %.3f in transfer from %d to %d\n", direct.id, direct.pac_start, direct.pac_end, direct.pac_duration, current_event->from, idleIndex);
 			event_time = direct.pac_end;
 		} else if (location == FLX || location == CHE) {
 			if (!direct.redoed)
 				direct.che_dis_start = current_event->occur_time;
 			direct.che_dis_end = current_event->occur_time + direct.che_dis_duration;
-			printf("No.%d: CHE %.3f - %.3f - %.3f in transfer from %d to %d\n", direct.id, direct.che_dis_start, direct.che_dis_end, direct.che_dis_duration, current_event->from, idleIndex);
+			// printf("No.%d: CHE %.3f - %.3f - %.3f in transfer from %d to %d\n", direct.id, direct.che_dis_start, direct.che_dis_end, direct.che_dis_duration, current_event->from, idleIndex);
 
 			event_time = direct.che_dis_end;
 			isRedo = (Random::getRandom(UNIFORM, 100) < 0 && !direct.redoed) ? true : false;
@@ -645,12 +645,12 @@ void System::prescTransfer() {
 			direct.pay_start = current_event->occur_time;
 			direct.pay_end = current_event->occur_time + direct.pay_duration;
 			event_time = direct.pay_end;
-			printf("No.%d: PAY %.3f - %.3f - %.3f in transfer from %d to %d\n", direct.id, direct.pay_start, direct.pay_end, direct.pay_duration, current_event->from, idleIndex);
+			// printf("No.%d: PAY %.3f - %.3f - %.3f in transfer from %d to %d\n", direct.id, direct.pay_start, direct.pay_end, direct.pay_duration, current_event->from, idleIndex);
 			isLeaving = true;
 		}
 		techs[idleIndex].serve(direct);
 		techs[idleIndex].setBusy(current_event->occur_time);
-		printf("tech %d busy at %.3f for %d when %d\n", idleIndex, current_event->occur_time, direct.id, techs[idleIndex].loc == BRK);
+		// printf("tech %d busy at %.3f for %d when %d\n", idleIndex, current_event->occur_time, direct.id, techs[idleIndex].loc == BRK);
 		techs[idleIndex].setNextFinishTime(event_time);
 
 
@@ -676,17 +676,17 @@ void System::prescTransfer() {
 			pay_queue.pop();
 			presc.pay_start = current_event->occur_time;
 			presc.pay_end = current_event->occur_time + presc.pay_duration;
-			printf("No.%d: PAY %.3f - %.3f - %.3f in transfer2\n", presc.id, presc.pay_start, presc.pay_end, presc.pay_duration);
+			// printf("No.%d: PAY %.3f - %.3f - %.3f in transfer2\n", presc.id, presc.pay_start, presc.pay_end, presc.pay_duration);
 			techs[current_event->from].serve(presc);
 			techs[current_event->from].setBusy(current_event->occur_time);
-			printf("tech %d busy at %.3f for %d when %d\n", current_event->from, current_event->occur_time, presc.id, techs[current_event->from].loc == BRK);
+			// printf("tech %d busy at %.3f for %d when %d\n", current_event->from, current_event->occur_time, presc.id, techs[current_event->from].loc == BRK);
 			techs[current_event->from].setNextFinishTime(presc.pay_end);
 
 			Event leave_event(presc.pay_end, 2, current_event->from);
 			event_queue.push(leave_event);
 		} else {
 			techs[current_event->from].setIdle(current_event->occur_time);
-			printf("tech %d idle at %.3f when %d\n", current_event->from, current_event->occur_time, techs[current_event->from].loc == BRK);
+			// printf("tech %d idle at %.3f when %d\n", current_event->from, current_event->occur_time, techs[current_event->from].loc == BRK);
 			techs[current_event->from].setNextFinishTime(0);
 			accumulateBusyMinutes(techs[current_event->from].loc, techs[current_event->from].getCurrentBusyMinutes(), false);
 		}
@@ -704,23 +704,23 @@ void System::prescTransfer() {
 		if (location == REG) {
 			follow.reg_typ_start = current_event->occur_time;
 			follow.reg_typ_end = current_event->occur_time + follow.reg_typ_duration;
-			printf("No.%d: REG %.3f - %.3f - %.3f in transfer3 from %d\n", follow.id, follow.reg_typ_start, follow.reg_typ_end, follow.reg_typ_duration, current_event->from);
+			// printf("No.%d: REG %.3f - %.3f - %.3f in transfer3 from %d\n", follow.id, follow.reg_typ_start, follow.reg_typ_end, follow.reg_typ_duration, current_event->from);
 			event_time = follow.reg_typ_end;
 		} else if (location == PAC) {
 			follow.pac_start = current_event->occur_time;
 			follow.pac_end = current_event->occur_time + follow.pac_duration;
-			printf("No.%d: PAC %.3f - %.3f - %.3f in transfer3 from %d\n", follow.id, follow.pac_start, follow.pac_end, follow.pac_duration, current_event->from);
+			// printf("No.%d: PAC %.3f - %.3f - %.3f in transfer3 from %d\n", follow.id, follow.pac_start, follow.pac_end, follow.pac_duration, current_event->from);
 			event_time = follow.pac_end;
 		} else if (location == FLX || location == CHE) {
 			follow.che_dis_start = current_event->occur_time;
 			follow.che_dis_end = current_event->occur_time + follow.che_dis_duration;
-			printf("No.%d: CHE %.3f - %.3f - %.3f in transfer3 from %d\n", follow.id, follow.che_dis_start, follow.che_dis_end, follow.che_dis_duration, current_event->from);
+			// printf("No.%d: CHE %.3f - %.3f - %.3f in transfer3 from %d\n", follow.id, follow.che_dis_start, follow.che_dis_end, follow.che_dis_duration, current_event->from);
 			event_time = follow.che_dis_end;
 			isRedo = (Random::getRandom(UNIFORM, 100) < 0 && !follow.redoed) ? true : false;
 		}
 		techs[current_event->from].serve(follow);
 		// techs[current_event->from].setBusy(current_event->occur_time);
-		printf("tech %d busy at %.3f for %d when %d\n", current_event->from, current_event->occur_time, follow.id, techs[current_event->from].loc == BRK);
+		// printf("tech %d busy at %.3f for %d when %d\n", current_event->from, current_event->occur_time, follow.id, techs[current_event->from].loc == BRK);
 		techs[current_event->from].setNextFinishTime(event_time);
 
 		if (isRedo) {
@@ -733,7 +733,7 @@ void System::prescTransfer() {
 	} else {
 		techs[current_event->from].setIdle(current_event->occur_time);
 		techs[current_event->from].setNextFinishTime(0);
-		printf("tech %d idle at %.3f when %d\n", current_event->from, current_event->occur_time, techs[current_event->from].loc == BRK);
+		// printf("tech %d idle at %.3f when %d\n", current_event->from, current_event->occur_time, techs[current_event->from].loc == BRK);
 		accumulateBusyMinutes(techs[current_event->from].loc, techs[current_event->from].getCurrentBusyMinutes(), false);
 	}
 	curr = nullptr;
@@ -757,23 +757,23 @@ void System::prescLeave() {
 		++limit;
 	}
 
-	printf("No.%d: LEAVE %.3f in leave\n", out->id, out->pay_end);\
+	// printf("No.%d: LEAVE %.3f in leave\n", out->id, out->pay_end);
 
-	// printf("No. %d presc type %d: %.2f(arrive) %.2f(reg) %.2f(pac) %.2f(che) %.2f(pay_end) Total: %.2f\n", 
-	// 	out->id, 
-	// 	(out->pType == LONGRX ? 1 : (out->pType == SHORTRX ? 2 : 3)),
-	// 	out->arrive_time, 
-	// 	out->reg_typ_end,
-	// 	out->pac_end,
-	// 	out->che_dis_end,
-	// 	out->pay_end,
-	// 	real_duration);
+	printf("No. %d presc type %d: %.2f(arrive) %.2f(reg) %.2f(pac) %.2f(che) %.2f(pay_end) Total: %.2f\n", 
+		out->id, 
+		(out->pType == LONGRX ? 1 : (out->pType == SHORTRX ? 2 : 3)),
+		out->arrive_time, 
+		out->reg_typ_end,
+		out->pac_end,
+		out->che_dis_end,
+		out->pay_end,
+		real_duration);
 
-	// printf("%.2f(reg wait) %.2f(pac wait) %.2f(che wait) %.2f(pay wait)\n", 
-	// 	out->getRegWait(),
-	// 	out->getPacWait(),
-	// 	out->getCheWait(),
-	// 	out->getPayWait());
+	printf("%.2f(reg wait) %.2f(pac wait) %.2f(che wait) %.2f(pay wait)\n", 
+		out->getRegWait(),
+		out->getPacWait(),
+		out->getCheWait(),
+		out->getPayWait());
 
 	Location curr_loc = determineCurrentLocation(current_event->from);
 	if (curr_loc != PAY) {
@@ -786,23 +786,23 @@ void System::prescLeave() {
 			if (location == REG) {
 				follow.reg_typ_start = current_event->occur_time;
 				follow.reg_typ_end = current_event->occur_time + follow.reg_typ_duration;
-				printf("No.%d: REG %.3f - %.3f - %.3f in leave\n", follow.id, follow.reg_typ_start, follow.reg_typ_end, follow.reg_typ_duration);
+				// printf("No.%d: REG %.3f - %.3f - %.3f in leave\n", follow.id, follow.reg_typ_start, follow.reg_typ_end, follow.reg_typ_duration);
 				event_time = follow.reg_typ_end;
 			} else if (location == PAC) {
 				follow.pac_start = current_event->occur_time;
 				follow.pac_end = current_event->occur_time + follow.pac_duration;
-				printf("No.%d: PAC %.3f - %.3f - %.3f in leave\n", follow.id, follow.pac_start, follow.pac_end, follow.pac_duration);
+				// printf("No.%d: PAC %.3f - %.3f - %.3f in leave\n", follow.id, follow.pac_start, follow.pac_end, follow.pac_duration);
 				event_time = follow.pac_end;
 			} else if (location == FLX || location == CHE) {
 				follow.che_dis_start = current_event->occur_time;
 				follow.che_dis_end = current_event->occur_time + follow.che_dis_duration;
-				printf("No.%d: CHE %.3f - %.3f - %.3f in leave\n", follow.id, follow.che_dis_start, follow.che_dis_end, follow.che_dis_duration);
+				// printf("No.%d: CHE %.3f - %.3f - %.3f in leave\n", follow.id, follow.che_dis_start, follow.che_dis_end, follow.che_dis_duration);
 				event_time = follow.che_dis_end;
 				isRedo = (Random::getRandom(UNIFORM, 100) < 0 && !follow.redoed) ? true : false;
 			}
 			techs[current_event->from].serve(follow);
 			techs[current_event->from].setBusy(current_event->occur_time);
-			printf("tech %d busy at %.3f for %d when %d\n", current_event->from, current_event->occur_time, follow.id, techs[current_event->from].loc == BRK);
+			// printf("tech %d busy at %.3f for %d when %d\n", current_event->from, current_event->occur_time, follow.id, techs[current_event->from].loc == BRK);
 			techs[current_event->from].setNextFinishTime(event_time);
 
 			if (isRedo) {
@@ -815,7 +815,7 @@ void System::prescLeave() {
 		} else {
 			techs[current_event->from].setIdle(current_event->occur_time);
 			techs[current_event->from].setNextFinishTime(0);
-			printf("tech %d idle at %.3f when %d\n", current_event->from, current_event->occur_time, techs[current_event->from].loc == BRK);
+			// printf("tech %d idle at %.3f when %d\n", current_event->from, current_event->occur_time, techs[current_event->from].loc == BRK);
 			accumulateBusyMinutes(techs[current_event->from].loc, techs[current_event->from].getCurrentBusyMinutes(), false);
 		}
 		curr = nullptr;
@@ -828,10 +828,10 @@ void System::prescLeave() {
 		pay_queue.pop();
 		presc.pay_start = current_event->occur_time;
 		presc.pay_end = current_event->occur_time + presc.pay_duration;
-		printf("No.%d: PAY %.3f - %.3f - %.3f in leave2\n", presc.id, presc.pay_start, presc.pay_end, presc.pay_duration);
+		// printf("No.%d: PAY %.3f - %.3f - %.3f in leave2\n", presc.id, presc.pay_start, presc.pay_end, presc.pay_duration);
 		techs[current_event->from].serve(presc);
 		// techs[current_event->from].setBusy(current_event->occur_time);
-		printf("tech %d busy at %.3f for %d when %d\n", current_event->from, current_event->occur_time, presc.id, techs[current_event->from].loc == BRK);
+		// printf("tech %d busy at %.3f for %d when %d\n", current_event->from, current_event->occur_time, presc.id, techs[current_event->from].loc == BRK);
 		techs[current_event->from].setNextFinishTime(presc.pay_end);
 
 		Event leave_event(presc.pay_end, 2, current_event->from);
@@ -839,7 +839,7 @@ void System::prescLeave() {
 	} else {
 		techs[current_event->from].setIdle(current_event->occur_time);
 		techs[current_event->from].setNextFinishTime(0);
-		printf("tech %d idle at %.3f when %d\n", current_event->from, current_event->occur_time, techs[current_event->from].loc == BRK);
+		// printf("tech %d idle at %.3f when %d\n", current_event->from, current_event->occur_time, techs[current_event->from].loc == BRK);
 		accumulateBusyMinutes(techs[current_event->from].loc, techs[current_event->from].getCurrentBusyMinutes(), false);
 	}
 	curr = nullptr;

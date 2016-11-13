@@ -1,0 +1,599 @@
+No. 0 presc type 1: 0.00(arrive) 0.73(reg) 9.92(pac) 12.86(che) 13.45(pay_end) Total: 11.39
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 3 presc type 1: 12.38(arrive) 12.89(reg) 15.46(pac) 16.38(che) 17.91(pay_end) Total: 3.54
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 2 presc type 1: 11.21(arrive) 11.94(reg) 14.96(pac) 17.28(che) 19.19(pay_end) Total: 4.91
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.63(pay wait)
+No. 1 presc type 2: 8.39(arrive) 11.82(reg) 16.79(pac) 22.07(che) 22.83(pay_end) Total: 11.04
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 7 presc type 2: 16.77(arrive) 20.19(reg) 23.60(pac) 24.82(che) 26.80(pay_end) Total: 7.44
+3.16(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 4 presc type 1: 13.62(arrive) 18.17(reg) 18.50(pac) 25.68(che) 29.32(pay_end) Total: 8.47
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 1.12(pay wait)
+No. 8 presc type 2: 23.09(arrive) 23.48(reg) 24.97(pac) 26.08(che) 35.88(pay_end) Total: 2.43
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 3.24(pay wait)
+No. 5 presc type 1: 14.82(arrive) 19.93(reg) 21.62(pac) 27.24(che) 36.50(pay_end) Total: 9.61
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 8.64(pay wait)
+No. 9 presc type 3: 24.29(arrive) 25.41(reg) 27.84(pac) 32.28(che) 39.21(pay_end) Total: 5.77
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 4.22(pay wait)
+No. 6 presc type 1: 16.29(arrive) 26.85(reg) 30.28(pac) 33.52(che) 46.00(pay_end) Total: 15.61
+1.87(reg wait) 0.00(pac wait) 0.00(che wait) 5.69(pay wait)
+No. 11 presc type 2: 30.61(arrive) 32.99(reg) 33.90(pac) 34.34(che) 46.67(pay_end) Total: 3.52
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 11.65(pay wait)
+No. 10 presc type 1: 26.56(arrive) 27.47(reg) 32.08(pac) 35.92(che) 47.27(pay_end) Total: 7.44
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 10.75(pay wait)
+No. 12 presc type 2: 34.88(arrive) 37.06(reg) 38.47(pac) 40.61(che) 50.24(pay_end) Total: 4.66
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 6.66(pay wait)
+No. 13 presc type 1: 37.72(arrive) 39.30(reg) 42.30(pac) 49.29(che) 52.41(pay_end) Total: 8.07
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.96(pay wait)
+No. 15 presc type 1: 45.32(arrive) 46.88(reg) 50.12(pac) 52.00(che) 53.37(pay_end) Total: 5.74
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.41(pay wait)
+No. 19 presc type 2: 51.41(arrive) 56.63(reg) 57.01(pac) 57.39(che) 58.09(pay_end) Total: 5.79
+4.35(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+7.214625 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
+No. 16 presc type 2: 47.23(arrive) 55.42(reg) 57.56(pac) 59.17(che) 65.12(pay_end) Total: 11.13
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 18 presc type 2: 49.18(arrive) 55.75(reg) 56.30(pac) 61.46(che) 71.65(pay_end) Total: 9.70
+6.24(reg wait) 0.00(pac wait) 0.00(che wait) 3.67(pay wait)
+No. 20 presc type 2: 53.88(arrive) 60.06(reg) 60.66(pac) 65.61(che) 79.62(pay_end) Total: 9.26
+1.92(reg wait) 0.00(pac wait) 0.00(che wait) 6.04(pay wait)
+No. 14 presc type 3: 45.03(arrive) 53.91(reg) 56.26(pac) 66.12(che) 84.50(pay_end) Total: 16.16
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 13.50(pay wait)
+No. 17 presc type 1: 47.96(arrive) 55.80(reg) 64.02(pac) 67.93(che) 86.04(pay_end) Total: 18.02
+5.94(reg wait) 0.00(pac wait) 0.00(che wait) 16.56(pay wait)
+No. 21 presc type 1: 56.17(arrive) 62.41(reg) 63.50(pac) 68.77(che) 86.97(pay_end) Total: 9.96
+0.46(reg wait) 0.00(pac wait) 0.00(che wait) 17.27(pay wait)
+No. 23 presc type 1: 60.35(arrive) 62.28(reg) 65.79(pac) 68.78(che) 87.54(pay_end) Total: 6.94
+0.96(reg wait) 0.00(pac wait) 0.00(che wait) 18.18(pay wait)
+No. 22 presc type 2: 56.45(arrive) 61.31(reg) 65.92(pac) 69.07(che) 90.29(pay_end) Total: 11.15
+3.62(reg wait) 0.00(pac wait) 0.20(che wait) 18.47(pay wait)
+No. 25 presc type 2: 66.94(arrive) 68.83(reg) 69.42(pac) 70.08(che) 91.11(pay_end) Total: 2.80
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 20.21(pay wait)
+No. 24 presc type 1: 66.54(arrive) 67.17(reg) 69.02(pac) 70.11(che) 92.39(pay_end) Total: 3.02
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 21.01(pay wait)
+No. 27 presc type 1: 70.31(arrive) 70.55(reg) 71.99(pac) 74.20(che) 92.90(pay_end) Total: 2.79
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 18.19(pay wait)
+No. 28 presc type 2: 70.66(arrive) 71.77(reg) 72.60(pac) 74.32(che) 93.09(pay_end) Total: 2.80
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 18.57(pay wait)
+No. 30 presc type 1: 72.32(arrive) 74.15(reg) 74.52(pac) 75.43(che) 93.65(pay_end) Total: 2.65
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 17.67(pay wait)
+No. 26 presc type 2: 69.18(arrive) 71.15(reg) 71.99(pac) 75.57(che) 94.14(pay_end) Total: 4.60
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 18.08(pay wait)
+No. 32 presc type 2: 74.18(arrive) 74.81(reg) 76.19(pac) 76.97(che) 95.80(pay_end) Total: 2.40
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 17.16(pay wait)
+No. 31 presc type 2: 73.13(arrive) 73.72(reg) 78.00(pac) 79.28(che) 96.83(pay_end) Total: 5.51
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 16.52(pay wait)
+No. 34 presc type 1: 77.36(arrive) 78.78(reg) 79.69(pac) 80.28(che) 97.47(pay_end) Total: 2.63
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 16.55(pay wait)
+No. 29 presc type 3: 71.98(arrive) 72.59(reg) 76.51(pac) 81.23(che) 98.54(pay_end) Total: 6.90
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 16.24(pay wait)
+No. 33 presc type 1: 77.02(arrive) 77.34(reg) 79.31(pac) 83.42(che) 101.19(pay_end) Total: 4.34
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 15.12(pay wait)
+No. 39 presc type 2: 84.84(arrive) 85.68(reg) 86.90(pac) 87.60(che) 101.43(pay_end) Total: 2.42
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 13.58(pay wait)
+No. 38 presc type 1: 83.36(arrive) 83.85(reg) 84.18(pac) 87.80(che) 102.28(pay_end) Total: 2.63
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 13.63(pay wait)
+No. 35 presc type 2: 79.87(arrive) 81.42(reg) 84.72(pac) 88.13(che) 103.20(pay_end) Total: 6.55
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 14.14(pay wait)
+No. 37 presc type 2: 83.10(arrive) 83.31(reg) 83.85(pac) 88.67(che) 105.64(pay_end) Total: 3.16
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 14.52(pay wait)
+No. 42 presc type 2: 87.79(arrive) 88.76(reg) 89.37(pac) 90.52(che) 106.31(pay_end) Total: 2.15
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 15.12(pay wait)
+No. 36 presc type 1: 81.42(arrive) 85.09(reg) 90.66(pac) 91.05(che) 108.01(pay_end) Total: 9.43
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 15.26(pay wait)
+No. 40 presc type 2: 85.31(arrive) 87.48(reg) 88.07(pac) 92.12(che) 108.90(pay_end) Total: 4.78
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 15.89(pay wait)
+No. 43 presc type 1: 88.49(arrive) 90.10(reg) 91.76(pac) 93.69(che) 109.24(pay_end) Total: 4.23
+0.27(reg wait) 0.00(pac wait) 0.00(che wait) 15.21(pay wait)
+No. 41 presc type 2: 85.67(arrive) 89.39(reg) 92.57(pac) 94.58(che) 109.76(pay_end) Total: 7.90
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 14.66(pay wait)
+No. 47 presc type 2: 95.05(arrive) 98.29(reg) 98.59(pac) 100.80(che) 110.08(pay_end) Total: 4.64
+2.74(reg wait) 0.00(pac wait) 0.00(che wait) 8.96(pay wait)
+No. 48 presc type 2: 96.85(arrive) 99.67(reg) 100.08(pac) 101.23(che) 110.38(pay_end) Total: 3.81
+1.44(reg wait) 0.00(pac wait) 0.00(che wait) 8.85(pay wait)
+No. 44 presc type 2: 93.10(arrive) 96.44(reg) 97.18(pac) 101.70(che) 110.55(pay_end) Total: 6.34
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 8.68(pay wait)
+No. 49 presc type 1: 97.95(arrive) 101.08(reg) 101.69(pac) 104.04(che) 111.36(pay_end) Total: 4.92
+1.72(reg wait) 0.00(pac wait) 0.00(che wait) 6.51(pay wait)
+No. 45 presc type 2: 93.82(arrive) 97.79(reg) 100.14(pac) 105.37(che) 111.73(pay_end) Total: 8.94
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 5.99(pay wait)
+No. 46 presc type 3: 94.40(arrive) 100.11(reg) 102.30(pac) 106.59(che) 111.89(pay_end) Total: 10.05
+2.04(reg wait) 0.00(pac wait) 0.00(che wait) 5.13(pay wait)
+No. 50 presc type 3: 99.66(arrive) 101.60(reg) 102.28(pac) 108.17(che) 112.61(pay_end) Total: 5.57
+0.45(reg wait) 0.00(pac wait) 0.00(che wait) 3.71(pay wait)
+No. 51 presc type 1: 105.12(arrive) 108.42(reg) 110.40(pac) 111.95(che) 113.75(pay_end) Total: 6.06
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.66(pay wait)
+No. 53 presc type 2: 106.86(arrive) 109.15(reg) 109.70(pac) 112.43(che) 115.77(pay_end) Total: 4.20
+1.54(reg wait) 0.00(pac wait) 0.00(che wait) 1.31(pay wait)
+No. 54 presc type 1: 107.13(arrive) 108.69(reg) 108.99(pac) 114.09(che) 116.05(pay_end) Total: 4.41
+1.29(reg wait) 0.00(pac wait) 0.00(che wait) 1.68(pay wait)
+No. 58 presc type 2: 110.36(arrive) 112.06(reg) 113.29(pac) 114.18(che) 117.00(pay_end) Total: 3.37
+1.29(reg wait) 0.00(pac wait) 0.00(che wait) 1.87(pay wait)
+No. 59 presc type 1: 110.85(arrive) 112.84(reg) 113.79(pac) 114.55(che) 117.52(pay_end) Total: 3.47
+1.21(reg wait) 0.00(pac wait) 0.31(che wait) 2.45(pay wait)
+No. 52 presc type 2: 105.60(arrive) 108.40(reg) 109.68(pac) 114.95(che) 117.77(pay_end) Total: 6.72
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 2.57(pay wait)
+No. 57 presc type 1: 109.95(arrive) 111.66(reg) 112.14(pac) 115.42(che) 119.08(pay_end) Total: 3.83
+0.99(reg wait) 0.00(pac wait) 0.00(che wait) 2.35(pay wait)
+7.214625 6.008187 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
+No. 55 presc type 2: 109.14(arrive) 110.94(reg) 114.26(pac) 116.76(che) 120.02(pay_end) Total: 6.37
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 2.32(pay wait)
+No. 61 presc type 1: 112.51(arrive) 113.06(reg) 115.76(pac) 117.11(che) 120.70(pay_end) Total: 3.92
+0.33(reg wait) 0.23(pac wait) 0.00(che wait) 2.91(pay wait)
+No. 60 presc type 2: 112.27(arrive) 115.18(reg) 118.14(pac) 118.60(che) 122.32(pay_end) Total: 6.11
+0.27(reg wait) 0.00(pac wait) 0.00(che wait) 2.10(pay wait)
+No. 56 presc type 2: 109.43(arrive) 112.54(reg) 114.33(pac) 119.10(che) 122.35(pay_end) Total: 7.39
+0.00(reg wait) 0.00(pac wait) 0.22(che wait) 3.11(pay wait)
+No. 62 presc type 1: 114.93(arrive) 115.95(reg) 116.64(pac) 119.45(che) 122.48(pay_end) Total: 3.12
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 2.87(pay wait)
+No. 63 presc type 1: 115.53(arrive) 120.10(reg) 122.00(pac) 122.21(che) 122.59(pay_end) Total: 6.58
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.14(pay wait)
+No. 64 presc type 2: 120.51(arrive) 121.87(reg) 122.79(pac) 123.23(che) 123.43(pay_end) Total: 2.50
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 65 presc type 3: 122.95(arrive) 123.92(reg) 125.10(pac) 127.04(che) 127.41(pay_end) Total: 3.12
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 67 presc type 1: 125.27(arrive) 125.49(reg) 126.00(pac) 128.48(che) 128.69(pay_end) Total: 1.97
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 66 presc type 2: 123.29(arrive) 126.33(reg) 129.30(pac) 133.31(che) 135.38(pay_end) Total: 8.01
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 69 presc type 2: 128.44(arrive) 128.61(reg) 129.43(pac) 131.73(che) 136.67(pay_end) Total: 2.14
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 70 presc type 2: 129.32(arrive) 131.74(reg) 132.92(pac) 133.35(che) 137.45(pay_end) Total: 3.82
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 2.02(pay wait)
+No. 72 presc type 2: 131.40(arrive) 132.34(reg) 135.09(pac) 135.76(che) 137.83(pay_end) Total: 4.02
+0.15(reg wait) 0.00(pac wait) 0.00(che wait) 1.69(pay wait)
+No. 68 presc type 2: 126.03(arrive) 127.13(reg) 131.25(pac) 136.81(che) 140.14(pay_end) Total: 8.00
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 1.02(pay wait)
+No. 71 presc type 1: 131.14(arrive) 131.55(reg) 133.88(pac) 135.14(che) 141.40(pay_end) Total: 3.37
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 1.54(pay wait)
+No. 75 presc type 2: 144.50(arrive) 145.62(reg) 146.20(pac) 146.81(che) 148.14(pay_end) Total: 2.01
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 73 presc type 2: 141.59(arrive) 142.58(reg) 143.69(pac) 148.73(che) 149.93(pay_end) Total: 4.62
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 74 presc type 2: 144.08(arrive) 144.78(reg) 146.20(pac) 151.58(che) 151.89(pay_end) Total: 4.81
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 76 presc type 1: 147.81(arrive) 148.30(reg) 149.99(pac) 153.19(che) 154.28(pay_end) Total: 3.79
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 77 presc type 3: 148.08(arrive) 148.56(reg) 149.29(pac) 154.20(che) 154.65(pay_end) Total: 3.67
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 78 presc type 2: 148.97(arrive) 149.17(reg) 152.21(pac) 155.41(che) 155.97(pay_end) Total: 4.84
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 81 presc type 2: 151.66(arrive) 151.92(reg) 153.91(pac) 154.25(che) 156.96(pay_end) Total: 2.42
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.03(pay wait)
+No. 80 presc type 2: 151.14(arrive) 152.53(reg) 154.61(pac) 159.80(che) 159.97(pay_end) Total: 6.07
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 79 presc type 2: 150.77(arrive) 151.38(reg) 153.97(pac) 157.35(che) 160.79(pay_end) Total: 5.00
+0.00(reg wait) 0.00(pac wait) 0.23(che wait) 0.00(pay wait)
+No. 86 presc type 1: 158.97(arrive) 159.97(reg) 160.19(pac) 162.03(che) 162.54(pay_end) Total: 2.81
+0.00(reg wait) 0.00(pac wait) 1.34(che wait) 0.00(pay wait)
+No. 87 presc type 2: 159.42(arrive) 160.58(reg) 162.01(pac) 162.50(che) 163.25(pay_end) Total: 2.85
+0.00(reg wait) 0.00(pac wait) 0.02(che wait) 0.04(pay wait)
+No. 83 presc type 1: 155.22(arrive) 155.77(reg) 159.81(pac) 161.53(che) 163.95(pay_end) Total: 5.45
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 89 presc type 1: 160.43(arrive) 162.08(reg) 162.87(pac) 163.69(che) 164.27(pay_end) Total: 2.85
+0.15(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 82 presc type 1: 152.15(arrive) 157.24(reg) 159.99(pac) 164.64(che) 165.12(pay_end) Total: 10.17
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 84 presc type 2: 156.36(arrive) 158.43(reg) 159.45(pac) 165.01(che) 165.56(pay_end) Total: 5.86
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 88 presc type 1: 159.82(arrive) 163.25(reg) 164.06(pac) 166.22(che) 167.73(pay_end) Total: 5.61
+0.15(reg wait) 0.52(pac wait) 0.58(che wait) 0.00(pay wait)
+No. 91 presc type 1: 162.44(arrive) 162.90(reg) 163.77(pac) 167.58(che) 168.45(pay_end) Total: 3.24
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 93 presc type 2: 164.04(arrive) 164.39(reg) 166.03(pac) 168.54(che) 168.71(pay_end) Total: 4.04
+0.00(reg wait) 0.00(pac wait) 1.59(che wait) 0.00(pay wait)
+No. 85 presc type 2: 157.55(arrive) 158.64(reg) 164.38(pac) 168.63(che) 169.56(pay_end) Total: 9.26
+0.00(reg wait) 0.81(pac wait) 0.63(che wait) 0.08(pay wait)
+No. 90 presc type 2: 161.77(arrive) 162.37(reg) 164.52(pac) 167.62(che) 169.91(pay_end) Total: 5.15
+0.31(reg wait) 0.00(pac wait) 1.70(che wait) 0.11(pay wait)
+No. 92 presc type 2: 163.54(arrive) 164.26(reg) 165.51(pac) 170.18(che) 170.52(pay_end) Total: 5.33
+0.00(reg wait) 0.00(pac wait) 2.07(che wait) 0.00(pay wait)
+No. 96 presc type 2: 167.99(arrive) 169.72(reg) 169.90(pac) 172.58(che) 173.25(pay_end) Total: 3.39
+0.00(reg wait) 0.00(pac wait) 0.27(che wait) 0.00(pay wait)
+No. 94 presc type 1: 164.50(arrive) 168.80(reg) 169.35(pac) 173.24(che) 173.93(pay_end) Total: 6.80
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 95 presc type 2: 166.60(arrive) 167.22(reg) 167.97(pac) 173.90(che) 175.85(pay_end) Total: 4.62
+0.00(reg wait) 0.00(pac wait) 0.57(che wait) 0.00(pay wait)
+No. 97 presc type 2: 169.41(arrive) 169.72(reg) 172.04(pac) 174.77(che) 176.34(pay_end) Total: 4.60
+0.00(reg wait) 0.00(pac wait) 1.20(che wait) 1.08(pay wait)
+No. 101 presc type 2: 172.98(arrive) 173.16(reg) 175.15(pac) 176.57(che) 176.86(pay_end) Total: 2.88
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 98 presc type 2: 169.72(arrive) 170.12(reg) 171.90(pac) 174.53(che) 179.15(pay_end) Total: 3.84
+0.00(reg wait) 0.00(pac wait) 0.68(che wait) 0.00(pay wait)
+No. 102 presc type 1: 173.80(arrive) 174.83(reg) 176.07(pac) 178.68(che) 179.73(pay_end) Total: 3.83
+0.00(reg wait) 0.33(pac wait) 0.50(che wait) 0.47(pay wait)
+7.214625 6.008187 4.656231 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
+No. 99 presc type 1: 170.84(arrive) 171.86(reg) 175.24(pac) 180.31(che) 182.08(pay_end) Total: 6.94
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 100 presc type 1: 171.15(arrive) 173.79(reg) 175.80(pac) 176.69(che) 182.09(pay_end) Total: 5.10
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.18(pay wait)
+No. 104 presc type 3: 174.91(arrive) 175.26(reg) 176.64(pac) 181.87(che) 182.41(pay_end) Total: 4.37
+0.00(reg wait) 0.00(pac wait) 0.05(che wait) 0.21(pay wait)
+No. 106 presc type 2: 176.39(arrive) 177.37(reg) 178.94(pac) 183.35(che) 186.51(pay_end) Total: 6.21
+0.00(reg wait) 0.00(pac wait) 2.92(che wait) 0.00(pay wait)
+No. 103 presc type 2: 174.54(arrive) 176.11(reg) 176.78(pac) 183.15(che) 186.67(pay_end) Total: 6.37
+0.00(reg wait) 0.00(pac wait) 1.90(che wait) 0.00(pay wait)
+No. 107 presc type 3: 178.18(arrive) 178.65(reg) 179.36(pac) 184.45(che) 187.12(pay_end) Total: 5.36
+0.00(reg wait) 0.00(pac wait) 3.27(che wait) 2.22(pay wait)
+No. 105 presc type 3: 175.53(arrive) 177.25(reg) 178.01(pac) 186.39(che) 188.20(pay_end) Total: 7.82
+0.00(reg wait) 0.00(pac wait) 2.31(che wait) 0.73(pay wait)
+No. 110 presc type 1: 183.17(arrive) 183.79(reg) 184.42(pac) 191.60(che) 194.57(pay_end) Total: 4.84
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 108 presc type 2: 180.04(arrive) 182.10(reg) 182.63(pac) 183.98(che) 194.98(pay_end) Total: 3.52
+0.00(reg wait) 0.00(pac wait) 0.52(che wait) 2.53(pay wait)
+No. 113 presc type 1: 186.96(arrive) 189.79(reg) 190.52(pac) 192.51(che) 200.27(pay_end) Total: 5.09
+1.66(reg wait) 0.00(pac wait) 1.07(che wait) 2.46(pay wait)
+No. 112 presc type 2: 186.35(arrive) 189.23(reg) 189.72(pac) 192.74(che) 200.90(pay_end) Total: 4.88
+0.21(reg wait) 0.00(pac wait) 0.00(che wait) 7.54(pay wait)
+No. 109 presc type 1: 181.83(arrive) 188.62(reg) 189.04(pac) 192.27(che) 201.38(pay_end) Total: 8.82
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 2.30(pay wait)
+No. 111 presc type 1: 183.58(arrive) 186.56(reg) 187.90(pac) 195.53(che) 202.59(pay_end) Total: 8.13
+0.21(reg wait) 0.00(pac wait) 0.00(che wait) 5.37(pay wait)
+No. 114 presc type 2: 191.80(arrive) 192.46(reg) 193.33(pac) 198.19(che) 205.52(pay_end) Total: 3.96
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 3.19(pay wait)
+No. 116 presc type 2: 195.96(arrive) 201.30(reg) 203.69(pac) 208.58(che) 208.84(pay_end) Total: 10.18
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 115 presc type 2: 195.24(arrive) 202.34(reg) 204.20(pac) 207.77(che) 209.41(pay_end) Total: 10.74
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 118 presc type 2: 198.34(arrive) 204.93(reg) 208.15(pac) 210.18(che) 210.99(pay_end) Total: 10.82
+4.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 120 presc type 2: 203.90(arrive) 207.38(reg) 208.04(pac) 212.03(che) 214.06(pay_end) Total: 6.13
+2.47(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 119 presc type 2: 199.15(arrive) 206.37(reg) 207.04(pac) 214.01(che) 215.95(pay_end) Total: 11.37
+5.77(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 121 presc type 1: 206.28(arrive) 208.08(reg) 209.19(pac) 215.69(che) 217.27(pay_end) Total: 6.17
+0.19(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 124 presc type 1: 211.52(arrive) 214.90(reg) 215.79(pac) 219.18(che) 220.26(pay_end) Total: 5.96
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 122 presc type 2: 209.94(arrive) 216.57(reg) 217.97(pac) 219.24(che) 220.93(pay_end) Total: 8.66
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 1.02(pay wait)
+No. 123 presc type 2: 210.52(arrive) 211.24(reg) 211.58(pac) 218.29(che) 224.15(pay_end) Total: 4.41
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 125 presc type 1: 212.24(arrive) 216.57(reg) 223.16(pac) 224.52(che) 226.14(pay_end) Total: 11.59
+2.65(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 128 presc type 2: 216.19(arrive) 219.42(reg) 224.08(pac) 226.05(che) 226.59(pay_end) Total: 8.87
+1.51(reg wait) 0.00(pac wait) 0.00(che wait) 0.09(pay wait)
+No. 117 presc type 3: 198.09(arrive) 206.47(reg) 215.19(pac) 222.71(che) 228.82(pay_end) Total: 20.86
+3.22(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 129 presc type 2: 217.92(arrive) 219.91(reg) 224.51(pac) 228.57(che) 231.30(pay_end) Total: 8.61
+1.50(reg wait) 3.25(pac wait) 0.00(che wait) 0.25(pay wait)
+No. 130 presc type 1: 221.16(arrive) 226.13(reg) 227.55(pac) 228.54(che) 232.20(pay_end) Total: 6.89
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 126 presc type 1: 214.24(arrive) 217.70(reg) 226.06(pac) 230.33(che) 233.84(pay_end) Total: 13.95
+2.32(reg wait) 0.00(pac wait) 0.00(che wait) 0.97(pay wait)
+No. 132 presc type 1: 226.50(arrive) 227.01(reg) 231.69(pac) 232.08(che) 233.86(pay_end) Total: 5.39
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.12(pay wait)
+No. 127 presc type 1: 215.66(arrive) 220.99(reg) 231.53(pac) 233.79(che) 234.87(pay_end) Total: 17.00
+0.91(reg wait) 3.09(pac wait) 0.00(che wait) 0.04(pay wait)
+No. 133 presc type 1: 227.99(arrive) 232.17(reg) 233.56(pac) 235.52(che) 235.83(pay_end) Total: 6.55
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 131 presc type 3: 224.77(arrive) 227.26(reg) 229.81(pac) 236.23(che) 236.81(pay_end) Total: 8.25
+0.00(reg wait) 0.29(pac wait) 0.00(che wait) 0.00(pay wait)
+7.214625 6.008187 4.656231 7.995216 0.000000 0.000000 0.000000 0.000000 0.000000 
+No. 134 presc type 2: 229.06(arrive) 231.40(reg) 236.05(pac) 240.49(che) 243.99(pay_end) Total: 9.21
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 136 presc type 1: 234.90(arrive) 236.04(reg) 241.70(pac) 245.73(che) 246.35(pay_end) Total: 8.81
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 135 presc type 2: 230.91(arrive) 239.15(reg) 242.46(pac) 246.34(che) 247.43(pay_end) Total: 13.49
+0.49(reg wait) 0.00(pac wait) 0.00(che wait) 0.01(pay wait)
+No. 137 presc type 3: 239.03(arrive) 243.09(reg) 244.69(pac) 248.50(che) 251.40(pay_end) Total: 8.09
+0.00(reg wait) 0.00(pac wait) 1.04(che wait) 0.00(pay wait)
+No. 139 presc type 2: 240.22(arrive) 245.60(reg) 246.33(pac) 250.28(che) 252.22(pay_end) Total: 8.09
+2.87(reg wait) 0.00(pac wait) 0.01(che wait) 1.12(pay wait)
+No. 140 presc type 2: 243.08(arrive) 246.33(reg) 247.88(pac) 253.65(che) 253.92(pay_end) Total: 7.99
+2.51(reg wait) 0.00(pac wait) 0.62(che wait) 0.00(pay wait)
+No. 141 presc type 2: 244.58(arrive) 247.07(reg) 250.76(pac) 256.24(che) 261.65(pay_end) Total: 10.36
+1.75(reg wait) 0.00(pac wait) 2.89(che wait) 0.00(pay wait)
+No. 142 presc type 2: 245.61(arrive) 247.79(reg) 250.12(pac) 257.31(che) 261.99(pay_end) Total: 8.18
+1.46(reg wait) 0.10(pac wait) 0.15(che wait) 4.34(pay wait)
+No. 144 presc type 1: 247.20(arrive) 248.46(reg) 253.82(pac) 257.95(che) 262.96(pay_end) Total: 10.43
+0.90(reg wait) 3.00(pac wait) 3.49(che wait) 4.04(pay wait)
+No. 143 presc type 2: 246.49(arrive) 248.36(reg) 251.46(pac) 259.46(che) 264.14(pay_end) Total: 11.36
+1.30(reg wait) 2.40(pac wait) 4.79(che wait) 3.50(pay wait)
+No. 145 presc type 2: 249.93(arrive) 254.80(reg) 256.66(pac) 264.16(che) 268.06(pay_end) Total: 11.88
+0.00(reg wait) 0.89(pac wait) 2.80(che wait) 0.00(pay wait)
+No. 138 presc type 2: 239.88(arrive) 248.10(reg) 255.69(pac) 266.82(che) 270.64(pay_end) Total: 22.51
+0.00(reg wait) 2.02(pac wait) 2.26(che wait) 1.24(pay wait)
+No. 147 presc type 2: 255.82(arrive) 256.81(reg) 257.39(pac) 271.48(che) 272.06(pay_end) Total: 12.00
+0.00(reg wait) 0.00(pac wait) 6.77(che wait) 0.00(pay wait)
+No. 148 presc type 2: 263.71(arrive) 264.62(reg) 264.95(pac) 273.11(che) 279.28(pay_end) Total: 8.58
+0.00(reg wait) 0.00(pac wait) 6.53(che wait) 0.00(pay wait)
+No. 146 presc type 1: 253.18(arrive) 253.59(reg) 263.26(pac) 273.52(che) 280.21(pay_end) Total: 16.99
+0.00(reg wait) 0.23(pac wait) 3.56(che wait) 5.76(pay wait)
+No. 149 presc type 1: 264.57(arrive) 265.65(reg) 270.15(pac) 273.77(che) 282.56(pay_end) Total: 8.86
+0.00(reg wait) 0.00(pac wait) 2.96(che wait) 6.44(pay wait)
+No. 150 presc type 1: 270.88(arrive) 272.61(reg) 274.07(pac) 279.53(che) 284.50(pay_end) Total: 5.92
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 3.02(pay wait)
+No. 153 presc type 2: 275.17(arrive) 277.07(reg) 279.93(pac) 281.06(che) 287.38(pay_end) Total: 5.32
+0.00(reg wait) 1.46(pac wait) 0.00(che wait) 3.44(pay wait)
+No. 151 presc type 1: 272.49(arrive) 274.31(reg) 281.11(pac) 282.98(che) 290.34(pay_end) Total: 9.56
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 4.41(pay wait)
+No. 152 presc type 1: 273.33(arrive) 274.77(reg) 278.53(pac) 283.48(che) 291.89(pay_end) Total: 7.68
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 6.85(pay wait)
+No. 154 presc type 1: 275.45(arrive) 277.56(reg) 282.20(pac) 284.06(che) 296.22(pay_end) Total: 8.07
+0.00(reg wait) 2.37(pac wait) 0.77(che wait) 7.83(pay wait)
+No. 155 presc type 2: 277.63(arrive) 277.94(reg) 285.03(pac) 293.38(che) 296.77(pay_end) Total: 11.58
+0.00(reg wait) 3.17(pac wait) 0.00(che wait) 2.84(pay wait)
+7.214625 6.008187 4.656231 7.995216 10.225421 0.000000 0.000000 0.000000 0.000000 
+No. 157 presc type 2: 282.99(arrive) 285.07(reg) 293.32(pac) 294.87(che) 301.19(pay_end) Total: 11.13
+0.00(reg wait) 0.00(pac wait) 0.06(che wait) 1.91(pay wait)
+No. 156 presc type 2: 280.99(arrive) 285.38(reg) 292.19(pac) 298.11(che) 304.52(pay_end) Total: 14.16
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 3.08(pay wait)
+No. 159 presc type 1: 283.71(arrive) 288.58(reg) 298.62(pac) 299.78(che) 305.39(pay_end) Total: 15.49
+1.67(reg wait) 4.74(pac wait) 0.00(che wait) 4.75(pay wait)
+No. 158 presc type 1: 283.37(arrive) 285.81(reg) 299.43(pac) 300.49(che) 306.07(pay_end) Total: 16.76
+1.70(reg wait) 6.38(pac wait) 0.34(che wait) 4.90(pay wait)
+No. 161 presc type 1: 288.96(arrive) 291.82(reg) 299.57(pac) 302.87(che) 307.05(pay_end) Total: 12.72
+0.00(reg wait) 7.19(pac wait) 0.93(che wait) 3.20(pay wait)
+No. 164 presc type 1: 298.27(arrive) 299.21(reg) 300.63(pac) 303.64(che) 308.18(pay_end) Total: 4.99
+0.00(reg wait) 0.35(pac wait) 2.24(che wait) 3.41(pay wait)
+No. 165 presc type 2: 298.82(arrive) 300.09(reg) 301.56(pac) 304.34(che) 309.60(pay_end) Total: 5.18
+0.40(reg wait) 0.54(pac wait) 2.08(che wait) 3.84(pay wait)
+No. 160 presc type 1: 284.23(arrive) 289.32(reg) 299.01(pac) 308.38(che) 311.67(pay_end) Total: 19.47
+1.58(reg wait) 9.30(pac wait) 0.00(che wait) 1.22(pay wait)
+No. 163 presc type 1: 295.48(arrive) 301.15(reg) 309.11(pac) 310.98(che) 316.68(pay_end) Total: 14.56
+0.00(reg wait) 0.42(pac wait) 0.00(che wait) 0.69(pay wait)
+No. 162 presc type 1: 293.51(arrive) 293.78(reg) 303.15(pac) 312.74(che) 318.63(pay_end) Total: 15.03
+0.00(reg wait) 5.65(pac wait) 1.19(che wait) 3.94(pay wait)
+No. 167 presc type 2: 304.02(arrive) 304.28(reg) 310.69(pac) 313.13(che) 318.98(pay_end) Total: 8.03
+0.00(reg wait) 4.83(pac wait) 0.29(che wait) 5.50(pay wait)
+No. 166 presc type 1: 302.50(arrive) 303.99(reg) 311.09(pac) 315.41(che) 324.05(pay_end) Total: 11.58
+0.00(reg wait) 0.00(pac wait) 1.65(che wait) 3.56(pay wait)
+No. 169 presc type 2: 305.81(arrive) 307.40(reg) 311.58(pac) 317.08(che) 331.11(pay_end) Total: 9.29
+0.00(reg wait) 3.69(pac wait) 1.54(che wait) 6.96(pay wait)
+No. 170 presc type 2: 310.56(arrive) 311.80(reg) 313.45(pac) 317.22(che) 331.98(pay_end) Total: 5.75
+0.00(reg wait) 0.00(pac wait) 1.97(che wait) 13.89(pay wait)
+No. 168 presc type 1: 304.52(arrive) 305.10(reg) 315.68(pac) 323.10(che) 332.76(pay_end) Total: 15.57
+0.00(reg wait) 5.59(pac wait) 1.41(che wait) 8.89(pay wait)
+No. 171 presc type 1: 312.05(arrive) 314.28(reg) 319.11(pac) 328.06(che) 333.75(pay_end) Total: 11.53
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 4.70(pay wait)
+No. 172 presc type 2: 314.79(arrive) 315.75(reg) 322.62(pac) 329.61(che) 334.42(pay_end) Total: 14.05
+0.00(reg wait) 0.00(pac wait) 5.44(che wait) 4.14(pay wait)
+No. 174 presc type 1: 316.59(arrive) 317.00(reg) 321.70(pac) 330.37(che) 335.99(pay_end) Total: 10.15
+0.00(reg wait) 2.11(pac wait) 1.40(che wait) 4.05(pay wait)
+No. 176 presc type 2: 320.80(arrive) 321.87(reg) 325.09(pac) 333.64(che) 344.97(pay_end) Total: 11.21
+0.00(reg wait) 1.82(pac wait) 5.29(che wait) 2.34(pay wait)
+No. 173 presc type 3: 316.19(arrive) 317.10(reg) 326.96(pac) 336.72(che) 354.63(pay_end) Total: 18.99
+0.00(reg wait) 4.60(pac wait) 6.68(che wait) 8.25(pay wait)
+No. 175 presc type 2: 320.22(arrive) 321.51(reg) 323.70(pac) 337.61(che) 356.60(pay_end) Total: 13.39
+0.00(reg wait) 1.11(pac wait) 5.92(che wait) 17.02(pay wait)
+No. 177 presc type 1: 321.85(arrive) 327.85(reg) 329.28(pac) 338.58(che) 359.18(pay_end) Total: 16.25
+0.00(reg wait) 0.00(pac wait) 8.33(che wait) 18.02(pay wait)
+No. 181 presc type 1: 328.71(arrive) 331.49(reg) 331.98(pac) 340.40(che) 359.76(pay_end) Total: 10.78
+0.14(reg wait) 0.00(pac wait) 6.60(che wait) 18.78(pay wait)
+7.214625 6.008187 4.656231 7.995216 10.225421 12.438005 0.000000 0.000000 0.000000 
+No. 179 presc type 1: 325.47(arrive) 328.85(reg) 333.08(pac) 341.73(che) 360.35(pay_end) Total: 15.59
+1.13(reg wait) 0.00(pac wait) 7.32(che wait) 18.03(pay wait)
+No. 178 presc type 2: 324.00(arrive) 326.60(reg) 328.02(pac) 343.95(che) 360.66(pay_end) Total: 16.34
+0.00(reg wait) 0.00(pac wait) 8.70(che wait) 16.40(pay wait)
+No. 180 presc type 3: 327.01(arrive) 333.10(reg) 333.73(pac) 347.63(che) 360.94(pay_end) Total: 17.67
+0.83(reg wait) 0.00(pac wait) 8.00(che wait) 13.03(pay wait)
+No. 186 presc type 2: 342.68(arrive) 343.14(reg) 345.36(pac) 351.32(che) 361.82(pay_end) Total: 7.72
+0.00(reg wait) 0.02(pac wait) 4.12(che wait) 9.72(pay wait)
+No. 183 presc type 2: 330.18(arrive) 333.58(reg) 343.16(pac) 349.48(che) 361.97(pay_end) Total: 18.38
+2.92(reg wait) 0.00(pac wait) 4.47(che wait) 11.46(pay wait)
+No. 182 presc type 2: 329.85(arrive) 336.28(reg) 346.53(pac) 353.11(che) 362.26(pay_end) Total: 22.37
+1.64(reg wait) 1.58(pac wait) 4.79(che wait) 8.85(pay wait)
+No. 184 presc type 2: 331.11(arrive) 335.25(reg) 337.86(pac) 352.21(che) 362.31(pay_end) Total: 16.97
+2.47(reg wait) 0.00(pac wait) 6.09(che wait) 9.61(pay wait)
+No. 188 presc type 2: 347.48(arrive) 349.45(reg) 355.50(pac) 357.98(che) 362.58(pay_end) Total: 9.26
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 4.34(pay wait)
+No. 190 presc type 2: 355.66(arrive) 356.98(reg) 358.48(pac) 359.58(che) 363.60(pay_end) Total: 3.37
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 3.00(pay wait)
+No. 191 presc type 1: 357.70(arrive) 358.16(reg) 360.63(pac) 361.04(che) 364.43(pay_end) Total: 3.13
+0.00(reg wait) 0.32(pac wait) 0.00(che wait) 2.56(pay wait)
+No. 185 presc type 2: 342.27(arrive) 345.53(reg) 348.54(pac) 362.28(che) 365.70(pay_end) Total: 15.43
+0.00(reg wait) 0.00(pac wait) 4.58(che wait) 2.15(pay wait)
+No. 189 presc type 1: 349.04(arrive) 350.32(reg) 358.78(pac) 367.58(che) 368.67(pay_end) Total: 14.54
+0.00(reg wait) 0.00(pac wait) 0.80(che wait) 0.00(pay wait)
+No. 192 presc type 2: 363.70(arrive) 366.84(reg) 367.43(pac) 368.69(che) 368.86(pay_end) Total: 4.36
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 187 presc type 2: 346.79(arrive) 347.12(reg) 347.49(pac) 353.44(che) 370.51(pay_end) Total: 6.03
+0.00(reg wait) 0.00(pac wait) 4.72(che wait) 8.82(pay wait)
+No. 193 presc type 1: 364.00(arrive) 364.34(reg) 366.74(pac) 369.35(che) 372.35(pay_end) Total: 4.05
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 196 presc type 1: 367.08(arrive) 367.56(reg) 368.84(pac) 370.33(che) 372.40(pay_end) Total: 2.50
+0.15(reg wait) 0.00(pac wait) 0.00(che wait) 0.18(pay wait)
+No. 195 presc type 1: 366.57(arrive) 367.24(reg) 372.21(pac) 372.58(che) 373.69(pay_end) Total: 5.82
+0.27(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 194 presc type 1: 364.86(arrive) 368.47(reg) 371.47(pac) 376.04(che) 376.96(pay_end) Total: 8.89
+0.00(reg wait) 0.37(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 197 presc type 1: 367.65(arrive) 368.68(reg) 375.28(pac) 375.99(che) 377.22(pay_end) Total: 7.99
+0.00(reg wait) 2.79(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 198 presc type 2: 372.49(arrive) 373.67(reg) 374.84(pac) 377.83(che) 378.29(pay_end) Total: 3.84
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 199 presc type 2: 372.85(arrive) 373.76(reg) 379.88(pac) 383.33(che) 385.85(pay_end) Total: 8.75
+0.00(reg wait) 1.08(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 201 presc type 2: 374.79(arrive) 375.40(reg) 381.95(pac) 384.81(che) 386.12(pay_end) Total: 8.59
+0.00(reg wait) 1.37(pac wait) 0.00(che wait) 1.05(pay wait)
+No. 200 presc type 2: 373.31(arrive) 375.30(reg) 376.77(pac) 381.88(che) 387.32(pay_end) Total: 6.02
+0.36(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 204 presc type 1: 378.27(arrive) 378.51(reg) 385.27(pac) 385.82(che) 388.25(pay_end) Total: 7.28
+0.00(reg wait) 3.44(pac wait) 0.00(che wait) 0.30(pay wait)
+No. 205 presc type 2: 379.26(arrive) 379.79(reg) 383.35(pac) 385.93(che) 388.38(pay_end) Total: 5.39
+0.00(reg wait) 3.39(pac wait) 0.00(che wait) 1.39(pay wait)
+No. 202 presc type 1: 377.24(arrive) 377.80(reg) 383.17(pac) 386.42(che) 389.26(pay_end) Total: 7.56
+0.00(reg wait) 2.07(pac wait) 0.00(che wait) 1.96(pay wait)
+No. 206 presc type 2: 381.50(arrive) 382.33(reg) 385.90(pac) 386.12(che) 390.66(pay_end) Total: 4.51
+0.00(reg wait) 2.93(pac wait) 0.00(che wait) 2.14(pay wait)
+No. 203 presc type 3: 377.60(arrive) 380.22(reg) 385.98(pac) 388.41(che) 390.90(pay_end) Total: 9.60
+0.00(reg wait) 3.13(pac wait) 0.00(che wait) 0.84(pay wait)
+No. 209 presc type 1: 386.68(arrive) 387.18(reg) 387.77(pac) 389.02(che) 392.12(pay_end) Total: 1.72
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 1.64(pay wait)
+No. 210 presc type 2: 387.90(arrive) 388.43(reg) 389.37(pac) 392.23(che) 392.60(pay_end) Total: 2.90
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 208 presc type 1: 385.23(arrive) 385.50(reg) 386.96(pac) 390.94(che) 394.55(pay_end) Total: 3.71
+0.00(reg wait) 0.40(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 207 presc type 1: 383.18(arrive) 387.19(reg) 391.30(pac) 394.35(che) 395.54(pay_end) Total: 9.65
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 211 presc type 1: 390.24(arrive) 390.59(reg) 391.22(pac) 396.49(che) 396.92(pay_end) Total: 3.61
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 212 presc type 2: 391.05(arrive) 391.41(reg) 395.47(pac) 400.89(che) 401.65(pay_end) Total: 7.13
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 213 presc type 2: 394.11(arrive) 397.85(reg) 400.63(pac) 404.50(che) 404.81(pay_end) Total: 8.45
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 215 presc type 1: 395.17(arrive) 400.38(reg) 403.46(pac) 404.61(che) 406.07(pay_end) Total: 8.86
+2.68(reg wait) 1.21(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 216 presc type 1: 395.81(arrive) 399.18(reg) 404.91(pac) 406.15(che) 406.65(pay_end) Total: 9.72
+3.01(reg wait) 1.45(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 214 presc type 1: 394.59(arrive) 398.82(reg) 401.58(pac) 407.18(che) 407.99(pay_end) Total: 9.79
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 220 presc type 1: 402.62(arrive) 403.31(reg) 407.74(pac) 408.24(che) 409.61(pay_end) Total: 5.37
+0.00(reg wait) 3.50(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 218 presc type 1: 397.10(arrive) 400.72(reg) 405.50(pac) 407.27(che) 409.80(pay_end) Total: 9.28
+3.28(reg wait) 2.74(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 217 presc type 2: 396.29(arrive) 402.22(reg) 406.98(pac) 409.03(che) 409.87(pay_end) Total: 11.72
+2.90(reg wait) 2.69(pac wait) 0.00(che wait) 0.58(pay wait)
+No. 221 presc type 2: 403.49(arrive) 403.69(reg) 408.64(pac) 409.73(che) 410.55(pay_end) Total: 5.70
+0.00(reg wait) 3.29(pac wait) 0.00(che wait) 0.07(pay wait)
+No. 219 presc type 1: 401.23(arrive) 403.10(reg) 406.81(pac) 411.78(che) 412.43(pay_end) Total: 8.07
+0.00(reg wait) 2.40(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 222 presc type 2: 406.37(arrive) 406.87(reg) 409.11(pac) 410.98(che) 412.50(pay_end) Total: 3.67
+0.00(reg wait) 0.86(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 224 presc type 2: 410.41(arrive) 413.40(reg) 414.46(pac) 415.19(che) 415.56(pay_end) Total: 4.41
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 223 presc type 1: 407.46(arrive) 408.50(reg) 410.46(pac) 413.50(che) 416.82(pay_end) Total: 4.52
+0.00(reg wait) 0.14(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 226 presc type 2: 414.66(arrive) 414.81(reg) 415.48(pac) 417.44(che) 417.85(pay_end) Total: 1.80
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+7.214625 6.008187 4.656231 7.995216 10.225421 12.438005 8.128692 0.000000 0.000000 
+No. 225 presc type 2: 414.36(arrive) 414.61(reg) 414.99(pac) 420.05(che) 420.30(pay_end) Total: 3.17
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 228 presc type 1: 416.99(arrive) 417.43(reg) 417.63(pac) 421.56(che) 422.41(pay_end) Total: 2.61
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 227 presc type 1: 415.33(arrive) 418.31(reg) 418.62(pac) 423.15(che) 427.81(pay_end) Total: 5.56
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 230 presc type 2: 418.40(arrive) 419.11(reg) 420.04(pac) 424.20(che) 427.97(pay_end) Total: 3.72
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 3.61(pay wait)
+No. 231 presc type 2: 419.72(arrive) 420.57(reg) 422.91(pac) 426.33(che) 428.19(pay_end) Total: 4.89
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 1.64(pay wait)
+No. 232 presc type 1: 421.99(arrive) 422.78(reg) 424.34(pac) 426.69(che) 432.55(pay_end) Total: 3.52
+0.00(reg wait) 0.13(pac wait) 0.00(che wait) 1.51(pay wait)
+No. 229 presc type 1: 417.90(arrive) 420.35(reg) 425.84(pac) 427.53(che) 433.78(pay_end) Total: 8.78
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 5.02(pay wait)
+No. 234 presc type 3: 424.78(arrive) 425.22(reg) 425.68(pac) 429.08(che) 439.47(pay_end) Total: 2.60
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 4.70(pay wait)
+No. 233 presc type 1: 423.71(arrive) 428.16(reg) 430.44(pac) 434.37(che) 439.95(pay_end) Total: 8.70
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 5.10(pay wait)
+No. 235 presc type 1: 430.76(arrive) 431.65(reg) 431.96(pac) 434.95(che) 440.30(pay_end) Total: 2.70
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 5.00(pay wait)
+No. 238 presc type 2: 433.68(arrive) 434.87(reg) 436.16(pac) 436.57(che) 442.05(pay_end) Total: 2.68
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 3.73(pay wait)
+No. 241 presc type 1: 437.40(arrive) 438.27(reg) 440.01(pac) 440.25(che) 443.16(pay_end) Total: 2.73
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 1.80(pay wait)
+No. 239 presc type 1: 434.06(arrive) 435.04(reg) 437.53(pac) 440.39(che) 443.75(pay_end) Total: 4.89
+0.81(reg wait) 1.12(pac wait) 0.00(che wait) 2.77(pay wait)
+No. 237 presc type 2: 432.54(arrive) 432.76(reg) 436.55(pac) 440.54(che) 445.36(pay_end) Total: 6.00
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 3.21(pay wait)
+No. 236 presc type 2: 431.59(arrive) 437.09(reg) 438.21(pac) 440.90(che) 449.56(pay_end) Total: 7.97
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 4.46(pay wait)
+No. 240 presc type 2: 436.57(arrive) 438.49(reg) 439.43(pac) 441.41(che) 449.84(pay_end) Total: 3.85
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 8.15(pay wait)
+No. 244 presc type 1: 445.20(arrive) 445.66(reg) 446.41(pac) 447.29(che) 455.01(pay_end) Total: 1.65
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 2.55(pay wait)
+No. 243 presc type 2: 444.49(arrive) 445.19(reg) 445.61(pac) 448.23(che) 457.55(pay_end) Total: 2.44
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 6.78(pay wait)
+No. 246 presc type 1: 446.18(arrive) 447.18(reg) 448.17(pac) 448.97(che) 457.78(pay_end) Total: 2.39
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 8.58(pay wait)
+No. 242 presc type 2: 440.45(arrive) 443.36(reg) 444.51(pac) 449.82(che) 459.51(pay_end) Total: 6.71
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 7.97(pay wait)
+No. 245 presc type 1: 445.80(arrive) 447.13(reg) 447.41(pac) 452.11(che) 459.78(pay_end) Total: 3.95
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 7.40(pay wait)
+No. 249 presc type 2: 454.42(arrive) 456.38(reg) 456.57(pac) 456.79(che) 460.70(pay_end) Total: 2.26
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 2.99(pay wait)
+No. 250 presc type 2: 455.23(arrive) 456.54(reg) 456.92(pac) 458.18(che) 461.33(pay_end) Total: 2.32
+1.15(reg wait) 0.02(pac wait) 0.00(che wait) 2.52(pay wait)
+No. 247 presc type 3: 453.15(arrive) 454.24(reg) 459.02(pac) 461.85(che) 462.65(pay_end) Total: 7.29
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 252 presc type 1: 457.71(arrive) 458.09(reg) 459.89(pac) 462.04(che) 463.61(pay_end) Total: 3.26
+0.00(reg wait) 0.93(pac wait) 0.00(che wait) 0.62(pay wait)
+No. 251 presc type 2: 456.61(arrive) 457.08(reg) 461.29(pac) 462.54(che) 468.93(pay_end) Total: 5.30
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 1.07(pay wait)
+No. 256 presc type 3: 460.55(arrive) 461.94(reg) 464.37(pac) 465.02(che) 473.54(pay_end) Total: 4.14
+0.65(reg wait) 0.00(pac wait) 0.00(che wait) 3.91(pay wait)
+No. 248 presc type 1: 454.01(arrive) 458.20(reg) 461.80(pac) 466.26(che) 474.40(pay_end) Total: 10.02
+0.00(reg wait) 1.69(pac wait) 0.00(che wait) 7.27(pay wait)
+No. 254 presc type 1: 459.69(arrive) 460.99(reg) 461.55(pac) 466.95(che) 474.67(pay_end) Total: 4.56
+0.00(reg wait) 0.30(pac wait) 0.00(che wait) 7.45(pay wait)
+No. 255 presc type 2: 460.25(arrive) 461.21(reg) 463.60(pac) 467.87(che) 475.33(pay_end) Total: 5.49
+0.75(reg wait) 0.35(pac wait) 0.00(che wait) 6.80(pay wait)
+No. 257 presc type 1: 461.37(arrive) 463.21(reg) 468.05(pac) 473.26(che) 475.65(pay_end) Total: 9.28
+0.57(reg wait) 0.38(pac wait) 0.00(che wait) 2.06(pay wait)
+No. 258 presc type 1: 462.42(arrive) 463.88(reg) 469.08(pac) 473.74(che) 476.10(pay_end) Total: 8.99
+0.80(reg wait) 0.50(pac wait) 0.00(che wait) 1.91(pay wait)
+No. 253 presc type 2: 458.98(arrive) 464.29(reg) 471.97(pac) 474.53(che) 477.18(pay_end) Total: 14.28
+0.00(reg wait) 3.76(pac wait) 0.00(che wait) 1.57(pay wait)
+No. 259 presc type 2: 464.45(arrive) 465.44(reg) 470.70(pac) 475.24(che) 478.52(pay_end) Total: 8.52
+0.00(reg wait) 3.64(pac wait) 0.00(che wait) 1.93(pay wait)
+No. 260 presc type 2: 466.28(arrive) 468.11(reg) 470.89(pac) 475.89(che) 478.75(pay_end) Total: 7.11
+0.00(reg wait) 2.59(pac wait) 0.00(che wait) 2.63(pay wait)
+No. 261 presc type 2: 476.54(arrive) 476.91(reg) 477.45(pac) 477.91(che) 478.97(pay_end) Total: 1.14
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.84(pay wait)
+7.214625 6.008187 4.656231 7.995216 10.225421 12.438005 8.128692 5.151919 0.000000 
+No. 263 presc type 1: 478.33(arrive) 478.76(reg) 479.66(pac) 480.33(che) 480.88(pay_end) Total: 1.66
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 264 presc type 2: 478.61(arrive) 479.29(reg) 480.20(pac) 482.65(che) 482.95(pay_end) Total: 2.82
+0.06(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 262 presc type 2: 478.07(arrive) 478.67(reg) 479.12(pac) 483.33(che) 483.83(pay_end) Total: 3.16
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 266 presc type 2: 483.89(arrive) 484.17(reg) 484.44(pac) 486.51(che) 489.66(pay_end) Total: 1.59
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 265 presc type 2: 481.39(arrive) 482.71(reg) 485.61(pac) 488.15(che) 490.87(pay_end) Total: 5.49
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 1.51(pay wait)
+No. 267 presc type 2: 484.39(arrive) 486.54(reg) 488.18(pac) 491.28(che) 491.56(pay_end) Total: 5.34
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 268 presc type 2: 487.89(arrive) 489.76(reg) 492.66(pac) 494.08(che) 494.95(pay_end) Total: 5.48
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 271 presc type 3: 490.61(arrive) 491.24(reg) 493.92(pac) 495.07(che) 495.70(pay_end) Total: 3.88
+0.00(reg wait) 1.42(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 269 presc type 2: 489.27(arrive) 492.94(reg) 497.45(pac) 498.67(che) 498.95(pay_end) Total: 8.79
+0.00(reg wait) 0.98(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 270 presc type 1: 489.81(arrive) 490.46(reg) 497.02(pac) 499.62(che) 500.58(pay_end) Total: 8.51
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 274 presc type 2: 493.13(arrive) 496.69(reg) 499.06(pac) 500.75(che) 507.99(pay_end) Total: 6.77
+0.54(reg wait) 1.76(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 272 presc type 3: 490.88(arrive) 495.59(reg) 498.45(pac) 505.00(che) 508.32(pay_end) Total: 10.84
+0.36(reg wait) 1.85(pac wait) 0.00(che wait) 2.99(pay wait)
+No. 276 presc type 1: 501.51(arrive) 501.85(reg) 502.42(pac) 507.35(che) 509.17(pay_end) Total: 3.38
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.97(pay wait)
+No. 273 presc type 1: 491.10(arrive) 493.67(reg) 498.52(pac) 507.54(che) 513.63(pay_end) Total: 11.92
+1.84(reg wait) 3.35(pac wait) 0.00(che wait) 1.63(pay wait)
+No. 275 presc type 1: 497.81(arrive) 499.41(reg) 504.53(pac) 509.40(che) 518.26(pay_end) Total: 9.15
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 4.23(pay wait)
+No. 277 presc type 1: 503.77(arrive) 504.07(reg) 504.96(pac) 510.24(che) 518.54(pay_end) Total: 3.83
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 8.02(pay wait)
+No. 279 presc type 2: 510.51(arrive) 511.25(reg) 512.61(pac) 517.65(che) 518.83(pay_end) Total: 4.62
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.89(pay wait)
+No. 278 presc type 1: 508.05(arrive) 508.61(reg) 509.66(pac) 519.22(che) 520.08(pay_end) Total: 6.39
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 281 presc type 2: 518.65(arrive) 520.14(reg) 520.51(pac) 522.00(che) 524.54(pay_end) Total: 2.60
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 280 presc type 1: 516.88(arrive) 517.73(reg) 520.57(pac) 526.39(che) 528.15(pay_end) Total: 6.60
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+No. 282 presc type 2: 519.83(arrive) 520.89(reg) 524.57(pac) 533.39(che) 536.37(pay_end) Total: 9.15
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 0.00(pay wait)
+7.214625 6.008187 4.656231 7.995216 10.225421 12.438005 8.128692 5.151919 5.808035 
+No. 285 presc type 2: 526.50(arrive) 530.56(reg) 533.52(pac) 535.23(che) 545.33(pay_end) Total: 7.87
+1.63(reg wait) 0.00(pac wait) 0.00(che wait) 1.14(pay wait)
+No. 283 presc type 2: 524.19(arrive) 528.13(reg) 529.71(pac) 539.14(che) 548.06(pay_end) Total: 10.24
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 6.19(pay wait)
+No. 284 presc type 1: 525.75(arrive) 533.85(reg) 540.77(pac) 542.99(che) 554.02(pay_end) Total: 16.13
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 5.08(pay wait)
+No. 286 presc type 1: 527.32(arrive) 531.35(reg) 536.73(pac) 543.01(che) 556.05(pay_end) Total: 12.55
+3.24(reg wait) 0.00(pac wait) 0.00(che wait) 11.01(pay wait)
+No. 288 presc type 1: 535.62(arrive) 537.97(reg) 545.89(pac) 548.88(che) 559.19(pay_end) Total: 11.76
+0.00(reg wait) 0.00(pac wait) 0.00(che wait) 7.17(pay wait)
+No. 289 presc type 1: 536.61(arrive) 539.96(reg) 543.79(pac) 549.96(che) 562.34(pay_end) Total: 10.26
+1.36(reg wait) 0.81(pac wait) 0.00(che wait) 9.23(pay wait)
+No. 290 presc type 1: 538.64(arrive) 544.26(reg) 548.61(pac) 550.54(che) 563.55(pay_end) Total: 10.93
+1.32(reg wait) 1.63(pac wait) 0.00(che wait) 11.80(pay wait)
+No. 287 presc type 2: 532.81(arrive) 540.42(reg) 551.03(pac) 559.91(che) 566.31(pay_end) Total: 22.66
+0.00(reg wait) 3.37(pac wait) 0.00(che wait) 3.64(pay wait)
+==============================RESULT==============================
+=== Reg: 0.516 0.574 0.431 0.714 0.962 0.801 0.437 0.386 0.437 ===
+=== Pac: 0.231 0.310 0.412 0.308 0.730 0.852 0.321 0.253 0.235 ===
+=== Che: 0.246 0.533 0.594 0.487 0.535 0.638 0.584 0.414 0.407 ===
+=== Pay: 0.571 1.000 0.916 1.313 0.851 1.000 1.058 0.940 0.643 ===
+==================================================================
+AVG: 7.215 6.008 4.656 7.995 10.225 12.438 8.129 5.152 5.808
+Overall average staying time: 7.33601
